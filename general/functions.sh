@@ -60,7 +60,8 @@ download_extract() {
                 type="${fields[2]}"
                 link="${fields[3]}"
             fi
-            elem_basename=$(echo "$elem" | sed 's|.*/||')
+            dir_name=$(dirname "$elem")
+            elem_basename=$(basename "$elem")
             if [[ "$elem_basename" == "$type" ]]; then
                 if [ -d "$dir/$elem/Data" ] ; then
                     gum format "$elem alreay downloaded, skipping ..."
@@ -109,9 +110,15 @@ install() {
     local notdowloaded=()
     welcome "Installing selected elements"
     for elem in "${arr[@]}"; do
+        dir_name=$(dirname "$elem")
+        elem_basename=$(basename "$elem")
+        if [[ "$elem_basename" == "original" ]]; then
+            rsync -a "$dir/$dir_name/original/" "$WGDATA"
+            gum format "✅ $elem applied correctly"
+            sleep 1;
+            continue
+        fi
         if [ -d "$dir/$elem/Data" ] && [ "$(ls -A "$dir/$elem/Data")" ]; then
-            dir_name=$(dirname "$elem")
-            elem_basename=$(echo "$elem" | sed 's|.*/||')
             if gum confirm --affirmative="With backup" --negative="W/o backup" "Choose an installation option"; then
                 if [ -d "$dir/$dir_name/original" ]; then
                     rsync -a "$dir/$dir_name/original/" "$WGDATA"
@@ -141,8 +148,7 @@ install() {
                 fi
             fi
         else
-            notdowloaded+=($elem)
-            
+            notdowloaded+=($elem) 
         fi
     done
     if gum cofirm "Download missing files?"; then
