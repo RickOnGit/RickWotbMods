@@ -1,6 +1,5 @@
 export WGDATA="$HOME/.local/share/Steam/steamapps/common/World of Tanks Blitz/Data"
 export OG_DATA="$HOME/MY-WOTB-DATA/OG-DATA/Data"
-export MOD_DATA="$HOME/MY-WOTB-DATA/MOD-DATA/Data"
 
 export TANKS="$HOME/MY-WOTB-DATA/MODS/TANKS"
 export MAPS="$HOME/MY-WOTB-DATA/MODS/MAPS"
@@ -9,6 +8,7 @@ export SOUNDS="$HOME/MY-WOTB-DATA/MODS/SOUNDS"
 export SIGHTS="$HOME/MY-WOTB-DATA/MODS/SIGHTS"
 export LOBBY="$HOME/MY-WOTB-DATA/MODS/LOBBY"
 export BATTLEUI="$HOME/MY-WOTB-DATA/MODS/BATTLE-UI"
+export DORTEBB="$HOME/MY-WOTB-DATA/MODS/DORTEBB-MODPACK"
 
 export tanksfile="$HOME/RickWotbMods/files/tanks.csv"
 export mapsfile="$HOME/RickWotbMods/files/maps.csv"
