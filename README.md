@@ -1,5 +1,5 @@
 # Current status of the script:
-- [x] Usable
+- [x] Usable -> **7zip && gum are required!!"**
 - [x] Hangar,Tanks,Maps,Mods (download/install(with or w/o backup)
 - [x] minimal UI with gum
 - [x] Works only on Linux file systems ans is written in full bash :\
