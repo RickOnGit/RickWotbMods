@@ -54,9 +54,7 @@ wotmodpack() {
         gum format "✅ Mod pack extracted!"
         rm $DORTEBB/wotmod.download
         sleep 1
-        mkdir "$DORTEBB/temp"
-        mkdir "$DORTEBB/og"
-        backup "$DORTEBB/temp" "$DORTEBB/Data/" "$DORTEBB/og"
+        backup "$DORTEBB/temp_dir" "$DORTEBB/Data/" "$DORTEBB/og"
         gum format "✅ Mod pack correctly applied!"
         sleep 1
         if gum confirm "Send modpack overwritten files to a original Data folder?"; then 

@@ -120,7 +120,7 @@ install() {
         
         if [[ "$elem_basename" == "original" ]]; then
             rsync -a "$dir/$dir_name/original/" "$WGDATA"
-            gum format "✅ $elem_basename applied correctly"
+            gum format "✅ Stock $dir_name files applied correctly"
             sleep 1
             continue
         fi
@@ -204,5 +204,4 @@ backup() {
     rm -rf "$backup_dir"
     mkdir -p "$OG_DATA"
     rsync -a --ignore-existing "$og/" "$OG_DATA"
-    sleep 1
 }
