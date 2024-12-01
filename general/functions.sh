@@ -177,16 +177,16 @@ install() {
 
 tankconfig() { 
     local elem="$1"
-    local tank_dir="Data/3d/Tanks"
     
-    if [ -d "$elem/Data/3d/tanks" ]; then
-        mv "$elem/Data/3d/tanks" "$elem/$tank_dir"
+    if [ -d "$elem/Data/data" ]; then
+        rsync -a "$elem/Data/data/" "$elem/Data/"
+        rm -rf "$elem/Data/data"
     fi
 
-    if [ ! -d "$elem/$tank_dir" ]; then 
-        mkdir -p "$elem/Data/3d/Tanks"
-        rm *.txt > /dev/null 2>&1
-        mv "$elem/Data/3d/*" "$elem/Data/3d/Tanks" > /dev/null 2>&1
+    if [ -d "$elem/Data/3d/tanks" ]; then
+        mkdir -p $elem/Data/3d/Tanks
+        rsync -a "$elem/Data/3d/tanks/" "$elem/Data/3d/Tanks/"
+        rm -rf "$elem/Data/3d/tanks"
     fi
     
     if [ -f "$elem/Data/camouflages.yaml.dvpl" ]; then
