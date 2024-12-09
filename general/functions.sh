@@ -132,7 +132,7 @@ install() {
                 gum format "✅ $elem_basename applied correctly with backup"
                 sleep 1
             else
-                if gum confirm --affirmative="With backup" --negative="W/o backup" "Choose an installation option"; then
+                if gum confirm --affirmative="With backup" --negative="W/o backup" "Choose an installation option for $elem_basename"; then
                     backup "$dir/$dir_name/temp_dir" "$dir/$elem/Data" "$dir/$dir_name/original"
                     gum format "✅ $elem_basename applied correctly with backup"
                     sleep 1
@@ -149,7 +149,7 @@ install() {
                     gum format "✅ $elem_basename applied correctly with backup"
                     sleep 1
                 else
-                    if gum confirm --affirmative="With backup" --negative="W/o backup" "Choose an installation option"; then
+                    if gum confirm --affirmative="With backup" --negative="W/o backup" "Choose an installation option for $elem_basename"; then
                         backup "$dir/$dir_name/temp_dir" "$dir/$elem/Data" "$dir/$dir_name/original"
                         gum format "✅ $elem_basename applied correctly with backup"
                         sleep 1
