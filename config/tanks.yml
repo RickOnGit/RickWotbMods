@@ -1,0 +1,23 @@
+
+    USSR-󱣻:
+      heavy:
+        IS-4:
+          path: *Data
+          models:
+            Triton: "https://forblitz.ru/wp-content/uploads/2023/03/ussr_is-4_skin_4722345_steam.zip"
+            Granite: "https://blitz-mods.com/mod/remodelings/remodeling-is-4m-granite-244/download/pc-wg/file?_token=x=0"
+        IS-7:
+          path: *Data
+          models:
+            Granite-Figurines: "https://forblitz.ru/wp-content/uploads/2024/01/is-7_granit_forblitz_pc.zip"
+            Rhyolite: "https://forblitz.ru/wp-content/uploads/2023/12/is7_rhyolit_forblitz_pc.zip"
+        Obj.777-II:
+          path: *Data
+          models:
+            Enhanced: "https://drive.usercontent.google.com/download?id=1sPcM6cFRdzQ5e7Mze5P51v0GFh68TAU1&export=download&authuser=1&confirm=t&uuid=c716da11-119c-446d-bad6-84798cc4b083&at=AENtkXbndpx6FuztWGWJe8j8_J2x:1730993399618"
+
+
+
+
+
+          
