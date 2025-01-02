@@ -29,7 +29,7 @@ get_links() {
         links+=("$(yq ".$string.$elem.download" ../config/mods.yaml)")
         sources+=("$(yq ".$string.$elem.source" ../config/mods.yaml)")
     done
-    print_info $available $sources
+    #print_info $available $sources
     
     remodels=()
     mapfile -t remodels < <(yq ".$string | keys | .[]" ../config/mods.yaml | gum choose --no-limit --ordered)
@@ -62,27 +62,75 @@ downloader() {
         mod="${remodels[$i]}"
         case $category in
             "Tanks🚜")
-                directory_structure="$mywotb/$category/$nation/$tier/$type/$tank/$mod"
-                mkdir -p "$directory_structure"
+                dir="$mywotb/$category/$nation/$tier/$type/$tank/$mod"
+                mkdir -p "$dir"
                 ;;
             "Sounds🔊"|"Hangars🛖")
-                directory_structure="$mywotb/$category/$class/$mod"
-                mkdir -p "$directory_structure"
+                dir="$mywotb/$category/$class/$mod"
+                mkdir -p "$dir"
                 ;;
             *)
-                directory_structure="$mywotb/$category/$mod"
-                mkdir -p "$directory_structure"
+                dir="$mywotb/$category/$mod"
+                mkdir -p "$dir"
                 ;;
         esac
-        gum spin -s "minidot" --title "Downloading $mod" -- curl -L "$link" -o "$directory_structure/$mod.download"
-        gum spin -s "minidot" --title "Extracting $mod" -- 7z x "$directory_structure/$mod.download" -o"$directory_structure"
-        rm "$directory_structure"/*.download
+        gum spin -s "minidot" --title "Downloading $mod" -- curl -L "$link" -o "$dir/$mod.download"
+        gum spin -s "minidot" --title "Extracting $mod" -- 7z x "$dir/$mod.download" -o"$dir"
+        rm "$dir"/*.download
         gum format -t emoji "$mod downloaded & extracted :heavy_check_mark:"
+        if gum confirm "Install $mod?"; then
+            installer "$dir"
+        fi
     done
 }
 
-#change some variables' name
 
+installer() {
+    local dir="$1"
+    parent=$(dirname "$dir")
+    element=$(basename "$parent")
+    
+    og="$parent/og-$element"
+    temp="$parent/temp"
+
+    if [ ! -d "$dir/Data" ]; then
+        mkdir -p "$dir/Data"
+        mv "$dir"/* "$dir"/Data 2>/dev/null
+    fi
+
+    if [ -d "$og" ]; then
+        rsync -a "$og/" "$wgdata/" #use a path variable then
+        backup "$temp" "$dir/Data" "$og"
+    else
+        backup "$temp" "$dir/Data" "$og"
+    fi
+    gum format -t emoji "$mod installed :white_check_mark:"
+}
+        
+backup() {
+    local backup_dir="$1"
+    local source_dir="$2"
+    local og="$3"
+    mkdir -p $og
+    mkdir -p $backup_dir
+    gum spin -s "minidot" --title "Installing $mod" -- sleep 2
+    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgdata/"
+    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgpacks/"
+    rsync -a --ignore-existing "$backup_dir/" "$og"
+    rm -rf "$backup_dir"
+    
+    # if [ "$path" = "$wgdata" ]; then
+    #     mkdir -p "$og_data"
+    #     rsync -a --ignore-existing "$og/" "$og_data/"
+    # else
+    #     mkdir -p "$og_packs"
+    #     rsync -a --ignore-existing "$og/" "$og_packs/"
+    # fi
+}
+
+
+#change some variables' name
+#Short urls
 # installer() {
 
 # }
