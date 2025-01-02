@@ -1,5 +1,6 @@
-source ../lib/functions.sh
+source ../lib/var.env
 source ../lib/gum.env
+source ../lib/functions.sh
 
 category=$(yq ". | keys | .[]" ../config/mods.yaml | gum choose --header "Choose what you wanna mod")
 
@@ -10,5 +11,12 @@ case $category in
         ;;
     *)
         selector "$category"
+        if gum confirm --affirmative="Download" --negative="Install" "What you wanna do?";then
+            downloader "$category"
+        else
+            installer "$category"
+        fi
         ;;
 esac
+
+

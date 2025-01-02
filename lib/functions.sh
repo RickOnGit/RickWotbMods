@@ -3,16 +3,16 @@ selector() {
     string=""
     case "$category" in
         "Sounds🔊"|"Hangars🛖")
-            arg1=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
-            string="$category.$arg1"
+            class=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
+            string="$category.$class"
             get_links "$string"
             ;;
         "Tanks🚜")
-            arg1=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
-            arg2=$(yq "."$category"."$arg1" | keys | .[]" ../config/mods.yaml | gum choose) 
-            arg3=$(yq "."$category"."$arg1"."$arg2" | keys | .[]" ../config/mods.yaml | gum choose)
-            arg4=$(yq "."$category"."$arg1"."$arg2"."$arg3" | keys | .[]" ../config/mods.yaml | gum choose)
-            string="$category.$arg1.$arg2.$arg3.$arg4"
+            nation=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
+            tier=$(yq "."$category"."$nation" | keys | .[]" ../config/mods.yaml | gum choose) 
+            type=$(yq "."$category"."$nation"."$tier" | keys | .[]" ../config/mods.yaml | gum choose)
+            tank=$(yq "."$category"."$nation"."$tier"."$type" | keys | .[]" ../config/mods.yaml | gum choose)
+            string="$category.$nation.$tier.$type.$tank"
             get_links "$string"
             ;;
         *)
@@ -22,33 +22,71 @@ selector() {
 
 get_links() {
     local string="$1"
-
+    
+    available=()
+    mapfile -t available < <(yq ".$string | keys | .[]" ../config/mods.yaml)
+    for elem in "${available[@]}"; do
+        links+=("$(yq ".$string.$elem.download" ../config/mods.yaml)")
+        sources+=("$(yq ".$string.$elem.source" ../config/mods.yaml)")
+    done
+    print_info $available $sources
+    
     remodels=()
-    local choosen=$(yq ".$string | keys | .[]" ../config/mods.yaml | gum choose --no-limit --ordered)
-    mapfile -t remodels <<< "$choosen" 
+    mapfile -t remodels < <(yq ".$string | keys | .[]" ../config/mods.yaml | gum choose --no-limit --ordered)
 
     links=()
     sources=()
-
     for elem in "${remodels[@]}"; do
         links+=("$(yq ".$string.$elem.download" ../config/mods.yaml)")
         sources+=("$(yq ".$string.$elem.source" ../config/mods.yaml)")
     done
-    
-    print_info
 }
 
 print_info() {
-    echo "Remodel selected,Take a look at the remodel 👇" > ../tmp/temp_info.csv
-    for i in ${!links[@]}; do
-        model="${remodels[$i]}"
+    json_data="["
+    for i in ${!available[@]}; do
+        model="${available[$i]}"
         source="${sources[$i]}"
-        echo "$model,$source" >> ../tmp/temp_info.csv
+        json_data+="{\"model\":\"$model\",\"source\":\"$source\"},"
     done
-    column -t -s "," < ../tmp/temp_info.csv
+    json_data=${json_data%,}
+    json_data+="]"
+    output=$(node ../lib/table.js "$json_data")
+    echo "$output"
 }
 
+downloader() {
+    local category="$1"
+    for i in "${!links[@]}"; do
+        link="${links[$i]}"
+        mod="${remodels[$i]}"
+        case $category in
+            "Tanks🚜")
+                directory_structure="$mywotb/$category/$nation/$tier/$type/$tank/$mod"
+                mkdir -p "$directory_structure"
+                ;;
+            "Sounds🔊"|"Hangars🛖")
+                directory_structure="$mywotb/$category/$class/$mod"
+                mkdir -p "$directory_structure"
+                ;;
+            *)
+                directory_structure="$mywotb/$category/$mod"
+                mkdir -p "$directory_structure"
+                ;;
+        esac
+        gum spin -s "minidot" --title "Downloading $mod" -- curl -L "$link" -o "$directory_structure/$mod.download"
+        gum spin -s "minidot" --title "Extracting $mod" -- 7z x "$directory_structure/$mod.download" -o"$directory_structure"
+        rm "$directory_structure"/*.download
+        gum format -t emoji "$mod downloaded & extracted :heavy_check_mark:"
+    done
+}
 
+#change some variables' name
 
+# installer() {
 
+# }
 
+# backup() {
+
+# }

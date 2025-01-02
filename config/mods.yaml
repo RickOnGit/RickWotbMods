@@ -105,6 +105,26 @@ Tanks🚜:
       Heavier-Armed🛡️🛡️:
         VK-72:
         E-100:
+          Deus-Ex:
+            download:
+            source:
+            packs: true
+          Klarer-Himmel:
+            download:
+            source:
+            packs: true
+          Rote-Grundierung:
+            download:
+            source:
+            packs: true
+          Nemesis:
+            download:
+            source:
+            packs: true
+          Nemesis-addon:
+            download:
+            source:
+            packs: true
         VK-90:
         Maus:
       Medium-Armed🛡️:
@@ -324,7 +344,7 @@ Tanks🚜:
       Medium-Armed🛡️:
         T-62A:
         Obj-907:
-        Obj-144:
+        Obj-140:
       Light-Armed🪽:
         T-100LT:
           Enhanced:
@@ -351,80 +371,104 @@ Hangars🛖:
     Halloween-2015:
       download: "https://forblitz.ru/wp-content/uploads/2024/06/hangar_helloween2014-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2014/18109"
+      packs: true
     Halloween-2016: 
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_helloween_2016-1_pc_wg.zip"
       source:  "https://forblitz.ru/modifications/hangars/angar-khellouin-2016/18416"
+      packs: true
     Halloween-2017:
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_2017-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2017/18429"
+      packs: true
     Halloween-2018: 
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_2018_20-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2018-2020/18436"
+      packs: true
     Halloween-2019: 
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_halloween2019_uni_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2019/18443"
+      packs: true
     Halloween-2021: 
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_21-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2021/18450"
+      packs: true
     Halloween-2022: 
       download: "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_22-1_pc_wg.zip"
-      source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2022/18457"   
+      source: "https://forblitz.ru/modifications/hangars/angar-khellouin-2022/18457"
+      packs: true
   Past🗃️:
     Premium-2018:
       download: "https://forblitz.ru/wp-content/uploads/2024/07/hangar_prem_2018-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar/20302"
+      packs: true
     Square: 
       download: "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2015-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-9-maya-2015-2017/19928"
+      packs: true
     Forest-2020: 
       download: "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2020-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-v-lesu-9-maya-2020/19939"
+      packs: true
     First: 
       downoad: "https://forblitz.ru/wp-content/uploads/2024/07/hangarlow4-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/old-hangar/17279"
+      packs: true
     Xmas-2020: 
       download: "https://drive.usercontent.google.com/download?id=1ec6wt5q07KXte88vxuH9z9hvKDlIoUHQ&export=download&authuser=1&confirm=t&uuid=1a012d94-7cfb-40e1-8c1e-3060878002d9&at=APvzH3pcG9IOwlXpN3Ydm6uy9BtY:1735341658050"
       source: "null"
+      packs: true
     Xmas-2015:
       download: "https://drive.usercontent.google.com/download?id=1nk-BCAd6ltNut7vRM1_ND3GoEzsUr02t&export=download&authuser=1&confirm=t&uuid=aa8b4435-c9ce-4b3a-88d3-dcf715516e06&at=APvzH3o7KAnxbkMyuqSRzzjKS1hg:1735549752773"
-      source: "null"      
+      source: "null"
+      packs: true
   Maps🗺️:
     Midlburg:
       download: "https://forblitz.ru/wp-content/uploads/2023/09/midlburg-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/hangar_midlburg_qq/17771"
+      packs: true
     Holland: 
       download: "https://forblitz.ru/wp-content/uploads/2024/09/holland_new-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-gollandiya/11470"
+      packs: true
     Yamato-Day: 
       download: "https://forblitz.ru/wp-content/uploads/2023/10/yamato-day-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-yamato-dnevnoi/7682"
+      packs: true
     Yamato-Evening: 
       download: "https://forblitz.ru/wp-content/uploads/2023/10/yamato-evening-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-yamato-vechernii/7674"
+      packs: true
     Yamato-Night: 
       download: "https://forblitz.ru/wp-content/uploads/2023/10/yamato-night-1_pc_wg.zip"
       source: "https://forblitz.ru/modifications/hangars/angar-yamato-nochnoi/7667"
+      packs: true
     Mines:
       download: "https://drive.usercontent.google.com/download?id=18z2LYLysugJp_06taV2h_TMq4nQjFS8o&export=download&authuser=1&confirm=t&uuid=473fdc7a-3daf-4457-8bd9-97a555135dee&at=APvzH3prEpVLQQvz9I1l4Jf8Mk71:1735549939976"
       source: "https://discord.com/channels/174448788436549632/254137952215498762/1131908995813232740"
+      packs: true
   Custom✏️:
       Cave: 
         download: "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip"
         source: "https://forblitz.ru/modifications/hangars/hangar-igr-qh/16491"
+        packs: true
       28-Days-Later:
         download: "https://blitz-mods.com/mod/hangars/28-days-later-32/download/pc-wg/file?_token=x=0"
         source: "https://blitz-mods.com/mod/hangars/28-days-later-32"
+        packs: true
       Spookwood-Forest: 
         download: "https://blitz-mods.com/mod/hangars/spookwood-forest-29/download/pc-wg/file?_token=x=0"
         source: "https://blitz-mods.com/mod/hangars/spookwood-forest-29"
+        packs: true
       Minimalistic:
         download: "https://blitz-mods.com/mod/hangars/minimalistic-1-52/download/pc-wg/file?_token=x=0"
         source: "https://blitz-mods.com/mod/hangars/minimalistic-1-52"
+        packs: true
 
 Sounds🔊:
   Guns🔫:
     WOT-Guns: 
       download: "https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54/download/pc-wg/file?_token=x=0"
+      packs: both
       source: "https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54"
     Historical: 
       download: "https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0"
@@ -437,10 +481,10 @@ Sounds🔊:
       source: "https://forblitz.ru/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
   Crew-Voices👥:
     WOT-Male: 
-      download: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55/download/pc-wg/file?_token=7y2JrhXeEdJKMMvvNIT6TgLfM0K1qLbyXrsL2DfT&ordinal=0"
+      download: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55/download/pc-wg/file?_token=x=0"
       source: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55"
     WOT-Female: 
-      download: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56/download/pc-wg/file?_token=7y2JrhXeEdJKMMvvNIT6TgLfM0K1qLbyXrsL2DfT&ordinal=0"
+      download: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56/download/pc-wg/file?_token=x=0"
       source: "https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56"
   UI👀:
     Battle-Sounds: 

@@ -1,7 +1,5 @@
 #Variables
-wgpacks="$HOME/.local/share/Steam/steamapps/compatdata/444200/pfx/drive_c/users/steamuser/AppData/Local/wotblitz/packs"
-wgdata="$HOME/.local/share/Steam/steamapps/common/World of Tanks Blitz/Data"
-mywotb="$HOME/"$(whoami)"_wotb"
+
 gum_options="--header.foreground=208 --cursor.foreground=214 --cursor.background=235 --header.foreground=109 --header.background=234 --item.foreground=250 --item.background=235 --selected.foreground=214 --selected.background=235"
 og_data="$mywotb/og_data/Data"
 og_packs="$mywotb/og_packs/packs"
