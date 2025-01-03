@@ -98,12 +98,24 @@ installer() {
         mv "$dir"/* "$dir"/Data 2>/dev/null
     fi
 
-    if [ -d "$og" ]; then
-        rsync -a "$og/" "$wgdata/" #use a path variable then
-        backup "$temp" "$dir/Data" "$og"
-    else
-        backup "$temp" "$dir/Data" "$og"
-    fi
+    case $category in
+        "Tanks🚜")
+            if [ -d "$og" ]; then
+                rsync -a "$og/" "$wgdata/" #use a path variable then
+            fi
+            backup "$temp" "$dir/Data" "$og"
+            ;;
+        "Sounds🔊"|"Hangars🛖")
+            if [ -d "$og" ]; then
+                rsync -a "$og/" "$wgdata/" #use a path variable then
+            fi
+            backup "$temp" "$dir/Data" "$og"
+            ;;
+        *)
+            backup "$temp" "$dir/Data" "$og"
+            ;;
+    esac 
+
     gum format -t emoji "$mod installed :white_check_mark:"
 }
         
@@ -115,7 +127,7 @@ backup() {
     mkdir -p $backup_dir
     gum spin -s "minidot" --title "Installing $mod" -- sleep 2
     rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgdata/"
-    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgpacks/"
+    #rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgpacks/"
     rsync -a --ignore-existing "$backup_dir/" "$og"
     rm -rf "$backup_dir"
     
@@ -128,7 +140,25 @@ backup() {
     # fi
 }
 
+version_check() {
+    mkdir -p $mywotb/verison
+    cp $wgdata/version.txt.dvpl $mywotb/version
+    cd $mywotb/version
+    dvpl decompress
+    version=$(< version.txt)
+    if [ "$version" = "$current_version"]; then
+        gum format -t "markdown" "**No new version detected**"
+    else
+        gum format -t "markdown" "**New version detected**"
+        new_version #function to be called
+    fi
+    current_version="$version"
+}
 
+new_version() {
+    rsync -a "$wgpacks" "$wgdata"
+
+}
 #change some variables' name
 #Short urls
 # installer() {

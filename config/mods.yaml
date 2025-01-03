@@ -118,18 +118,24 @@ Tanks🚜:
             source:
             packs: true
           Nemesis:
-            download:
+            download: "https://forblitz.ru/wp-content/uploads/2023/06/e100_pinny_steam.zip"
             source:
             packs: true
           Nemesis-addon:
-            download:
+            download: "https://drive.usercontent.google.com/download?id=1kUrgbOj3B9sK0MiCFpbeTonvE_dmdkb9&export=download&authuser=1&confirm=t&uuid=085afa3a-5257-4b5b-b13b-7c2861bf954f&at=AENtkXYwGClRUIPN4DDNsoVH1Q-6:1731714220807"
             source:
             packs: true
         VK-90:
         Maus:
       Medium-Armed🛡️:
         E-50M:
+          Dreadnaught:
+            download: "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0"
+            source: "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273"
         Leopard-1:
+          Mexas:
+            download: "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0"
+            source: "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209"
       Tank-Destroyers🎯:
         Grille-15:
         Jp-E-100:
@@ -548,6 +554,9 @@ Battle🪖:
   White-Destroyed:
     download: "https://drive.usercontent.google.com/download?id=1l623-uAGaDltjAEwVzWHMz1hSs0W_GtV&export=download&authuser=1&confirm=t&uuid=37deecc6-8d31-4b82-a711-298b208755a2&at=APvzH3oCVQBi_mckhHvzasv-IHek:1735653561640"
     source: "https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550"
+  Zoom-Out:
+    download: "https://download2268.mediafire.com/5v0u6604yyogrpejaZ-nCtKqG_1rGqSewGV0CI7mZVXNznlMmiuhk6MH6IXzsQQrMgYPjSf_Te3n1GXiR_Pn8IrSgVVSgrTRGbwW9xTHIx5kEQsm2kIfvfUypvB9q8kPY8NoU0EFWD3KwDuk15WguJ3c51MT8DCtBQgN3zr-_ptJ/r6ofssrih3fcndg/otdalenie_kameri.zip"
+    source: 
 
 Lobby🪤:
   Extended-TechTree:
