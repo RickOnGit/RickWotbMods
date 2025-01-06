@@ -2,34 +2,22 @@ selector() {
     local category="$1"
     string=""
     case "$category" in
-        "Sounds🔊"|"Hangars🛖")
+        "Tanks🚜")
+            nation=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
+            tank=$(yq "."$category"."$nation" | keys | .[]" ../config/mods.yaml | gum choose)
+            string="$category.$nation.$tank"
+            get_links "$string"
+            ;;
+        *)
             class=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
             string="$category.$class"
             get_links "$string"
             ;;
-        "Tanks🚜")
-            nation=$(yq "."$category" | keys | .[]" ../config/mods.yaml | gum choose)
-            tier=$(yq "."$category"."$nation" | keys | .[]" ../config/mods.yaml | gum choose) 
-            type=$(yq "."$category"."$nation"."$tier" | keys | .[]" ../config/mods.yaml | gum choose)
-            tank=$(yq "."$category"."$nation"."$tier"."$type" | keys | .[]" ../config/mods.yaml | gum choose)
-            string="$category.$nation.$tier.$type.$tank"
-            get_links "$string"
-            ;;
-        *)
-            get_links "$category"
     esac
 }
 
 get_links() {
     local string="$1"
-    
-    available=()
-    mapfile -t available < <(yq ".$string | keys | .[]" ../config/mods.yaml)
-    for elem in "${available[@]}"; do
-        links+=("$(yq ".$string.$elem.download" ../config/mods.yaml)")
-        sources+=("$(yq ".$string.$elem.source" ../config/mods.yaml)")
-    done
-    #print_info $available $sources
     
     remodels=()
     mapfile -t remodels < <(yq ".$string | keys | .[]" ../config/mods.yaml | gum choose --no-limit --ordered)
@@ -42,19 +30,6 @@ get_links() {
     done
 }
 
-print_info() {
-    json_data="["
-    for i in ${!available[@]}; do
-        model="${available[$i]}"
-        source="${sources[$i]}"
-        json_data+="{\"model\":\"$model\",\"source\":\"$source\"},"
-    done
-    json_data=${json_data%,}
-    json_data+="]"
-    output=$(node ../lib/table.js "$json_data")
-    echo "$output"
-}
-
 downloader() {
     local category="$1"
     for i in "${!links[@]}"; do
@@ -62,15 +37,11 @@ downloader() {
         mod="${remodels[$i]}"
         case $category in
             "Tanks🚜")
-                dir="$mywotb/$category/$nation/$tier/$type/$tank/$mod"
-                mkdir -p "$dir"
-                ;;
-            "Sounds🔊"|"Hangars🛖")
-                dir="$mywotb/$category/$class/$mod"
+                dir="$mywotb/$category/$nation/$tank/$mod"
                 mkdir -p "$dir"
                 ;;
             *)
-                dir="$mywotb/$category/$mod"
+                dir="$mywotb/$category/$class/$mod"
                 mkdir -p "$dir"
                 ;;
         esac
@@ -83,7 +54,6 @@ downloader() {
         fi
     done
 }
-
 
 installer() {
     local dir="$1"
@@ -105,16 +75,11 @@ installer() {
             fi
             backup "$temp" "$dir/Data" "$og"
             ;;
-        "Sounds🔊"|"Hangars🛖")
-            if [ -d "$og" ]; then
-                rsync -a "$og/" "$wgdata/" #use a path variable then
-            fi
-            backup "$temp" "$dir/Data" "$og"
-            ;;
         *)
             backup "$temp" "$dir/Data" "$og"
             ;;
     esac 
+    #meh
 
     gum format -t emoji "$mod installed :white_check_mark:"
 }
@@ -127,7 +92,6 @@ backup() {
     mkdir -p $backup_dir
     gum spin -s "minidot" --title "Installing $mod" -- sleep 2
     rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgdata/"
-    #rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgpacks/"
     rsync -a --ignore-existing "$backup_dir/" "$og"
     rm -rf "$backup_dir"
     
@@ -159,6 +123,7 @@ new_version() {
     rsync -a "$wgpacks" "$wgdata"
 
 }
+
 #change some variables' name
 #Short urls
 # installer() {
