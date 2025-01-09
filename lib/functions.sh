@@ -35,51 +35,58 @@ downloader() {
     for i in "${!links[@]}"; do
         link="${links[$i]}"
         mod="${remodels[$i]}"
+
         case $category in
             "Tanks🚜")
                 dir="$mywotb/$category/$nation/$tank/$mod"
-                mkdir -p "$dir"
+                og="$mywotb/$category/$nation/$tank/stock-$tank"
+                mkdir -p $og
+                
+                temp="$mywotb/$category/$nation/$tank/temp-$tank"
                 ;;
             *)
                 dir="$mywotb/$category/$class/$mod"
-                mkdir -p "$dir"
+                og="$mywotb/$category/stock-$category"
+                mkdir -p $og
+                
+                temp="$mywotb/$category/temp-$category"
                 ;;
         esac
-        gum spin -s "minidot" --title "Downloading $mod" -- curl -L "$link" -o "$dir/$mod.download"
-        gum spin -s "minidot" --title "Extracting $mod" -- 7z x "$dir/$mod.download" -o"$dir"
-        rm "$dir"/*.download
-        gum format -t emoji "$mod downloaded & extracted :heavy_check_mark:"
+
+        mkdir -p "$dir"
+        if [ $mod = stock-$tank ] || [ $mod = stock-$category ]; then
+            rsync -a "$og"/ "$wgdata"
+            gum format -t emoji "$og applied :heavy_check_mark:"
+        else 
+            gum spin -s "minidot" --title "Downloading $mod" -- curl -L "$link" -o "$dir/$mod.download"
+            gum spin -s "minidot" --title "Extracting $mod" -- 7z x "$dir/$mod.download" -o"$dir"
+            rm "$dir"/*.download
+            gum format -t emoji "$mod downloaded & extracted :heavy_check_mark:"
+        fi
+    
         if gum confirm "Install $mod?"; then
-            installer "$dir"
+            installer "$category" "$dir" "$og" "$temp"
         fi
     done
 }
 
 installer() {
-    local dir="$1"
-    parent=$(dirname "$dir")
-    element=$(basename "$parent")
-    
-    og="$parent/og-$element"
-    temp="$parent/temp"
+    local category="$1"
+    local dir="$2"
+    local og="$3" 
+    local temp="$4"
 
     if [ ! -d "$dir/Data" ]; then
         mkdir -p "$dir/Data"
         mv "$dir"/* "$dir"/Data 2>/dev/null
     fi
 
-    case $category in
-        "Tanks🚜")
-            if [ -d "$og" ]; then
-                rsync -a "$og/" "$wgdata/" #use a path variable then
-            fi
-            backup "$temp" "$dir/Data" "$og"
-            ;;
-        *)
-            backup "$temp" "$dir/Data" "$og"
-            ;;
-    esac 
-    #meh
+    if  [ "$category" = "Tanks🚜" ] && [ -d "$og" ]; then
+        rsync -a "$og/" "$wgdata/"
+        backup "$temp" "$dir/Data" "$og"
+    else
+        backup "$temp" "$dir/Data" "$og"
+    fi
 
     gum format -t emoji "$mod installed :white_check_mark:"
 }
@@ -94,42 +101,4 @@ backup() {
     rsync -a --backup --backup-dir="$backup_dir" "$source_dir/" "$wgdata/"
     rsync -a --ignore-existing "$backup_dir/" "$og"
     rm -rf "$backup_dir"
-    
-    # if [ "$path" = "$wgdata" ]; then
-    #     mkdir -p "$og_data"
-    #     rsync -a --ignore-existing "$og/" "$og_data/"
-    # else
-    #     mkdir -p "$og_packs"
-    #     rsync -a --ignore-existing "$og/" "$og_packs/"
-    # fi
 }
-
-version_check() {
-    mkdir -p $mywotb/verison
-    cp $wgdata/version.txt.dvpl $mywotb/version
-    cd $mywotb/version
-    dvpl decompress
-    version=$(< version.txt)
-    if [ "$version" = "$current_version"]; then
-        gum format -t "markdown" "**No new version detected**"
-    else
-        gum format -t "markdown" "**New version detected**"
-        new_version #function to be called
-    fi
-    current_version="$version"
-}
-
-new_version() {
-    rsync -a "$wgpacks" "$wgdata"
-
-}
-
-#change some variables' name
-#Short urls
-# installer() {
-
-# }
-
-# backup() {
-
-# }

@@ -66,7 +66,10 @@ Tanks🚜:
       Enhanced:
         download: "https://blitz-mods.com/mod/remodelings/remodeling-kampfpanzer-70-230/download/pc-wg/file?_token=x=0"
         source: "https://blitz-mods.com/mod/remodelings/remodeling-kampfpanzer-70-230"
-
+    Tiger-II🛡️:
+      Schneide:
+        download: "https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834"
+    
     E-50M🗡️:
       Dreadnaught:
         download: "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0"
@@ -98,6 +101,9 @@ Tanks🚜:
       Igelschnäuzchen:
         download: https://forblitz.ru/wp-content/uploads/2024/11/grille_15_igelschneutzchen_forblitz_061124_pc.zip
         source: "https://forblitz.ru/modifications/remodelings/remodeling-grille-15-igelschneutzchenen/21197"
+      Erion:
+        download: "https://drive.usercontent.google.com/download?id=1N7F7LzqTOu8vMpF_0N_6Dj9K3DuCUKhJ&export=download&authuser=1&confirm=t&uuid=9b59f4d2-770c-483f-b2ac-b1b2c03e4736&at=AIrpjvOmi8VbcjL6Pc6GKmPuZNXk:1736364228633"
+        source: "null"
     Jp-E-100🎯:
 
   France🇫🇷:
@@ -566,18 +572,39 @@ Sights🎯:
       download: "https://blitz-mods.com/mod/sights/green-1/download/pc-wg/file?_token=x=0"
       source: "https://blitz-mods.com/mod/sights/green-1"
 
-  WOT-alike🪞:
-    Wot-sight: 
-      download: "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71/download/pc-wg/file?_token=x=0"
-      source: "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71"
-
     Taipan-2: 
       download: "https://blitz-mods.com/mod/sights/sight-taipan-2-93/download/pc-wg/file?_token=x=0"
       source: "https://blitz-mods.com/mod/sights/sight-taipan-2-93"
 
     Modern-Warfare: 
         download: "https://blitz-mods.com/mod/sights/modern-warfare-12/download/pc-wg/file?_token=x=0"
-        source: "https://blitz-mods.com/mod/sights/modern-warfare-12"
+        source: "https://blitz-mods.com/mod/sights/modern-warfare-12"     
+
+  WOT-alike🪞:
+    WOT-Aimpoint-classic: 
+      download: "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71/download/pc-wg/file?_token=x=0"
+      source: "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71"
+    
+    WOT-Aimpoint-sh0tnik:
+      download: "https://forblitz.ru/wp-content/uploads/2023/10/aim_point_bb_sh0tnik_10_6_7_pc.zip"
+      source: "https://forblitz.ru/modifications/scopes/pritsel-v-vide-tochki-iz-bb-kak-u-sh0tnika/14657"
+    
+    WOT-Aimpoint-korbendallas:
+      download: "https://forblitz.ru/wp-content/uploads/2023/10/aim_point_bb_korbendallas_pc_10_3.zip"
+      source: "https://forblitz.ru/modifications/scopes/pritsel-v-vide-tochki-iz-bb-kak-u-korben-dallasa/14860"
+    
+    WOT-Aimpoint-amway921:
+      download: "https://forblitz.ru/wp-content/uploads/2023/10/aim_crosshair_bb_amway921_pc_10_3.zip"
+      source: "https://forblitz.ru/modifications/scopes/pritsel-v-vide-perekrestiya-iz-bb-kak-u-amway921/15024"
+    
+    WOT-Aimpoint-thebarbarian:
+      download: "https://forblitz.ru/wp-content/uploads/2023/10/aim_point_bb_the_barbarian_10_6_7_pc_lesta.zip"
+      source: "https://forblitz.ru/modifications/scopes/pritsel-v-vide-kruga-iz-bb-kak-u-the_barbariana/14940"
+    
+    WOT-Aimpoint-lebwa:
+      download: "https://forblitz.ru/wp-content/uploads/2023/10/bb_aim_a-shaped_lebwa_pc_10_3.zip"
+      source: "https://forblitz.ru/modifications/scopes/a-obraznyi-pritsel-iz-bb-kak-u-levshi/16194"
+    
 
 Battle🪖:
   Minimap🗾:
