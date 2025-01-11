@@ -40,7 +40,9 @@ function get_info() {
             installer "$string"
             ;;
         "Show info elements")
+            ;;
         "Go back")
+            ;;
     esac
 }
 
