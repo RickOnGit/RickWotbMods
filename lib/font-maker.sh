@@ -3,8 +3,8 @@
 #Variables
 wgdata="$HOME/.local/share/Steam/steamapps/common/World of Tanks Blitz/Data"
 
-mkdir -p Fonts
-elem=$(ls ./font | grep -E 'otf|ttf')
+mkdir -p ../tmp/Fonts
+elem=$(ls ../config/font | grep -E 'otf|ttf')
 
 wotbfonts=(
     arialmb.ttf
@@ -31,21 +31,20 @@ wotbfonts=(
 function copy() {
     echo "coping..."
     for i in ${wotbfonts[@]}; do
-        cp font/"$elem" Fonts/
-        mv Fonts/"$elem" Fonts/$i
+        cp ../config/font/"$elem" ../tmp/Fonts/
+        mv ../tmp/Fonts/"$elem" ../tmp/Fonts/$i
     done
 }
 
 function compress() {
     echo "compressing..."
-    cd Fonts
+    cd ../tmp/Fonts
     dvpl compress &>/dev/null
-    cd ..
+    cd ../../lib
 }
 
 function send() {
-
-rsync -a Fonts "$wgdata"
+mv ../tmp/Fonts "$wgdata"
 echo "Font loaded!"
 }
 

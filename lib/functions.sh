@@ -34,7 +34,7 @@ function get_info() {
 
     case $ans in
         "Download elements")
-            downloader "$string" "$stock_path"
+            downloader "$string" "$mywotb/$stock_path"
             ;;
         "Install Elements")
             installer "$string"
@@ -51,18 +51,19 @@ function downloader() {
     local stock_path="$2"
 
     for ((elem = 0; elem < ${#d_remodels[@]}; elem++)); do
-        local path="${paths[$elem]}"
+        local path="$mywotb/${paths[$elem]}"
         local model="${d_remodels[$elem]}"
         local download="${downloads[$elem]}"
+        
         mkdir -p "$path"
         
         gum spin -s "minidot" --title "Downloading $model" -- curl -L "$download" -o "$path/$model.download"
-        gum spin -s "minidot" --title "Extracting $model" -- 7z x "$path/$model.download"
-        rm "$path"/*.download
+        gum spin -s "minidot" --title "Extracting $model" -- 7z x "$path/$model.download" -o"$path"
+        rm "$path/$model.download"
+        mod_fix "$path"
         gum format -t emoji "$model downloaded & extracted :heavy_check_mark:"
-
+        
         if gum confirm "Install $model ?"; then
-            mod_fix "$path"
             if [ ! -d "$stock_path" ]; then
                 backup "$path" "$stock_path" "$model"
             else 
@@ -100,7 +101,7 @@ function backup() {
     mkdir -p "$stock_dir"
 
     gum spin -s "minidot" --title "Installing $model" -- sleep 2
-    rsync -a --backup --backup-dir="$backup_dir" "$source_dir" "$wgdata/"
+    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wgdata/"
     rsync -a --ignore-existing "$backup_dir/" "$stock_dir"
 
     rm -rf "$backup_dir"
