@@ -12,11 +12,6 @@ while true; do
             ;;
         *)
             selector "$category"
-            if gum confirm --affirmative="Download" --negative="Install" "What you wanna do?";then
-                downloader "$category"
-            else
-                installer "$category"
-            fi
             ;;
     esac
 done
