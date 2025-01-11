@@ -22,7 +22,7 @@ function get_info() {
 
     d_remodels=()
     
-    mapfile -t d_remodels < <(yq ".$string | keys | map(select(. != "Stock"))" "$mods" | gum choose --no-limit --ordered)
+    mapfile -t d_remodels < <(yq ".${string} | keys | map(select(. != \"Stock\")) | .[]" "$mods_file" | gum choose --no-limit --ordered)
     
     for elem in "${d_remodels[@]}"; do
         paths+=("$(yq ".$string.$elem.path" "$mods_file")")
@@ -90,9 +90,6 @@ function installer() {
     i_remodels=("$(find $dirname -maxdepth 1 -type d -not -name '.*' | sed 's|^\./||' | gum choose --no-limit --ordered)")
 
     mod_fix "$path"
-
-    
-
 }
         
 function backup() {
@@ -110,6 +107,6 @@ function backup() {
     gum format -t emoji "$model installed :white_check_mark:"
 }
 
-function version_checker() {
+# function version_checker() {
     
-}
+# }
