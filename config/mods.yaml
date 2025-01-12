@@ -213,30 +213,43 @@ Tanks:
       Nimmermer:
         download: https://forblitz.ru/wp-content/uploads/2022/12/nimmermer_steam.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-nimmermer-e-50m/14928
+    
     Leopard-1:
       Mexas:
+        path: Tanks/German/Leopard-1/Mexas/
         download: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209
       Reiter:
+        path: Tanks/German/Leopard-1/Reiter/
         download: https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip
         source: https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553
       Mirny-13:
+        path: Tanks/German/Leopard-1/Mirny-13/
         download: https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip
         source: https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540
       1a1:
+        path: Tanks/German/Leopard-1/1a1/
         download: https://drive.usercontent.google.com/download?id=1Dcu7EMk4XMOplHd0EI6t-6-svzb9zxzr&export=download&authuser=1&confirm=t&uuid=86e4a6de-b474-4ca9-a769-6dab9e9e3dda&at=AENtkXZJ2vC1QouzEFmjgoAc4x2:1730989957853
         source: null
       Lion:
+        path: Tanks/German/Leopard-1/Lion/
         download: https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=572466e0-a84e-4690-a419-7d4805a6912b&at=AENtkXbVmafZScttTY6NUZnb62y:1730988335022
         source: null
+      Stock:
+        path: Tanks/German/Leopard-1/Stock/a
     
     Grille-15:
       Igelschnäuzchen:
+        path: Tanks/German/Grille-15/Igelschnäuzchen/
         download: https://forblitz.ru/wp-content/uploads/2024/11/grille_15_igelschneutzchen_forblitz_061124_pc.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-grille-15-igelschneutzchenen/21197
       Erion:
+        path: Tanks/German/Grille-15/Erion/
         download: https://drive.usercontent.google.com/download?id=1N7F7LzqTOu8vMpF_0N_6Dj9K3DuCUKhJ&export=download&authuser=1&confirm=t&uuid=9b59f4d2-770c-483f-b2ac-b1b2c03e4736&at=AIrpjvOmi8VbcjL6Pc6GKmPuZNXk:1736364228633
         source: null
+      Stock:
+        path: Tanks/German/Grille-15/Stock/
+
     Jp-E-100:
 
   France:
@@ -273,9 +286,11 @@ Tanks:
     
     Foch-155:
       Eglantier:
+        path: Tanks/France/Foch-155/Eglantier/
         download: https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253
-
+      Stock:
+        path: Tanks/France/Foch-155/Stock/
 
   GB:
     Chieftain-Mk6:
@@ -311,19 +326,28 @@ Tanks:
     
     Vickers-Light:
       Concept-5-TheUnknown:
+        path: Tanks/GB/Vickers-Light/Concept-5-TheUnknown/
         download: https://forblitz.ru/wp-content/uploads/2024/11/vikclight_concept5_forblitz_pc.zip
-        source: https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206    
+        source: https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206
+      Stock:
+        path: Tanks/GB/Vickers-Light/Stock/
     
     FV4005:
       King-Flavius:
+        path: Tanks/GB/FV4005/King-Flavius/
         download: https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259
       Thunderchild:
+        path: Tanks/GB/FV4005/Thunderchild/
         download: https://forblitz.ru/wp-content/uploads/2024/03/4005_thunderchild_forblitz_pc.zip
         source: https://forblitz.ru/modifications/remodelings/animirovannyi-remodeling-fv4005-ditya-gro/19416
       Galahad:
+        path: Tanks/GB/FV4005/Galahad/
         download: https://forblitz.ru/wp-content/uploads/2022/02/fv4005_steam.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768
+      Stock: 
+        path: Tanks/GB/FV4005/Stock/
+         
     FV217-Badger:
       Mordred:
         download: https://forblitz.ru/wp-content/uploads/2023/01/fv217_badger_mortred_pc.zip
@@ -359,17 +383,24 @@ Tanks:
     
     T-100LT:
       Enhanced:
+        path: Tanks/USSR/T-100-LT/Enhanced/
         download: https://drive.usercontent.google.com/download?id=1NJDaRzHvJY47Z69wTE_zqo7qwtxxxj7h&export=download&authuser=1&confirm=t&uuid=a6a51793-7d8a-46e6-b818-4377a324038f&at=AENtkXZ8rQFHRlrQeYgMq4Jhl9cZ:1730984861744
         source: https://discord.com/channels/174448788436549632/254137952215498762/1076705953262620733
       Gyurza:
+        path: Tanks/USSR/T-100-LT/Gyurza/
         download: https://forblitz.ru/wp-content/uploads/2023/12/t100lt_forblitz_pc.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-t-100-lt-giurza/18808
-
+      Stock:
+        path: Tanks/USSR/T-100-LT/Stock/
 
     Obj-268:
       Svyatogor:
+        path: Tanks/USSR/Obj-268/Svyatogor/
         download: https://forblitz.ru/wp-content/uploads/2024/01/obj268_svyatogor_forblitz_pc.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-svyatogor/18980
+      Stock:
+        path: Tanks/USSR/Obj-268/Stock/
+    
     Obj-268-v4:
     Obj-263:
 
@@ -419,12 +450,17 @@ Tanks:
     
     M48-Patton:
       Yacin-1500:
+        path: Tanks/USA/M48-Patton/Yacin-1500/
         download: https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154
         source: https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850
       Thunderbolt:
+        path: Tanks/USA/M48-Patton/Thunderbolt
         download: https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122
         source: https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134    
-    
+      Stock:
+        path: Tanks/USA/M48-Patton/Stock/
+
+
     XM551-Sheridan:
       Salamander:
         download: https://forblitz.ru/wp-content/uploads/2023/01/sheridan_salamander_steam.zip
@@ -434,15 +470,19 @@ Tanks:
         source: https://discord.com/channels/174448788436549632/254137952215498762/1102834817961312266
     XM551-Sheridan-Missile:
       Enhanced:
+        path: Tanks/USA/XM551-Sheridan-Missile/Enhanced/
         download: https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271
       Enhanced-alt:
+        path: Tanks/USA/XM551-Sheridan-Missile/Enhanced-alt/
         download: https://forblitz.ru/wp-content/uploads/2022/02/sheridan_raketnyi_steam.zip
-        source: https://forblitz.ru/modifications/remodelings/remodeling-sheridan-raketnyi-hd-2/11130   
+        source: https://forblitz.ru/modifications/remodelings/remodeling-sheridan-raketnyi-hd-2/11130
+      Stock:
+        path: Tanks/USA/XM551-Sheridan-Missile/Stock/
     T49:
       Revenant: 
         download: ttps://drive.usercontent.google.com/download?id=1Osd9ShPOMmo5bQJnIbrk4V0eOvNW6pNV&export=download&authuser=0&confirm=t&uuid=1d38fb20-7343-49ab-a472-75b788541958&at=AENtkXb3Lpn9jO3poQl1YXPR3wGf:1730886397473
-        source: https://discord.com/channels/174448788436549632/254137952215498762/1011710957346619432    
+        source: https://discord.com/channels/174448788436549632/254137952215498762/1011710957346619432
     
     T110E3:
       Welsh-Blues: 
@@ -451,46 +491,60 @@ Tanks:
       Enhanced: 
         download: https://blitz-mods.com/mod/remodelings/remodeling-t110e3-enhanced-edition-270/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/remodeling-t110e3-enhanced-edition-270
+    
     T110E4:
-      Freight-Train: 
+      Freight-Train:
+        path: Tanks/USA/T110E4/Freigh-Train/
         download: https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242/download/pc-wg/file?_token=x=0
         source: https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242
-      Freight-Train-addon: 
+      Freight-Train-addon:
+        path: Tanks/USA/T110E4/Freigh-Train-addon/
         download: https://drive.usercontent.google.com/download?id=1t3Rdy0K4-QrSZKKVFCCOxxbCH5EUO93K&export=download&authuser=1&confirm=t&uuid=08fd93da-5835-4bb3-9738-229f99d1e154&at=AENtkXb7jKlWn5vsmsjiJT95bnfd:1731714306505
         source: https://discord.com/channels/1122455294988001363/1122581505693208596/1280402574306185291
-      Major-Ram: 
+      Major-Ram:
+        path: Tanks/USA/T110E4/Major-Ram/
         download: https://forblitz.ru/wp-content/uploads/2022/08/t110e4_major_ram_sadabsolution_steam.zip
-        source: https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860     
+        source: https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860
+      Stock:
+        path: Tanks/USA/T110E4/Stock/
+
     T30: 
       Assault-Kit:
         download: https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip
         source: https://forblitz.ru/modifications/remodelings/remodeling-countdown-t30/13870
     
 Maps:
-  Packs:
+  Themed-Maps:
     Cloudy:
+      path: Maps/Themed-Maps/Cloudy/
       download: https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps_pc_wg.zip
       source: https://forblitz.ru/modifications/map-restylings/cloudy-map-mod-pack/21495
-    Twilight:
-      download: https://drive.usercontent.google.com/download?id=1FkD7yZJpBzNN5T2k2iqE-zYSTHuqprB9&export=download&authuser=1&confirm=t&uuid=a5d3280d-ad5e-44d8-b25f-f8a1d40c1870&at=AENtkXYrGjS0gUuoNNNC_Usd6fgi:1730981587596
-      source: https://discord.com/channels/1137353382919675934/1307464000409305228/1307464000409305228
-    Evening: 
-      download: https://drive.usercontent.google.com/download?id=1NrHJ9SnYRyUDkYyL10aKbBqF0k0wHi84&export=download&authuser=1&confirm=t&uuid=b67f34ab-11e6-41b5-86c7-62407b1b099e&at=AENtkXanMteco_3pGmouH2zSzg8w:1730984578888
-      source: https://discord.com/channels/1137353382919675934/1307464000409305228/1307464000409305228
-    Loading-Maps-bg:
-      download: https://forblitz.ru/wp-content/uploads/2024/09/new-battle-loading-screen_pc.zip
-      source: https://forblitz.ru/modifications/loading-screens/enimproved-download-backgrounds/20743
+    Stock:
+      path: Maps/Themed-Maps/Stock/
 
-  Single:
+  Fort-Despair:
     Summer-Fort:
+      path: Maps/FortDespair/Summer-Fort/
       download: https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip
       source: https://forblitz.ru/modifications/map-restylings/summer-fort/21561
+    Stock:
+      path: Maps/Fort-Despair/Stock/
+
+  Molendijk:
     Sunny-Molendijk:
+      path: Maps/Molendijk/Sunny-Molendijk/
       download: https://forblitz.ru/wp-content/uploads/2024/08/pc_sunmolendeyk.zip
       source: https://forblitz.ru/modifications/map-restylings/solnechnyi-molendeik/20549
+    Stock:
+      path: Maps/Molendijk/Stock/
+
+  Vineyards:
     Evening-Vineyards:
+      path: Maps/Vineyards/Evening-Vineyards/
       download: https://forblitz.ru/wp-content/uploads/2024/08/22_italy_evening_pc.zip
       source: https://forblitz.ru/modifications/map-restylings/22_italy_evening_it/20575
+    Stock:
+      path: Maps/Vineyards/Stock/
 
 Hangars:
   Halloween:
@@ -590,27 +644,42 @@ Hangars:
       source: https://blitz-mods.com/mod/hangars/minimalistic-1-52
       
 Sounds:
-  Guns:
-    WOT-Guns: 
+  WOTB-Sounds:
+    WOTB-Guns:
+      path: Sounds/Guns/WOT-Guns/
       download: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54/download/pc-wg/file?_token=x=0
-      packs: both
       source: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54
-    Historical: 
-      download: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252
-    Thunder-Guns: 
-      download: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25
-    WOT-Shell-Reload: 
-      download: https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip
-      source: https://forblitz.ru/modifications/sounds/zvuki-perezaryadki-orudiya/10207
+    Stock:
+      path: Sounds/Guns/Stock/
+
+
+
+  Historical:
+    path: Sounds/Guns/Historical/
+    download: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0
+    source: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252
+  Thunder-Guns:
+    path: Sounds/Guns/Thunder-Guns/
+    download: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/pc-wg/file?_token=x=0
+    source: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25
+  WOT-Shell-Reload: 
+    path: Sounds/Guns/WOT-Shell-Reload/
+    download: https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip
+    source: https://forblitz.ru/modifications/sounds/zvuki-perezaryadki-orudiya/10207
+  Stock:
+    path: Sounds/Guns/Stock/
+  
   Crew-Voices:
-    WOT-Male: 
+    WOT-Male:
+      path: Sounds/Crew-Voices/WOT-Male/
       download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55/download/pc-wg/file?_token=x=0
       source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55
-    WOT-Female: 
+    WOT-Female:
+      path: Sounds/Crew-Voices/WOT-Female/
       download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56/download/pc-wg/file?_token=x=0
       source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56
+    Stock:
+      path: Sounds/Crew-Voices/Stock/
   UI:
     Battle-Sounds: 
       download: https://drive.usercontent.google.com/download?id=184qFI0FAGZJrEbWgC5GpjgEqEXzA_mgT&export=download&authuser=1&confirm=t&uuid=2031e4c0-8648-4a93-a0b4-270b4dc50637&at=APvzH3pjEIhoCfmzjT5iUX7ddTaE:1735341751712
@@ -677,7 +746,6 @@ Sights:
     WOT-Aimpoint-lebwa:
       download: https://forblitz.ru/wp-content/uploads/2023/10/bb_aim_a-shaped_lebwa_pc_10_3.zip
       source: https://forblitz.ru/modifications/scopes/a-obraznyi-pritsel-iz-bb-kak-u-levshi/16194
-    
 
 Battle:
   Minimap:
@@ -763,13 +831,9 @@ Lobby:
 Other:
   Camo:
     Camo-unlocker:
+      path: Other/Camo/Camo-unlocker/
       download: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274/download/pc-wg/file?_token=x=0
       source: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274
-    Realistic-Tier-X's:
-      download: 
-      source: 
-
-Quit the script ❌:
-
-#finish to add china-japan-ussr-german tanks
-#some emojis maybie
+    Stock:
+      path: Other/Stock/
+Go back:

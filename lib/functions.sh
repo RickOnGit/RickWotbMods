@@ -8,6 +8,8 @@ function selector() {
             string="$category.$nation.$tank"
             get_info "$string"
             ;;
+        "Go back")
+            ;;
         *)
             class=$(yq "."$category" | keys | .[]" "$mods_file" | gum choose)
             string="$category.$class"
@@ -21,6 +23,9 @@ function get_info() {
     local stock_path=$(yq ".$string.Stock.path" "$mods_file")
 
     d_remodels=()
+    paths=()
+    sources=()
+    downloads=()
     
     mapfile -t d_remodels < <(yq ".${string} | keys | map(select(. != \"Stock\")) | .[]" "$mods_file" | gum choose --no-limit --ordered)
     
@@ -50,18 +55,21 @@ function downloader() {
     local string="$1"
     local stock_path="$2"
 
-    for ((elem = 0; elem < ${#d_remodels[@]}; elem++)); do
+    for elem in "${!d_remodels[@]}"; do
         local path="$mywotb/${paths[$elem]}"
         local model="${d_remodels[$elem]}"
         local download="${downloads[$elem]}"
         
         mkdir -p "$path"
-        
-        gum spin -s "minidot" --title "Downloading $model" -- curl -L "$download" -o "$path/$model.download"
-        gum spin -s "minidot" --title "Extracting $model" -- 7z x "$path/$model.download" -o"$path"
-        rm "$path/$model.download"
-        mod_fix "$path"
-        gum format -t emoji "$model downloaded & extracted :heavy_check_mark:"
+        if [ "$(ls -A $path)" ]; then
+            gum format -t emoji "$model already downloaded :package:"
+        else
+            gum spin -s "minidot" --title "Downloading $model" -- curl -L "$download" -o "$path/$model.download"
+            gum spin -s "minidot" --title "Extracting $model" -- 7z x "$path/$model.download" -o"$path"
+            rm "$path/$model.download"
+            mod_fix "$path"
+            gum format -t emoji "$model downloaded & extracted :heavy_check_mark:"
+        fi
         
         if gum confirm "Install $model ?"; then
             if [ ! -d "$stock_path" ]; then
@@ -72,6 +80,7 @@ function downloader() {
             fi
         fi
     done
+    unset path model download
 }
 
 function mod_fix() {
@@ -82,16 +91,16 @@ function mod_fix() {
     fi
 }
 
-function installer() {
-    local string="$1"
-    local path="$2"
-    local dirname="$(dirname "$path")"
-    i_remodels=()
+# function installer() {
+#     local string="$1"
+#     local path="$2"
+#     local dirname="$(dirname "$path")"
+#     i_remodels=()
     
-    i_remodels=("$(find $dirname -maxdepth 1 -type d -not -name '.*' | sed 's|^\./||' | gum choose --no-limit --ordered)")
+#     i_remodels=("$(find $dirname -maxdepth 1 -type d -not -name '.*' | sed 's|^\./||' | gum choose --no-limit --ordered)")
 
-    mod_fix "$path"
-}
+#     mod_fix "$path"
+# }
         
 function backup() {
     local source_dir="$1"

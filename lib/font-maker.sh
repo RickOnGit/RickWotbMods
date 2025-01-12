@@ -2,6 +2,7 @@
 
 #Variables
 wgdata="$HOME/.local/share/Steam/steamapps/common/World of Tanks Blitz/Data"
+mywotb="$HOME/$(whoami)_wotb_folder"
 
 mkdir -p ../tmp/Fonts
 elem=$(ls ../config/font | grep -E 'otf|ttf')
@@ -44,7 +45,10 @@ function compress() {
 }
 
 function send() {
+mkdir -p $mywotb
+mv "$wgdata/Fonts" "$mywotb/"
 mv ../tmp/Fonts "$wgdata"
+
 echo "Font loaded!"
 }
 
