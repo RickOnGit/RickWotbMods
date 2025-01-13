@@ -7,8 +7,29 @@ while true; do
     
     case $ans in
         "Install some mods")
-            category=$(yq ". | keys | .[]" "$mods_file" | gum choose --header "Choose what you wanna mod")
-            selector "$category"
+            while true; do
+                ans=$(echo -e "$modlist" | gum choose --header "Choose what you wanna do")
+                case "$ans" in
+                    "Tanks")
+                        selector "$tanksfile"
+                        ;;
+                    "Maps")
+                        selector "$mapsfile"
+                        ;;
+                    "Hangars")
+                        selector "$hangarsfile"
+                        ;;
+                    "Sounds")
+                        selector "$soundsfile"
+                        ;;
+                    "UI & more")
+                        selector "$uifile"
+                        ;;
+                    "Go Back 👈")
+                        break
+                        ;;
+                esac
+            done
             ;;
         "Make your own font")
             ../lib/./font-maker.sh

@@ -1,0 +1,31 @@
+Themed-Maps:
+  Cloudy:
+    path: Maps/Themed-Maps/Cloudy/
+    download: https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps_pc_wg.zip
+    source: https://forblitz.ru/modifications/map-restylings/cloudy-map-mod-pack/21495
+  Stock:
+    path: Maps/Themed-Maps/Stock/
+
+Fort-Despair:
+  Summer-Fort:
+    path: Maps/FortDespair/Summer-Fort/
+    download: https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip
+    source: https://forblitz.ru/modifications/map-restylings/summer-fort/21561
+  Stock:
+    path: Maps/Fort-Despair/Stock/
+
+Molendijk:
+  Sunny-Molendijk:
+    path: Maps/Molendijk/Sunny-Molendijk/
+    download: https://forblitz.ru/wp-content/uploads/2024/08/pc_sunmolendeyk.zip
+    source: https://forblitz.ru/modifications/map-restylings/solnechnyi-molendeik/20549
+  Stock:
+    path: Maps/Molendijk/Stock/
+
+Vineyards:
+  Evening-Vineyards:
+    path: Maps/Vineyards/Evening-Vineyards/
+    download: https://forblitz.ru/wp-content/uploads/2024/08/22_italy_evening_pc.zip
+    source: https://forblitz.ru/modifications/map-restylings/22_italy_evening_it/20575
+  Stock:
+    path: Maps/Vineyards/Stock/
