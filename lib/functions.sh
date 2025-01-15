@@ -1,19 +1,19 @@
 function selector() {
-    local category="$1"
+    local file="$1"
     string=""
-    case "$category" in
-        "Tanks")
-            nation=$(yq "."$category" | keys | .[]" "$mods_file" | gum choose)
-            tank=$(yq "."$category"."$nation" | keys | .[]" "$mods_file" | gum choose)
-            string="$category.$nation.$tank"
-            get_info "$string"
-            ;;
-        "Go back")
+    case "$file" in
+        "$tanksfile")
+            category=$(yq '.[] | .name' "$file" | gum choose)
+            show_info "$category" "$file"
+            selected=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file" | gum choose --no-limit --header="Choose what you wanna install")
             ;;
         *)
-            class=$(yq "."$category" | keys | .[]" "$mods_file" | gum choose)
-            string="$category.$class"
-            get_info "$string"
+            category=$(yq '.[] | .name' "$file" | gum choose)
+            show_info "$category" "$file"
+            selected=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file" | gum choose --no-limit --header="Choose what you wanna install")
+            if [ "$selected" = "Go back 👈" ]; then
+                return 1
+            fi
             ;;
     esac
 }
@@ -117,6 +117,7 @@ function backup() {
     gum format -t emoji "$model installed :white_check_mark:"
 }
 
-# function version_checker() {
-    
-# }
+function version() {
+    local temp=$(mktemp -d)
+    cp "$wgdata"/version.txt.dvpl $temp
+}

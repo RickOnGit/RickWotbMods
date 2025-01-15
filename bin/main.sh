@@ -1,8 +1,9 @@
 source ../lib/var.env
-source ../lib/gum.env
+source ../lib/gum.sh
 source ../lib/functions.sh
 
 while true; do
+    version
     ans=$(echo -e "Install some mods\nMake your own font\nInstall mods only in Data\nQuit the script ❌" | gum choose --header "Choose what you wanna do")
     
     case $ans in
@@ -15,6 +16,9 @@ while true; do
                         ;;
                     "Maps")
                         selector "$mapsfile"
+                        ;;
+                    "Sights")
+                        selector "$sightsfile"
                         ;;
                     "Hangars")
                         selector "$hangarsfile"

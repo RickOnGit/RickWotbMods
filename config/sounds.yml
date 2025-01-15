@@ -1,49 +1,49 @@
-Guns:
-  - info: "Gun sounds mod"
-  - name: "Wot gun sounds"
-    path: Sounds/Guns/WOT-Guns/
-    download: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54/download/pc-wg/file?_token=x=0
-    source: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54
-  - name: "Realistic gun sounds"
-    path: Sounds/Guns/Historical/
-    download: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0
-    source: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252
-  - name: "Thunder Guns"
-    path: Sounds/Guns/Thunder-Guns/
-    download: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/pc-wg/file?_token=x=0
-    source: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25
-  - name: "Wot shell reload"
-    path: Sounds/Guns/WOT-Shell-Reload/
-    download: https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip
-    source: https://forblitz.ru/modifications/sounds/zvuki-perezaryadki-orudiya/10207
-  - name: Stock
-    path: Sounds/Guns/Stock
-    has-load: true
+- name: "Guns mods"
+  remodels:
+    - name: "Wot gun sounds"
+      path: Sounds/Guns/WOT-Guns/
+      download: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/gun-sounds/from-pc-wot-10-4-54
+    - name: "Realistic gun sounds"
+      path: Sounds/Guns/Historical/
+      download: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252
+    - name: "Thunder Guns"
+      path: Sounds/Guns/Thunder-Guns/
+      download: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/gun-sounds/thunder-guns-25
+    - name: "Wot shell reload"
+      path: Sounds/Guns/WOT-Shell-Reload/
+      download: https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip
+      source: https://forblitz.ru/modifications/sounds/zvuki-perezaryadki-orudiya/10207
+    - name: Go Back 👈
+    - name: Stock
+      path: Sounds/Guns/Stock
 
-Crew-Voices:
-  - info: "Crew voices mods"
-  - name: "Wot male crew voices"
-    path: Sounds/Crew-Voices/WOT-Male/
-    download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55/download/pc-wg/file?_token=x=0
-    source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55
-  - name: "Wot female crew voices"
-    path: Sounds/Crew-Voices/WOT-Female/
-    download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56/download/pc-wg/file?_token=x=0
-    source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56
-  - name: Stock
-    path: Sounds/Crew-Voices/Stock/
-    has-load: true
+- name: "Crew Voices mods"
+  remodels:
+    - name: "Wot male crew voices"
+      path: Sounds/Crew-Voices/WOT-Male/
+      download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-male-10-4-55
+    - name: "Wot female crew voices"
+      path: Sounds/Crew-Voices/WOT-Female/
+      download: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/crew-voices/from-pc-wot-female-10-4-56
+    - name: Go Back 👈
+    - name: Stock
+      path: Sounds/Crew-Voices/Stock/
 
-UI:
-  - info: "UI sounds' elements"
-  - name: "Battle ui sounds (quick actions, lamp, ...)"
-    path: Sounds/UI/Battle-UI-Sounds/
-    download: https://drive.usercontent.google.com/download?id=184qFI0FAGZJrEbWgC5GpjgEqEXzA_mgT&export=download&authuser=1&confirm=t&uuid=2031e4c0-8648-4a93-a0b4-270b4dc50637&at=APvzH3pjEIhoCfmzjT5iUX7ddTaE:1735341751712
-    source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307463765750714498
-  - name: "Touch interactions, scrolling, containers ..."
-    path: Sounds/UI/Lobby-UI-Sounds/
-    download: https://drive.usercontent.google.com/download?id=1O1Cy1QUTXY3FD4D7_z9Nl6EOrkZ5Fa5J&export=download&authuser=1&confirm=t&uuid=3a2e90d9-e2f6-4afb-9dd4-3886f9a63804&at=APvzH3q1HWDsD2cSdaN0veNrD-z1:1735341695763
-    source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307463765750714498
-  - name: Stock
-    path: Sounds//Stock/
-    has-load: false
+- name: "UI sounds (battle & game sounds)"
+  remodels:
+    - name: "Battle ui sounds (quick actions, lamp, ...)"
+      path: Sounds/UI/Battle-UI-Sounds/
+      download: https://drive.usercontent.google.com/download?id=184qFI0FAGZJrEbWgC5GpjgEqEXzA_mgT&export=download&authuser=1&confirm=t&uuid=2031e4c0-8648-4a93-a0b4-270b4dc50637&at=APvzH3pjEIhoCfmzjT5iUX7ddTaE:1735341751712
+      source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307463765750714498
+    - name: "Touch interactions, scrolling, containers ..."
+      path: Sounds/UI/Lobby-UI-Sounds/
+      download: https://drive.usercontent.google.com/download?id=1O1Cy1QUTXY3FD4D7_z9Nl6EOrkZ5Fa5J&export=download&authuser=1&confirm=t&uuid=3a2e90d9-e2f6-4afb-9dd4-3886f9a63804&at=APvzH3q1HWDsD2cSdaN0veNrD-z1:1735341695763
+      source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307463765750714498
+    - name: Go Back 👈
+    - name: Stock
+      path: Sounds/UI/Stock/
