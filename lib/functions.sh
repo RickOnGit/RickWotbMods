@@ -1,70 +1,41 @@
 function selector() {
-    local file="$1"
-    string=""
-    case "$file" in
-        "$tanksfile")
-            category=$(yq '.[] | .name' "$file" | gum choose)
-            show_info "$category" "$file"
-            selected=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file" | gum choose --no-limit --header="Choose what you wanna install")
-            ;;
-        *)
-            category=$(yq '.[] | .name' "$file" | gum choose)
-            show_info "$category" "$file"
-            selected=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file" | gum choose --no-limit --header="Choose what you wanna install")
-            if [ "$selected" = "Go back 👈" ]; then
-                return 1
-            fi
-            ;;
-    esac
-}
+    local file="$1" category=""
 
-function get_info() {
-    local string="$1"
-    local stock_path=$(yq ".$string.Stock.path" "$mods_file")
-
-    d_remodels=()
-    paths=()
-    sources=()
-    downloads=()
+    list=$(yq '.[] | .name' "$file") #tanks etc
+    category=$(echo -e "$list\nGo back 👈" | gum choose)
+    if [[ "$category" = "Go back 👈" ]]; then
+        return 1
+    fi
+    show_info "$category" "$file"
+    local modlist=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file")
+    modlist=$(echo -e "$modlist\nGo back 👈")
+    local selected=$(echo "$modlist" | gum choose --no-limit --header="Choose what you wanna install")
+    IFS=$'\n' read -r -d '' -a selected_mods <<< "$selected"
     
-    mapfile -t d_remodels < <(yq ".${string} | keys | map(select(. != \"Stock\")) | .[]" "$mods_file" | gum choose --no-limit --ordered)
-    
-    for elem in "${d_remodels[@]}"; do
-        paths+=("$(yq ".$string.$elem.path" "$mods_file")")
-        sources+=("$(yq ".$string.$elem.source" "$mods_file")")
-        downloads+=("$(yq ".$string.$elem.download" "$mods_file")")
+    for element in "${selected_mods[@]}"; do
+        if [[ "$element" = "Go back 👈" ]]; then
+            selector "$file"
+        fi
+        local path=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .path" $file)
+        local stock=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .path" $file)
+        local download=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .download" $file) 
+        downloader "$path" "$stock" "$download" "$element"
     done
-
-    ans=$(echo -e "Download elements\nInstall Elements\nShow info elements\nGo back"| gum choose --header "Choose what you wanna do")
-
-    case $ans in
-        "Download elements")
-            downloader "$string" "$mywotb/$stock_path"
-            ;;
-        "Install Elements")
-            installer "$string"
-            ;;
-        "Show info elements")
-            ;;
-        "Go back")
-            ;;
-    esac
 }
 
 function downloader() {
-    local string="$1"
-    local stock_path="$2"
-
-    for elem in "${!d_remodels[@]}"; do
-        local path="$mywotb/${paths[$elem]}"
-        local model="${d_remodels[$elem]}"
-        local download="${downloads[$elem]}"
-        
+    IFS=$'\n' read -r -d '' -a selected_path <<<"$1"
+    local stock_path="$mywotb/$2"
+    IFS=$'\n' read -r -d '' -a selected_download <<< "$3"
+    local model="$4"
+    for i in "${!selected_path[@]}"; do
+        path="$mywotb/${selected_path[$i]}"
+        link="${selected_download[$i]}"
         mkdir -p "$path"
         if [ "$(ls -A $path)" ]; then
             gum format -t emoji "$model already downloaded :package:"
         else
-            gum spin -s "minidot" --title "Downloading $model" -- curl -L "$download" -o "$path/$model.download"
+            gum spin -s "minidot" --title "Downloading $model" -- curl -L "$link" -o "$path/$model.download"
             gum spin -s "minidot" --title "Extracting $model" -- 7z x "$path/$model.download" -o"$path"
             rm "$path/$model.download"
             mod_fix "$path"
@@ -80,7 +51,6 @@ function downloader() {
             fi
         fi
     done
-    unset path model download
 }
 
 function mod_fix() {
@@ -90,17 +60,6 @@ function mod_fix() {
         mv "$path"/* "$path"/Data 2>/dev/null
     fi
 }
-
-# function installer() {
-#     local string="$1"
-#     local path="$2"
-#     local dirname="$(dirname "$path")"
-#     i_remodels=()
-    
-#     i_remodels=("$(find $dirname -maxdepth 1 -type d -not -name '.*' | sed 's|^\./||' | gum choose --no-limit --ordered)")
-
-#     mod_fix "$path"
-# }
         
 function backup() {
     local source_dir="$1"
