@@ -80,3 +80,7 @@ function version() {
     local temp=$(mktemp -d)
     cp "$wgdata"/version.txt.dvpl $temp
 }
+
+# function tankfilter() {
+
+# }

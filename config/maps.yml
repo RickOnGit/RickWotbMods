@@ -1,31 +1,39 @@
-Themed-Maps:
-  Cloudy:
-    path: Maps/Themed-Maps/Cloudy/
-    download: https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps_pc_wg.zip
-    source: https://forblitz.ru/modifications/map-restylings/cloudy-map-mod-pack/21495
-  Stock:
-    path: Maps/Themed-Maps/Stock/
+- name: Themed Maps
+  remodels:
+    - name: Cloudy
+      path: Maps/Themed-Maps/Cloudy
+      download: https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps_pc_wg.zip
+      source: https://forblitz.ru/modifications/map-restylings/cloudy-map-mod-pack/21495
+    - name: Evening
+      path: Maps/Themed-Maps/Evening
+      download: https://forblitz.ru/wp-content/uploads/2025/01/evening-maps_pc_wg.zip
+      source: https://forblitz.ru/modifications/map-restylings/twilight-map-mod-pack/21637
+    - name: Stock
+      path: Maps/Themed-Maps/Stock
 
-Fort-Despair:
-  Summer-Fort:
-    path: Maps/FortDespair/Summer-Fort/
-    download: https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip
-    source: https://forblitz.ru/modifications/map-restylings/summer-fort/21561
-  Stock:
-    path: Maps/Fort-Despair/Stock/
+- name: Fort Despair
+  remodels:
+    - name: Summer theme
+      path: Maps/FortDespair/Summer-Fort
+      download: https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip
+      source: https://forblitz.ru/modifications/map-restylings/summer-fort/21561
+    - name: Stock
+      path: Maps/FortDespair/Stock
 
-Molendijk:
-  Sunny-Molendijk:
-    path: Maps/Molendijk/Sunny-Molendijk/
-    download: https://forblitz.ru/wp-content/uploads/2024/08/pc_sunmolendeyk.zip
-    source: https://forblitz.ru/modifications/map-restylings/solnechnyi-molendeik/20549
-  Stock:
-    path: Maps/Molendijk/Stock/
+- name: Molendijk
+  remodels:
+    - name: Sunny theme
+      path: Maps/Molendijk/Sunny-Molendijk
+      download: https://forblitz.ru/wp-content/uploads/2024/08/pc_sunmolendeyk.zip
+      source: https://forblitz.ru/modifications/map-restylings/solnechnyi-molendeik/20549
+    - name: Stock
+      path: Maps/Molendijk/Stock
 
-Vineyards:
-  Evening-Vineyards:
-    path: Maps/Vineyards/Evening-Vineyards/
-    download: https://forblitz.ru/wp-content/uploads/2024/08/22_italy_evening_pc.zip
-    source: https://forblitz.ru/modifications/map-restylings/22_italy_evening_it/20575
-  Stock:
-    path: Maps/Vineyards/Stock/
+- name: Vineyards
+  remodels:
+    - name: Evening theme
+      path: Maps/Vineyards/Evening-Vineyards
+      download: https://forblitz.ru/wp-content/uploads/2024/08/22_italy_evening_pc.zip
+      source: https://forblitz.ru/modifications/map-restylings/22_italy_evening_it/20575
+    - name: Stock
+      path: Maps/Vineyards/Stock
