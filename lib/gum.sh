@@ -10,10 +10,13 @@ avaiable_logo="
    "
 
 function welcome() {
-   local version="$1"
-   local show_version=$(gum format -- "- Game version: *"$version"*")
-   local author=$(gum format -- "- A script by: *thatmfrick*")
-   gum join --vertical "$welcome_logo" "$show_version" "$author" | gum style --border="rounded" --align="center"
+   #local version="$1"
+   clear
+   show_version=$(gum format -- "- Game version: *"x-x-x"*")
+   author=$(gum format -- "- A script by: *thatmfrick*  ")
+   info=$(gum join --vertical "$show_version" "$author")
+   total=$(gum join --vertical --align="center" "$welcome_logo" "$info")
+   gum style --border="rounded" "$total"
 }
 
 function show_info() {

@@ -167,43 +167,37 @@
     - name: Stock
       path: Tanks/European/Minotauro/Stock
 
+#GERMAN
 
-# German:
-#   VK-72:
-#     Panzer-Claus:
-#       path: "Tanks/German/VK-72/Panzer-Claus/"
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278 
-#     Butcher-Joe:
-#       path: "Tanks/German/VK-72/Butcher-Joe/"
-#       download: https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145
-#     Stock:
-#       path: "Tanks/German/VK-72/Stock/"
-    
-#   E-100:
-#     Deus-Ex:
-#       path: Tanks/German/E-100/Deus-Ex/
-#       download: https://forblitz.ru/wp-content/uploads/2022/08/update_e100_deusex_sadabsolution_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-deus-ex/13913
-#     Klarer-Himmel:
-#       path: Tanks/German/E-100/Klarer-Himmel/
-#       download: https://forblitz.ru/wp-content/uploads/2022/06/e100nem-9_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-e100-nemesis/12071  
-#     Rote-Grundierung:
-#       path: Tanks/German/E-100/Rote-Grundierung/
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269  
-#     Nemesis:
-#       path: Tanks/German/E-100/Nemesis/
-#       download: https://forblitz.ru/wp-content/uploads/2023/06/e100_pinny_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-e-100-nemesis/17180  
-#     Nemesis-addon:
-#       path: Tanks/German/E-100/Nemesis-addon/
-#       download: https://drive.usercontent.google.com/download?id=1kUrgbOj3B9sK0MiCFpbeTonvE_dmdkb9&export=download&authuser=1&confirm=t&uuid=085afa3a-5257-4b5b-b13b-7c2861bf954f&at=AENtkXYwGClRUIPN4DDNsoVH1Q-6:1731714220807
-#       source: https://discordapp.com/channels/1122455294988001363/1122581505693208596/1274407892472168488        
-#     Stock:
-#       path: Tanks/German/E-100/Stock/
+#heavy
+
+- name: E 100
+  type: Heavy
+  tier: X
+  nation: German 🍺
+  remodels:
+    - name: Deus Ex
+      path: Tanks/German/E-100/Deus-Ex
+      download: https://forblitz.ru/wp-content/uploads/2022/08/update_e100_deusex_sadabsolution_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-deus-ex/13913
+    - name: Klarer Himmel
+      path: Tanks/German/E-100/Klarer-Himmel
+      download: https://forblitz.ru/wp-content/uploads/2022/06/e100nem-9_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-e100-nemesis/12071  
+    - name: Rote Grundierung
+      path: Tanks/German/E-100/Rote-Grundierung
+      download: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269  
+    - name: Nemesis
+      path: Tanks/German/E-100/Nemesis
+      download: https://forblitz.ru/wp-content/uploads/2023/06/e100_pinny_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-e-100-nemesis/17180  
+    - name: Nemesis addon
+      path: Tanks/German/E-100/Nemesis-addon
+      download: https://drive.usercontent.google.com/download?id=1kUrgbOj3B9sK0MiCFpbeTonvE_dmdkb9&export=download&authuser=1&confirm=t&uuid=085afa3a-5257-4b5b-b13b-7c2861bf954f&at=AENtkXYwGClRUIPN4DDNsoVH1Q-6:1731714220807
+      source: https://discordapp.com/channels/1122455294988001363/1122581505693208596/1274407892472168488        
+    - name: Stock
+      path: Tanks/German/E-100/Stock
   
 #   Maus:
 #     Landkreuzer:
@@ -221,6 +215,18 @@
 #     Stock:
 #       path: Tanks/German/Maus/Stock/
 
+#   VK-72:
+#     Panzer-Claus:
+#       path: "Tanks/German/VK-72/Panzer-Claus/"
+#       download: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0
+#       source: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278 
+#     Butcher-Joe:
+#       path: "Tanks/German/VK-72/Butcher-Joe/"
+#       download: https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip
+#       source: https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145
+#     Stock:
+#       path: "Tanks/German/VK-72/Stock/"
+    
 - name: "Kpz 70"
   type: Heavy
   tier: IX
@@ -320,19 +326,29 @@
 #       download: https://tinyurl.com/brenus-download
 #       source: https://tinyurl.com/brenus  
   
-#   B-C-25t:
-#     Arlequin-Ter:
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217/download/pc-wg/file?_token=x=0
-#       source: https://tinyurl.com/blitzmods
-#     Marengo:
-#       download: https://forblitz.ru/wp-content/uploads/2022/08/updated_batchat_25t_marengo_sadabsolution_steam.zip
-#       source: https://tinyurl.com/forblitz-marengo
-#     Ignis-Purgatio:
-#       download: https://forblitz.ru/wp-content/uploads/2022/10/batchat_ignis_steam.zip
-#       source: https://tinyurl.com/ignis-purgatio
-#     Foudre:
-#       download: https://forblitz.ru/wp-content/uploads/2024/04/bat_chatillon25t_fdr_pc.zip
-#       source: https://tinyurl.com/bc25t-foudre   
+- name: B-C 25 t
+  type: Light
+  tier: X
+  nation: France 🥖
+  remodels:
+    - name: Arlequin Ter
+      path: Tanks/France/B-C_25t/Arlequin-Ter
+      download: https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217/download/pc-wg/file?_token=x=0
+      source: https://tinyurl.com/blitzmods
+    - name: Marengo
+      path: Tanks/France/B-C_25t/Marengo
+      download: https://forblitz.ru/wp-content/uploads/2022/08/updated_batchat_25t_marengo_sadabsolution_steam.zip
+      source: https://tinyurl.com/forblitz-marengo
+    - name: Ignis Purgatio
+      path: Tanks/France/B-C_25t/Ignis-Purgatio
+      download: https://forblitz.ru/wp-content/uploads/2022/10/batchat_ignis_steam.zip
+      source: https://tinyurl.com/ignis-purgatio
+    - name: Foudre
+      path: Tanks/France/B-C_25t/Foudre
+      download: https://forblitz.ru/wp-content/uploads/2024/04/bat_chatillon25t_fdr_pc.zip
+      source: https://tinyurl.com/bc25t-foudre
+    - name: Stock
+      path: Tanks/France/B-C_25t/Stock
   
 - name: Foch 155
   type: Td
@@ -378,14 +394,19 @@
 #       download: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191/download/pc-wg/file?_token=x=0
 #       source: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191
   
-#   Vickers-Light:
-#     Concept-5-TheUnknown:
-#       path: Tanks/GB/Vickers-Light/Concept-5-TheUnknown/
-#       download: https://forblitz.ru/wp-content/uploads/2024/11/vikclight_concept5_forblitz_pc.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206
-#     Stock:
-#       path: Tanks/GB/Vickers-Light/Stock/
-  
+- name: Vickers Light
+  type: Light
+  tier: X
+  nation: GB 🌧️
+  remodels:
+    - name: Concept 5 The Unknown
+      path: Tanks/GB/Vickers-Light/Concept-5-TheUnknown
+      download: https://forblitz.ru/wp-content/uploads/2024/11/vikclight_concept5_forblitz_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206
+    - name: Stock
+      path: Tanks/GB/Vickers-Light/Stock
+
+#TD's
 - name: FV4005
   type: Td
   tier: X
@@ -405,15 +426,23 @@
     source: https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768
   - name: Stock
     path: Tanks/GB/FV4005/Stock
-        
+- name: FV215b 183
+  type: Td
+  tier: X
+  nation: GB 🌧️
+  remodlels:
+    - name: Tesla
+      path: Tanks/GB/FV215b(183)/Tesla
+      download: https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768
+    - name: Stock
+      path: Tanks/GB/FV215b(183)/Stock 
+
 #   FV217-Badger:
 #     Mordred:
 #       download: https://forblitz.ru/wp-content/uploads/2023/01/fv217_badger_mortred_pc.zip
 #       source: https://forblitz.ru/modifications/remodelings/remodeling-fv217-badger-mordred/15078
-#   FV215b-183:
-#       Tesla:
-#         download: https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip
-#         source: https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768 
+
 
 # USSR:
 
@@ -499,36 +528,53 @@
 
 #   Ho-Ri:
 
-# USA:
+# USA
+
+# Heavy
+
+- name: T57 Heavy
+  type: Heavy
+  tier: X
+  nation: USA 🍔
+  remodels:
+    - name: Sworn Brother
+      path: Tanks/USA/T57-Heavy/Sworn-Brother 
+      download: https://drive.usercontent.google.com/download?id=1W0geC0U-YnNZhjsr24gw6qiHMXnCOLaf&export=download&authuser=1&confirm=t&uuid=6ae8c6dc-b7b7-4c8c-9547-5219ca5e1f27&at=AENtkXYVEax_7qKZGRxNVtnDlHwF:1730988003781
+      source: https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640
+    - name: Sharp Rose 
+      path: Tanks/USA/T57-Heavy/Sharp-Rose
+      download: https://forblitz.ru/wp-content/uploads/2023/11/t57_heavy_order_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-t57-heavy-sharp-rose/18588
+    - name: Hellhound 
+      path: Tanks/USA/T57-Heavy/Hellhound
+      download: https://forblitz.ru/wp-content/uploads/2023/02/t57_heavy3dst_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remode/15773
+    - name: Stock
+      path: Tanks/USA/T57-Heavy/Stock
+  
+
 #   T110E5:
 #     MFT-Delta-14:
 #       download: https://blitz-mods.com/mod/remodelings/remodeling-t110e5-mtf-delta-14-165/download/pc-wg/file?_token=x=0
 #       source: https://blitz-mods.com/mod/remodelings/remodeling-t110e5-mtf-delta-14-165
-#   T57-Heavy:
-#     Sworn-Brother: 
-#       download: https://drive.usercontent.google.com/download?id=1W0geC0U-YnNZhjsr24gw6qiHMXnCOLaf&export=download&authuser=1&confirm=t&uuid=6ae8c6dc-b7b7-4c8c-9547-5219ca5e1f27&at=AENtkXYVEax_7qKZGRxNVtnDlHwF:1730988003781
-#       source: https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640
-#     Sharp-Rose: 
-#       download: https://forblitz.ru/wp-content/uploads/2023/11/t57_heavy_order_pc.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-t57-heavy-sharp-rose/18588
-#     Hellhound: 
-#       download: https://forblitz.ru/wp-content/uploads/2023/02/t57_heavy3dst_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remode/15773
-#     Enhanced:
-#       download: https://forblitz.ru/modifications/remodelings/remode/15773
-#       source: https://forblitz.ru/modifications/skins/t57-heavy-s-3-otmetkami-na-stvole/19617
-  
-#   M48-Patton:
-#     Yacin-1500:
-#       path: Tanks/USA/M48-Patton/Yacin-1500/
-#       download: https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154
-#       source: https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850
-#     Thunderbolt:
-#       path: Tanks/USA/M48-Patton/Thunderbolt
-#       download: https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122
-#       source: https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134    
-#     Stock:
-#       path: Tanks/USA/M48-Patton/Stock/
+
+# Mediums
+
+- name: M48 Patton
+  type: Medium
+  tier: X
+  nation: USA 🍔
+  remodels:
+    - name: Yacin 1500
+      path: Tanks/USA/M48-Patton/Yacin-1500
+      download: https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154
+      source: https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850
+    - name: Thunderbolt
+      path: Tanks/USA/M48-Patton/Thunderbolt
+      download: https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122
+      source: https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134    
+    - name: Stock
+      path: Tanks/USA/M48-Patton/Stock/
 
 
 #   XM551-Sheridan:

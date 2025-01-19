@@ -3,30 +3,31 @@ source ../lib/gum.sh
 source ../lib/functions.sh
 
 while true; do
-    version
-    ans=$(echo -e "Install some mods\nMake your own font\nInstall mods only in Data\nQuit the script ❌" | gum choose --header "Choose what you wanna do")
+    #version
+    welcome
+    ans=$(echo -e "$menulist" | gum choose --header "Choose what you wanna do")
     
     case $ans in
-        "Install some mods")
+        "Install some mods ✏️")
             while true; do
                 ans=$(echo -e "$modlist" | gum choose --header "Choose what you wanna do")
                 case "$ans" in
-                    "Tanks")
+                    "Tanks 🚜")
                         selector "$tanksfile"
                         ;;
-                    "Maps")
+                    "Maps 🗺️")
                         selector "$mapsfile"
                         ;;
-                    "Sights")
+                    "Sights 🔭")
                         selector "$sightsfile"
                         ;;
-                    "Hangars")
+                    "Hangars 🏡")
                         selector "$hangarsfile"
                         ;;
-                    "Sounds")
+                    "Sounds 🔊")
                         selector "$soundsfile"
                         ;;
-                    "UI & more")
+                    "UI & more ➕")
                         selector "$uifile"
                         ;;
                     "Go Back 👈")
@@ -35,10 +36,10 @@ while true; do
                 esac
             done
             ;;
-        "Make your own font")
+        "Make your own font 🔤")
             ../lib/./font-maker.sh
             ;;
-        "Install mods only in Data")
+        "Install mods only in Data 📦")
             ../lib/./packs_fix.sh
             ;;
         "Quit the script ❌")

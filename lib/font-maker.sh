@@ -30,18 +30,11 @@ wotbfonts=(
 )
 
 function copy() {
-    echo "coping..."
+    echo "Creating Fonts..."
     for i in ${wotbfonts[@]}; do
         cp ../config/font/"$elem" ../tmp/Fonts/
         mv ../tmp/Fonts/"$elem" ../tmp/Fonts/$i
     done
-}
-
-function compress() {
-    echo "compressing..."
-    cd ../tmp/Fonts
-    dvpl compress &>/dev/null
-    cd ../../lib
 }
 
 function send() {
@@ -53,5 +46,4 @@ echo "Font loaded!"
 }
 
 copy
-compress
 send

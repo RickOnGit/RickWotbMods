@@ -1,7 +1,17 @@
 function selector() {
     local file="$1" category=""
-
-    list=$(yq '.[] | .name' "$file") #tanks etc
+    case "$file" in
+        "$tanksfile")
+            if gum confirm "Use some filters?"; then
+                list=$(tankfilter)
+            else 
+                list=$(yq '.[] | .name' "$file")
+            fi
+            ;;
+        *)
+            list=$(yq '.[] | .name' "$file")
+            ;;
+    esac
     category=$(echo -e "$list\nGo back 👈" | gum choose)
     if [[ "$category" = "Go back 👈" ]]; then
         return 1
@@ -76,11 +86,20 @@ function backup() {
     gum format -t emoji "$model installed :white_check_mark:"
 }
 
-function version() {
-    local temp=$(mktemp -d)
-    cp "$wgdata"/version.txt.dvpl $temp
+function tankfilter() {
+    ans=$(echo -e "$filter" | gum choose --header="Choose what filters you wanna applied")
+    case "$ans" in
+        "Filter by nation")
+            nation=$(echo -e "$nations" | gum choose --header="Choose a nation")
+            echo -e "$(yq -r ".[] | select(.nation == \"$nation\") | .name" "$tanksfile")"
+            ;;
+        "Filter by tier")
+            tier=$(echo -e "$tiers" | gum choose --header="Choose a tier")
+            echo -e "$(yq -r ".[] | select(.tier == \"$tier\") | .name" "$tanksfile")"
+            ;;
+        "Filter by type")
+            type=$(echo -e "$type" | gum choose --header="Choose a type of tank")
+            echo -e "$(yq -r ".[] | select(.type == \"$type\")| .name" "$tanksfile")"
+            ;;
+    esac
 }
-
-# function tankfilter() {
-
-# }
