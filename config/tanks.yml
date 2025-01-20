@@ -170,7 +170,6 @@
 #GERMAN
 
 #heavy
-
 - name: E 100
   type: Heavy
   tier: X
@@ -198,36 +197,42 @@
       source: https://discordapp.com/channels/1122455294988001363/1122581505693208596/1274407892472168488        
     - name: Stock
       path: Tanks/German/E-100/Stock
-  
-#   Maus:
-#     Landkreuzer:
-#       path: Tanks/German/Maus/Landkreuzer/
-#       download: https://forblitz.ru/wp-content/uploads/2023/01/maus_landkreuzer_2024_pc.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-maus-landkreuzer/15446
-#     Project-Zyklop: 
-#       path: Tanks/German/Maus/Project-Zyklop/
-#       download: https://forblitz.ru/wp-content/uploads/2024/03/maus_fever183_steam_auto.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-maus-proekt-zyklop/19437
-#     Wüstenschiff:
-#       path: Tanks/German/Maus/Wüstenschiff/
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-maus-wustenschiff-235/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-maus-wustenschiff-235
-#     Stock:
-#       path: Tanks/German/Maus/Stock/
+- name: VK 72.01
+  type: Heavy
+  tier: X
+  nation: German 🍺
+  remodels:
+    - name: Panzer Claus
+      path: Tanks/German/VK-72/Panzer-Claus
+      download: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278 
+    - name: Butcher Joe
+      path: Tanks/German/VK-72/Butcher-Joe
+      download: https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145
+    - name: Stock
+      path: Tanks/German/VK-72/Stock
+- name: Maus
+  type: Heavy
+  tier: X
+  nation: German 🍺
+  remodels:
+    - name: Landkreuzer
+      path: Tanks/German/Maus/Landkreuzer
+      download: https://forblitz.ru/wp-content/uploads/2023/01/maus_landkreuzer_2024_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-maus-landkreuzer/15446
+    - name: Project Zyklop
+      path: Tanks/German/Maus/Project-Zyklop
+      download: https://forblitz.ru/wp-content/uploads/2024/03/maus_fever183_steam_auto.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-maus-proekt-zyklop/19437
+    - name: Wüstenschiff
+      path: Tanks/German/Maus/Wüstenschiff
+      download: https://blitz-mods.com/mod/remodelings/remodeling-maus-wustenschiff-235/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/remodelings/remodeling-maus-wustenschiff-235
+    - name: Stock
+      path: Tanks/German/Maus/Stock
 
-#   VK-72:
-#     Panzer-Claus:
-#       path: "Tanks/German/VK-72/Panzer-Claus/"
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278 
-#     Butcher-Joe:
-#       path: "Tanks/German/VK-72/Butcher-Joe/"
-#       download: https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145
-#     Stock:
-#       path: "Tanks/German/VK-72/Stock/"
-    
-- name: "Kpz 70"
+- name: Kpz 70
   type: Heavy
   tier: IX
   nation: German 🍺
@@ -238,23 +243,25 @@
       source: https://blitz-mods.com/mod/remodelings/remodeling-kampfpanzer-70-230
     - name: Stock
       path: Tanks/German/Kpz70/Stock
-
-- name: "Tiger II"
+- name: Tiger II
   type: Heavy
   tier: VIII
   nation: German 🍺
   remodels:
-    - name: "Schneide"
+    - name: Schneide
       path: Tanks/German/Tiger-II/Schneide
       download: https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834
       source: https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673
-    - name: "Defender"
+    - name: Defender
       path:
       download:
       source:
     - name: Stock
       path: Tanks/German/Tiger-II/Stock
-  
+
+
+ 
+
 #   E-50M:
 #     Dreadnaught:
 #       download: https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0
@@ -393,7 +400,8 @@
 #     Royal-Engineers:
 #       download: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191/download/pc-wg/file?_token=x=0
 #       source: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191
-  
+
+# Lights
 - name: Vickers Light
   type: Light
   tier: X
@@ -426,17 +434,17 @@
     source: https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768
   - name: Stock
     path: Tanks/GB/FV4005/Stock
-- name: FV215b 183
+- name: "FV215b 183"
   type: Td
   tier: X
   nation: GB 🌧️
-  remodlels:
+  remodels:
     - name: Tesla
-      path: Tanks/GB/FV215b(183)/Tesla
+      path: Tanks/GB/FV215b-183/Tesla
       download: https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip
       source: https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768
     - name: Stock
-      path: Tanks/GB/FV215b(183)/Stock 
+      path: Tanks/GB/FV215b-183/Stock 
 
 #   FV217-Badger:
 #     Mordred:
@@ -445,6 +453,48 @@
 
 
 # USSR:
+#Heavy
+- name: IS-4
+  type: Heavy
+  tier: X
+  nation: USSR 🐻
+  remodels:
+    - name: Triton
+      path: Tanks/USSR/IS-4/Triton
+      download: https://forblitz.ru/wp-content/uploads/2023/03/ussr_is-4_skin_4722345_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-is-4-triton-qq/16404
+    - name: Granite
+      path: Tanks/USSR/IS-4/Granite
+      download: https://blitz-mods.com/mod/remodelings/remodeling-is-4m-granite-244/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/remodelings/remodeling-is-4m-granite-244
+    - name: Stock
+      path: Tanks/USSR/IS-4/Stock
+- name: IS-7
+  type: Heavy
+  tier: X
+  nation: USSR 🐻
+  remodels:
+    - name: Granite
+      path: Tanks/USSR/IS-7/Granite
+      download: https://forblitz.ru/wp-content/uploads/2024/01/is-7_granit_forblitz_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-is-7-granit/19064
+    - name: Rhyolite
+      path: Tanks/USSR/IS-7/Rhyolite
+      download: https://forblitz.ru/wp-content/uploads/2023/12/is7_rhyolit_forblitz_pc.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-is-7-rhyolite/18793
+    - name: Stock
+      path: Tanks/USSR/IS-7/Stock
+- name: Obj.777 II
+  type: Heavy
+  tier: X
+  nation: USSR 🐻
+  remodels:
+    - name: Enhanced
+      path: Tanks/USSR/Obj.777-II/Enhanced
+      download: https://drive.usercontent.google.com/download?id=1sPcM6cFRdzQ5e7Mze5P51v0GFh68TAU1&export=download&authuser=1&confirm=t&uuid=c716da11-119c-446d-bad6-84798cc4b083&at=AENtkXbndpx6FuztWGWJe8j8_J2x:1730993399618
+      source: https://discord.com/channels/174448788436549632/254137952215498762/1113017406193930290
+    - name: Stock
+      path: Tanks/USSR/Obj.777-II/Stock
 
 - name: Obj. 268
   type: Td
@@ -462,26 +512,6 @@
     - name: Stock
       path: Tanks/USSR/Obj.268/Stock
 
-
-
-#   IS-4:
-#     Triton: 
-#       download: https://forblitz.ru/wp-content/uploads/2023/03/ussr_is-4_skin_4722345_steam.zip
-#       source: null        
-#     Granite: 
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-is-4m-granite-244/download/pc-wg/file?_token=x=0
-#       source: null
-#   IS-7:
-#     Granite-Figurines: 
-#       download: https://forblitz.ru/wp-content/uploads/2024/01/is-7_granit_forblitz_pc.zip
-#       source: null
-#     Rhyolite: 
-#       download: https://forblitz.ru/wp-content/uploads/2023/12/is7_rhyolit_forblitz_pc.zip
-#       source: null
-#   Obj-777-II:
-#     Enhanced:
-#       download: https://drive.usercontent.google.com/download?id=1sPcM6cFRdzQ5e7Mze5P51v0GFh68TAU1&export=download&authuser=1&confirm=t&uuid=c716da11-119c-446d-bad6-84798cc4b083&at=AENtkXbndpx6FuztWGWJe8j8_J2x:1730993399618
-#       source: https://discord.com/channels/174448788436549632/254137952215498762/1113017406193930290
 
 #   T-62A:
 #   Obj-907:
@@ -503,17 +533,32 @@
 #   Obj-268-v4:
 #   Obj-263:
 
-# China:
+# CHINA
+
+#Heavy
 #   WZ-113:
 #   BZ-75:
 
-#   WZ-121:
-#     IceBreaker:
-#       download: https://drive.usercontent.google.com/download?id=1jKGP1cDmolFhzRb80hTt1t1AE95iQS_L&export=download&authuser=1&confirm=t&uuid=3cb7bf57-9f01-4331-81c6-c46107d4b157&at=AENtkXbwVCaK0jqgZhgyvZ3VHqn8:1730988166122
-#       source: null
-#     Monkey-King:
-#       download: https://forblitz.ru/wp-content/uploads/2023/02/wz121_monkeyking_forblitz_steam.zip
-#       source: 
+# Mediums
+- name: WZ-121
+  type: Medium
+  tier: X
+  nation: China 🐉
+  remodels:
+    - name: IceBreaker
+      path: Tanks/China/WZ-121/IceBreaker
+      download: https://drive.usercontent.google.com/download?id=1jKGP1cDmolFhzRb80hTt1t1AE95iQS_L&export=download&authuser=1&confirm=t&uuid=3cb7bf57-9f01-4331-81c6-c46107d4b157&at=AENtkXbwVCaK0jqgZhgyvZ3VHqn8:1730988166122
+      source: https://discord.com/channels/1122455294988001363/1124342475872546826/1125778851809726595
+    - name: Monkey King
+      path: Tanks/China/WZ-121/Monkey-King
+      download: https://forblitz.ru/wp-content/uploads/2023/02/wz121_monkeyking_forblitz_steam.zip
+      source: https://forblitz.ru/modifications/remodelings/remodeling-121-korol-obezyan/16308
+    - name: Milky
+      path: Tanks/China/WZ-121/Milky
+      download: https://drive.usercontent.google.com/download?id=16mfCp9DohmQnZ7OKRfH_5tgheLUOgdg5&export=download&authuser=1&confirm=t&uuid=373038c6-538f-4401-80a3-e45bf65b111a&at=AENtkXZFFnh6YVWPW0JH-U-2Ya_4:1731854886399
+    - name: Stock
+      path: Tanks/China/WZ-121/Stock
+
 #   WZ-121B:
 
 #   WZ-132-1:
@@ -531,7 +576,6 @@
 # USA
 
 # Heavy
-
 - name: T57 Heavy
   type: Heavy
   tier: X
@@ -559,7 +603,6 @@
 #       source: https://blitz-mods.com/mod/remodelings/remodeling-t110e5-mtf-delta-14-165
 
 # Mediums
-
 - name: M48 Patton
   type: Medium
   tier: X

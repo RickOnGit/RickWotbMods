@@ -1,90 +1,103 @@
-Battle-UI:
-  Minimap:
-    Coloured-Minimap:
-      download: https://forblitz.ru/wp-content/uploads/2024/08/pc_bbminimap-1.zip
-      source: https://forblitz.ru/modifications/interface/tsvetnye-mini-karty-v-stile-bb/20538
+- name: Mod packs
+  remodels:
+    - name: Deortep's BB modpack
+      path: Ui-Other/Modpacks/DeortepBB
+      download: https://forblitz.ru/wp-content/uploads/2024/11/dortebb-3.2_pc_wg.zip
+      source: https://forblitz.ru/modifications/modpacks/dortebb-modpack-in-the-style-of-the-old-bb/21142
+    - name: DeltBlitz's BB modpack
+      path: Ui-Other/Modpacks/DeltBlitzBB
+      download: https://blitz-mods.com/files/EBB51A8B08CF6F72D45B66CF9B32BD75/WOT%20PC%20Modpack%20for%20World%20of%20tanks%20Blitz%2019.01.2025.zip
+      source: https://blitz-mods.com/mod/modpacks/steam-wgc-wot-pc-modpack-for-world-of-tanks-blitz-285
+    - name: Stock
+      path: Ui-Other/Stock
 
-    Minimap-Radar:
-      download: https://forblitz.ru/wp-content/uploads/2022/12/radar_bb_steam-1.zip
-      source: https://forblitz.ru/modifications/interface/radar-krugi-zasveta-na-mini-karte-iz-b/14972
+# Battle-UI:
+#   Minimap:
+#     Coloured-Minimap:
+#       download: https://forblitz.ru/wp-content/uploads/2024/08/pc_bbminimap-1.zip
+#       source: https://forblitz.ru/modifications/interface/tsvetnye-mini-karty-v-stile-bb/20538
 
-  Ribbons:
-    Modern-Ribbons:
-      download: https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148
+#     Minimap-Radar:
+#       download: https://forblitz.ru/wp-content/uploads/2022/12/radar_bb_steam-1.zip
+#       source: https://forblitz.ru/modifications/interface/radar-krugi-zasveta-na-mini-karte-iz-b/14972
+
+#   Ribbons:
+#     Modern-Ribbons:
+#       download: https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg/file?_token=x=0
+#       source: https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148
     
-    WOT-Ribbons:
-      download: https://drive.usercontent.google.com/download?id=1NT5TH8rm8yLu4MRKOjJA_3JYn6u_pAqx&export=download&authuser=1&confirm=t&uuid=4f320a2a-f83f-42fc-b99f-cfc34f74e8d7&at=APvzH3r3VvgcFnglqoenwOBfi12Z:1735811692159
-      source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307476239103295570
+#     WOT-Ribbons:
+#       download: https://drive.usercontent.google.com/download?id=1NT5TH8rm8yLu4MRKOjJA_3JYn6u_pAqx&export=download&authuser=1&confirm=t&uuid=4f320a2a-f83f-42fc-b99f-cfc34f74e8d7&at=APvzH3r3VvgcFnglqoenwOBfi12Z:1735811692159
+#       source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307476239103295570
   
-  Tank-elements:
-    WOT-6th-sense:
-      download: https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41
-    Improved-Dirt: 
-      download: https://drive.usercontent.google.com/download?id=1IWZrgKWXTzvscRhWhG5JF6qfH7zFA2BD&export=download&authuser=1&confirm=t&uuid=2b61de94-5284-47dc-8a36-ee63bacd30bb&at=AENtkXYh7Z-MAebx0Qljk1mS5SR0:1731192553712
-      source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
-    Coloured-HitMarks:
-      download: https://drive.usercontent.google.com/download?id=1LCDd76xWmLX5QYLcpCw_5fNjaB_7dU6D&export=download&authuser=1&confirm=t&uuid=89c63b0d-8862-4b15-b726-631310d4958e&at=APvzH3oXXhyoZchLtf_ygLiAYQNK:1735653594722
-      source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
-    White-Destroyed:
-      download: https://drive.usercontent.google.com/download?id=18r3Quf4qWESemoP-54zxutn566oE9MO8&export=download&authuser=1&confirm=t&uuid=ae2c04e5-2bbd-4c0b-b56d-7ff95fed93b9&at=APvzH3qRk93326qfr1wfIHh7nzDY:1736164869195
-      source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
-    Zoom-Out:
-      download: https://drive.usercontent.google.com/download?id=1vM3qcIqWT5H7vki-qzsGICn8LaXHUYau&export=download&authuser=1&confirm=t&uuid=4081bfb4-7a85-4f1b-a530-330c4b6e4cba&at=APvzH3r2gB8I4DOKQnr6imH_xryl:1735997097603
-      source: null
+#   Tank-elements:
+#     WOT-6th-sense:
+#       download: https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82/download/pc-wg/file?_token=x=0
+#       source: https://blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41
+#     Improved-Dirt: 
+#       download: https://drive.usercontent.google.com/download?id=1IWZrgKWXTzvscRhWhG5JF6qfH7zFA2BD&export=download&authuser=1&confirm=t&uuid=2b61de94-5284-47dc-8a36-ee63bacd30bb&at=AENtkXYh7Z-MAebx0Qljk1mS5SR0:1731192553712
+#       source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
+#     Coloured-HitMarks:
+#       download: https://drive.usercontent.google.com/download?id=1LCDd76xWmLX5QYLcpCw_5fNjaB_7dU6D&export=download&authuser=1&confirm=t&uuid=89c63b0d-8862-4b15-b726-631310d4958e&at=APvzH3oXXhyoZchLtf_ygLiAYQNK:1735653594722
+#       source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
+#     White-Destroyed:
+#       download: https://drive.usercontent.google.com/download?id=18r3Quf4qWESemoP-54zxutn566oE9MO8&export=download&authuser=1&confirm=t&uuid=ae2c04e5-2bbd-4c0b-b56d-7ff95fed93b9&at=APvzH3qRk93326qfr1wfIHh7nzDY:1736164869195
+#       source: https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550
+#     Zoom-Out:
+#       download: https://drive.usercontent.google.com/download?id=1vM3qcIqWT5H7vki-qzsGICn8LaXHUYau&export=download&authuser=1&confirm=t&uuid=4081bfb4-7a85-4f1b-a530-330c4b6e4cba&at=APvzH3r2gB8I4DOKQnr6imH_xryl:1735997097603
+#       source: null
   
-  Other:
-    Ears:
-      download: https://forblitz.ru/wp-content/uploads/2022/03/ears_steam_9_6_pc.zip
-      source: https://forblitz.ru/modifications/interface/interface-ears/11299
-    Info-Panel:
-      download: https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_pc.zip
-      source: https://forblitz.ru/modifications/interface/info-panel-expanding-warfare/10657
+#   Other:
+#     Ears:
+#       download: https://forblitz.ru/wp-content/uploads/2022/03/ears_steam_9_6_pc.zip
+#       source: https://forblitz.ru/modifications/interface/interface-ears/11299
+#     Info-Panel:
+#       download: https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_pc.zip
+#       source: https://forblitz.ru/modifications/interface/info-panel-expanding-warfare/10657
 
-Lobby-UI:
-  Tanks-Stuff:
-    Extended-TechTree:
-      download: https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90
-    WOT-Shells:
-      download: https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip
-      source: https://forblitz.ru/modifications/interface/ikonki-snaryadov-iz-bb/14633
-    Wot-Equipement:
-      download: https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip
-      source: https://forblitz.ru/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581
-    WOT-Modules:
-      download: https://forblitz.ru/wp-content/uploads/2024/08/hd1_modules_bb_pc.zip
-      source: https://forblitz.ru/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611
-    Random-Tank-Picker:
-      download: https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_pc_wg.zip
-      source: https://forblitz.ru/modifications/interface/knopka-vybora-sluchainogo-tanka-tolk/19085
+# Lobby-UI:
+#   Tanks-Stuff:
+#     Extended-TechTree:
+#       download: https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0
+#       source: https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90
+#     WOT-Shells:
+#       download: https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip
+#       source: https://forblitz.ru/modifications/interface/ikonki-snaryadov-iz-bb/14633
+#     Wot-Equipement:
+#       download: https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip
+#       source: https://forblitz.ru/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581
+#     WOT-Modules:
+#       download: https://forblitz.ru/wp-content/uploads/2024/08/hd1_modules_bb_pc.zip
+#       source: https://forblitz.ru/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611
+#     Random-Tank-Picker:
+#       download: https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_pc_wg.zip
+#       source: https://forblitz.ru/modifications/interface/knopka-vybora-sluchainogo-tanka-tolk/19085
   
-  Stats:
-    Rank-to-Mastery:
-      download: https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_pc_wg.zip
-      source: https://forblitz.ru/modifications/interface/zamena-rangov-na-masterstvo/18989
-    Blitz-Stats:
-      download: https://get.blitzinsider.com/blitz-insider-session-mod-pc-11.4.0_2024-12-19-12-32.zip
-      source: https://discord.com/channels/1278635245700120630/1279016368548872233/1279016785185869907
-    Statistic-Carousel:
-      download: https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip
-      source: https://forblitz.ru/modifications/interface/statistics-in-the-carousel/20781
+#   Stats:
+#     Rank-to-Mastery:
+#       download: https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_pc_wg.zip
+#       source: https://forblitz.ru/modifications/interface/zamena-rangov-na-masterstvo/18989
+#     Blitz-Stats:
+#       download: https://get.blitzinsider.com/blitz-insider-session-mod-pc-11.4.0_2024-12-19-12-32.zip
+#       source: https://discord.com/channels/1278635245700120630/1279016368548872233/1279016785185869907
+#     Statistic-Carousel:
+#       download: https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip
+#       source: https://forblitz.ru/modifications/interface/statistics-in-the-carousel/20781
   
-  Storage:
-    Compact-Storage:
-      download: https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_pc_wg.zip
-      source: https://forblitz.ru/modifications/interface/kompaktnoe-khranilishche/19185
-    WOT-Boosters:
-      download: https://forblitz.ru/wp-content/uploads/2023/10/bb_boosters_icons_pc_10_7.zip
-      source: https://forblitz.ru/modifications/interface/ikonki-busterov-iz-bb/14871
+#   Storage:
+#     Compact-Storage:
+#       download: https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_pc_wg.zip
+#       source: https://forblitz.ru/modifications/interface/kompaktnoe-khranilishche/19185
+#     WOT-Boosters:
+#       download: https://forblitz.ru/wp-content/uploads/2023/10/bb_boosters_icons_pc_10_7.zip
+#       source: https://forblitz.ru/modifications/interface/ikonki-busterov-iz-bb/14871
 
 
-Other:
-  Camo:
-    Camo-unlocker:
-      path: Other/Camo/Camo-unlocker/
-      download: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274
-    Stock:
-      path: Other/Stock/
+# Other:
+#   Camo:
+#     Camo-unlocker:
+#       path: Other/Camo/Camo-unlocker/
+#       download: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274/download/pc-wg/file?_token=x=0
+#       source: https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274
+#     Stock:
+#       path: Other/Stock/
