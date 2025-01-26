@@ -272,30 +272,36 @@
 #     Nimmermer:
 #       download: https://forblitz.ru/wp-content/uploads/2022/12/nimmermer_steam.zip
 #       source: https://forblitz.ru/modifications/remodelings/remodeling-nimmermer-e-50m/14928
-  
-#   Leopard-1:
-#     Mexas:
-#       path: Tanks/German/Leopard-1/Mexas/
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209
-#     Reiter:
-#       path: Tanks/German/Leopard-1/Reiter/
-#       download: https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip
-#       source: https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553
-#     Mirny-13:
-#       path: Tanks/German/Leopard-1/Mirny-13/
-#       download: https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip
-#       source: https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540
-#     1a1:
-#       path: Tanks/German/Leopard-1/1a1/
-#       download: https://drive.usercontent.google.com/download?id=1Dcu7EMk4XMOplHd0EI6t-6-svzb9zxzr&export=download&authuser=1&confirm=t&uuid=86e4a6de-b474-4ca9-a769-6dab9e9e3dda&at=AENtkXZJ2vC1QouzEFmjgoAc4x2:1730989957853
-#       source: null
-#     Lion:
-#       path: Tanks/German/Leopard-1/Lion/
-#       download: https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=572466e0-a84e-4690-a419-7d4805a6912b&at=AENtkXbVmafZScttTY6NUZnb62y:1730988335022
-#       source: null
-#     Stock:
-#       path: Tanks/German/Leopard-1/Stock/a
+
+# mediums
+- name: Leopard 1
+
+  type: Medium
+  tier: X
+  nation: German 🍺
+  remodels:
+    - name: Mexas
+      path: Tanks/German/Leopard-1/Mexas
+      download: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209
+    - name: Reiter
+      path: Tanks/German/Leopard-1/Reiter
+      download: https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip
+      source: https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553
+    - name: Mirny 13
+      path: Tanks/German/Leopard-1/Mirny-13
+      download: https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip
+      source: https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540
+    - name: 1a1
+      path: Tanks/German/Leopard-1/1a1
+      download: https://drive.usercontent.google.com/download?id=1Dcu7EMk4XMOplHd0EI6t-6-svzb9zxzr&export=download&authuser=1&confirm=t&uuid=86e4a6de-b474-4ca9-a769-6dab9e9e3dda&at=AENtkXZJ2vC1QouzEFmjgoAc4x2:1730989957853
+      source: null
+    - name: Lion
+      path: Tanks/German/Leopard-1/Lion
+      download: https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=572466e0-a84e-4690-a419-7d4805a6912b&at=AENtkXbVmafZScttTY6NUZnb62y:1730988335022
+      source: null
+    - name: Stock
+      path: Tanks/German/Leopard-1/Stock
   
 - name: Grille 15
   type: Td
@@ -401,6 +407,19 @@
 #       download: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191/download/pc-wg/file?_token=x=0
 #       source: https://blitz-mods.com/mod/remodelings/remodeling-chimera-royal-engineers-191
 
+# Mediums
+- name: Defender Mk.1
+  type: Medium
+  tier: VIII
+  nation: GB 🌧️
+  remodels:
+    - name: Realistic
+      path: Tanks/GB/Defender-Mk1/Realistic
+      download: https://blitz-mods.com/mod/skins/skin-centurion-mkiii-ep-defender-167/download/pc-wg/file?_token=x=0
+      source: https://blitz-mods.com/mod/skins/skin-centurion-mkiii-ep-defender-167
+    - name: Stock
+      path: Tanks/GB/Defender-Mk1/Stock
+
 # Lights
 - name: Vickers Light
   type: Light
@@ -434,7 +453,7 @@
     source: https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768
   - name: Stock
     path: Tanks/GB/FV4005/Stock
-- name: "FV215b 183"
+- name: FV215b 183
   type: Td
   tier: X
   nation: GB 🌧️

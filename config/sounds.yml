@@ -44,3 +44,4 @@
       source: https://discord.com/channels/1137353382919675934/1307463765750714498/1307463765750714498
     - name: Stock
       path: Sounds/UI/Stock/
+      load: false

@@ -38,8 +38,9 @@ function selector() {
         fi
         local path=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .path" $file)
         local stock=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .path" $file)
+        local load=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .load" $file)
         local download=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .download" $file)
-        downloader "$path" "$stock" "$download" "$element"
+        downloader "$path" "$stock" "$download" "$element" "$load"
     done
 }
 
@@ -48,6 +49,7 @@ function downloader() {
     local stock_path="$mywotb/$2"
     IFS=$'\n' read -r -d '' -a selected_download <<< "$3"
     local model="$4"
+    local load="$5"
     for i in "${!selected_path[@]}"; do
         path="$mywotb/${selected_path[$i]}"
         link="${selected_download[$i]}"
@@ -64,7 +66,7 @@ function downloader() {
         fi
 
         if gum confirm "Install $model ?"; then
-            install "$stock_path" "$path" "$model" "$link"
+            install "$stock_path" "$path" "$model" "$link" "$load"
         fi
     done
 }
@@ -74,9 +76,10 @@ function install() {
     local path="$2"
     local model="$3"
     local link="$4"
-    if [ ! -d "$stock_path" ]; then
+    local load="$5"
+    if [[ ! -d "$stock_path" ]] || [[ "$load" == false ]]; then
         backup "$path" "$stock_path" "$model"
-    else 
+    else
         rsync -a "$stock_path/" "$wgdata/"
         backup "$path" "$stock_path" "$model"
     fi
@@ -110,7 +113,7 @@ function backup() {
 
     gum spin -s "minidot" --title "Installing $model" -- sleep 2
     rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wgdata/"
-    rsync -a --ignore-existing "$backup_dir/" "$stock_dir"
+    rsync -au "$backup_dir/" "$stock_dir"
 
     rm -rf "$backup_dir"
     gum format -t emoji "$model installed :white_check_mark:"
