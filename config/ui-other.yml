@@ -4,10 +4,10 @@
       path: UI/Modpacks/DeortepBB
       download: https://forblitz.ru/wp-content/uploads/2024/11/dortebb-3.2_pc_wg.zip
       source: https://forblitz.ru/modifications/modpacks/dortebb-modpack-in-the-style-of-the-old-bb/21142
-    - name: DeltBlitz's BB modpack
-      path: UI/Modpacks/DeltBlitzBB
-      download: https://blitz-mods.com/files/EBB51A8B08CF6F72D45B66CF9B32BD75/WOT%20PC%20Modpack%20for%20World%20of%20tanks%20Blitz%2019.01.2025.zip
-      source: https://blitz-mods.com/mod/modpacks/steam-wgc-wot-pc-modpack-for-world-of-tanks-blitz-285
+    - name: Rick's BB modpack
+      path: UI/Modpacks/RickBBpack
+      download: https://drive.usercontent.google.com/download?id=1dcTbSdNefhlNuI9Q83jlfpd0Ajzv8XBR&export=download&authuser=0&confirm=t&uuid=495657f4-ab74-4f29-86d6-4236e9064fc7&at=AIrpjvMWcygGls0o_7xq9qmZx9pH:17379075950341
+      source: not provided
     - name: Stock
       path: UI/Stock
       load: false
