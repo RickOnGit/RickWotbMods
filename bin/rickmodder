@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+source $HOME/RickWotbMods/lib/game.env
+source $HOME/RickWotbMods/lib/user.env
+source $HOME/RickWotbMods/lib/functions.sh
+
+while true; do
+    ans=$(echo -e "Tanks\nMaps\nHangars\nSounds\nSights\nUI\nQuit" | gum choose --header "Select a category to mod 👇")
+
+    case "$ans" in
+        "Tanks")
+            selector "$tanksfile" "tanks"
+            ;;
+        "Maps")
+            selector "$mapsfile"
+            ;;
+        "Hangars")
+            selector "$hangarsfile"
+            ;;
+        "Sounds")
+            selector "$soundsfile"
+            ;;
+        "Sights")
+            selector "$sightsfile"
+            ;;
+        "UI")
+            selector "$uifile"
+            ;;
+        "Quit")
+            clear; break
+            ;;
+    esac
+done

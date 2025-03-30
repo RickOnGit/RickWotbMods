@@ -1,0 +1,76 @@
+{
+  "tanks": [
+    {
+      "name": "BZ-75",
+      "nation": "China",
+      "tier": "X",
+      "class": "Heavy",
+      "mods": [
+        {
+          "name": "Divine Valor",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-divine-valor-239",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-divine-valor-239/download/pc-wg/file?_token=x=0"
+        },
+        {
+          "name": "MBT-75 Jù Lóng",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-mbt-75-ju-long-282",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-mbt-75-ju-long-282/download/pc-wg/file?_token=x=0"
+        },
+        {
+          "name": "BZ-75 Cho-Ko-Ko-Nu",
+          "site": "https://forblitz.ru/modifications/remodelings/bz-75-cho-ko-nu/21270",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/bz-75_pc_wg.zip"
+        }
+      ]
+    },
+    {
+      "name": "WZ-113",
+      "nation": "China",
+      "tier": "X",
+      "class": "Heavy",
+      "mods": [
+        {
+          "name": "Realistic",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "WZ-121",
+      "nation": "China",
+      "tier": "X",
+      "class": "Medium",
+      "mods": [
+        {
+          "name": "King of Monkeys",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-wz121-korol-obezyan/16296",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/wz121_monkeyking_forblitz_steam.zip"
+        },
+        {
+          "name": "IceBreaker",
+          "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1125778851809726595",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1jKGP1cDmolFhzRb80hTt1t1AE95iQS_L&export=download&authuser=1&confirm=t&uuid=3cb7bf57-9f01-4331-81c6-c46107d4b157&at=AENtkXbwVCaK0jqgZhgyvZ3VHqn8:1730988166122"
+        },
+		{
+			"name": "Milky",
+			"site": "https://discord.com/channels/998886261005750354/998962868806483988/1050494600814542889",
+			"pc_wg": "https://drive.usercontent.google.com/download?id=16mfCp9DohmQnZ7OKRfH_5tgheLUOgdg5&export=download&authuser=1&confirm=t&uuid=373038c6-538f-4401-80a3-e45bf65b111a&at=AENtkXZFFnh6YVWPW0JH-U-2Ya_4:1731854886399" 
+		}
+      ]
+    },
+    {
+      "name": "WZ-114",
+      "nation": "China",
+      "tier": "IX",
+      "class": "Heavy",
+      "mods": [
+        {
+          "name": "Tiger Claw",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-wz-114-tiger-claw/15668",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/wz114_ct_sadabsolution_windows.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -548,49 +548,6 @@
 #     Stock:
 #       path: Tanks/USSR/T-100-LT/Stock/
 
-  
-#   Obj-268-v4:
-#   Obj-263:
-
-# CHINA
-
-#Heavy
-#   WZ-113:
-#   BZ-75:
-
-# Mediums
-- name: WZ-121
-  type: Medium
-  tier: X
-  nation: China 🐉
-  remodels:
-    - name: IceBreaker
-      path: Tanks/China/WZ-121/IceBreaker
-      download: https://drive.usercontent.google.com/download?id=1jKGP1cDmolFhzRb80hTt1t1AE95iQS_L&export=download&authuser=1&confirm=t&uuid=3cb7bf57-9f01-4331-81c6-c46107d4b157&at=AENtkXbwVCaK0jqgZhgyvZ3VHqn8:1730988166122
-      source: https://discord.com/channels/1122455294988001363/1124342475872546826/1125778851809726595
-    - name: Monkey King
-      path: Tanks/China/WZ-121/Monkey-King
-      download: https://forblitz.ru/wp-content/uploads/2023/02/wz121_monkeyking_forblitz_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-121-korol-obezyan/16308
-    - name: Milky
-      path: Tanks/China/WZ-121/Milky
-      download: https://drive.usercontent.google.com/download?id=16mfCp9DohmQnZ7OKRfH_5tgheLUOgdg5&export=download&authuser=1&confirm=t&uuid=373038c6-538f-4401-80a3-e45bf65b111a&at=AENtkXZFFnh6YVWPW0JH-U-2Ya_4:1731854886399
-    - name: Stock
-      path: Tanks/China/WZ-121/Stock
-
-#   WZ-121B:
-
-#   WZ-132-1:
-
-#   WZ-113G-FT:
-#     Enhanced:
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-wz-113g-ft-203/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-wz-113g-ft-203#google_vignette
-
-# Japan:  
-#   STB-1:
-
-#   Ho-Ri:
 
 # USA
 

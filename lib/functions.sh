@@ -1,99 +1,45 @@
-function selector() {
-    local file="$1" category=""
-    case "$file" in
-        "$tanksfile")
-            if gum confirm "Use some filters?"; then
-                list=$(tankfilter)
-            else 
-                list=$(yq '.[] | .name' "$file")
-            fi
-            ;;
-        *)
-            list=$(yq '.[] | .name' "$file")
-            ;;
-    esac
-    category=$(echo -e "$list\nGo back 👈" | gum choose)
-    if [[ "$category" = "Go back 👈" ]]; then
-        return 1
-    fi
-    show_info "$category" "$file"
-    local stock_path=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .path" $file)
-    if [ ! -d "$mywotb/$stock_path" ]; then
-        local modlist=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name != \"Stock\") | .name" "$file")
-    else 
-        local modlist=$(yq ".[] | select(.name == \"$category\") | .remodels[] | .name" "$file")
-    fi
+#!/usr/bin/env bash
 
-    modlist=$(echo -e "$modlist\nGo back 👈")
-    local selected=$(echo "$modlist" | gum choose --no-limit --header="Choose what you wanna install")
-    IFS=$'\n' read -r -d '' -a selected_mods <<< "$selected"
-    
-    for element in "${selected_mods[@]}"; do
-        if [[ "$element" = "Go back 👈" ]]; then
-            return 1
-        elif [[ "$element" = "Stock" ]]; then
-            rsync -a "$mywotb/$stock_path/" "$wgdata/"
-            gum format -t emoji "$element applied :heavy_check_mark:"
-            continue
-        fi
-        local path=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .path" $file)
-        local stock=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .path" $file)
-        local load=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"Stock\") | .load" $file)
-        local download=$(yq ".[] | select(.name == \"$category\") | .remodels[] | select(.name == \"$element\") | .download" $file)
-        downloader "$path" "$stock" "$download" "$element" "$load"
-    done
+declare -A links  
+
+function selector() {
+    local file="$1"
+    local category="$2"
+
+    selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element), \($modName)"' "$file" | gum choose --no-limit)
+
+    while IFS=', ' read -r element modName; do
+        link=$(jq -r --arg category "$category" --arg element "$element" --arg modName "$modName" --arg downloadLink "$platform" \
+            '.[$category][] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
+
+        links["$element,$modName"]="$link" 
+    done <<< "$selected"
+
+    downloader
 }
 
 function downloader() {
-    IFS=$'\n' read -r -d '' -a selected_path <<<"$1"
-    local stock_path="$mywotb/$2"
-    IFS=$'\n' read -r -d '' -a selected_download <<< "$3"
-    local model="$4"
-    local load="$5"
-    for i in "${!selected_path[@]}"; do
-        path="$mywotb/${selected_path[$i]}"
-        link="${selected_download[$i]}"
-
-        mkdir -p "$path"
-        if [ "$(ls -A $path)" ]; then
-            gum format -t emoji "$model already downloaded :package: on $(cat "$path/downloaded.txt")"
-            if gum confirm "Redownload $model"; then
-                rm -rf "$path"/*
-                download "$path" "$model"
-            fi
-        else
-            download "$path" "$model"
-        fi
-
-        if gum confirm "Install $model ?"; then
-            install "$stock_path" "$path" "$model" "$link" "$load"
-        fi
+    for key in "${!links[@]}"; do
+        downloadLink="${links[$key]}"
+        baseModelName=$(echo "$key" | cut -d',' -f1)
+        modName=$(echo "$key" | cut -d',' -f2)
+        download "$baseModelName" "$modName" "$downloadLink" 
+        unset "links[$key]"
     done
 }
 
-function install() {
-    local stock_path="$1"
-    local path="$2"
-    local model="$3"
-    local link="$4"
-    local load="$5"
-    if [[ ! -d "$stock_path" ]] || [[ "$load" == false ]]; then
-        backup "$path" "$stock_path" "$model"
-    else
-        rsync -a "$stock_path/" "$wgdata/"
-        backup "$path" "$stock_path" "$model"
-    fi
-}
-
 function download() {
-    local path="$1"
-    local model="$2"
-    gum spin -s "minidot" --title "Downloading $model..." -- curl -L "$link" -o "$path"/"$model".download
-    gum spin -s "minidot" --title "Extracting $model..." -- 7z x "$path"/"$model".download -o"$path"
-    rm "$path"/*.download
-    mod_fix "$path"
-    echo "$(date)" > "$path"/downloaded.txt
-    gum format -t emoji "$model downloaded & extracted :heavy_check_mark:"
+    baseModelName="$1"
+    modName="$2"
+    downloadLink="$3"
+    temp_dir=$(mktemp -d)
+    gum spin -s "minidot" --title "Downloading $modName for $baseModelName" -- curl -L "$downloadLink" -o "$temp_dir"/"$modName".download
+    gum spin -s "minidot" --title "Extracting $modName..." -- 7z x "$temp_dir"/"$modName".download -o"$temp_dir"
+    rm "$temp_dir"/*.download
+    mod_fix "$temp_dir"
+    gum format -t emoji "$modName downloaded & extracted :heavy_check_mark:"
+    installer "$temp_dir" "$modName"
+    rm -r "$temp_dir"
 }
 
 function mod_fix() {
@@ -103,36 +49,15 @@ function mod_fix() {
         mv "$path"/* "$path"/Data 2>/dev/null
     fi
 }
-        
-function backup() {
+
+function installer() {
     local source_dir="$1"
-    local stock_dir="$2"
-    local model="$3"
+    local model="$2"
     local backup_dir=$(mktemp -d)
-    mkdir -p "$stock_dir"
-
+    
     gum spin -s "minidot" --title "Installing $model" -- sleep 2
-    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wgdata/"
-    rsync -au "$backup_dir/" "$stock_dir"
-
+    rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wotbData/"
+    rsync -au "$backup_dir/" "$wotbBackup"
     rm -rf "$backup_dir"
-    gum format -t emoji "$model installed :white_check_mark:"
-}
-
-function tankfilter() {
-    ans=$(echo -e "$filter" | gum choose --header="Choose what filters you wanna applied")
-    case "$ans" in
-        "Filter by nation 🏳️")
-            nation=$(echo -e "$nations" | gum choose --header="Choose a nation")
-            echo -e "$(yq -r ".[] | select(.nation == \"$nation\") | .name" "$tanksfile")"
-            ;;
-        "Filter by tier 🔢")
-            tier=$(echo -e "$tiers" | gum choose --header="Choose a tier")
-            echo -e "$(yq -r ".[] | select(.tier == \"$tier\") | .name" "$tanksfile")"
-            ;;
-        "Filter by type 📁")
-            type=$(echo -e "$type" | gum choose --header="Choose a type of tank")
-            echo -e "$(yq -r ".[] | select(.type == \"$type\")| .name" "$tanksfile")"
-            ;;
-    esac
+    gum format -t emoji "$modName installed :white_check_mark:"
 }
