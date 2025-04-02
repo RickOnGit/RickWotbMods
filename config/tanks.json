@@ -1,10 +1,82 @@
 {
-  "tanks": [
+  "Tanks": [
+    {
+      "name": "Sheridan",
+      "nation": "U.S.A.",
+      "type": "Light",
+      "tier": "X",
+      "fileName": "A116_XM551",
+      "mods": [
+        {
+          "name": "Salamander",
+          "site": "https://forblitz.ru/modifications/remodelings/xm551-sheridan-salamander/15094",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/sheridan_salamander_steam.zip"
+        },
+        {
+          "name": "Condor",
+          "site": "https://discord.com/channels/174448788436549632/254137952215498762/1102834817961312266",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1Bi3Yonq2Gw8127YZnROlr2hj-fGDYgTW&export=download&authuser=1&confirm=t&uuid=b0d004f2-58f3-44ad-863f-9d17851eb730&at=AENtkXYwQ3NPBtVmbULXbAoYsxxZ:1730981040440"
+        }
+      ]
+    },
+    {
+      "name": "Sheridan Missle",
+      "nation": "U.S.A.",
+      "type": "Light",
+      "tier": "X",
+      "fileName": "A116_XM551_Exp",
+      "mods": [
+        {
+          "name": "Enhanced",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "M48 Patton",
+      "nation": "U.S.A.",
+      "type": "Medium",
+      "tier": "X",
+      "fileName": "M48A1_Patton",
+      "mods": [
+        {
+          "name": "Yacin 1500",
+          "site": " https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154"
+        },
+        {
+          "name": "Thunderbolt",
+          "site": " https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122"
+        }
+      ]
+    },
+    {
+      "name": "T57 Heavy",
+      "nation": "U.S.A.",
+      "tier": "X",
+      "class": "Heavy",
+      "fileName": "T57_58",
+      "mods": [
+        {
+          "name": "Hellhoud",
+          "site": "https://forblitz.ru/modifications/remodelings/remode/15773",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/t57_heavy3dst_steam.zip"
+        },
+        {
+          "name": "Sworn Brother",
+          "site": "https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1W0geC0U-YnNZhjsr24gw6qiHMXnCOLaf&export=download&authuser=1&confirm=t&uuid=6ae8c6dc-b7b7-4c8c-9547-5219ca5e1f27&at=AENtkXYVEax_7qKZGRxNVtnDlHwF:1730988003781"
+        }
+      ]
+    },
     {
       "name": "BZ-75",
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
+      "fileName": "Ch48_BZ_75",
       "mods": [
         {
           "name": "Divine Valor",
@@ -17,7 +89,7 @@
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-mbt-75-ju-long-282/download/pc-wg/file?_token=x=0"
         },
         {
-          "name": "BZ-75 Cho-Ko-Ko-Nu",
+          "name": "Cho-Ko-Ko-Nu",
           "site": "https://forblitz.ru/modifications/remodelings/bz-75-cho-ko-nu/21270",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/bz-75_pc_wg.zip"
         }
@@ -28,6 +100,7 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
+      "fileName": "wz_113",
       "mods": [
         {
           "name": "Realistic",
@@ -41,6 +114,7 @@
       "nation": "China",
       "tier": "X",
       "class": "Medium",
+      "fileName": "121",
       "mods": [
         {
           "name": "King of Monkeys",
@@ -64,6 +138,7 @@
       "nation": "China",
       "tier": "IX",
       "class": "Heavy",
+      "fileName": "Ch45_WZ_114",
       "mods": [
         {
           "name": "Tiger Claw",

@@ -2,20 +2,33 @@
 
 declare -A links  
 
-function selector() {
+function selectorMods() {
     local file="$1"
     local category="$2"
 
-    selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element), \($modName)"' "$file" | gum choose --no-limit)
+    selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element)|\($modName)"' "$file" | gum choose --no-limit)
 
-    while IFS=', ' read -r element modName; do
-        link=$(jq -r --arg category "$category" --arg element "$element" --arg modName "$modName" --arg downloadLink "$platform" \
-            '.[$category][] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
-
+    while IFS='|' read -r element modName; do
+        link=$(jq -r --arg category "$category" --arg element "$element" --arg modName "$modName" --arg downloadLink "$platform" '.[$category][] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
+        
         links["$element,$modName"]="$link" 
     done <<< "$selected"
 
     downloader
+}
+
+function selectorOriginal() {
+    local file="$1"
+    local category="$2"
+    
+    originalSelected=$(jq -r --arg category "$category" '.[$category][] | .name' "$file" | gum choose --no-limit)
+    
+    IFS=$'\n' read -r -d '' -a tanks <<< "$originalSelected"
+    for tank in "${tanks[@]}"; do
+      fileName=$(jq -r --arg name "$tank" '.Tanks[] | select(.name == $name) | .fileName // "N/A"' "$file")
+      rsync -av --include='*/' --include="$fileName*" --exclude='*' "$wotbTanksBackup" "$wotbTanksData"
+      gum format -t emoji "$tank's original files applied :heavy_check_mark:"
+    done
 }
 
 function downloader() {
@@ -33,7 +46,7 @@ function download() {
     modName="$2"
     downloadLink="$3"
     temp_dir=$(mktemp -d)
-    gum spin -s "minidot" --title "Downloading $modName for $baseModelName" -- curl -L "$downloadLink" -o "$temp_dir"/"$modName".download
+    gum spin -s "minidot" --title "Downloading $modName for $baseModelName" -- curl -L -v "$downloadLink" -o "$temp_dir"/"$modName".download
     gum spin -s "minidot" --title "Extracting $modName..." -- 7z x "$temp_dir"/"$modName".download -o"$temp_dir"
     rm "$temp_dir"/*.download
     mod_fix "$temp_dir"

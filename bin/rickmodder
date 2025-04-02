@@ -5,29 +5,21 @@ source $HOME/RickWotbMods/lib/user.env
 source $HOME/RickWotbMods/lib/functions.sh
 
 while true; do
-    ans=$(echo -e "Tanks\nMaps\nHangars\nSounds\nSights\nUI\nQuit" | gum choose --header "Select a category to mod 👇")
+  ans=$(echo -e "$menu" | gum choose --header "Select a category to mod 👇")
 
-    case "$ans" in
-        "Tanks")
-            selector "$tanksfile" "tanks"
-            ;;
-        "Maps")
-            selector "$mapsfile"
-            ;;
-        "Hangars")
-            selector "$hangarsfile"
-            ;;
-        "Sounds")
-            selector "$soundsfile"
-            ;;
-        "Sights")
-            selector "$sightsfile"
-            ;;
-        "UI")
-            selector "$uifile"
-            ;;
-        "Quit")
-            clear; break
-            ;;
-    esac
+  case "$ans" in
+    "Tanks")
+      if gum confirm "Choose what to do:" --affirmative "Install mods" --negative "Restore original files"; then
+        selectorMods "$tanksfile" "$ans"
+      else
+        selectorOriginal "$tanksfile" "$ans"
+      fi
+      ;;
+    "Sounds")
+      selector "$soundsfile" "$ans"
+      ;;
+    "Quit")
+      clear; break
+      ;;
+  esac
 done
