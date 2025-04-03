@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-source RickWotbMods/lib/game.env
+source ../lib/env/game.env
 
 mkdir -p "$wotbBackup"
 
-shell=$(gum choose ".bashrc\n.zshrc")
+sudo cp rickmodder /usr/local/bin
 
-echo "alias rickmodder='/usr/local/bin/RickWotbMods/bin/rickmodder'" >> $HOME/"$shell"
+sudo mv ~/RickWotbMods /opt 2>/dev/null
+exit
