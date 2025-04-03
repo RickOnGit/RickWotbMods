@@ -2,7 +2,7 @@
 
 - A "simple" tui script written in bash for installing and backing-up tons of mods quickly and with 0 effort.
 
-# Compability (Steam only):
+# Compatibility (Steam only):
 
 - Linux ✅
 - Android 🔜
