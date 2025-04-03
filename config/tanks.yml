@@ -358,7 +358,6 @@
       source: https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-alesha-popovich/19012
     - name: Stock
       path: Tanks/USSR/Obj.268/Stock
-
 #   T-100LT:
 #     Enhanced:
 #       path: Tanks/USSR/T-100-LT/Enhanced/
@@ -380,25 +379,6 @@
 #       download: ttps://drive.usercontent.google.com/download?id=1Osd9ShPOMmo5bQJnIbrk4V0eOvNW6pNV&export=download&authuser=0&confirm=t&uuid=1d38fb20-7343-49ab-a472-75b788541958&at=AENtkXb3Lpn9jO3poQl1YXPR3wGf:1730886397473
 #       source: https://discord.com/channels/174448788436549632/254137952215498762/1011710957346619432
 
-- name: "T110E4"
-  type: Td
-  tier: X
-  nation: USA 🍔
-  remodels:
-    - name: Freight Train
-      path: Tanks/USA/T110E4/Freigh-Train
-      download: https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242
-    - name: Freight Train addon
-      path: Tanks/USA/T110E4/Freigh-Train-addon
-      download: https://drive.usercontent.google.com/download?id=1t3Rdy0K4-QrSZKKVFCCOxxbCH5EUO93K&export=download&authuser=1&confirm=t&uuid=08fd93da-5835-4bb3-9738-229f99d1e154&at=AENtkXb7jKlWn5vsmsjiJT95bnfd:1731714306505
-      source: https://discord.com/channels/1122455294988001363/1122581505693208596/1280402574306185291
-    - name: Major Ram
-      path: Tanks/USA/T110E4/Major-Ram/
-      download: https://forblitz.ru/wp-content/uploads/2022/08/t110e4_major_ram_sadabsolution_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860
-    - name: Stock
-      path: Tanks/USA/T110E4/Stock
 #   T30:
 #     Assault-Kit:
 #       download: https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip

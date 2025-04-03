@@ -72,6 +72,30 @@
       ]
     },
     {
+      "name": "T110E4",
+      "nation": "U.S.A.",
+      "tier": "X",
+      "class": "TD",
+      "fileName": "T110E4",
+      "mods": [
+        {
+          "name": "Freigh Train",
+          "site": "https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242/download/pc-wg/file?_token=x=0"
+        },
+        {
+          "name": "Freigh Train addon",
+          "site": "https://discord.com/channels/1122455294988001363/1122581505693208596/1280402574306185291",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1t3Rdy0K4-QrSZKKVFCCOxxbCH5EUO93K&export=download&authuser=1&confirm=t&uuid=08fd93da-5835-4bb3-9738-229f99d1e154&at=AENtkXb7jKlWn5vsmsjiJT95bnfd:1731714306505"
+        },
+        {
+          "name": "Major Ram",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/t110e4_major_ram_sadabsolution_steam.zip"
+        }
+      ]
+    },
+    {
       "name": "BZ-75",
       "nation": "China",
       "tier": "X",
