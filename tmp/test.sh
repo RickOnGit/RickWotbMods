@@ -1,15 +1,15 @@
 #!/bin/bash
 
-source ../lib/var.env
+# Imposta la stringa di input
+input="BZ-75, Divine Valor"
+IFS=','
 
-tier=$(echo -e "$tiers" | gum choose --header="Choose a tier")
+# Leggi gli elementi in un array
+read -ra elements <<< "$input"
 
-tank=$(yq -r ".[] | select(.tier == \"$tier\") | \"\(.name) (\(.nation)) (\(.type))\"" "$tanksfile" | gum choose --header="Filtered elements for tier: $tier")
-
-nation=$(echo -e "$nations" | gum choose --header="Choose a nation")
-
-tank=$(yq -r ".[] | select(.nation == \"$nation\")" "$tanksfile" | gum choose --header="Filtered elements for nation: $nation")
-
-type=$(echo -e "$type" | gum choose --header="Choose a type of tank")
-
-tank=$(yq -r ".[] | select(.type == \"$type\") | \"\(.name) (\(.tier)) (\(.nation))\"" "$tanksfile" | gum choose --header="Filtered elements for type: $type")
+# Stampa gli elementi rimuovendo gli spazi
+for element in "${elements[@]}"; do
+    # Usa 'xargs' per rimuovere gli spazi all'inizio e alla fine
+    trimmed_element=$(echo "$element" | xargs)
+    echo "$trimmed_element"
+done

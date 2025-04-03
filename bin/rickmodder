@@ -16,7 +16,7 @@ while true; do
       fi
       ;;
     "Sounds")
-      selector "$soundsfile" "$ans"
+      selectorMods "$soundsfile" "$ans"
       ;;
     "Quit")
       clear; break
