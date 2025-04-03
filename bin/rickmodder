@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-source $HOME/RickWotbMods/lib/game.env
-source $HOME/RickWotbMods/lib/user.env
-source $HOME/RickWotbMods/lib/functions.sh
+source /opt/RickWotbMods/lib/env/game.env
+source /opt/RickWotbMods/lib/env/user.env
+source /opt/RickWotbMods/lib/functions/functions.sh
 
 while true; do
   ans=$(echo -e "$menu" | gum choose --header "Select a category to mod 👇")
