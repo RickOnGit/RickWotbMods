@@ -1,4 +1,4 @@
-# Welcome to my Wotb script
+# Welcome to my Wotb modding script
 
 - A "simple" tui script written in bash for installing and backing-up tons of mods quickly and with 0 effort.
 
@@ -14,13 +14,14 @@
 - Gum Charm (https://github.com/charmbracelet/gum)
 - rsync (https://github.com/RsyncProject/rsync)
 - 7z (https://www.7-zip.org/download.html)
-  _Those dependencies are necessaries for using the script (on linux 7z and rsync are often shipped by default)_
+
+NOTE: _Those dependencies are necessaries for using the script (on linux 7z and rsync are often shipped by default)_
 
 # Installation
 
-1. Clone the repository in `usr/local/bin`
+1. Clone the repository (in home)
 2. From the terminal run: `cd RickWotbMods/bin; ./setup.sh`
-   - setup.sh will create the backup folder, and add the main script (_rickmooder_) to /usr/bin
+   - setup.sh will create the backup folder, and add the main script (_rickmooder_) to `/usr/ilocal/bin`
 3. Just run `rickmodder` anywhere in the shell and start downloading mods !!.
 
 # P.S.
