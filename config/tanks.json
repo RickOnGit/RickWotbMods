@@ -170,6 +170,25 @@
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/wz114_ct_sadabsolution_windows.zip"
         }
       ]
+    },
+    {
+      "name": "WZ-122 TM",
+      "nation": "China",
+      "tier": "VIII",
+      "class": "Medium",
+      "fileName": "Ch43_WZ-122_2",
+      "mods": [
+        {
+          "name": "Special Guest",
+          "site": "https://discordapp.com/channels/174448788436549632/254137952215498762/973464837134901268",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1_17B4bJTmAYfLZqyqD--tsiQWHSIED9L&export=download&authuser=1&confirm=t&uuid=cc84d928-74c3-44d4-8567-afbcd6e6b627&at=APcmpoxdhtSYjx9vWHyCVb5oQNOr:1743760720793"
+        },
+        {
+          "name": "WZ-1224E",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198/download/pc-wg/file?_token=x=0"
+        }
+      ]
     }
   ]
 }
