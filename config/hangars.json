@@ -1,0 +1,14 @@
+{
+  "Hangars": [
+    {
+      "name": "Custom hangar",
+      "mods": [
+        {
+          "name": "Cave",
+          "site": "https://forblitz.ru/modifications/hangars/hangar-igr-qh/16491",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip"
+        }
+      ]
+    }
+  ]
+}
