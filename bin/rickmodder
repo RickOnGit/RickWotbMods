@@ -18,6 +18,9 @@ while true; do
     "Sounds")
       selectorMods "$soundsfile" "$ans"
       ;;
+    "Hangars")
+      selectorMods "$hangarsfile" "$ans"
+      ;;
     "Quit")
       clear; break
       ;;
