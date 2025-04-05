@@ -21,13 +21,15 @@ function selectorMods() {
 function selectorOriginal() {
   local file="$1"
   local category="$2"
+  local backupDir="$3"
+  local destDir="$4"
 
   originalSelected=$(jq -r --arg category "$category" '.[$category][] | .name' "$file" | gum choose --no-limit)
 
   IFS=$'\n' read -r -d '' -a ogElems <<< "$originalSelected"
   for elem in "${ogElems[@]}"; do
     fileName=$(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .fileName // "N/A"' "$file")
-    rsync -a --include='*/' --include="$fileName*" --exclude='*' "$wotbTanksBackup" "$wotbTanksData"
+    rsync -a --include='*/' --include="$fileName*" --exclude='*' "$backupDir" "$destDir"
     gum format -t emoji "$elem's original files applied :heavy_check_mark:"
   done
 }
@@ -37,7 +39,7 @@ function downloader() {
     downloadLink="${links[$key]}"
     baseModelName=$(echo "$key" | cut -d',' -f1)
     modName=$(echo "$key" | cut -d',' -f2)
-    download "$baseModelName" "$modName" "$downloadLink" 
+    download "$baseModelName" "$modName" "$downloadLink"
     unset "links[$key]"
   done
 }

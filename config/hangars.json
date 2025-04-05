@@ -1,12 +1,22 @@
 {
   "Hangars": [
     {
-      "name": "Custom hangar",
+      "name": "Custom hangars",
       "mods": [
         {
           "name": "Cave",
           "site": "https://forblitz.ru/modifications/hangars/hangar-igr-qh/16491",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip"
+        }
+      ]
+    },
+    {
+      "name": "Old hangars",
+      "mods": [
+        {
+          "name": "2018 Premium",
+          "site": "https://forblitz.ru/en/modifications/hangars/angar/20302",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangar_prem_2018-1_pc_wg.zip"
         }
       ]
     }
