@@ -1,17 +1,6 @@
 #EUROPEAN
 
 #heavy
-- name: Rinoceronte
-  type: Heavy
-  tier: X
-  nation: Italy 🍝
-  remodels:
-    - name: Nyx
-      path: Tanks/European/Rinoceronte/Nyx
-      download: https://blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263
-    - name: Stock
-      path: Tanks/European/Rinoceronte/Stock
 - name: Kranvagn
   type: Heavy
   tier: X
@@ -48,40 +37,6 @@
       path: Tanks/European/Škoda-T56/Stock
 
 #mediums
-- name: Progetto 65
-  type: Medium
-  tier: X
-  nation: Italy 🍝
-  remodels:
-    - name: Patriottismo
-      path: Tanks/European/Progetto-65/Patriottismo
-      download: https://blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139
-    - name: Enhanced
-      path: Tanks/European/Progetto-65/Enhanced
-      download: https://drive.usercontent.google.com/download?id=1RZE5jRABAkKAKHPj4U-ke1SniIiicSHY&export=download&authuser=1&confirm=t&uuid=7763fea3-bf4f-42b3-ae9a-6bb0fbc50815&at=AENtkXbbIOayQYS4CUxhOUPBajhV:1732279061099
-      source: https://discordapp.com/channels/998886261005750354/998962868806483988/1142208258514358295
-    - name: Aquilifer
-      path: Tanks/European/Progetto-65/Aquilifer
-      download: https://forblitz.ru/wp-content/uploads/2022/04/prog9_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-progetto-m40-mod-65/11491
-    - name: Stock
-      path: Tanks/European/Progetto-65/Stock
-- name: TVP T 50/51
-  type: Medium
-  tier: X
-  nation: Czechia 🦁
-  remodels:
-    - name: Enhanced
-      path: Tanks/European/TVP-T-50.51/Enhanced
-      download: https://drive.usercontent.google.com/download?id=1fDvh-MefrhlErEG9Jq-RuqNUgj8i1EgH&export=download&authuser=1&confirm=t&uuid=e3f69f6b-60f1-45d1-bdac-013fea867d05&at=AENtkXYs9bIvpJ6J1SE7lx8rlxDF:1730990072958
-      source: https://discordapp.com/channels/998886261005750354/998962868806483988/1243521244515667968
-    - name: Storm
-      path: Tanks/European/TVP-T-50.51/Storm
-      download: https://forblitz.ru/wp-content/uploads/2023/11/tvp_50_51_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-shtorm/18738
-    - name: Stock
-      path: Tanks/European/TVP-T-50.51/Stock
 - name: "Škoda T 27"
   type: Medium
   tier: VIII
@@ -93,34 +48,6 @@
       source: https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258
     - name: Stock
       path: Tanks/European/Škoda-T27/Stock
-- name: Carro 45t
-  type: Medium
-  tier: X
-  nation: Italy 🍝
-  remodels:
-    - name: Proserpina
-      path: Tanks/European/Carro-45t/Proserpina
-      download: https://drive.usercontent.google.com/download?id=1pop6Gtr5odse8Dqfx_OOG1uuqUgLMC9N&export=download&authuser=1&confirm=t&uuid=dc9189bd-38b4-47a6-8148-4b6b7cd26cf2&at=AENtkXZ5tbVihneBvqnnSJ0e1uzW:1730993286083
-      source: https://discordapp.com/channels/174448788436549632/254137952215498762/1140385731219566642
-    - name: Stock
-      path: Tanks/European/Carro-45t/Stock
-
-#tds
-- name: Minotauro
-  type: Td
-  tier: X
-  nation: Italy 🍝
-  remodels:
-    - name: Centauro
-      path: Tanks/European/Minotauro/Centauro
-      download: https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184
-    - name: Bufalo
-      path: Tanks/European/Minotauro/Bufalo
-      download: https://drive.usercontent.google.com/download?id=1rgw-kpGbhLNOF-C7fQ_08ASsgnEJ-Ni3&export=download&authuser=1&confirm=t&uuid=1e95dc97-0f78-4afa-ba6a-022eb2f10f20&at=AENtkXYBHTO8-ppyIOYguBF9QNwe:1731713405264
-      source: https://discordapp.com/channels/998886261005750354/998962868806483988/1076269105964916889
-    - name: Stock
-      path: Tanks/European/Minotauro/Stock
 
 #GERMAN
 

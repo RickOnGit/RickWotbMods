@@ -67,7 +67,7 @@
         {
           "name": "Sworn Brother",
           "site": "https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1W0geC0U-YnNZhjsr24gw6qiHMXnCOLaf&export=download&authuser=1&confirm=t&uuid=6ae8c6dc-b7b7-4c8c-9547-5219ca5e1f27&at=AENtkXYVEax_7qKZGRxNVtnDlHwF:1730988003781"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1fpiojMmo6L-oV01Pd6X85_mAlnh4qDZ2&export=download&authuser=1&confirm=t&uuid=6a270c41-180b-4886-a36f-9f2b6f80716d&at=APcmpoyt0GjP8qglbHy8vBl-9xzn:1744061395704"
         }
       ]
     },
@@ -92,6 +92,20 @@
           "name": "Major Ram",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/t110e4_major_ram_sadabsolution_steam.zip"
+        }
+      ]
+    },
+    {
+      "name": "T30",
+      "nation": "U.S.A.",
+      "tier": "IX",
+      "class": "TD",
+      "fileName": "T30",
+      "mods": [
+        {
+          "name": "Assault kit",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-countdown-t30/13870",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip"
         }
       ]
     },
@@ -187,6 +201,116 @@
           "name": "WZ-1224E",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "TVP T 50/51",
+      "nation": "Czechia",
+      "tier": "X",
+      "class": "Medium",
+      "fileName": "Cz04_T50_51",
+      "mods": [
+        {
+          "name": "HD",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-hd/19357",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/tvp50_51_hd_forblitz_pc-1.zip"
+        },
+        {
+          "name": "RETEZX and RETEZ (by Adamantium)",
+          "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1243521244515667968",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1fDvh-MefrhlErEG9Jq-RuqNUgj8i1EgH&export=download&authuser=1&confirm=t&uuid=e3f69f6b-60f1-45d1-bdac-013fea867d05&at=AENtkXYs9bIvpJ6J1SE7lx8rlxDF:1730990072958"
+        },
+        {
+          "name": "Storm",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-shtorm/18738",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/11/tvp_50_51_steam.zip"
+        }
+      ]
+    },
+    {
+      "name": "Carro 45t",
+      "nation": "Italy",
+      "tier": "X",
+      "class": "Medium",
+      "fileName": "It20_Car_Comb_45t",
+      "mods": [
+        {
+          "name": "Proserpina",
+          "site": "https://discordapp.com/channels/174448788436549632/254137952215498762/1140385731219566642",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1pop6Gtr5odse8Dqfx_OOG1uuqUgLMC9N&export=download&authuser=1&confirm=t&uuid=dc9189bd-38b4-47a6-8148-4b6b7cd26cf2&at=AENtkXZ5tbVihneBvqnnSJ0e1uzW:1730993286083"
+        },
+        {
+          "name": "HD",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-carro-45t-hd/19500",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/carro_45t_hd_forblitz_pc.zip"
+        }
+      ]
+    },
+    {
+      "name": "Progetto 65",
+      "nation": "Italy",
+      "tier": "X",
+      "class": "Medium",
+      "fileName": "It08_Progetto_M40_mod_65",
+      "mods": [
+        {
+          "name": "HD",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-progetto-65-hd/19986",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/05/progetto_65_hd_forblitz_01052024_pc.zip"
+        },
+        {
+          "name": "Aquilifer",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-progetto-m40-mod-65/11491",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/04/prog9_steam.zip"
+        },
+        {
+          "name": "Patriottismo",
+          "site": "https://www.blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139",
+          "pc_wg": "https://blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139/download/pc-wg/file?_token=x=0"
+        },
+        {
+          "name": "Enhanced (by Adamantium)",
+          "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1142208258514358295",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1RZE5jRABAkKAKHPj4U-ke1SniIiicSHY&export=download&authuser=1&confirm=t&uuid=7763fea3-bf4f-42b3-ae9a-6bb0fbc50815&at=AENtkXbbIOayQYS4CUxhOUPBajhV:1732279061099"
+        }
+      ]
+    },
+    {
+      "name": "Rinoceronte",
+      "nation": "Italy",
+      "tier": "X",
+      "class": "Heavy",
+      "fileName": "It115_Rinoceronte",
+      "mods": [
+        {
+          "name": "Nyx",
+          "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg",
+          "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "Minotauro",
+      "nation": "Heavy",
+      "tier": "X",
+      "class": "TD",
+      "fileName": "It21_Controcarro3_Minotauro",
+      "mods": [
+        {
+          "name": "HD",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-minotauro-hd/20217",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/06/minotauro_hd_forblitz_01052024_pc.zip"
+        },
+        {
+          "name": "Bufalo",
+          "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1076269105964916889",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1rgw-kpGbhLNOF-C7fQ_08ASsgnEJ-Ni3&export=download&authuser=1&confirm=t&uuid=1e95dc97-0f78-4afa-ba6a-022eb2f10f20&at=AENtkXYBHTO8-ppyIOYguBF9QNwe:1731713405264"
+        },
+        {
+          "name": "Centauro",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184/download/pc-wg/file?_token=x=0"
         }
       ]
     }

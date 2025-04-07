@@ -19,9 +19,14 @@
       "name": "Hangar UI mods",
       "mods": [
         {
-          "name": "2 level carousel (with statistics on tiles)",
-          "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel-with-statistics-on-tiles/21627",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_pc_wg.zip"
+          "name": "Statistics in Carousels",
+          "site": "https://forblitz.ru/modifications/interface/statistics-in-the-carousel/20781",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip"
+        },
+        {
+          "name": "Extended Tech Tree",
+          "site": "https://www.blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90",
+          "pc_wg": "https://www.blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0"
         }
       ]
     }
