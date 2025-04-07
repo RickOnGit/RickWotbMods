@@ -29,7 +29,7 @@ function selectorOriginal() {
   IFS=$'\n' read -r -d '' -a ogElems <<< "$originalSelected"
   for elem in "${ogElems[@]}"; do
     fileName=$(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .fileName // "N/A"' "$file")
-    rsync -a --include='*/' --include="$fileName*" --exclude='*' "$backupDir" "$destDir"
+    rsync -a --include='*/' --include="*$fileName*" --exclude='*' "$backupDir" "$destDir"
     gum format -t emoji "$elem's original files applied :heavy_check_mark:"
   done
 }
