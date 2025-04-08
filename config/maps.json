@@ -14,6 +14,36 @@
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps_pc_wg.zip"
         }
       ]
+    },
+    {
+      "name": "Dynasty's Pearl",
+      "mods": [
+        {
+          "name": "Night",
+          "site": "https://forblitz.ru/modifications/map-restylings/pearl-city-at-night/22479",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/night-grossberg_pc.zip"
+        }
+      ]
+    },
+    {
+      "name": "Canal",
+      "mods": [
+        {
+          "name": "Autumn",
+          "site": "https://forblitz.ru/modifications/map-restylings/autumn-channel/21684",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/autumn-canal_pc.zip"
+        }
+      ]
+    },
+    {
+      "name": "Hellas",
+      "mods": [
+        {
+          "name": "Evening",
+          "site": "https://forblitz.ru/modifications/map-restylings/evening-hellas/22165",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/evening-hellas_pc.zip"
+        }
+      ]
     }
   ]
 }
