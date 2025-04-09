@@ -21,7 +21,7 @@ NOTE: _Those dependencies are necessaries for using the script (on linux 7z and 
 
 1. Clone the repository (in home)
 2. From the terminal run: `cd RickWotbMods/bin; ./setup.sh`
-   - setup.sh will create the backup folder, and add the main script (_rickmooder_) to `/usr/ilocal/bin`
+   - setup.sh will create the backup folder, and add the main script (_rickmooder_) to `/usr/local/bin`
 3. Just run `rickmodder` anywhere in the shell and start downloading mods !!.
 
 # P.S.
