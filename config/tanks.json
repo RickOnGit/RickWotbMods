@@ -5,7 +5,7 @@
       "nation": "U.S.A.",
       "type": "Light",
       "tier": "X",
-      "fileName": "A116_XM551",
+      "backupItems": ["A116_XM551"],
       "mods": [
         {
           "name": "Salamander",
@@ -24,7 +24,7 @@
       "nation": "U.S.A.",
       "type": "Light",
       "tier": "X",
-      "fileName": "A116_XM551_Exp",
+      "backupItems": ["A116_XM551_Exp"],
       "mods": [
         {
           "name": "Enhanced",
@@ -38,7 +38,7 @@
       "nation": "U.S.A.",
       "type": "Medium",
       "tier": "X",
-      "fileName": "M48A1_Patton",
+      "backupItems": ["M48A1_Patton"],
       "mods": [
         {
           "name": "Yacin 1500",
@@ -57,7 +57,7 @@
       "nation": "U.S.A.",
       "tier": "X",
       "class": "Heavy",
-      "fileName": "T57_58",
+      "backupItems": ["T57_58"],
       "mods": [
         {
           "name": "Hellhoud",
@@ -76,7 +76,7 @@
       "nation": "U.S.A.",
       "tier": "X",
       "class": "TD",
-      "fileName": "T110E4",
+      "backupItems": ["T110E4"],
       "mods": [
         {
           "name": "Freigh Train",
@@ -100,7 +100,7 @@
       "nation": "U.S.A.",
       "tier": "IX",
       "class": "TD",
-      "fileName": "T30",
+      "backupItems": ["T30"],
       "mods": [
         {
           "name": "Assault kit",
@@ -114,7 +114,7 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
-      "fileName": "Ch48_BZ_75",
+      "backupItems": ["Ch48_BZ_75"],
       "mods": [
         {
           "name": "Divine Valor",
@@ -138,7 +138,7 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
-      "fileName": "wz_113",
+      "backupItems": ["wz_113"],
       "mods": [
         {
           "name": "Realistic",
@@ -152,7 +152,7 @@
       "nation": "China",
       "tier": "X",
       "class": "Medium",
-      "fileName": "121",
+      "backupItems": ["121"],
       "mods": [
         {
           "name": "King of Monkeys",
@@ -176,7 +176,7 @@
       "nation": "China",
       "tier": "IX",
       "class": "Heavy",
-      "fileName": "Ch45_WZ_114",
+      "backupItems": ["Ch45_WZ_114"],
       "mods": [
         {
           "name": "Tiger Claw",
@@ -190,7 +190,7 @@
       "nation": "China",
       "tier": "VIII",
       "class": "Medium",
-      "fileName": "Ch43_WZ-122_2",
+      "backupItems": ["Ch43_WZ-122_2"],
       "mods": [
         {
           "name": "Special Guest",
@@ -209,7 +209,7 @@
       "nation": "Czechia",
       "tier": "X",
       "class": "Medium",
-      "fileName": "Cz04_T50_51",
+      "backupItems": ["Cz04_T50_51"],
       "mods": [
         {
           "name": "HD",
@@ -233,7 +233,7 @@
       "nation": "Italy",
       "tier": "X",
       "class": "Medium",
-      "fileName": "It20_Car_Comb_45t",
+      "backupItems": ["It20_Car_Comb_45t"],
       "mods": [
         {
           "name": "Proserpina",
@@ -252,7 +252,7 @@
       "nation": "Italy",
       "tier": "X",
       "class": "Medium",
-      "fileName": "It08_Progetto_M40_mod_65",
+      "backupItems": ["It08_Progetto_M40_mod_65"],
       "mods": [
         {
           "name": "HD",
@@ -281,7 +281,7 @@
       "nation": "Italy",
       "tier": "X",
       "class": "Heavy",
-      "fileName": "It115_Rinoceronte",
+      "backupItems": ["It115_Rinoceronte"],
       "mods": [
         {
           "name": "Nyx",
@@ -295,7 +295,7 @@
       "nation": "Heavy",
       "tier": "X",
       "class": "TD",
-      "fileName": "It21_Controcarro3_Minotauro",
+      "backupItems": ["It21_Controcarro3_Minotauro"],
       "mods": [
         {
           "name": "HD",
@@ -311,6 +311,30 @@
           "name": "Centauro",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "Kranvagn",
+      "nation": "Sweden",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["S16_Kranvagn"],
+      "mods": [
+        {
+          "name": "Trettonde",
+          "pc_wg": "https://www.blitz-mods.com/mod/remodelings/kranvagn-trettonde-240/download/pc-wg/file?_token=x=0",
+          "site": "https://www.blitz-mods.com/mod/remodelings/kranvagn-trettonde-240"
+        },
+        {
+          "name": "Trettonde addon",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=15VT6uOn1YO4K2vK4mtQnKnK5c3PjBQYr&export=download&authuser=1&confirm=t&uuid=4eb64303-1714-416d-9a4f-e3060e8dd6ab&at=AENtkXb4XJR4MQ1eOIX5d3L3fGTs:1731154689785",
+          "site": "https://discordapp.com/channels/1122455294988001363/1122581505693208596/1291021627689013260"
+        },
+        {
+          "name": "Hjälpkran",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257"
         }
       ]
     }

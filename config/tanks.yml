@@ -1,25 +1,6 @@
 #EUROPEAN
 
 #heavy
-- name: Kranvagn
-  type: Heavy
-  tier: X
-  nation: Sweden 🫎
-  remodels:
-    - name: Trettonde
-      path: Tanks/European/Kranvagn/Trettonde
-      download: https://blitz-mods.com/mod/remodelings/kranvagn-trettonde-240/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/kranvagn-trettonde-240
-    - name: Trettonde addon
-      path: Tanks/European/Kranvagn/Trettonde-addon
-      download: https://drive.usercontent.google.com/download?id=15VT6uOn1YO4K2vK4mtQnKnK5c3PjBQYr&export=download&authuser=1&confirm=t&uuid=4eb64303-1714-416d-9a4f-e3060e8dd6ab&at=AENtkXb4XJR4MQ1eOIX5d3L3fGTs:1731154689785
-      source: https://discordapp.com/channels/1122455294988001363/1122581505693208596/1291021627689013260
-    - name: "Hjälpkran"
-      path: "Tanks/European/Kranvagn/Hjälpkran"
-      download: https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257
-    - name: Stock
-      path: Tanks/European/Kranvagn/Stock
 - name: Škoda T 56
   type: Heavy
   tier: VIII
