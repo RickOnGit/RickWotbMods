@@ -25,11 +25,20 @@ function selectorOriginal() {
   local destDir="$4"
 
   originalSelected=$(jq -r --arg category "$category" '.[$category][] | .name' "$file" | gum choose --no-limit)
+  readarray -t ogElems <<< "$originalSelected"
 
-  IFS=$'\n' read -r -d '' -a ogElems <<< "$originalSelected"
   for elem in "${ogElems[@]}"; do
-    fileName=$(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .fileName // "N/A"' "$file")
-    rsync -a --include='*/' --include="*$fileName*" --exclude='*' "$backupDir" "$destDir"
+    readarray -t ogFD < <(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .backupItems[]' "$file")
+
+    for fileName in "${ogFD[@]}"; do
+      rsync -a \
+        --include="*/" \
+        --include="*$fileName*" \
+        --include="$fileName/***" \
+        --exclude="*" \
+        "$backupDir/" "$destDir/"
+    done
+
     gum format -t emoji "$elem's original files applied :heavy_check_mark:"
   done
 }
