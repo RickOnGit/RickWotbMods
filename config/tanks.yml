@@ -30,129 +30,11 @@
     - name: Stock
       path: Tanks/European/Škoda-T27/Stock
 
-#GERMAN
-
-#heavy
-- name: E 100
-  type: Heavy
-  tier: X
-  nation: German 🍺
-  remodels:
-    - name: Deus Ex
-      path: Tanks/German/E-100/Deus-Ex
-      download: https://forblitz.ru/wp-content/uploads/2022/08/update_e100_deusex_sadabsolution_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-deus-ex/13913
-    - name: Klarer Himmel
-      path: Tanks/German/E-100/Klarer-Himmel
-      download: https://forblitz.ru/wp-content/uploads/2022/06/e100nem-9_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-e100-nemesis/12071
-    - name: Rote Grundierung
-      path: Tanks/German/E-100/Rote-Grundierung
-      download: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269
-    - name: Nemesis
-      path: Tanks/German/E-100/Nemesis
-      download: https://forblitz.ru/wp-content/uploads/2023/06/e100_pinny_steam.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-e-100-nemesis/17180
-    - name: Nemesis addon
-      path: Tanks/German/E-100/Nemesis-addon
-      download: https://drive.usercontent.google.com/download?id=1kUrgbOj3B9sK0MiCFpbeTonvE_dmdkb9&export=download&authuser=1&confirm=t&uuid=085afa3a-5257-4b5b-b13b-7c2861bf954f&at=AENtkXYwGClRUIPN4DDNsoVH1Q-6:1731714220807
-      source: https://discordapp.com/channels/1122455294988001363/1122581505693208596/1274407892472168488
-    - name: Stock
-      path: Tanks/German/E-100/Stock
-
-- name: Tiger II
-  type: Heavy
-  tier: VIII
-  nation: German 🍺
-  remodels:
-    - name: Schneide
-      path: Tanks/German/Tiger-II/Schneide
-      download: https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834
-      source: https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673
-    - name: Defender
-      path:
-      download:
-      source:
-    - name: Stock
-      path: Tanks/German/Tiger-II/Stock
-
-#   E-50M:
-#     Dreadnaught:
-#       download: https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0
-#       source: https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273
-#     Panzerbarracuda:
-#       download: https://forblitz.ru/wp-content/uploads/2024/07/e50_m_panzerbarracuda_forblitz_05072024_pc.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-e-50m-panzerbarracuda/20459
-#     Nimmermer:
-#       download: https://forblitz.ru/wp-content/uploads/2022/12/nimmermer_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-nimmermer-e-50m/14928
-
-# mediums
-- name: Leopard 1
-
-  type: Medium
-  tier: X
-  nation: German 🍺
-  remodels:
-    - name: Mexas
-      path: Tanks/German/Leopard-1/Mexas
-      download: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0
-      source: https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209
-    - name: Reiter
-      path: Tanks/German/Leopard-1/Reiter
-      download: https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip
-      source: https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553
-    - name: Mirny 13
-      path: Tanks/German/Leopard-1/Mirny-13
-      download: https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip
-      source: https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540
-    - name: 1a1
-      path: Tanks/German/Leopard-1/1a1
-      download: https://drive.usercontent.google.com/download?id=1Dcu7EMk4XMOplHd0EI6t-6-svzb9zxzr&export=download&authuser=1&confirm=t&uuid=86e4a6de-b474-4ca9-a769-6dab9e9e3dda&at=AENtkXZJ2vC1QouzEFmjgoAc4x2:1730989957853
-      source: null
-    - name: Lion
-      path: Tanks/German/Leopard-1/Lion
-      download: https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=572466e0-a84e-4690-a419-7d4805a6912b&at=AENtkXbVmafZScttTY6NUZnb62y:1730988335022
-      source: null
-    - name: Stock
-      path: Tanks/German/Leopard-1/Stock
-
-- name: Grille 15
-  type: Td
-  tier: X
-  nation: German 🍺
-  remodels:
-    - name: Igelschnäuzchen
-      path: Tanks/German/Grille-15/Igelschnäuzchen
-      download: https://forblitz.ru/wp-content/uploads/2024/11/grille_15_igelschneutzchen_forblitz_061124_pc.zip
-      source: https://forblitz.ru/modifications/remodelings/remodeling-grille-15-igelschneutzchenen/21197
-    - name: Erion
-      path: Tanks/German/Grille-15/Erion
-      download: https://drive.usercontent.google.com/download?id=1N7F7LzqTOu8vMpF_0N_6Dj9K3DuCUKhJ&export=download&authuser=1&confirm=t&uuid=9b59f4d2-770c-483f-b2ac-b1b2c03e4736&at=AIrpjvOmi8VbcjL6Pc6GKmPuZNXk:1736364228633
-      source: https://blackwot.ru/2022/08/13/grille-15-erion/
-    - name: Stock
-      path: Tanks/German/Grille-15/Stock
-
-#   Jp-E-100:
-
 # France:
 #   AMX-50B:
 #     Charlesmartel:
 #       download: https://drive.usercontent.google.com/download?id=1q02Uj4UX66ZFKjbTwulSn-Xec5fLHOt2&export=download&authuser=1&confirm=t&uuid=7bdcaa42-330a-4b90-bfa7-ca1ac645e6d7&at=AENtkXZVbEWPJbB6IKxIyRFTowb-:1730993378473
 #       source: https://discord.com/channels/174448788436549632/254137952215498762/1069655296995242004
-#   AMX-M4-mle54:
-#     Gascon:
-#       download: https://tinyurl.com/y2jf7b2z
-#       source: https://tinyurl.com/amx-gascon
-#     Enhanced:
-#       download: https://tinyurl.com/r6hkwmc8
-#       source: https://tinyurl.com/m4mle54
-
-#   AMX-30B:
-#     Brenus:
-#       download: https://tinyurl.com/brenus-download
-#       source: https://tinyurl.com/brenus
 
 - name: B-C 25 t
   type: Light
@@ -237,7 +119,6 @@
     - name: Stock
       path: Tanks/GB/FV4005/Stock
 - name: FV215b 183
-  type: Td
   tier: X
   nation: GB 🌧️
   remodels:
@@ -286,8 +167,3 @@
 #     Revenant:
 #       download: ttps://drive.usercontent.google.com/download?id=1Osd9ShPOMmo5bQJnIbrk4V0eOvNW6pNV&export=download&authuser=0&confirm=t&uuid=1d38fb20-7343-49ab-a472-75b788541958&at=AENtkXb3Lpn9jO3poQl1YXPR3wGf:1730886397473
 #       source: https://discord.com/channels/174448788436549632/254137952215498762/1011710957346619432
-
-#   T30:
-#     Assault-Kit:
-#       download: https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip
-#       source: https://forblitz.ru/modifications/remodelings/remodeling-countdown-t30/13870

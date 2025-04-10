@@ -110,6 +110,150 @@
       ]
     },
     {
+      "name": "E 50 M",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "Medium",
+      "backupItems": ["E-50M"],
+      "mods": [
+        {
+          "name": "Dreadnaught",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273"
+        },
+        {
+          "name": "Nimmermer",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/12/nimmermer_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-nimmermer-e-50m/14928"
+        },
+        {
+          "name": "Panzerbarracuda",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/e50_m_panzerbarracuda_forblitz_05072024_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-e-50m-panzerbarracuda/20459"
+        }
+      ]
+    },
+    {
+      "name": "Leopard 1",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "Medium",
+      "backupItems": ["Leopard1"],
+      "mods": [
+        {
+          "name": "1a1 (by Adamantium)",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1Dcu7EMk4XMOplHd0EI6t-6-svzb9zxzr&export=download&authuser=1&confirm=t&uuid=86e4a6de-b474-4ca9-a769-6dab9e9e3dda&at=AENtkXZJ2vC1QouzEFmjgoAc4x2:1730989957853",
+          "source": "https://discord.com/channels/998886261005750354/998962868806483988/1240773726711316520"
+        },
+        {
+          "name": "Mexas",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209"
+        },
+        {
+          "name": "Mirny 13",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540"
+        },
+        {
+          "name": "Reiter",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553"
+        }
+      ]
+    },
+    {
+      "name": "E 100",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "Heavy",
+      "backupItems": ["E-100", "E_100"],
+      "mods": [
+        {
+          "name": "Deus Ex",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/update_e100_deusex_sadabsolution_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-deus-ex/13913"
+        },
+        {
+          "name": "Nemesis",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/e100_nemesis_forblitz_02072024_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-e-100-nemesis-2/20361"
+        },
+        {
+          "name": "Klarer Himmel",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/06/e100nem-9_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-e100-nemesis/12071"
+        },
+        {
+          "name": "Rote Grundierung",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269"
+        }
+      ]
+    },
+    {
+      "name": "Tiger II",
+      "nation": "Germany",
+      "tier": "VII",
+      "class": "Heavy",
+      "backupItems": ["PzVIB_Tiger_II"],
+      "mods": [
+        {
+          "name": "Nox Tenebris",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/02/tiger_ii_noxtenebris_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/tiger-ii-nox-tenebris/21728"
+        },
+        {
+          "name": "Schneide (by Adamantium)",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834",
+          "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673"
+        }
+      ]
+    },
+    {
+      "name": "Grille 15",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["Grille_15"],
+      "mods": [
+        {
+          "name": "Igelschnäuzchen",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/grille_15_igelschneutzchen_forblitz_061124_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-grille-15-igelschneutzchenen/21197"
+        },
+        {
+          "name": "Erion",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1N7F7LzqTOu8vMpF_0N_6Dj9K3DuCUKhJ&export=download&authuser=1&confirm=t&uuid=9b59f4d2-770c-483f-b2ac-b1b2c03e4736&at=AIrpjvOmi8VbcjL6Pc6GKmPuZNXk:1736364228633",
+          "site": "https://blackwot.ru/2022/08/13/grille-15-erion/"
+        }
+      ]
+    },
+    {
+      "name": "Jg.Pz. E 100",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["JagdPzE100", "JagdPz_E100"],
+      "mods": [
+        {
+          "name": "Gold",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/jagdpze100_gold_free_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/jagdpze100_gold_free/21409"
+        },
+        {
+          "name": "Jager",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/07/jagdpze100_jager_forblitz_p1nny_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e-100-jager/17319"
+        },
+        {
+          "name": "Panzershiff",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/jag_e100_3dst_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e100/14344"
+        }
+      ]
+    },
+    {
       "name": "BZ-75",
       "nation": "China",
       "tier": "X",
@@ -144,6 +288,20 @@
           "name": "Realistic",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "WZ-111 5A",
+      "nation": "China",
+      "tier": "X",
+      "class": "Heavy",
+      "backupItems": ["Ch41_WZ_111_5A"],
+      "mods": [
+        {
+          "name": "QI LING (by Adamantium)",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1puOV-2EWDRzUHuCD_hqALv7SYXDFcF11&export=download&authuser=1&confirm=t&uuid=48ecbcd1-dfa0-48a3-a979-28d6ae90be85&at=APcmpowem_RiqVmviFIL4MDOoEEL:1744287704149",
+          "site": "https://discord.com/channels/998886261005750354/998962868806483988/1200528995192668171"
         }
       ]
     },
