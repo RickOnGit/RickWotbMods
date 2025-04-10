@@ -5,7 +5,7 @@ function selectorMods() {
   local category="$2"
   declare -A links
 
-  selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element), \($modName)"' "$file" | gum choose --ordered --no-limit)
+  selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some mods")
   while IFS=',' read -r element modName; do
     element=$(echo "$element" | xargs)
     modName=$(echo "$modName" | xargs)
@@ -24,14 +24,13 @@ function selectorOriginal() {
   local backupDir="$3"
   local destDir="$4"
 
-  originalSelected=$(jq -r --arg category "$category" '.[$category][] | .name' "$file" | gum choose --no-limit)
-  readarray -t ogElems <<< "$originalSelected"
+  readarray -t ogElems < <(jq -r --arg category "$category" '.[$category][] | .name' "$file" | gum choose --no-limit --header "Select what to restore")
 
   for elem in "${ogElems[@]}"; do
-    readarray -t ogFD < <(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .backupItems[]' "$file")
+    readarray -t ogFiles < <(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .backupItems[]' "$file")
 
-    for fileName in "${ogFD[@]}"; do
-      rsync -a \
+    for fileName in "${ogFiles[@]}"; do
+      gum spin -s "minidot" --title "Restoring stock files for $elem..."  --  rsync -a \
         --include="*/" \
         --include="*$fileName*" \
         --include="$fileName/***" \
@@ -58,7 +57,7 @@ function download() {
   modName="$2"
   downloadLink="$3"
   temp_dir=$(mktemp -d)
-  gum spin -s "minidot" --title "Downloading $modName for $baseModelName" -- curl -L "$downloadLink" -o "$temp_dir"/"$modName".download
+  gum spin -s "minidot" --title "Downloading $modName for $baseModelName..." -- curl -L "$downloadLink" -o "$temp_dir"/"$modName".download
   gum spin -s "minidot" --title "Extracting $modName..." -- 7z x "$temp_dir"/"$modName".download -o"$temp_dir"
   rm "$temp_dir"/*.download
   mod_fix "$temp_dir"
@@ -80,9 +79,8 @@ function installer() {
   local model="$2"
   local backup_dir=$(mktemp -d)
 
-  gum spin -s "minidot" --title "Installing $model" -- sleep 2
-  rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wotbData/"
-  rsync -au "$backup_dir/" "$wotbBackup"
+  gum spin -s "minidot" --title "Installing $model..." -- rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wotbData/"
+  gum spin -s "minidot" --title "Backing up..." -- rsync -au "$backup_dir/" "$wotbBackup"
   rm -rf "$backup_dir"
   gum format -t emoji "$modName installed :white_check_mark:"
 }
