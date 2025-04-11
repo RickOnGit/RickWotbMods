@@ -167,7 +167,7 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["E-100", "E_100"],
+      "backupItems": ["E_100", "E-100"],
       "mods": [
         {
           "name": "Deus Ex",
@@ -207,6 +207,20 @@
           "name": "Schneide (by Adamantium)",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834",
           "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673"
+        }
+      ]
+    },
+    {
+      "name": "Tiger 131",
+      "nation": "Germany",
+      "tier": "VI",
+      "class": "Heavy",
+      "backupItems": ["Tiger_131"],
+      "mods": [
+        {
+          "name": "Goliath from Barska St.",
+          "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-131-goliath-from-barska-st-183/download/pc-wg/file?_token=x=0",
+          "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-131-goliath-from-barska-st-183"
         }
       ]
     },
