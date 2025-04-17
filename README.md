@@ -28,15 +28,15 @@ NOTE: _Those dependencies are necessary for using the script_
 # Usage
 
 - As said before the script aims to install mods with 0 effort and this was also possible tanks to gum charm, here there are some examples:
-- Main menu: ![[config/pictures/main-menu.png]]
+- Main menu: ![[./config/pictures/main-menu.png]]
 - Install and restore option (working only for tanks and hangars for now)
-  ![[config/pictures/install-restore.png]]
+  ![[./config/pictures/install-restore.png]]
 - Download menu
-  ![[config/pictures/tank-menu_ex.png]]
+  ![[./config/pictures/tank-menu_ex.png]]
 - Downloading information
-  ![[config/pictures/download-info.png]]
+  ![[./config/pictures/download-info.png]]
 - Restore menu
-  ![[config/pictures/restore.png]]
+  ![[./config/pictures/restore.png]]
 
 # P.S.
 
