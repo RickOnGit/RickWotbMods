@@ -4,7 +4,7 @@ source ../lib/env/game.env
 
 mkdir -p "$wotbBackup"
 
-sudo rm /usr/local/bin/rickmodder
+sudo rm /usr/local/bin/rickmodder 2>/dev/null
 sudo cp rickmodder /usr/local/bin
 
 sudo mv ~/RickWotbMods /opt 2>/dev/null
