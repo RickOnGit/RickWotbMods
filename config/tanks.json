@@ -38,12 +38,17 @@
       "nation": "U.S.A.",
       "type": "Medium",
       "tier": "X",
-      "backupItems": ["M48A1_Patton"],
+      "backupItems": ["M48A1_Patton", "M48A1"],
       "mods": [
         {
           "name": "Yacin 1500",
           "site": "https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850",
           "pc_wg": "https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154"
+        },
+        {
+          "name": "Pipeline",
+          "site": "https://blackwot.ru/2022/06/28/remodeling-m48-pipeline/",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1Ui79KT3E51DXcPV1UW2R5wEgDnMI8slV&export=download&authuser=0&confirm=t&uuid=e2bd0a89-f695-4f4d-8760-947b664399b7&at=APcmpoxN0MTFITjG15p597jCeN3K:1744579257407"
         },
         {
           "name": "Thunderbolt",
@@ -114,7 +119,7 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["E-50M"],
+      "backupItems": ["E-50M", "E50_Ausf_M"],
       "mods": [
         {
           "name": "Dreadnaught",
@@ -264,6 +269,58 @@
           "name": "Panzershiff",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/jag_e100_3dst_steam.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e100/14344"
+        }
+      ]
+    },
+    {
+      "name": "T-100LT",
+      "nation": "U.S.S.R.",
+      "tier": "X",
+      "class": "Light",
+      "backupItems": ["T100LT"],
+      "mods": [
+        {
+          "name": "Gyurza",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/t100lt_forblitz_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-t-100-lt-giurza/18808"
+        },
+        {
+          "name": "Interceptor Enhanced",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1NJDaRzHvJY47Z69wTE_zqo7qwtxxxj7h&export=download&authuser=1&confirm=t&uuid=a6a51793-7d8a-46e6-b818-4377a324038f&at=AENtkXZ8rQFHRlrQeYgMq4Jhl9cZ:1730984861744",
+          "site": "https://discord.com/channels/174448788436549632/254137952215498762/1076705953262620733"
+        }
+      ]
+    },
+    {
+      "name": "T-54 ltwt.",
+      "nation": "U.S.S.R.",
+      "tier": "VIII",
+      "class": "Light",
+      "backupItems": ["T54S", "T-54S"],
+      "mods": [
+        {
+          "name": "Desert Fox",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1bwmKtHRfk4WSbiWCPHeCVig7MxLIzCII&export=download&authuser=0&confirm=t&uuid=8897f304-0376-4b92-9b69-14084860c054&at=APcmpozWFrXoZ0JUrFN26p65TDsl:1744879897208",
+          "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1129402449447366686"
+        }
+      ]
+    },
+    {
+      "name": "KV-2",
+      "nation": "U.S.S.R.",
+      "tier": "VI",
+      "class": "Heavy",
+      "backupItems": ["KV2"],
+      "mods": [
+        {
+          "name": "Valhallan Ragnarok",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_kv_2_vh_sadabsolution_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-valhallan-ragnarok-kv-2/13687"
+        },
+        {
+          "name": "Charge Legion",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/fix_kv2_bagrlegion_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-kv-2-bagrovyi-legion/16280"
         }
       ]
     },
