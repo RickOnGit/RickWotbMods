@@ -1,20 +1,13 @@
 # Welcome to my Wotb modding script
 - A "simple" TUI script written in bash for installing and backing-up tons of mods quickly and with 0 effort.
 
-<div style="border: 1px solid #007bff; border-radius: 5px; padding: 10px; background-color: #e7f3fe; color: #31708f;">
-  <strong>Note:</strong>
-  <ul>
-    <li>I'm not the developer of any mods (I will add the sources for each mod).</li>
-    <li>All mods will be downloaded from:
-      <ol>
-        <li><a href="https://blitz-mods.com">BlitzMods</a></li>
-        <li><a href="https://forblitz.ru">ForBlitz</a></li>
-        <li>My Google Drive (for now) for old or Discord servers mods (always with a link).</li>
-      </ol>
-    </li>
-  </ul>
-</div>
-
+> **Notes:**
+  >
+  > - I'm not the developer of any mods (I will add the sources for each mod).
+  > - All mods will be downloaded from:
+  >   1. [BlitzMods](https://blitz-mods.com)
+  >   2. [ForBlitz](https://forblitz.ru)
+  >   3. My Google Drive (for now) for old or Discord servers mods (always with a link).
 
 # Compatibility (Steam only)
 
