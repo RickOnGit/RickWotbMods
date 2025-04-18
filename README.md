@@ -38,22 +38,22 @@
 
 # Usage
 
-###### Main menu
+#### Main menu
 ![Main menu](./doc//pictures/main-menu.png)
 
-###### Install and restore option (working only for tanks and hangars for now)
+#### Install and restore option (working only for tanks and hangars for now)
 ![Install and restore](./doc/pictures/install-restore.png)
 
-###### Download menu
+#### Download menu
 ![Download menu](./doc/pictures/tank-menu_ex.png)
 
-###### Downloading information
+#### Downloading information
 ![Downloading info](./doc/pictures/download-info.png)
 
-###### Restore menu
+#### Restore menu
 ![Restore menu](./doc//pictures/restore.png)
 
-###### _Wanna do things faster? Use tmux!!_ 
+#### _Wanna do things faster? Use tmux!!_ 
 ![Tmux example](./doc/pictures/tmux-example.png)
 
 # P.S.
