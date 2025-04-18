@@ -325,6 +325,96 @@
       ]
     },
     {
+      "name": "Obj. 268",
+      "nation": "U.S.S.R.",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["Object268", "R88_Object_268"],
+      "mods": [
+        {
+          "name": "Svyatogor",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/obj268_svyatogor_forblitz_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-svyatogor/18980"
+        },
+        {
+          "name": "Alyosha Popovich",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/obj268_alesha_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-alesha-popovich/19012"
+        }
+      ]
+    },
+    {
+      "name": "Vickers Light",
+      "nation": "U.K.",
+      "tier": "X",
+      "class": "Light",
+      "backupItems": ["Vickers_Light_105"],
+      "mods": [
+        {
+          "name": "Concept 5 The Unknown",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/vikclight_concept5_forblitz_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206"
+        }
+      ]
+    },
+    {
+      "name": "Defender Mk.1",
+      "nation": "U.K.",
+      "tier": "VIII",
+      "class": "Medium",
+      "backupItems": ["GB_Centurion_MkDF"],
+      "mods": [
+        {
+          "name": "Crusader 002",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-defender-mark-1-crusader-002-290/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-defender-mark-1-crusader-002-290"
+        }
+      ]
+    },
+    {
+      "name": "FV215b 183",
+      "nation": "U.K.",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["FV215b_183"],
+      "mods": [
+        {
+          "name": "Eastern Express",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/fv215b183_fix_princess_mersia_3dst_ps.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-eastern-express/22155"
+        },
+        {
+          "name": "Tesla",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768"
+        }
+      ]
+    },
+    {
+      "name": "FV4005",
+      "nation": "U.K.",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["GB83_4005", "GB83_FV4005"],
+      "mods": [
+        {
+          "name": "Galahad",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/02/fv4005_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768"
+        },
+        {
+          "name": "King Flavius",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259"
+        },
+        {
+          "name": "Thunderchild",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/4005_thunderchild_forblitz_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/animirovannyi-remodeling-fv4005-ditya-gro/19416"
+        }
+      ]
+    },
+    {
       "name": "BZ-75",
       "nation": "China",
       "tier": "X",
@@ -434,6 +524,63 @@
       ]
     },
     {
+      "name": "B-C 25 t",
+      "nation": "France",
+      "tier": "X",
+      "class": "Light",
+      "backupItems": ["Bat_Chatillon25t"],
+      "mods": [
+        {
+          "name": "Arlequin Ter",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217"
+        },
+        {
+          "name": "Ignis Purgatio",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/batchat_ignis_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-ignis-purgatio-bat-chatillon-25t/14121"
+        },
+        {
+          "name": "Foudre",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/04/bat_chatillon25t_fdr_pc.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-bat-chatillon-25-t-foudre/19788"
+        },
+        {
+          "name": "Marengo",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_batchat_25t_marengo_sadabsolution_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-marengo-bat-chatillon-25-t/13375"
+        }
+      ]
+    },
+    {
+      "name": "AMX 50 B",
+      "nation": "France",
+      "tier": "X",
+      "class": "Heavy",
+      "backupItems": ["AMX_50B"],
+      "mods": [
+        {
+          "name": "Charlesmartel",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1q02Uj4UX66ZFKjbTwulSn-Xec5fLHOt2&export=download&authuser=1&confirm=t&uuid=7bdcaa42-330a-4b90-bfa7-ca1ac645e6d7&at=AENtkXZVbEWPJbB6IKxIyRFTowb-:1730993378473",
+          "site": "https://discord.com/channels/174448788436549632/254137952215498762/1069655296995242004"
+        }
+      ]
+    },
+    {
+      "name": "Foch 155",
+      "nation": "France",
+      "tier": "X",
+      "class": "TD",
+      "backupItems": ["AMX_50Fosh_155"],
+      "mods": [
+        {
+          "name": "Eglantier",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253"
+        }
+      ]
+    },
+    {
       "name": "TVP T 50/51",
       "nation": "Czechia",
       "tier": "X",
@@ -454,6 +601,39 @@
           "name": "Storm",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-shtorm/18738",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/11/tvp_50_51_steam.zip"
+        }
+      ]
+    },
+    {
+      "name": "Škoda T 27",
+      "nation": "Czechia",
+      "tier": "VIII",
+      "class": "Medium",
+      "backupItems": ["Cz13_T_27"],
+      "mods": [
+        {
+          "name": "Enhanced",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258"
+        }
+      ]
+    },
+    {
+      "name": "Škoda T 56",
+      "nation": "Czechia",
+      "tier": "VIII",
+      "class": "Heavy",
+      "backupItems": ["Cz14_Skoda_T-56"],
+      "mods": [
+        {
+          "name": "Hurikán",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222"
+        },
+        {
+          "name": "Projekt ION",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247"
         }
       ]
     },
