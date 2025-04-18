@@ -1,7 +1,7 @@
 # Welcome to my Wotb modding script
 
 - A "simple" tui script written in bash for installing and backing-up tons of mods quickly and with 0 effort.
-  > [!Note]
+  > [!NOTE]
   > - I'm not the developer of any mods (I will add the sources for each mod).
   > - All mods will be downloaded from:
   >   1. [BlitzMods](https://blitz-mods.com)
