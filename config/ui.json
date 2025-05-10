@@ -40,12 +40,22 @@
         {
           "name": "Coloured hitmarks",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1QiLUnbhlZeZj3pP80am_Ln4aWA8rQPhm&export=download&authuser=1&confirm=t&uuid=0cbf3bde-87a1-4cae-a4e6-9a33d5531758&at=APcmpozUD1jOIfiJBsJUz-mbTILS:1744923485244"
+        },
+        {
+          "name": "HD penetration decals from World of Tanks (PC)",
+          "pc_wg": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297"
         }
       ]
     },
     {
       "name": "Hangar UI mods",
       "mods": [
+        {
+          "name": "Equote tanks",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/05/tanks-icon-wot_pc.zip",
+          "site": "https://forblitz.ru/modifications/interface/wot-style-tank-icons/22720"
+        },
         {
           "name": "Statistics in Carousels",
           "site": "https://forblitz.ru/modifications/interface/statistics-in-the-carousel/20781",

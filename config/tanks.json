@@ -151,6 +151,11 @@
           "source": "https://discord.com/channels/998886261005750354/998962868806483988/1240773726711316520"
         },
         {
+          "name": "EOS",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293"
+        },
+        {
           "name": "Mexas",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209"
@@ -340,6 +345,20 @@
           "name": "Alyosha Popovich",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/obj268_alesha_pc.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-alesha-popovich/19012"
+        }
+      ]
+    },
+    {
+      "name": "SU-122-44",
+      "nation": "U.S.S.R.",
+      "tier": "VII",
+      "class": "TD",
+      "backupItems": ["SU122_44"],
+      "mods": [
+        {
+          "name": "The viper",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-su-122-44-the-viper-268/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-su-122-44-the-viper-268"
         }
       ]
     },
@@ -744,6 +763,20 @@
           "name": "Hjälpkran",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257"
+        }
+      ]
+    },
+    {
+      "name": "Strv 81",
+      "nation": "Sweden",
+      "tier": "VIII",
+      "class": "Medium",
+      "backupItems": ["S23_Strv_81"],
+      "mods": [
+        {
+          "name": "Strv 104",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-strv-104-81-206/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-strv-104-81-206"
         }
       ]
     }
