@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
 
+function installOrBackup() {
+  local modsFile="$1"
+  local category="$2"
+  local backupDir="${3:-$wotbBackup}"
+  local sourceDir="${4:-$wotbData}"
+
+  if gum confirm "Choose what to do:" --affirmative "Install mods" --negative "Restore original files"; then
+    selectorMods "$modsFile" "$category"
+  else
+    selectorOriginal "$modsFile" "$category" "$backupDir" "$sourceDir"
+  fi
+}
+
 function selectorMods() {
   local file="$1"
   local category="$2"
@@ -30,12 +43,7 @@ function selectorOriginal() {
     readarray -t ogFiles < <(jq -r --arg category "$category" --arg name "$elem" '.[$category][] | select(.name == $name) | .backupItems[]' "$file")
 
     for fileName in "${ogFiles[@]}"; do
-      gum spin -s "minidot" --title "Restoring stock files for $elem..."  --  rsync -a \
-        --include="*/" \
-        --include="*$fileName*" \
-        --include="$fileName/***" \
-        --exclude="*" \
-        "$backupDir/" "$destDir/"
+      gum spin -s "minidot" --title "Restoring stock files for $elem..."  -- rsync -a --include="*/" --include="*${fileName}*/" --include="*${fileName}*" --include="${fileName}/**" --exclude="*" "$backupDir" "$destDir"
     done
 
     gum format -t emoji "$elem's original files applied :heavy_check_mark:"
@@ -79,7 +87,7 @@ function installer() {
   local model="$2"
   local backup_dir=$(mktemp -d)
 
-  gum spin -s "minidot" --title "Installing $model..." -- rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wotbData/"
+  gum spin -s "minidot" --title "Installing $model..." -- rsync -a --backup --backup-dir="$backup_dir" "$source_dir/Data/" "$wotbData"
   gum spin -s "minidot" --title "Backing up..." -- rsync -au "$backup_dir/" "$wotbBackup"
   rm -rf "$backup_dir"
   gum format -t emoji "$modName installed :white_check_mark:"
