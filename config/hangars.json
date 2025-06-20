@@ -6,9 +6,16 @@
         "hangar_main_2022",
         "hangar_platoon22",
         "00_shared_content",
-        "hangar_season6"
+        "hangar_season6",
+        "hangar_forest_hell",
+        "music_hangar.bnk.dvpl"
       ],
       "mods": [
+        {
+          "name": "28 Days Later",
+          "pc_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/hangars/28-days-later-32"
+        },
         {
           "name": "Cave",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip",
@@ -29,6 +36,27 @@
           "name": "2018 Premium",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangar_prem_2018-1_pc_wg.zip",
           "site": "https://forblitz.ru/en/modifications/hangars/angar/20302"
+        },
+        {
+          "name": "First Hangar",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangarlow4-1_pc_wg.zip",
+          "site": "https://forblitz.ru/modifications/hangars/old-hangar/17279"
+        }
+      ]
+    },
+    {
+      "name": "Map hangars",
+      "backupItems": [
+        "hangar_main_2022",
+        "hangar_platoon22",
+        "00_shared_content",
+        "hangar_season6"
+      ],
+      "mods": [
+        {
+          "name": "Mines",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1vSvd-keMDoWbMYtmIS-wzUXsMPq4s6wo&export=download&authuser=1&confirm=t&uuid=a0e5339b-b9d1-43ac-ba45-eeb056cc3aa6&at=AN8xHorjH9kaiDyfqlQlMHdx_HBK:1749751666901",
+          "source": "null"
         }
       ]
     }

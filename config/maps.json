@@ -5,18 +5,19 @@
       "mods": [
         {
           "name": "Cloudy maps",
-          "site": "https://www.blitz-mods.com/mod/maps-restyling/cloudy-maps-for-wotblitz-tanksblitz-281/download/pc-wg",
-          "pc_wg": "https://www.blitz-mods.com/mod/maps-restyling/cloudy-maps-for-wotblitz-tanksblitz-281/download/pc-wg/file?_token=x=0"
+          "site": "https://forblitz.ru/modifications/map-restylings/cloudy-map-mod-pack/21495",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps2_pc_wg.zip"
         },
         {
           "name": "Twilight maps",
-          "site": "https://forblitz.ru/en/modifications/map-restylings/twilight-map-mod-pack/21637",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps_pc_wg.zip"
+          "site": "https://forblitz.ru/modifications/map-restylings/twilight-map-mod-pack/21637",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps2_pc_wg.zip"
         }
       ]
     },
     {
-      "name": "Dynasty's Pearl",
+      "name": "Dynasty Pearl",
+      "backupItems": ["30_grossberg_sh", "grossberg"],
       "mods": [
         {
           "name": "Night",

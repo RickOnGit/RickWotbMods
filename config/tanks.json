@@ -48,12 +48,26 @@
         {
           "name": "Pipeline",
           "site": "https://blackwot.ru/2022/06/28/remodeling-m48-pipeline/",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1Ui79KT3E51DXcPV1UW2R5wEgDnMI8slV&export=download&authuser=0&confirm=t&uuid=e2bd0a89-f695-4f4d-8760-947b664399b7&at=APcmpoxN0MTFITjG15p597jCeN3K:1744579257407"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1NvAHyG4REjURKbJEoOlNI7Q72scXvXoj&export=download&authuser=1&confirm=t&uuid=24027517-b772-4240-9ef9-89a418d2e3b3&at=AN8xHoqwf7qYJQLaE89ua0y1XDWs:1749748906853"
         },
         {
           "name": "Thunderbolt",
           "site": "https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122"
+        }
+      ]
+    },
+    {
+      "name": "M-VI-Yoh",
+      "nation": "U.S.A.",
+      "tier": "X",
+      "class": "Heavy",
+      "backupItems": ["M-6-Y"],
+      "mods": [
+        {
+          "name": "Enhanced",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=10apW0tZSp5gVNotEHKuac8IT-UtolPfJ&export=download&authuser=1&confirm=t&uuid=a3edd2ed-dc7e-4f3b-ad57-f26f7308b4a1&at=AN8xHoo1fNGLwbkyhS_04yjrckqm:1749849877640",
+          "source": "https://discord.com/channels/998886261005750354/998962868806483988/1000577709593854013"
         }
       ]
     },
@@ -156,6 +170,11 @@
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293"
         },
         {
+          "name": "Lion",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=837677d5-d764-4faa-85ef-1a39072d979b&at=AN8xHor3IokhKz70UtA4LOOUjqeo:1749749562822",
+          "site" : "null"
+        },
+        {
           "name": "Mexas",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209"
@@ -198,6 +217,35 @@
           "name": "Rote Grundierung",
           "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269"
+        }
+      ]
+    },
+    {
+      "name": "VK 72.01 K",
+      "nation": "Germany",
+      "tier": "X",
+      "class": "Heavy",
+      "backupItems": ["VK7201"],
+      "mods": [
+        {
+          "name": "The Buthcher Joe",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145"
+        },
+        {
+          "name": "Panzer Claus",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278"
+        },
+        {
+          "name": "Namenloss",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1xUPOkRYGxUpJmEX9vqGwQMumZhsyZXqF&export=download&authuser=1&confirm=t&uuid=e38b322c-87d7-453a-b422-049356a2cad5&at=AN8xHoobpSkYtHXYS7ELu5WakMsP:1749748992522",
+          "site": "https://blackwot.ru/2022/11/14/remodeling-vk7201-k-namenlos/"
+        },
+        {
+          "name": "Vergeltun",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1va-CBsy76H8uMNwQF3sgF9uH6SoWK3It&export=download&authuser=1&confirm=t&uuid=fe306105-9441-4b10-bf47-7b2ca157bb9b&at=ALoNOgmrRWigSqQN7gp4ldqR9yyA:1748456924438",
+          "site": "https://discord.com/channels/998886261005750354/998962868806483988/1160504247335526400"
         }
       ]
     },
@@ -278,6 +326,44 @@
       ]
     },
     {
+      "name": "Jagdtiger",
+      "nation": "Germany",
+      "tier": "IX",
+      "class": "TD",
+      "backupItems": ["JagdTiger"],
+      "mods": [
+        {
+          "name": "Enhanced",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1q-7XhQ4d58DrieE2D3TsOvVhaSGGq34y&export=download&authuser=1&confirm=t&uuid=29a589b5-1ea3-417a-af4c-79b02e22ff85&at=AN8xHoo1rrmJn7RE4oBJfUAKuxI7:1749906263415",
+          "source": "https://discord.com/channels/998886261005750354/998962868806483988/1306910990662897704"
+        }
+      ]
+    },
+    {
+      "name": "Rhm.-Borsing Waffenträger",
+      "nation": "Germany",
+      "tier": "VIII",
+      "class": "TD",
+      "backupItems": ["RhB_Waffentrager"],
+      "mods": [
+        {
+          "name": "Jägermeister",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-rhm-borsig-waffentrager-jagermeister-228/download/pc-wg/file?_token=x=0",
+          "source": "https://blitz-mods.com/mod/remodelings/remodeling-rhm-borsig-waffentrager-jagermeister-228"
+        },
+        {
+          "name": "Igelschnäuzchen",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/rhb_borsh_igelschneutzchen_forblitz_260924_pc.zip",
+          "source": "https://forblitz.ru/modifications/remodelings/remodeling-borshch-igelschneutzchen/21075"
+        },
+        {
+          "name": "Fretchen",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/updated_rhm_borsig_wt_frettchen_sadabsolution_steam.zip",
+          "source": "https://forblitz.ru/modifications/remodelings/remodeling-frettchen-borsig/13210"
+        }
+      ]
+    },
+    {
       "name": "T-100LT",
       "nation": "U.S.S.R.",
       "tier": "X",
@@ -307,6 +393,30 @@
           "name": "Desert Fox",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1bwmKtHRfk4WSbiWCPHeCVig7MxLIzCII&export=download&authuser=0&confirm=t&uuid=8897f304-0376-4b92-9b69-14084860c054&at=APcmpozWFrXoZ0JUrFN26p65TDsl:1744879897208",
           "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1129402449447366686"
+        }
+      ]
+    },
+    {
+      "name": "T-62A",
+      "nation": "U.S.S.R.",
+      "tier": "X",
+      "class": "Medium",
+      "backupItems": ["T-62A", "R87_T62A"],
+      "mods": [
+        {
+          "name": "ZTZ-62",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-ztz-62-t-62a-188/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-ztz-62-t-62a-188"
+        },
+        {
+          "name": "T62A ERA 3D STYLE (CUSTOM)",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/t62a-001-3d-style-custom-248/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/t62a-001-3d-style-custom-248"
+        },
+        {
+          "name": "T-90A",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/t90_order_steam.zip",
+          "site": "https://forblitz.ru/modifications/remodelings/remodeling-t-90a-t-62a/18955"
         }
       ]
     },
@@ -746,7 +856,7 @@
       "name": "Kranvagn",
       "nation": "Sweden",
       "tier": "X",
-      "class": "TD",
+      "class": "Heavy",
       "backupItems": ["S16_Kranvagn"],
       "mods": [
         {
@@ -763,20 +873,6 @@
           "name": "Hjälpkran",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257"
-        }
-      ]
-    },
-    {
-      "name": "Strv 81",
-      "nation": "Sweden",
-      "tier": "VIII",
-      "class": "Medium",
-      "backupItems": ["S23_Strv_81"],
-      "mods": [
-        {
-          "name": "Strv 104",
-          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-strv-104-81-206/download/pc-wg/file?_token=x=0",
-          "site": "https://blitz-mods.com/mod/remodelings/remodeling-strv-104-81-206"
         }
       ]
     }
