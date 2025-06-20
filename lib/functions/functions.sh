@@ -19,7 +19,7 @@ function selectorMods() {
   declare -A links
 
   if [[ "$category" == "Tanks" ]]; then
-    filter
+    filter "$file"
   else
     selected=$(jq -r --arg category "$category" '.[$category][] | .name as $element | .mods[] | .name as $modName | "\($element), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some mods")
   fi
@@ -100,19 +100,20 @@ function installer() {
 }
 
 function filter() {
+  local file="$1"
   ans=$(echo -e "Nation\nTier\nClass" | gum choose --header="Filter by")
   case $ans in
   "Nation")
     nation=$(echo -e "$nations" | gum choose --header="Choose a nation")
-    selected=$(jq -r --arg nation "$nation" '.Tanks[] | select(.nation == $nation) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' tanks.json | gum choose --ordered --no-limit --header "Select some $nation tanks")
+    selected=$(jq -r --arg nation "$nation" '.Tanks[] | select(.nation == $nation) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some $nation tanks")
     ;;
   "Tier")
     tier=$(echo -e "$tiers" | gum choose --header="Choose a tier")
-    selected=$(jq -r --arg tier "$tier" '.Tanks[] | select(.tier == $tier) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' tanks.json | gum choose --ordered --no-limit --header "Select some tier $tier tanks")
+    selected=$(jq -r --arg tier "$tier" '.Tanks[] | select(.tier == $tier) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some tier $tier tanks")
     ;;
   "Class")
     class=$(echo -e "$classes" | gum choose --header="Choose a class")
-    selected=$(jq -r --arg class "$class" '.Tanks[] | select(.class == $class) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' tanks.json | gum choose --ordered --no-limit --header "Select some $class tanks")
+    selected=$(jq -r --arg class "$class" '.Tanks[] | select(.class == $class) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some $class tanks")
     ;;
   esac
 }
