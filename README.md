@@ -34,7 +34,7 @@
 
 1. Clone the repository: `git clone https://github.com/RickOnGit/RickWotbMods ~`
 2. From the terminal run: `cd RickWotbMods/bin; ./setup.sh`
-   - setup.sh will create the backup folder (same location as the Data ones, read this [BlitzmodsForum](https://discord.com/channels/1145391956114022450/1325784848811561010)), and add the main script (_rickmooder_) to `/usr/local/bin`
+   - setup.sh will create the backup folder (same location as Data,for more read this 👉 [BlitzmodsForum](https://discord.com/channels/1145391956114022450/1325784848811561010)), and add the main script (_rickmooder_) to `/usr/local/bin`
 3. Just run `rickmodder` anywhere in the shell and start downloading mods !!.
 
 # Usage
