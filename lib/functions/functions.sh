@@ -74,13 +74,13 @@ function download() {
   gum spin -s "minidot" --title "Downloading $modName for $baseModelName..." -- curl -L "$downloadLink" -o "$temp_dir"/"$modName".download
   gum spin -s "minidot" --title "Extracting $modName..." -- 7z x "$temp_dir"/"$modName".download -o"$temp_dir"
   rm "$temp_dir"/*.download
-  mod_fix "$temp_dir"
+  modFix "$temp_dir"
   gum format -t emoji "$modName downloaded & extracted :heavy_check_mark:"
   installer "$temp_dir" "$modName"
   rm -r "$temp_dir"
 }
 
-function mod_fix() {
+function modFix() {
   local path="$1"
   if [ ! -d "$path/Data" ]; then
     mkdir -p "$path/Data"
@@ -116,4 +116,10 @@ function filter() {
     selected=$(jq -r --arg class "$class" '.Tanks[] | select(.class == $class) | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' "$file" | gum choose --ordered --no-limit --header "Select some $class tanks")
     ;;
   esac
+}
+
+function backupDir() {
+  if [ ! -d "$wotbBackup" ]; then
+    mkdir -p "$wotbBackup"
+  fi
 }

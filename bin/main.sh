@@ -3,10 +3,10 @@
 source /opt/RickWotbMods/lib/env/game.env
 source /opt/RickWotbMods/lib/env/user.env
 source /opt/RickWotbMods/lib/functions/functions.sh
+source /opt/RickWotbMods/lib/extra/update.sh
 
-if [ ! -d "$wotbBackup" ]; then
-  mkdir -p "$wotbBackup"
-fi
+update
+backupDir
 
 while true; do
   ans=$(echo -e "$menu" | gum choose --header "Select a category to mod 👇")
