@@ -1,13 +1,14 @@
-# Welcome to my Wotb modding script
+# Welcome to my Wotb mod loader
+
 - A "simple" TUI script written in bash for installing and backing-up tons of mods quickly and with 0 effort.
 
 > **Notes:**
-  >
-  > - I'm not the developer of any mods (I will add the sources for each mod).
-  > - All mods will be downloaded from:
-  >   1. [BlitzMods](https://blitz-mods.com)
-  >   2. [ForBlitz](https://forblitz.ru)
-  >   3. My Google Drive (for now) for old or Discord servers mods (always with a link).
+>
+> - I'm not the developer of any mods (I will add the sources for each mod).
+> - All mods will be downloaded from:
+>   1. [BlitzMods](https://blitz-mods.com)
+>   2. [ForBlitz](https://forblitz.ru)
+>   3. My Google Drive (for now) for old or Discord servers mods (always with a link).
 
 # Compatibility (Steam only)
 
@@ -39,21 +40,28 @@
 # Usage
 
 #### Main menu
+
 ![Main menu](./doc//pictures/main-menu.png)
 
-#### Install and restore option (working only for tanks and hangars for now)
+#### Install and restore option
+
 ![Install and restore](./doc/pictures/install-restore.png)
 
 #### Download menu
+
 ![Download menu](./doc/pictures/tank-menu_ex.png)
 
 #### Downloading information
+
 ![Downloading info](./doc/pictures/download-info.png)
 
 #### Restore menu
-![Restore menu](./doc//pictures/restore.png)
 
-#### _Wanna do things faster? Use tmux!!_ 
+- Working for everything except for UI elements (kinda a mess)
+  ![Restore menu](./doc//pictures/restore.png)
+
+#### _Wanna do things faster? Use tmux!!_
+
 ![Tmux example](./doc/pictures/tmux-example.png)
 
 # P.S.
