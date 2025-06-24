@@ -172,7 +172,7 @@
         {
           "name": "Lion",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1MGLq4Vnd2rl9fOTw7ICaNPuBDIKY-MYG&export=download&authuser=1&confirm=t&uuid=837677d5-d764-4faa-85ef-1a39072d979b&at=AN8xHor3IokhKz70UtA4LOOUjqeo:1749749562822",
-          "site" : "null"
+          "site": "null"
         },
         {
           "name": "Mexas",
@@ -830,7 +830,7 @@
     },
     {
       "name": "Minotauro",
-      "nation": "Heavy",
+      "nation": "Italy",
       "tier": "X",
       "class": "TD",
       "backupItems": ["It21_Controcarro3_Minotauro"],
