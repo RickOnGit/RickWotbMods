@@ -421,6 +421,34 @@
       ]
     },
     {
+      "name": "IS-5",
+      "nation": "U.S.S.R.",
+      "tier": "VIII",
+      "class": "Heavy",
+      "backupItems": ["Object_730"],
+      "mods": [
+        {
+          "name": "Enhanced",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/ussr_object730_hd_pc.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-obekt-730-is-5-hd/15044"
+        }
+      ]
+    },
+    {
+      "name": "IS-6",
+      "nation": "U.S.S.R.",
+      "tier": "VIII",
+      "class": "Heavy",
+      "backupItems": ["Object_252"],
+      "mods": [
+        {
+          "name": "Enhanced",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/ussr_r61_object252_is-6_hd_steam-1.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-is-6-black-hd/15970"
+        }
+      ]
+    },
+    {
       "name": "KV-2",
       "nation": "U.S.S.R.",
       "tier": "VI",
@@ -825,6 +853,20 @@
           "name": "Nyx",
           "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg",
           "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg/file?_token=x=0"
+        }
+      ]
+    },
+    {
+      "name": "Bisonte C45",
+      "nation": "Italy",
+      "tier": "VIII",
+      "class": "Heavy",
+      "backupItems": ["It22_Progetto_C45_mod_71"],
+      "mods": [
+        {
+          "name": "HD + Aurora",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/c45_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-bisonte-c45-hd/16943"
         }
       ]
     },

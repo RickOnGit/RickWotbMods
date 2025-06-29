@@ -9,9 +9,9 @@
           "source": "https://discord.com/channels/1322676518358356109/1327972728988368957/1383534729025945700"
         },
         {
-          "name": "Minimap radar",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/12/radar_bb_steam-1.zip",
-          "site": "https://forblitz.ru/en/modifications/interface/radar-krugi-zasveta-na-mini-karte-iz-b/14972"
+          "name": "WoT-style minimap radar",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_pc.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/vizualnye-krugi-zasveta-v-stile-wot/23033"
         },
         {
           "name": "Sixth Sense Orange bulb (v2)",
@@ -36,10 +36,6 @@
         {
           "name": "White tanks destroyed",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1mASVAHYNXF1ZrGVZfNvpio4cTTpmwiUR&export=download&authuser=1&confirm=t&uuid=5fb82524-9c64-4038-b422-75733d92d3b1&at=APcmpow6dPwvt-f6YPQQHSvopfPR:1744923452708"
-        },
-        {
-          "name": "Coloured hitmarks",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1QiLUnbhlZeZj3pP80am_Ln4aWA8rQPhm&export=download&authuser=1&confirm=t&uuid=0cbf3bde-87a1-4cae-a4e6-9a33d5531758&at=APcmpozUD1jOIfiJBsJUz-mbTILS:1744923485244"
         },
         {
           "name": "HD penetration decals from World of Tanks (PC)",
@@ -80,11 +76,6 @@
           "name": "WOT Equipement",
           "site": "https://forblitz.ru/en/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip"
-        },
-        {
-          "name": "Blitz Insider",
-          "pc_wg": "https://get.blitzinsider.com/blitz-insider-session-mod-pc-11.6.0_2025-01-23-15-50.zip",
-          "site": "https://discordapp.com/channels/1278635245700120630/1279016368548872233/1279016785185869907"
         }
       ]
     }

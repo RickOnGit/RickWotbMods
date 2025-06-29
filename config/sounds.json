@@ -5,9 +5,9 @@
       "backupItems": ["weapon.bnk", "weapon_basic.bnk"],
       "mods": [
         {
-          "name": "Gun sounds from WOT",
-          "site": "https://forblitz.ru/modifications/sounds/zvuki-vystrelov-iz-bb-world-of-tanks-lesta/18074",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/wotpc_gunsounds_26_03_25_pc_wg.zip"
+          "name": "WOT gun sounds",
+          "site": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301/download/pc-wg/file?_token=x=0",
+          "pc_wg": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301"
         },
         {
           "name": "Thunder guns",
