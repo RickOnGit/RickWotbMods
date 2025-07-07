@@ -1,11 +1,24 @@
 #!/usr/bin/env bash
 
-source /opt/RickWotbMods/lib/env/load.sh
-source /opt/RickWotbMods/lib/functions/ui.sh
-source /opt/RickWotbMods/lib/extra/update.sh
-#source /opt/RickWotbMods/lib/extra/platform.sh
+function load() {
+  set -a
 
-update
+  for file in lib/env/*.env; do
+    [[ -f "$file" ]] && source "$file"
+  done
+
+  for file in lib/functions/*.sh; do
+    [[ -f "$file" ]] && source "$file"
+  done
+
+  for file in lib/extra/*.sh; do
+    [[ -f "$file" ]] && source "$file"
+  done
+
+  set +a
+}
+
 load
-#platform
-menu
+update
+userCheck
+mainMenu

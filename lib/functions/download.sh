@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-source /opt/RickWotbMods/lib/functions/install.sh
-source /opt/RickWotbMods/lib/functions/check.sh
-
 function downloader() {
   for key in "${!links[@]}"; do
     downloadLink="${links[$key]}"

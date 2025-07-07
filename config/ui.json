@@ -5,7 +5,7 @@
       "mods": [
         {
           "name": "Shoots, smoke, hits effects like WOT",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1UG0WHCjRkLmd2KVu4MM5FS5h_o8gD5y7&export=download&authuser=1&confirm=t&uuid=cb6acc1d-8dee-49c0-80c6-c05f8222877c&at=AN8xHooi6Xp7STyCwnFJJzY_yHmx:1749933568478",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1ULG0ecVbvcV598yLVH-0qHSlGXshccyl&export=download&authuser=1&confirm=t&uuid=b5f44417-efbd-4731-91e2-d8d97578aefc&at=AN8xHoo4L0a2_ks9D2QvYaTD1GzO:1751525287557",
           "source": "https://discord.com/channels/1322676518358356109/1327972728988368957/1383534729025945700"
         },
         {
@@ -35,12 +35,18 @@
         },
         {
           "name": "White tanks destroyed",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1mASVAHYNXF1ZrGVZfNvpio4cTTpmwiUR&export=download&authuser=1&confirm=t&uuid=5fb82524-9c64-4038-b422-75733d92d3b1&at=APcmpow6dPwvt-f6YPQQHSvopfPR:1744923452708"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1uXqvDzTicxh6C097oz_0GSAlDqEFyOta&export=download&authuser=1&confirm=t&uuid=ceea6e07-86b0-4ca9-ba2c-68890ca8b3b0&at=AN8xHoqtwxeveSFqmHD0DtELlwAz:1751525278127",
+          "site": "null"
         },
         {
           "name": "HD penetration decals from World of Tanks (PC)",
           "pc_wg": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297"
+        },
+        {
+          "name": "Zoom camera out",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=12pUaUypSl7W3vLWNBrbpGy1vaosCA2J5&export=download&authuser=1&confirm=t&uuid=8e692bce-2e7a-44f4-849e-2bd0336606d6&at=AN8xHorr-_wirUWVR_GZZ8Zm-fbr:1751525288871",
+          "site": "null"
         }
       ]
     },
@@ -51,6 +57,11 @@
           "name": "Equote tanks",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/05/tanks-icon-wot_pc.zip",
           "site": "https://forblitz.ru/modifications/interface/wot-style-tank-icons/22720"
+        },
+        {
+          "name": "B&W carousel flags",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1GBE7UoduBGSQ7avrhRGr5XuJMbggS6Dn&export=download&authuser=1&confirm=t&uuid=e981469a-71df-414c-9db7-9c4cc27b3bf1&at=AN8xHorVWIYUbulvuxZg65UZmQf8:1751525275255",
+          "site": "null"
         },
         {
           "name": "Statistics in Carousels",

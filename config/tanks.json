@@ -5,7 +5,9 @@
       "nation": "U.S.A.",
       "type": "Light",
       "tier": "X",
-      "backupItems": ["A116_XM551"],
+      "backupItems": [
+        "A116_XM551"
+      ],
       "mods": [
         {
           "name": "Salamander",
@@ -24,7 +26,9 @@
       "nation": "U.S.A.",
       "type": "Light",
       "tier": "X",
-      "backupItems": ["A116_XM551_Exp"],
+      "backupItems": [
+        "A116_XM551_Exp"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -34,26 +38,45 @@
       ]
     },
     {
+      "name": "T49",
+      "nation": "U.S.A.",
+      "type": "Light",
+      "tier": "VIII",
+      "backupItems": [
+        "A100_T49"
+      ],
+      "mods": [
+        {
+          "name": "HD + Revenant",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/t49_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-t49-hd/16924"
+        }
+      ]
+    },
+    {
       "name": "M48 Patton",
       "nation": "U.S.A.",
-      "type": "Medium",
+      "class": "Medium",
       "tier": "X",
-      "backupItems": ["M48A1_Patton", "M48A1"],
+      "backupItems": [
+        "M48A1_Patton",
+        "M48A1"
+      ],
       "mods": [
         {
           "name": "Yacin 1500",
           "site": "https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=11OIQs-JYU40nh_3i96YdkuMkIe4N4Jz4&export=download&authuser=1&confirm=t&uuid=dedaf129-c830-410e-a5ff-987ff2b8d69b&at=AENtkXYlvRL26cLPKdVoTb_3-26B:1730988145154"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1W72C-MdDzoybQ_UcGj57FCljJgsGPuLM&export=download&authuser=0&confirm=t&uuid=3a8691eb-e05b-4050-b8de-c57342545926&at=AN8xHopyZ6nKIsS-FFbmZYHnlpct:1751562144792"
         },
         {
           "name": "Pipeline",
           "site": "https://blackwot.ru/2022/06/28/remodeling-m48-pipeline/",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1NvAHyG4REjURKbJEoOlNI7Q72scXvXoj&export=download&authuser=1&confirm=t&uuid=24027517-b772-4240-9ef9-89a418d2e3b3&at=AN8xHoqwf7qYJQLaE89ua0y1XDWs:1749748906853"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1MeAz4ILiTAvn8HTCAUiazJ8dN3jlv6KI&export=download&authuser=0&confirm=t&uuid=3e2884a1-2b59-4a35-b91f-b1cd578e2556&at=AN8xHopwhgYBtUbOqmE_2ch2bhlA:1751560377555"
         },
         {
           "name": "Thunderbolt",
           "site": "https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1JA4WyWxJOCMBRd5hqJhRb1grHGQKgUOD&export=download&authuser=1&confirm=t&uuid=67513920-1c4b-4474-b0a2-c8d1329eb427&at=AENtkXaVuxcYL8RBkT2ija2MoR7f:1730988268122"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1BtKr_mOv9BeGY5Qkn9ZTfRvRdu3JVff6&export=download&authuser=0&confirm=t&uuid=1eb29d1f-3e60-4994-b9cd-4af10e737591&at=AN8xHopVZWFo9IkWuI9_aG2LdVcT:1751562144392"
         }
       ]
     },
@@ -62,7 +85,9 @@
       "nation": "U.S.A.",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["M-6-Y"],
+      "backupItems": [
+        "M-6-Y"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -76,7 +101,9 @@
       "nation": "U.S.A.",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["T57_58"],
+      "backupItems": [
+        "T57_58"
+      ],
       "mods": [
         {
           "name": "Hellhoud",
@@ -95,7 +122,9 @@
       "nation": "U.S.A.",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["T110E4"],
+      "backupItems": [
+        "T110E4"
+      ],
       "mods": [
         {
           "name": "Freigh Train",
@@ -119,12 +148,19 @@
       "nation": "U.S.A.",
       "tier": "IX",
       "class": "TD",
-      "backupItems": ["T30"],
+      "backupItems": [
+        "T30"
+      ],
       "mods": [
         {
           "name": "Assault kit",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-countdown-t30/13870",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip"
+        },
+        {
+          "name": "HD",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1Un7wF61wUAx233tml04SWutBidlxvIPY&export=download&authuser=0&confirm=t&uuid=b3f9c818-5d2f-4ffd-b324-a0d855d02a78&at=AN8xHop1qhpQskbPS6_5ftn4o8Uh:1751311692368",
+          "site": "null"
         }
       ]
     },
@@ -133,7 +169,10 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["E-50M", "E50_Ausf_M"],
+      "backupItems": [
+        "E-50M",
+        "E50_Ausf_M"
+      ],
       "mods": [
         {
           "name": "Dreadnaught",
@@ -157,7 +196,9 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["Leopard1"],
+      "backupItems": [
+        "Leopard1"
+      ],
       "mods": [
         {
           "name": "1a1 (by Adamantium)",
@@ -188,6 +229,11 @@
           "name": "Reiter",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip",
           "site": "https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553"
+        },
+        {
+          "name": "Reiter by P1NNY",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/leopard-1-rieter-303/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/leopard-1-rieter-303"
         }
       ]
     },
@@ -196,7 +242,10 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["E_100", "E-100"],
+      "backupItems": [
+        "E_100",
+        "E-100"
+      ],
       "mods": [
         {
           "name": "Deus Ex",
@@ -225,7 +274,9 @@
       "nation": "Germany",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["VK7201"],
+      "backupItems": [
+        "VK7201"
+      ],
       "mods": [
         {
           "name": "The Buthcher Joe",
@@ -239,12 +290,12 @@
         },
         {
           "name": "Namenloss",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1xUPOkRYGxUpJmEX9vqGwQMumZhsyZXqF&export=download&authuser=1&confirm=t&uuid=e38b322c-87d7-453a-b422-049356a2cad5&at=AN8xHoobpSkYtHXYS7ELu5WakMsP:1749748992522",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1RwKXdB2zXM12FHhKsXQJmY2CGBtL2LVF&export=download&authuser=0&confirm=t&uuid=5a6f8c53-a285-4fae-9734-ead5040dea63&at=AN8xHoo8UG9MUiqgTk9YWX-DEM4X:1751720231283",
           "site": "https://blackwot.ru/2022/11/14/remodeling-vk7201-k-namenlos/"
         },
         {
           "name": "Vergeltun",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1va-CBsy76H8uMNwQF3sgF9uH6SoWK3It&export=download&authuser=1&confirm=t&uuid=fe306105-9441-4b10-bf47-7b2ca157bb9b&at=ALoNOgmrRWigSqQN7gp4ldqR9yyA:1748456924438",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1Fx8nDNDhV38ifdN5paLf6SrMEeOXogPc&export=download&authuser=0&confirm=t&uuid=a25dc5a3-ee30-4445-80a6-2a213e8868fc&at=AN8xHorEFnVxp5jxaNnkdKKVCe_G:1751719735845",
           "site": "https://discord.com/channels/998886261005750354/998962868806483988/1160504247335526400"
         }
       ]
@@ -254,7 +305,9 @@
       "nation": "Germany",
       "tier": "VII",
       "class": "Heavy",
-      "backupItems": ["PzVIB_Tiger_II"],
+      "backupItems": [
+        "PzVIB_Tiger_II"
+      ],
       "mods": [
         {
           "name": "Nox Tenebris",
@@ -265,6 +318,11 @@
           "name": "Schneide (by Adamantium)",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1jLOvOQfQzW_qteveHCbpSAvSWDXBpGAK&export=download&authuser=1&confirm=t&uuid=9c8a93d5-8609-406c-b52d-c5b0de531635&at=AENtkXaFUsgimhISqN6utSY7iAR5:1732362424834",
           "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673"
+        },
+        {
+          "name": "HD",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/04/kt_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-tiger-ii-hd/16876"
         }
       ]
     },
@@ -273,7 +331,9 @@
       "nation": "Germany",
       "tier": "VI",
       "class": "Heavy",
-      "backupItems": ["Tiger_131"],
+      "backupItems": [
+        "Tiger_131"
+      ],
       "mods": [
         {
           "name": "Goliath from Barska St.",
@@ -287,7 +347,9 @@
       "nation": "Germany",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["Grille_15"],
+      "backupItems": [
+        "Grille_15"
+      ],
       "mods": [
         {
           "name": "Igelschnäuzchen",
@@ -298,6 +360,11 @@
           "name": "Erion",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1N7F7LzqTOu8vMpF_0N_6Dj9K3DuCUKhJ&export=download&authuser=1&confirm=t&uuid=9b59f4d2-770c-483f-b2ac-b1b2c03e4736&at=AIrpjvOmi8VbcjL6Pc6GKmPuZNXk:1736364228633",
           "site": "https://blackwot.ru/2022/08/13/grille-15-erion/"
+        },
+        {
+          "name": "Radpanzerhaubitze auf Sd.Kfz. 1337",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/radpanzerhaubitze_pc_lesta.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/radpanzerhaubitze-auf-sd-kfz-1337/22625"
         }
       ]
     },
@@ -306,7 +373,10 @@
       "nation": "Germany",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["JagdPzE100", "JagdPz_E100"],
+      "backupItems": [
+        "JagdPzE100",
+        "JagdPz_E100"
+      ],
       "mods": [
         {
           "name": "Gold",
@@ -330,7 +400,9 @@
       "nation": "Germany",
       "tier": "IX",
       "class": "TD",
-      "backupItems": ["JagdTiger"],
+      "backupItems": [
+        "JagdTiger"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -344,7 +416,9 @@
       "nation": "Germany",
       "tier": "VIII",
       "class": "TD",
-      "backupItems": ["RhB_Waffentrager"],
+      "backupItems": [
+        "RhB_Waffentrager"
+      ],
       "mods": [
         {
           "name": "Jägermeister",
@@ -368,7 +442,9 @@
       "nation": "U.S.S.R.",
       "tier": "X",
       "class": "Light",
-      "backupItems": ["T100LT"],
+      "backupItems": [
+        "T100LT"
+      ],
       "mods": [
         {
           "name": "Gyurza",
@@ -387,7 +463,10 @@
       "nation": "U.S.S.R.",
       "tier": "VIII",
       "class": "Light",
-      "backupItems": ["T54S", "T-54S"],
+      "backupItems": [
+        "T54S",
+        "T-54S"
+      ],
       "mods": [
         {
           "name": "Desert Fox",
@@ -401,7 +480,10 @@
       "nation": "U.S.S.R.",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["T-62A", "R87_T62A"],
+      "backupItems": [
+        "T-62A",
+        "R87_T62A"
+      ],
       "mods": [
         {
           "name": "ZTZ-62",
@@ -425,7 +507,9 @@
       "nation": "U.S.S.R.",
       "tier": "VIII",
       "class": "Heavy",
-      "backupItems": ["Object_730"],
+      "backupItems": [
+        "Object_730"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -439,7 +523,9 @@
       "nation": "U.S.S.R.",
       "tier": "VIII",
       "class": "Heavy",
-      "backupItems": ["Object_252"],
+      "backupItems": [
+        "Object_252"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -453,7 +539,9 @@
       "nation": "U.S.S.R.",
       "tier": "VI",
       "class": "Heavy",
-      "backupItems": ["KV2"],
+      "backupItems": [
+        "KV2"
+      ],
       "mods": [
         {
           "name": "Valhallan Ragnarok",
@@ -464,6 +552,11 @@
           "name": "Charge Legion",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/fix_kv2_bagrlegion_steam.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-kv-2-bagrovyi-legion/16280"
+        },
+        {
+          "name": "HD + Charge Legion",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/kavo2_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-kv-2-hd/16908"
         }
       ]
     },
@@ -472,7 +565,10 @@
       "nation": "U.S.S.R.",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["Object268", "R88_Object_268"],
+      "backupItems": [
+        "Object268",
+        "R88_Object_268"
+      ],
       "mods": [
         {
           "name": "Svyatogor",
@@ -491,7 +587,9 @@
       "nation": "U.S.S.R.",
       "tier": "VII",
       "class": "TD",
-      "backupItems": ["SU122_44"],
+      "backupItems": [
+        "SU122_44"
+      ],
       "mods": [
         {
           "name": "The viper",
@@ -505,7 +603,9 @@
       "nation": "U.K.",
       "tier": "X",
       "class": "Light",
-      "backupItems": ["Vickers_Light_105"],
+      "backupItems": [
+        "Vickers_Light_105"
+      ],
       "mods": [
         {
           "name": "Concept 5 The Unknown",
@@ -519,7 +619,9 @@
       "nation": "U.K.",
       "tier": "VIII",
       "class": "Medium",
-      "backupItems": ["GB_Centurion_MkDF"],
+      "backupItems": [
+        "GB_Centurion_MkDF"
+      ],
       "mods": [
         {
           "name": "Crusader 002",
@@ -533,7 +635,9 @@
       "nation": "U.K.",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["FV215b_183"],
+      "backupItems": [
+        "FV215b_183"
+      ],
       "mods": [
         {
           "name": "Eastern Express",
@@ -544,6 +648,11 @@
           "name": "Tesla",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768"
+        },
+        {
+          "name": "HD",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/183_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-fv215b-183-hd/16916"
         }
       ]
     },
@@ -552,7 +661,10 @@
       "nation": "U.K.",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["GB83_4005", "GB83_FV4005"],
+      "backupItems": [
+        "GB83_4005",
+        "GB83_FV4005"
+      ],
       "mods": [
         {
           "name": "Galahad",
@@ -576,7 +688,9 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["Ch48_BZ_75"],
+      "backupItems": [
+        "Ch48_BZ_75"
+      ],
       "mods": [
         {
           "name": "Divine Valor",
@@ -600,7 +714,9 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["wz_113"],
+      "backupItems": [
+        "wz_113"
+      ],
       "mods": [
         {
           "name": "Realistic",
@@ -614,7 +730,9 @@
       "nation": "China",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["Ch41_WZ_111_5A"],
+      "backupItems": [
+        "Ch41_WZ_111_5A"
+      ],
       "mods": [
         {
           "name": "QI LING (by Adamantium)",
@@ -628,7 +746,10 @@
       "nation": "China",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["121"],
+      "backupItems": [
+        "121",
+        "Ch19_121"
+      ],
       "mods": [
         {
           "name": "King of Monkeys",
@@ -638,7 +759,7 @@
         {
           "name": "IceBreaker",
           "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1125778851809726595",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1jKGP1cDmolFhzRb80hTt1t1AE95iQS_L&export=download&authuser=1&confirm=t&uuid=3cb7bf57-9f01-4331-81c6-c46107d4b157&at=AENtkXbwVCaK0jqgZhgyvZ3VHqn8:1730988166122"
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1oeyL7r76enzrDRjuIVAUBZrncGKt3qnv&export=download&authuser=0&confirm=t&uuid=128596c6-f198-44d6-81cd-4f605e512f16&at=AN8xHoqn1kRv9A-lH3C5U8AX6FGG:1751561137261"
         },
         {
           "name": "Milky",
@@ -652,7 +773,9 @@
       "nation": "China",
       "tier": "IX",
       "class": "Heavy",
-      "backupItems": ["Ch45_WZ_114"],
+      "backupItems": [
+        "Ch45_WZ_114"
+      ],
       "mods": [
         {
           "name": "Tiger Claw",
@@ -666,7 +789,9 @@
       "nation": "China",
       "tier": "VIII",
       "class": "Medium",
-      "backupItems": ["Ch43_WZ-122_2"],
+      "backupItems": [
+        "Ch43_WZ-122_2"
+      ],
       "mods": [
         {
           "name": "Special Guest",
@@ -685,7 +810,9 @@
       "nation": "France",
       "tier": "X",
       "class": "Light",
-      "backupItems": ["Bat_Chatillon25t"],
+      "backupItems": [
+        "Bat_Chatillon25t"
+      ],
       "mods": [
         {
           "name": "Arlequin Ter",
@@ -714,7 +841,9 @@
       "nation": "France",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["AMX_50B"],
+      "backupItems": [
+        "AMX_50B"
+      ],
       "mods": [
         {
           "name": "Charlesmartel",
@@ -728,7 +857,9 @@
       "nation": "France",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["AMX_50Fosh_155"],
+      "backupItems": [
+        "AMX_50Fosh_155"
+      ],
       "mods": [
         {
           "name": "Eglantier",
@@ -742,7 +873,9 @@
       "nation": "Czechia",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["Cz04_T50_51"],
+      "backupItems": [
+        "Cz04_T50_51"
+      ],
       "mods": [
         {
           "name": "HD",
@@ -766,7 +899,9 @@
       "nation": "Czechia",
       "tier": "VIII",
       "class": "Medium",
-      "backupItems": ["Cz13_T_27"],
+      "backupItems": [
+        "Cz13_T_27"
+      ],
       "mods": [
         {
           "name": "Enhanced",
@@ -780,7 +915,9 @@
       "nation": "Czechia",
       "tier": "VIII",
       "class": "Heavy",
-      "backupItems": ["Cz14_Skoda_T-56"],
+      "backupItems": [
+        "Cz14_Skoda_T-56"
+      ],
       "mods": [
         {
           "name": "Hurikán",
@@ -799,7 +936,9 @@
       "nation": "Italy",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["It20_Car_Comb_45t"],
+      "backupItems": [
+        "It20_Car_Comb_45t"
+      ],
       "mods": [
         {
           "name": "Proserpina",
@@ -810,6 +949,11 @@
           "name": "HD",
           "site": "https://forblitz.ru/modifications/remodelings/remodeling-carro-45t-hd/19500",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/carro_45t_hd_forblitz_pc.zip"
+        },
+        {
+          "name": "Sabato",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1gk4WeSuniURH9AL0RUMrkDbMTwcklw1b&export=download&authuser=0&confirm=t&uuid=a428f1e8-2f8c-436d-b53c-2321c746c61e&at=AN8xHop5SIrVfl72h_a3pXdWXbQ-:1751365313364",
+          "site": "null"
         }
       ]
     },
@@ -818,7 +962,10 @@
       "nation": "Italy",
       "tier": "X",
       "class": "Medium",
-      "backupItems": ["It08_Progetto_M40_mod_65"],
+      "backupItems": [
+        "It08_Progetto_M40_mod_65",
+        "MT10_track"
+      ],
       "mods": [
         {
           "name": "HD",
@@ -843,11 +990,42 @@
       ]
     },
     {
+      "name": "Prototipo Standard B",
+      "nation": "Italy",
+      "tier": "IX",
+      "class": "Medium",
+      "backupItems": [
+        "Carro_standart_B",
+        "Prototipo_Standard_B",
+        "It12_Prototipo_Standard_B"
+      ],
+      "mods": [
+        {
+          "name": "HD",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1XS8geAxxfMZfUyi0lYqUUkqKmd04KRgM&export=download&authuser=0&confirm=t&uuid=54665c23-f71e-4ab0-8394-f197e032ef2e&at=AN8xHoqE65QEwmM36fbPlPini43a:1751311727493",
+          "site": "null"
+        }
+      ]
+    },
+    {
+      "name": "P.44 Pantera",
+      "nation": "Italy",
+      "tier": "IX",
+      "class": "Medium",
+      "backupItems": [
+        "M45_44",
+        "P44_Pantera"
+      ],
+      "mods": []
+    },
+    {
       "name": "Rinoceronte",
       "nation": "Italy",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["It115_Rinoceronte"],
+      "backupItems": [
+        "It115_Rinoceronte"
+      ],
       "mods": [
         {
           "name": "Nyx",
@@ -861,7 +1039,9 @@
       "nation": "Italy",
       "tier": "VIII",
       "class": "Heavy",
-      "backupItems": ["It22_Progetto_C45_mod_71"],
+      "backupItems": [
+        "It22_Progetto_C45_mod_71"
+      ],
       "mods": [
         {
           "name": "HD + Aurora",
@@ -875,7 +1055,9 @@
       "nation": "Italy",
       "tier": "X",
       "class": "TD",
-      "backupItems": ["It21_Controcarro3_Minotauro"],
+      "backupItems": [
+        "It21_Controcarro3_Minotauro"
+      ],
       "mods": [
         {
           "name": "HD",
@@ -899,7 +1081,9 @@
       "nation": "Sweden",
       "tier": "X",
       "class": "Heavy",
-      "backupItems": ["S16_Kranvagn"],
+      "backupItems": [
+        "S16_Kranvagn"
+      ],
       "mods": [
         {
           "name": "Trettonde",

@@ -15,3 +15,10 @@ function modFix() {
     mv "$path"/* "$path"/Data 2>/dev/null
   fi
 }
+
+function userCheck() {
+  if [ ! -s /opt/RickWotbMods/lib/env/user.env ]; then
+    echo "User profile is empty..."
+    userInfo
+  fi
+}
