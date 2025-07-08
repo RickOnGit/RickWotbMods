@@ -52,7 +52,7 @@
 
 #### Filter options (only for tanks)
 
-![Filters](i./doc/pictures/install-filters.png)
+![Filters](./doc/pictures/install-filters.png)
 
 #### Downloading information
 
