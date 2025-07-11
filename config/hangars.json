@@ -5,21 +5,19 @@
       "backupItems": [
         "hangar_main_2022",
         "hangar_platoon22",
-        "00_shared_content",
-        "hangar_season6",
-        "hangar_forest_hell",
-        "music_hangar.bnk.dvpl"
+        "hangar_normal",
+        "music_hangar"
       ],
       "mods": [
-        {
-          "name": "28 Days Later",
-          "pc_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/pc-wg/file?_token=x=0",
-          "site": "https://blitz-mods.com/mod/hangars/28-days-later-32"
-        },
         {
           "name": "Cave",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip",
           "site": "https://forblitz.ru/modifications/hangars/hangar-igr-qh/16491"
+        },
+        {
+          "name": "Idle Chamber",
+          "pc_wg": "https://blitz-mods.com/mod/hangars/idle-chamber-a-minimalistic-hangar-305/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/hangars/idle-chamber-a-minimalistic-hangar-305"
         }
       ]
     },
@@ -41,6 +39,11 @@
           "name": "First Hangar",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangarlow4-1_pc_wg.zip",
           "site": "https://forblitz.ru/modifications/hangars/old-hangar/17279"
+        },
+        {
+          "name": "Downloading hangar",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
+          "source": "me"
         }
       ]
     },

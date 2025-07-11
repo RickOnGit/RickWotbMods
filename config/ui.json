@@ -1,38 +1,36 @@
 {
   "UI": [
     {
-      "name": "Battle UI mods",
+      "name": "Light Bulb",
+      "backupItems": [
+        "SixSense",
+        "WarDuck"
+      ],
       "mods": [
-        {
-          "name": "Shoots, smoke, hits effects like WOT",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1ULG0ecVbvcV598yLVH-0qHSlGXshccyl&export=download&authuser=1&confirm=t&uuid=b5f44417-efbd-4731-91e2-d8d97578aefc&at=AN8xHoo4L0a2_ks9D2QvYaTD1GzO:1751525287557",
-          "source": "https://discord.com/channels/1322676518358356109/1327972728988368957/1383534729025945700"
-        },
-        {
-          "name": "WoT-style minimap radar",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_pc.zip",
-          "site": "https://forblitz.ru/en/modifications/interface/vizualnye-krugi-zasveta-v-stile-wot/23033"
-        },
         {
           "name": "Sixth Sense Orange bulb (v2)",
           "site": "https://www.blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41",
           "pc_wg": "https://www.blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41/download/pc-wg/file?_token=x=0"
         },
         {
-          "name": "WOT marker of shelling",
-          "site": "https://forblitz.ru/modifications/interface/bb-style-firing-markers/21597",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/bb-markers_pc.zip"
+          "name": "Bulb Sixth Sense from WoT PC",
+          "pc_wg": "https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82"
         },
         {
-          "name": "Info panel from the Expanding Warfare",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_pc.zip",
-          "site": "https://forblitz.ru/en/modifications/interface/info-panel-expanding-warfare/10657"
-        },
-        {
-          "name": "New Ears",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/03/ears_steam_9_6_pc.zip",
-          "site": "https://forblitz.ru/en/modifications/interface/interface-ears/11299"
-        },
+          "name": "Sixth Sense Totem of undying",
+          "pc_wg": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181"
+        }
+      ]
+    },
+    {
+      "name": "Tank decals",
+      "backupItems": [
+        "crash",
+        "atlas0.dx11"
+      ],
+      "mods": [
         {
           "name": "White tanks destroyed",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1uXqvDzTicxh6C097oz_0GSAlDqEFyOta&export=download&authuser=1&confirm=t&uuid=ceea6e07-86b0-4ca9-ba2c-68890ca8b3b0&at=AN8xHoqtwxeveSFqmHD0DtELlwAz:1751525278127",
@@ -42,51 +40,120 @@
           "name": "HD penetration decals from World of Tanks (PC)",
           "pc_wg": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297"
-        },
-        {
-          "name": "Zoom camera out",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=12pUaUypSl7W3vLWNBrbpGy1vaosCA2J5&export=download&authuser=1&confirm=t&uuid=8e692bce-2e7a-44f4-849e-2bd0336606d6&at=AN8xHorr-_wirUWVR_GZZ8Zm-fbr:1751525288871",
-          "site": "null"
         }
       ]
     },
     {
-      "name": "Hangar UI mods",
+      "name": "WOT battle effects",
+      "backupItems": [
+        "chassis_effects",
+        "hit_tank",
+        "hit_surface",
+        "gun_effects",
+        "tanksFx",
+        "turret_explosion",
+        "SuperVisibility_Tracer",
+        "TracerTrail",
+        "explosion_tank",
+        "Fire_and_Smoke"
+      ],
       "mods": [
         {
-          "name": "Equote tanks",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/05/tanks-icon-wot_pc.zip",
-          "site": "https://forblitz.ru/modifications/interface/wot-style-tank-icons/22720"
-        },
+          "name": "Shoots hits destroyed effects",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1ULG0ecVbvcV598yLVH-0qHSlGXshccyl&export=download&authuser=1&confirm=t&uuid=b5f44417-efbd-4731-91e2-d8d97578aefc&at=AN8xHoo4L0a2_ks9D2QvYaTD1GzO:1751525287557",
+          "source": "https://discord.com/channels/1322676518358356109/1327972728988368957/1383534729025945700"
+        }
+      ]
+    },
+    {
+      "name": "Ribbons",
+      "backupItems": [
+        "texture0.packed.webp",
+        "texture0@2x.packed.webp"
+      ],
+      "mods": [
         {
-          "name": "B&W carousel flags",
-          "pc_wg": "https://drive.usercontent.google.com/download?id=1GBE7UoduBGSQ7avrhRGr5XuJMbggS6Dn&export=download&authuser=1&confirm=t&uuid=e981469a-71df-414c-9db7-9c4cc27b3bf1&at=AN8xHorVWIYUbulvuxZg65UZmQf8:1751525275255",
-          "site": "null"
-        },
+          "name": "Ribbons 2.0",
+          "pc_wg": "https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg"
+        }
+      ]
+    },
+    {
+      "name": "Shells",
+      "backupItems": [
+        "ammunition"
+      ],
+      "mods": [
         {
-          "name": "Statistics in Carousels",
-          "site": "https://forblitz.ru/modifications/interface/statistics-in-the-carousel/20781",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip"
-        },
-        {
-          "name": "Extended Tech Tree",
-          "site": "https://www.blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90",
-          "pc_wg": "https://www.blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0"
-        },
+          "name": "WOT shell icons",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
+        }
+      ]
+    },
+    {
+      "name": "Tank modules",
+      "backupItems": [
+        "ModulesTechTree"
+      ],
+      "mods": [
         {
           "name": "WOT tech tree modules",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/hd1_modules_bb_pc.zip",
           "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
+        }
+      ]
+    },
+    {
+      "name": "Tank eqipment",
+      "backupItems": [
+        "OptionalDevices"
+      ],
+      "mods": [
+        {
+          "name": "WOT equipment",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581"
+        }
+      ]
+    },
+    {
+      "name": "Boosters",
+      "backupItems": [
+        "boosters"
+      ],
+      "mods": [
+        {
+          "name": "WOT boosters",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/bb_boosters_icons_pc_10_7.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/ikonki-busterov-iz-bb/14871"
+        }
+      ]
+    },
+    {
+      "name": "Minimap",
+      "backupItems": [
+        "minimap",
+        "MinimapLookDirection",
+        "british-4005",
+        "Minimap.yaml"
+      ],
+      "mods": [
+        {
+          "name": "WOT style minimaps",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/improved-minimaps_fix_pc.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/improved_minimaps/20538"
         },
         {
-          "name": "WOT Shells",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip",
-          "site": "https://forblitz.ru/en/modifications/interface/ikonki-snaryadov-iz-bb/14633"
+          "name": "Radar",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_pc.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/vizualnye-krugi-zasveta-v-stile-wot/23033"
         },
         {
-          "name": "WOT Equipement",
-          "site": "https://forblitz.ru/en/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip"
+          "name": "X2 minimap",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/minimaps_x2_pc_wg.zip",
+          "site": "https://forblitz.ru/en/modifications/other/uvelichennye-minikarty-x2/21418"
         }
       ]
     }

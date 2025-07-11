@@ -6,8 +6,7 @@
         "weapon.bnk",
         "weapon_basic.bnk",
         "hits.bnk",
-        "hits_basic",
-        "reload.bnk"
+        "hits_basic"
       ],
       "mods": [
         {
@@ -26,24 +25,32 @@
           "site": "https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252"
         },
         {
-          "name": "Shell reload from WOT (after fire)",
-          "site": "https://forblitz.ru/modifications/sounds/gun-reloading-in-blitz-style/22431",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/reloads2.0mod_pc.zip"
-        },
-        {
-          "name": "Shell reload from WOT (shell reloaded)",
-          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip",
-          "site": "https://forblitz.ru/en/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
-        },
-        {
-          "name": "War Thunder gun sounds",
+          "name": "War Thunder hits&guns",
           "pc_wg": "https://drive.usercontent.google.com/download?id=16Q5Nj1kd4cBL3hYYf2--FHEe1-wT3Zl8&export=download&authuser=0&confirm=t&uuid=31d33307-08e4-45b6-97cc-8d57357d571d&at=AN8xHooucI16cAia9FCyPE2tC7XI:1751714618476",
           "source": "null"
         }
       ]
     },
     {
-      "name": "UI Sounds",
+      "name": "Reload",
+      "backupItems": [
+        "reload.bnk"
+      ],
+      "mods": [
+        {
+          "name": "WOT reload v.1",
+          "site": "https://forblitz.ru/modifications/sounds/gun-reloading-in-blitz-style/22431",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/reloads2.0mod_pc.zip"
+        },
+        {
+          "name": "WOT reload v.2",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip",
+          "site": "https://forblitz.ru/en/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
+        }
+      ]
+    },
+    {
+      "name": "Light bulb timer",
       "backupItems": [
         "ui_battle_basic.bnk"
       ],

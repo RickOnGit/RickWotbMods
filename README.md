@@ -60,8 +60,6 @@
 
 #### Restore menu
 
-- Works for everything except for UI elements (kinda a mess atm)
-
 ![Restore menu](./doc//pictures/restore.png)
 
 #### _Wanna do things faster? Use tmux!!_
