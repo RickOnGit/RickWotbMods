@@ -1,4 +1,5 @@
 function userInfo() {
+  touch /opt/RickWotbMods/lib/env/user.env
   ans1=$(echo -e "$system" | gum choose --header="Select your OS")
   echo "os=$ans1" >/opt/RickWotbMods/lib/env/user.env
   ans2=$(echo -e "$clients" | gum choose)
