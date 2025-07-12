@@ -9,15 +9,15 @@ else
   exit 1
 fi
 
-echo "#!$BASH_PATH" >rickmodder
-echo "/opt/RickWotbMods/bin/main.sh" >>rickmodder
+touch ~/RickWotbMods/bin/rickmodder
 
-chmod +x rickmodder
+echo "#!$BASH_PATH" >~/RickWotbMods/bin/rickmodder
+echo "/opt/RickWotbMods/bin/main.sh" >>~/RickWotbMods/bin/rickmodder
+
+chmod +x ~/RickWotbMods/bin/rickmodder
 
 sudo mkdir -p /usr/local/bin
 
-sudo cp rickmodder /usr/local/bin
+sudo cp ~/RickWotbMods/bin/rickmodder /usr/local/bin
 
 sudo mv ~/RickWotbMods /opt 2>/dev/null
-
-exit
