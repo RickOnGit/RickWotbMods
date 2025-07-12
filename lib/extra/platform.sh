@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function userInfo() {
   ans1=$(echo -e "$system" | gum choose --header="Select your OS")
   echo "os=$ans1" >/opt/RickWotbMods/lib/env/user.env

@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function installer() {
   local source_dir="$1"
   local model="$2"

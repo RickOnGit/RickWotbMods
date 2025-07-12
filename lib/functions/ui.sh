@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function modMenu() {
   ans=$(echo -e "$modMenu" | gum choose --header "Select a category to mod 👇")
 

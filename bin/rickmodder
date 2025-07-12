@@ -1,2 +1,11 @@
-#!/usr/bin/env bash
-/opt/RickWotbMods/bin/./main.sh
+#!/usr/bin bash
+
+source /opt/RickWotbMods/lib/functions/load.sh
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  BASH_PATH="/usr/bin/bash"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  BASH_PATH="/opt/homebrew/bin/bash"
+fi
+
+$BASH_PATH /opt/RickWotbMods/bin/./main.sh

@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function restoreItems() {
   local file="$1"
   local category="$2"

@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function update() {
   cd /opt/RickWotbMods/
 
@@ -14,5 +12,5 @@ function update() {
     sleep 1
   fi
 
-  cd "$HOME";
+  cd "$HOME"
 }

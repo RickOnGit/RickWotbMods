@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function backupDir() {
   if [ ! -d "$wotbBackup" ]; then
     mkdir -p "$wotbBackup"

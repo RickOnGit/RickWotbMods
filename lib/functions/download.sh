@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 function downloader() {
   for key in "${!links[@]}"; do
     downloadLink="${links[$key]}"

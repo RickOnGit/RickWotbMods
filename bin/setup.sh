@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin bash
 
-sudo mkdir -p usr/local/bin
+sudo mkdir -p /usr/local/bin
 
 sudo cp rickmodder /usr/local/bin
 
