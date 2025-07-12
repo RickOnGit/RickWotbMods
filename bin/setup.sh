@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   BASH_PATH="/usr/bin/bash"
@@ -9,15 +10,15 @@ else
   exit 1
 fi
 
-touch ~/RickWotbMods/bin/rickmodder
+sudo mv ~/RickWotbMods /opt 2>/dev/null || true
 
-echo "#!$BASH_PATH" >~/RickWotbMods/bin/rickmodder
-echo "/opt/RickWotbMods/bin/main.sh" >>~/RickWotbMods/bin/rickmodder
+SCRIPT_DIR="/opt/RickWotbMods/bin"
 
-chmod +x ~/RickWotbMods/bin/rickmodder
+cat <<EOF >"$SCRIPT_DIR/rickmodder"
+#!$BASH_PATH
+"$SCRIPT_DIR/main.sh"
+EOF
 
-sudo mkdir -p /usr/local/bin
+chmod +x "$SCRIPT_DIR/rickmodder"
 
-sudo cp ~/RickWotbMods/bin/rickmodder /usr/local/bin
-
-sudo mv ~/RickWotbMods /opt 2>/dev/null
+sudo cp "$SCRIPT_DIR/rickmodder" /usr/local/bin
