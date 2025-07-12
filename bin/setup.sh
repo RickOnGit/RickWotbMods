@@ -7,7 +7,7 @@ BASH_PATH="#!/usr/bin/env bash"
 
 cat <<EOF >"$SCRIPT_DIR/rickmodder"
 $BASH_PATH
-$SCRIPT_DIR/main.sh
+bash "$SCRIPT_DIR/main.sh"
 EOF
 
 chmod +x "$SCRIPT_DIR/rickmodder"
