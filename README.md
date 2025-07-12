@@ -32,8 +32,8 @@
 
 # Installation
 
-1. Clone the repository: `git clone https://github.com/RickOnGit/RickWotbMods ~`
-2. From the terminal run: `cd RickWotbMods/bin; ./setup.sh`
+1. Clone the repository: `git clone https://github.com/RickOnGit/RickWotbMods $HOME`
+2. From the terminal run: `RickWotbMods/bin/setup.sh`
 3. Just run `rickmodder` anywhere in the shell and start downloading mods !!.
 
 # Usage
