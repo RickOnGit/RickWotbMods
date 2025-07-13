@@ -1,3 +1,26 @@
+function selectorMods() {
+  local file="$1"
+  local category="$2"
+  declare -A links
+
+  tempSelected=$(jq -r --arg category $category '.[$category][] | .name as $mainName | .mods[]?.name as $modName | "\($mainName), \($modName)"' "$file")
+
+  echo "$tempSelected" >$filterFile
+  selected=$(cat $filterFile | gum filter --no-limit --height=10)
+
+  if [ -n "$selected" ]; then
+    while IFS=',' read -r element modName; do
+      element=$(echo "$element" | xargs)
+      modName=$(echo "$modName" | xargs)
+      link=$(jq -r --arg category "$category" --arg element "$element" --arg modName "$modName" --arg downloadLink "$client" '.[$category][] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
+      links["$element,$modName"]="$link"
+    done <<<"$selected"
+    downloader
+  else
+    return
+  fi
+}
+
 function downloader() {
   for key in "${!links[@]}"; do
     downloadLink="${links[$key]}"
