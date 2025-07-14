@@ -1,38 +1,10 @@
-function modMenu() {
-  ans=$(echo -e "$modMenu" | gum choose --header "Select a category to mod 👇")
-
-  case "$ans" in
-  "Tanks")
-    selectorMods "$tanksFile" "$ans"
-    ;;
-  "Sounds")
-    selectorMods "$soundsFile" "$ans"
-    ;;
-  "Hangars")
-    selectorMods "$hangarsFile" "$ans"
-    ;;
-  "UI")
-    selectorMods "$uiFile" "$ans"
-    ;;
-  "Maps")
-    selectorMods "$mapsFile" "$ans"
-    ;;
-  "Sights")
-    selectorMods "$sightsFile" "$ans"
-    ;;
-  esac
-}
-
 function mainMenu() {
   while true; do
     ans=$(echo -e "$mainMenu" | gum choose --header "Select what to do 👇")
 
     case "$ans" in
-    "Install mods")
-      modMenu
-      ;;
-    "Restore items")
-      restoreMenu
+    "Install mods" | "Mods preview" | "Restore items")
+      modMenu "$ans"
       ;;
     "Restore all")
       restoreGame
@@ -48,27 +20,37 @@ function mainMenu() {
   done
 }
 
-function restoreMenu() {
-  ans=$(echo -e "$modMenu" | gum choose --header "Select a category to restore 👇")
+function modMenu() {
+  local x="$1"
+
+  if [[ "$x" == "Install mods" ]]; then
+    fun="selectorMods"
+  elif [[ "$x" == "Mods preview" ]]; then
+    fun="modPreview"
+  elif [[ "$x" == "Restore items" ]]; then
+    fun="restoreItems"
+  fi
+
+  ans=$(echo -e "$modMenu" | gum choose --header "Select a category 👇")
 
   case "$ans" in
   "Tanks")
-    restoreItems "$tanksFile" "$ans"
+    $fun "$tanksFile" "$ans"
     ;;
   "Sounds")
-    restoreItems "$soundsFile" "$ans"
+    $fun "$soundsFile" "$ans"
     ;;
   "Hangars")
-    restoreItems "$hangarsFile" "$ans"
+    $fun "$hangarsFile" "$ans"
     ;;
   "UI")
-    restoreItems "$uiFile" "$ans"
+    $fun "$uiFile" "$ans"
     ;;
   "Maps")
-    restoreItems "$mapsFile" "$ans"
+    $fun "$mapsFile" "$ans"
     ;;
   "Sights")
-    restoreItems "$sightsFile" "$ans"
+    $fun "$sightsFile" "$ans"
     ;;
   esac
 }

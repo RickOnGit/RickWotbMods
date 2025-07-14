@@ -1,10 +1,22 @@
 #!/usr/bin/env bash
 
-tanks=$(jq -r '.Tanks[] | .name as $tankName | .mods[]?.name as $modName | "\($tankName), \($modName)"' ../config/tanks.json)
-echo "$tanks" >tankList.txt
+tanks=$(jq -r '.Tanks[] | .name' ../config/tanks.json)
+echo "$tanks" >filter.txt
+selectedElem=$(cat filter.txt | gum filter)
 
-selectedTanks=$(cat tankList.txt | gum filter --no-limit --height=10)
+mods=$(jq -r --arg element "$selectedElem" '.Tanks[] | select(.name == $element) | .mods[]?.name' ../config/tanks.json)
+selectedMods=$(echo "$mods" | gum choose --no-limit --header="Select")
 
-list=$(gum style --padding "1 5" --border double --border-foreground 212 "$(echo "$selectedTanks")")
+modLinks=()
+
+while IFS= read -r mod; do
+  site=$(jq -r --arg baseName "$selectedElem" --arg modName "$mod" '.Tanks[] | select(.name == $baseName) | .mods[] | select(.name == $modName) | .site' ../config/tanks.json)
+
+  modLinks+=("• $(printf '\e]8;;%s\a%s\e]8;;\a' "$site" "$mod")")
+done <<<"$selectedMods"
+
+formattedLinks=$(printf "%s\n" "${modLinks[@]}")
+
+list=$(gum style --padding "1 2" --border double --border-foreground 180 "$(echo -e "Mods for $selectedElem\n\n$formattedLinks")")
 
 echo "$list"
