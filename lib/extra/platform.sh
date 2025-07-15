@@ -1,8 +1,12 @@
 function userInfo() {
   touch /opt/RickWotbMods/lib/env/user.env
   ans1=$(echo -e "$system" | gum choose --header="Select your OS")
-  echo "os=$ans1" >/opt/RickWotbMods/lib/env/user.env
   ans2=$(echo -e "$clients" | gum choose)
+
+  if [ -n $ans1 && -n $ans2]; then
+    echo "os=$ans1" >/opt/RickWotbMods/lib/env/user.env
+  fi
+
   if [[ "$ans1" == "MacOs" && "$ans2" == "WG" ]]; then
     echo "client=pc_wg" >>/opt/RickWotbMods/lib/env/user.env
     echo 'wotbData="$HOME/Library/Application Support/Steam/steamapps/common/World of Tanks Blitz/World of Tanks Blitz.app/Contents/Resources/Data/"' >>/opt/RickWotbMods/lib/env/user.env
