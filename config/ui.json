@@ -137,6 +137,31 @@
       ]
     },
     {
+      "name": "Tech tree",
+      "backupItems": [
+        "china_tree",
+        "european_tree",
+        "france_tree",
+        "japan_tree",
+        "germany_tree",
+        "uk_tree",
+        "prem_tanks",
+        "ussr_tree",
+        "usa_tree",
+        "other_tree",
+        "flag_tank-tree_other",
+        "SidebarTanksTreeMenu",
+        "list.xml"
+      ],
+      "mods": [
+        {
+          "name": "Extended tech tree wg edition",
+          "pc_wg": "https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90"
+        }
+      ]
+    },
+    {
       "name": "Minimap",
       "backupItems": [
         "minimap",

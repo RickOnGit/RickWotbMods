@@ -936,9 +936,14 @@
       ],
       "mods": [
         {
-          "name": "Proserpina",
+          "name": "Proserpina by bigmeaty",
           "site": "https://discordapp.com/channels/174448788436549632/254137952215498762/1140385731219566642",
           "pc_wg": "https://drive.usercontent.google.com/download?id=1ngBpjVp3Ky9OqJegIpBqAKMdibl1BLmp&export=download&authuser=1&confirm=t&uuid=be83b967-d191-42b8-9c53-0aa9b926b5a9&at=AN8xHoruObG_4MIa8ftVhz8U_CtR:1752257941400"
+        },
+        {
+          "name": "Proserpina by MuzMods",
+          "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306"
         },
         {
           "name": "HD",
