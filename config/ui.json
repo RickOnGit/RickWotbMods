@@ -37,6 +37,11 @@
           "site": "null"
         },
         {
+          "name": "Coloured hitmarks",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1aPOc1U0RH716JHi6uPpSX1i3RFgXF64t&export=download&authuser=1&confirm=t&uuid=9098b5d1-0a2e-4d8a-8f14-b5d34e1c42f5&at=AN8xHoq4U2Ydde-uDKSf-Q24R1Zy:1752517980043",
+          "site": "null"
+        },
+        {
           "name": "HD penetration decals from World of Tanks (PC)",
           "pc_wg": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297/download/pc-wg/file?_token=x=0",
           "site": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297"
@@ -106,7 +111,7 @@
       ]
     },
     {
-      "name": "Tank eqipment",
+      "name": "Tank equipment",
       "backupItems": [
         "OptionalDevices"
       ],
@@ -154,6 +159,72 @@
           "name": "X2 minimap",
           "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/minimaps_x2_pc_wg.zip",
           "site": "https://forblitz.ru/en/modifications/other/uvelichennye-minikarty-x2/21418"
+        }
+      ]
+    },
+    {
+      "name": "Camera",
+      "backupItems": [
+        "optionsDesktop",
+        "optionsMiniTablet",
+        "optionsPhone",
+        "optionsTablet"
+      ],
+      "mods": [
+        {
+          "name": "Zoom-Out",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=12pUaUypSl7W3vLWNBrbpGy1vaosCA2J5&export=download&authuser=1&confirm=t&uuid=e18e1a92-ca5c-4246-9f2e-18a150a9b7ad&at=AN8xHopbYJ0GhJ1sjPcoMW3XUR_p:1752517751809",
+          "site": "null"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "backupItems": [
+        "flag_carousel",
+        "DevConsoleLine",
+        "Hangar.yaml",
+        "BuySlotsButton",
+        "BuyoutTankButton",
+        "OwnedTankCell",
+        "TanksPanel",
+        "icon_game-mode_random"
+      ],
+      "mods": [
+        {
+          "name": "Two level carousel + statistics",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_pc_wg.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel-with-statistics-on-tiles/21627"
+        },
+        {
+          "name": "Two level Carousel",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big_pc_wg.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel/21613"
+        },
+        {
+          "name": "Single level carousel + statistics",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/statistics-in-the-carousel/20781"
+        },
+        {
+          "name": "Random tank button",
+          "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_pc_wg.zip",
+          "site": "https://forblitz.ru/en/modifications/interface/knopka-vybora-sluchainogo-tanka-tolk/19085"
+        }
+      ]
+    },
+    {
+      "name": "Pbr maps",
+      "backupItems": [
+        "dirt_",
+        "dust_",
+        "snow_"
+      ],
+      "mods": [
+        {
+          "name": "Improved dust and dirt by P1NNY",
+          "pc_wg": "https://drive.usercontent.google.com/download?id=1RIZQctye85tUUtp9v9m6q7elLrsx9dQh&export=download&authuser=1&confirm=t&uuid=5dd2ae2f-8859-4bd5-97ed-a20179cc24be&at=AN8xHooFHtN-LWjxlWZXddPWw7ts:1752569395014",
+          "site": "https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550"
         }
       ]
     }
