@@ -17,8 +17,9 @@ function modPreview() {
   done <<<"$selectedMods"
 
   formattedLinks=$(printf "%s\n" "${modLinks[@]}")
+  title=$(gum format -- "# Mods for $selectedElem" "(_ctrl+mouse click_)")
 
-  list=$(gum style --padding "1 2" --border double --border-foreground 180 "$(echo -e "Mods for $selectedElem\n\n$formattedLinks")")
+  list=$(gum style --margin="1 1" --align="center" --border="none" "$(echo -e "$title\n\n$formattedLinks")")
 
   echo "$list"
 }
