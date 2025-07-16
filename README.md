@@ -1,5 +1,6 @@
 <h3 align="center">
 
+![bc-gradient](https://github.com/Everduin94/better-commits/assets/logo.png)
 [![Rick wotb loader is enabled](https://img.shields.io/badge/Rick%20Wotb%20Loader-a6e3a1?style=flat-square&logo=git&logoColor=D9E0EE&logoSize=auto&labelColor=302D41)](https://github.com/RickOnGit/RickWotbMods)
 
 </h3>
