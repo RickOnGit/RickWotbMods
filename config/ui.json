@@ -252,6 +252,20 @@
           "site": "https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550"
         }
       ]
+    },
+    {
+      "name": "Camouflages",
+      "backupItems": [
+        "camouflages.yaml",
+        "camouflagfes.xml"
+      ],
+      "mods": [
+        {
+          "name": "Fake legendary camos",
+          "pc_wg": "https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274/download/pc-wg/file?_token=x=0",
+          "site": "https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274"
+        }
+      ]
     }
   ]
 }
