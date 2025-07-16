@@ -5,9 +5,9 @@ function modPreview() {
   NC='\033[0m'      # No Color
   elem=$(jq -r --arg category "$category" '.[$category][] | .name' $file)
 
-  echo "$elem" >$filterFile
+  echo "$elem" >$tmpFile
 
-  selectedElem=$(cat $filterFile | gum filter)
+  selectedElem=$(cat $tmpFile | gum filter)
   mods=$(jq -r --arg category "$category" --arg element "$selectedElem" '.[$category][] | select(.name == $element) | .mods[]?.name' $file)
   selectedMods=$(echo "$mods" | gum choose --no-limit --header="Select")
   modLinks=()

@@ -5,8 +5,8 @@ function selectorMods() {
 
   tempSelected=$(jq -r --arg category $category '.[$category][] | .name as $mainName | .mods[]?.name as $modName | "\($mainName), \($modName)"' "$file")
 
-  echo "$tempSelected" >$filterFile
-  selected=$(cat $filterFile | gum filter --no-limit --height=10)
+  echo "$tempSelected" >$tmpFile
+  selected=$(cat $tmpFile | gum filter --no-limit --height=10)
 
   if [ -n "$selected" ]; then
     while IFS=',' read -r element modName; do

@@ -12,6 +12,9 @@ function mainMenu() {
     "Change platform")
       userInfo
       ;;
+    "Clear screen")
+      clear
+      ;;
     "Quit")
       clear
       break
