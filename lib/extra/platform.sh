@@ -3,7 +3,7 @@ function userInfo() {
   ans1=$(echo -e "$system" | gum choose --header="Select your OS")
   ans2=$(echo -e "$clients" | gum choose)
 
-  if [ -n $ans1 && -n $ans2]; then
+  if [[ -n "$ans1" && -n "$ans2" ]]; then
     echo "os=$ans1" >/opt/RickWotbMods/lib/env/user.env
   fi
 
