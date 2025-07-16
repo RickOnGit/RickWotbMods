@@ -1,6 +1,8 @@
 <h3 align="center">
 
-![Logo](https://raw.githubusercontent.com/RickOnGit/RickWotbMods/test/assets/logo.png)
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/RickOnGit/RickWotbMods/test/assets/logo.png" alt="Logo" width="150" />
+</h3>
 
 [![Rick wotb loader is enabled](https://img.shields.io/badge/Rick%20Wotb%20Loader-a6e3a1?style=flat-square&logo=git&logoColor=D9E0EE&logoSize=auto&labelColor=302D41)](https://github.com/RickOnGit/RickWotbMods)
 
