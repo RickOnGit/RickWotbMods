@@ -7,5 +7,5 @@
 </h3>
 
 <p align="center">
-A CLI for installing, backing up and previewing all **World of Tanks Blitz** mods out there, with 0 effort and in few seconds/minutes.
+A CLI for installing, backing up and previewing all World of Tanks Blitz mods out there, with 0 effort and in few seconds/minutes.
 </p>
