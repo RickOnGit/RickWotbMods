@@ -27,7 +27,8 @@ function restoreItems() {
       gum spin -s "minidot" --title "Restoring stock files for $elem..." -- rsync -a --include="*/" --include="*${fileName}*/" --include="*${fileName}*" --include="${fileName}/**" --exclude="*" "$wotbBackup" "$wotbData"
     done <$filterFile
 
-    list=$(gum style --padding "1 2" --border double --border-foreground 180 "$(echo -e "Original files applied for\n\n$formattedNames")")
+    title=$(gum format -- "# Og files applied for:")
+    list=$(gum style --border="rounded" --margin="0 1" --padding "1 5" --align="center" "$(echo -e "$title\n\n$formattedNames")")
     echo "$list"
   else
     return

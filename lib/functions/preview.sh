@@ -15,13 +15,14 @@ function modPreview() {
   while IFS= read -r mod; do
     site=$(jq -r --arg category "$category" --arg baseName "$selectedElem" --arg modName "$mod" ' .[$category][] | select(.name == $baseName) | .mods[] | select(.name == $modName) | .site' $file)
 
+    #only for UI
     modLinks+=("• $(printf '\e]8;;%s\a%s\e]8;;\a' "$site" "${BLUE}${mod}${NC}")")
   done <<<"$selectedMods"
 
   formattedLinks=$(printf "%s\n" "${modLinks[@]}")
   title=$(gum format -- "# Mods for $selectedElem" "(_ctrl+mouse click_)")
 
-  list=$(gum style --border="rounded" --margin="1 1" --align="center" "$(echo -e "$title\n\n$formattedLinks")")
+  list=$(gum style --border="rounded" --margin="0 1" --padding "1 5" --align="center" "$(echo -e "$title\n\n$formattedLinks")")
 
   echo "$list"
 }
