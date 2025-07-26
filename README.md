@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/RickOnGit/RickWotbMods/main/assets/logo.png" alt="Rick Wotb Mods Logo" width="350" />
+  <img src="https://raw.githubusercontent.com/RickOnGit/RickWotbMods/main/assets/logo.png" alt="Rick WotB mod Loader" width="350" />
 </h3>
 
 <p align="center">
@@ -11,6 +11,8 @@
     <img src="https://img.shields.io/badge/Rick%20Wotb%20Loader-a6e3a1?style=flat-square&logo=git&logoColor=D9E0EE&labelColor=302D41" alt="Rick Wotb Loader Status">
   </a>
 </p>
+
+https://github.com/user-attachments/assets/f6aa0017-a85a-453f-9180-edf32a7cfdd5
 
 ---
 
