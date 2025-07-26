@@ -1,0 +1,152 @@
+[
+  {
+    "name": "🎨 Custom hangars",
+    "backupItems": [
+      "hangar_main_2022",
+      "hangar_platoon22",
+      "hangar_normal",
+      "music_hangar"
+    ],
+    "mods": [
+      {
+        "name": "Cave",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/hangar_peshera_igr-1_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/hangars/hangar-igr-qh/16491"
+      },
+      {
+        "name": "Idle Chamber",
+        "pc_wg": "https://blitz-mods.com/mod/hangars/idle-chamber-a-minimalistic-hangar-305/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/hangars/idle-chamber-a-minimalistic-hangar-305"
+      },
+      {
+        "name": "28 days later",
+        "android_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/hangars/28-days-later-32"
+      }
+    ]
+  },
+  {
+    "name": "🗿 Old hangars",
+    "backupItems": [
+      "hangar_main_2022",
+      "hangar_platoon22",
+      "00_shared_content",
+      "hangar_season6"
+    ],
+    "mods": [
+      {
+        "name": "2018 Premium",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangar_prem_2018-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar/20302"
+      },
+      {
+        "name": "First Hangar",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/hangarlow4-1_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/hangars/old-hangar/17279"
+      },
+      {
+        "name": "Downloading hangar",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
+        "source": "me"
+      }
+    ]
+  },
+  {
+    "name": "🗺️ Map hangars",
+    "backupItems": [
+      "hangar_main_2022",
+      "hangar_platoon22",
+      "00_shared_content",
+      "hangar_season6"
+    ],
+    "mods": [
+      {
+        "name": "Mines",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1EPmOYM7lvG0W7f248buf9KAIItl9VLxB&export=download&authuser=1&confirm=t&uuid=d8f9bf7d-db28-4032-b756-2308afca2ab7&at=AN8xHopfQbXTkTIs6TtBEEjmGZ-c:1752566454648",
+        "site": "null"
+      },
+      {
+        "name": "Middleburg",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/09/midlburg-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/hangar_midlburg_qq/17771"
+      }
+    ]
+  },
+  {
+    "name": "🎄 Xmas hangars",
+    "backupItems": [
+      "hangar_main_2022",
+      "hangar_platoon22",
+      "00_shared_content",
+      "hangar_season6"
+    ],
+    "mods": [
+      {
+        "name": "2015",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1A2kz_8gg3EX2NczE-RAi-zmzYNc34ynb&export=download&authuser=0&confirm=t&uuid=33ff655d-d975-44f7-b6fa-f7eaa630214b&at=AN8xHopiabDqEi_8G_1PCKeCP5Uy:1753094079665",
+        "site": "null"
+      },
+      {
+        "name": "2020",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1XrX7Ju9usgRIU3hshZc1Lgoiy_u_a-vp&export=download&authuser=0&confirm=t&uuid=221f9cf0-86d6-4c6e-b2cc-b2bae5f8901c&at=AN8xHopEblF-H27-DVh1AOG-I-b0:1753094072102",
+        "site": "null"
+      },
+      {
+        "name": "2021",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/hangar_2021_ny_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/new-years-hangar-2021/21548"
+      }
+    ]
+  },
+  {
+    "name": "🎃 Halloween hangars",
+    "backupItems": [
+      "hangar",
+      "hangar_main_2022",
+      "00_shared_content",
+      "26_homeisk_hk",
+      "hangar_platoon22",
+      "halloween2019",
+      "Oth42_ForestWitch_HW23",
+      "music_hangar"
+    ],
+    "mods": [
+      {
+        "name": "2014-15",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/06/hangar_helloween2014-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2014/18109"
+      },
+      {
+        "name": "2016",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_helloween_2016-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2016/18416"
+      },
+      {
+        "name": "2017",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_2017-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2017/18429"
+      },
+      {
+        "name": "2018-20",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_2018_20-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2018-2020/18436"
+      },
+      {
+        "name": "2019",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/hangar_halloween2019_uni_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2019/18443"
+      },
+      {
+        "name": "2021",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_21-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2021/18450"
+      },
+      {
+        "name": "2022",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_22-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2022/18457"
+      }
+    ]
+  }
+]

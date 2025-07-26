@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Custom Sights",
+    "backupItems": [
+      "Aim1",
+      "aim_camera-marker",
+      "aim_gun-marker",
+      "texture0",
+      "GunSpread"
+    ],
+    "mods": [
+      {
+        "name": "Modern Warfare",
+        "pc_wg": "https://blitz-mods.com/mod/sights/modern-warfare-12/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/sights/modern-warfare-12"
+      },
+      {
+        "name": "Green Ready",
+        "pc_wg": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16/download/pc-wg/file?_token=x=0",
+        "android_wg": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16/download/android-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16"
+      },
+      {
+        "name": "White solid circle of information",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/white-reload_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/scopes/white-solid-circle/22516"
+      }
+    ]
+  }
+]

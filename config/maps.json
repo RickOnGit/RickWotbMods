@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Dynasty Pearl",
+    "backupItems": [
+      "30_grossberg_sh",
+      "grossberg"
+    ],
+    "mods": [
+      {
+        "name": "Night",
+        "site": "https://forblitz.ru/modifications/map-restylings/pearl-city-at-night/22479",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/night-grossberg_pc.zip"
+      }
+    ]
+  },
+  {
+    "name": "Canal",
+    "backupItems": [
+      "18_canal_cn",
+      "canal"
+    ],
+    "mods": [
+      {
+        "name": "Autumn",
+        "site": "https://forblitz.ru/modifications/map-restylings/autumn-channel/21684",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/autumn-canal_pc.zip"
+      }
+    ]
+  },
+  {
+    "name": "Lost Temple",
+    "backupItems": [
+      "10_asia_as",
+      "asia"
+    ],
+    "mods": [
+      {
+        "name": "Night",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/the-lost-temple-at-night/22925",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/night-lost-temple_pc_wg.zip"
+      }
+    ]
+  },
+  {
+    "name": "Winter Malinovka",
+    "backupItems": [
+      "12_malinovka_ma"
+    ],
+    "mods": [
+      {
+        "name": "Night",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/winter-night-robin/22786",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/05/night-malinovka_pc.zip"
+      }
+    ]
+  },
+  {
+    "name": "Normandia",
+    "backupItems": [
+      "33_neptune_nt"
+    ],
+    "mods": [
+      {
+        "name": "Rainy",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/pasmurnaya-pogoda/427",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2020/06/rainy_neptun_steam.zip"
+      }
+    ]
+  },
+  {
+    "name": "Hellas",
+    "backupItems": [
+      "35_rift_rt",
+      "rift"
+    ],
+    "mods": [
+      {
+        "name": "Evening",
+        "site": "https://forblitz.ru/modifications/map-restylings/evening-hellas/22165",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/evening-hellas_pc.zip"
+      }
+    ]
+  },
+  {
+    "name": "Vineyards",
+    "backupItems": [
+      "22_italy_it",
+      "italy"
+    ],
+    "mods": [
+      {
+        "name": "Evening",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/22_italy_evening_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/22_italy_evening_it/20575"
+      }
+    ]
+  },
+  {
+    "name": "Himmelsdorf",
+    "backupItems": [
+      "19_himmelsdorf_hm",
+      "himmelsdorf"
+    ],
+    "mods": [
+      {
+        "name": "Realistic",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2020/12/himmel_fix_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/realistichnyi-restailing-khimmelsdor/2192"
+      }
+    ]
+  },
+  {
+    "name": "Fort",
+    "backupItems": [
+      "07_fort_ft",
+      "fort"
+    ],
+    "mods": [
+      {
+        "name": "Summer",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/summer-fort/21561"
+      }
+    ]
+  }
+]
