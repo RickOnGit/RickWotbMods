@@ -29,5 +29,5 @@ function userInfo() {
   esac
 
   source $userFile
-  backupDir
+  set +e
 }
