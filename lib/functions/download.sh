@@ -2,15 +2,11 @@ function selectorMods() {
   local file="$1"
   declare -A links
 
-  case "$os" in
-  "Android") jq -r '.[] | .name as $mainName | .mods[]? | select(has("android_wg")) | "\($mainName), \(.name)"' "$file" >"$tmpFile" ;;
-  *) jq -r '.[] | .name as $mainName | .mods[]?.name as $modName | "\($mainName), \($modName)"' "$file" >$tmpFile ;;
-  esac
-
+  jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpFile"
   eval "selected=\$(cat \$tmpFile | gum filter --header \"Choose mod(s) to download 📋\" --no-limit $gum_filter_prompt)"
 
   if [ -n "$selected" ]; then
-    while IFS=',' read -r element modName; do
+    while IFS=':' read -r element modName; do
       element=$(echo "$element" | xargs)
       modName=$(echo "$modName" | xargs)
       link=$(jq -r --arg element "$element" --arg modName "$modName" --arg downloadLink "$client" '.[] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
@@ -48,5 +44,5 @@ function download() {
     modFix "$tmpDir"
   fi
   installer "$tmpDir" "$modName" "$baseModelName"
-  rm -r "$tmpDir"
+  rm -r "$tmpDir"/*
 }

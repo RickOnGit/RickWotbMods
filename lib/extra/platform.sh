@@ -4,13 +4,14 @@ function userInfo() {
   eval "ans2=\$(echo -e \"$clients\" | gum choose --header \"Select your client 👤\" $gum_choose_prompt)"
 
   if [[ -n "$ans1" && -n "$ans2" ]]; then
-    echo "os=$ans1" >$userFile
+    trimmedOs="${ans1#* }"
+    echo "os=$trimmedOs" >$userFile
   else
     echo "Error no platform info provided, Quitting"
     exit 1
   fi
 
-  case "$ans1" in
+  case "$trimmedOs" in
   "Android")
     if [[ "$ans2" == "WG" ]]; then
       echo -e "$Android_WG" >>$userFile
@@ -30,4 +31,5 @@ function userInfo() {
 
   source $userFile
   set +e
+  backupDir
 }
