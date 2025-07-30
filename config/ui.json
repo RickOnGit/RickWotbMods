@@ -1,6 +1,6 @@
 [
   {
-    "name": "Stats",
+    "name": "📜 Stats",
     "backupItems": [
       "HUDLayer.yaml",
       "SidebarHangarMenu.yaml",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "Light Bulb",
+    "name": "💡 Light Bulb",
     "backupItems": [
       "SixSense",
       "WarDuck"
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "name": "Tank decals",
+    "name": "🎯 Tank decals",
     "backupItems": [
       "crash",
       "atlas0.dx11"
@@ -67,7 +67,7 @@
     ]
   },
   {
-    "name": "WOT battle effects",
+    "name": "💥 WoT style battle effects",
     "backupItems": [
       "chassis_effects",
       "hit_tank",
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "name": "Ribbons",
+    "name": "🎖️ Ribbons",
     "backupItems": [
       "texture0.packed.webp",
       "texture0@2x.packed.webp"
@@ -103,59 +103,59 @@
     ]
   },
   {
-    "name": "Shells",
+    "name": "🖍️ Shells",
     "backupItems": [
       "ammunition"
     ],
     "mods": [
       {
-        "name": "WOT shell icons",
+        "name": "WoT style shell icons",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip",
         "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
       }
     ]
   },
   {
-    "name": "Tank modules",
+    "name": "🔩 Tank modules",
     "backupItems": [
       "ModulesTechTree"
     ],
     "mods": [
       {
-        "name": "WOT tech tree modules",
+        "name": "WoT style tank modules",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/hd1_modules_bb_pc.zip",
         "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
       }
     ]
   },
   {
-    "name": "Tank equipment",
+    "name": "📦 Tank equipment",
     "backupItems": [
       "OptionalDevices"
     ],
     "mods": [
       {
-        "name": "WOT equipment",
+        "name": "WoT style equipment",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip",
         "site": "https://forblitz.ru/en/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581"
       }
     ]
   },
   {
-    "name": "Boosters",
+    "name": "🎫 Boosters",
     "backupItems": [
       "boosters"
     ],
     "mods": [
       {
-        "name": "WOT boosters",
+        "name": "WoT style boosters",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/bb_boosters_icons_pc_10_7.zip",
         "site": "https://forblitz.ru/en/modifications/interface/ikonki-busterov-iz-bb/14871"
       }
     ]
   },
   {
-    "name": "Tech tree",
+    "name": "🪾 Tech tree",
     "backupItems": [
       "china_tree",
       "european_tree",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "name": "Minimap",
+    "name": "🗺️ Minimap",
     "backupItems": [
       "minimap",
       "MinimapLookDirection",
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "name": "Camera",
+    "name": "🎥 Camera",
     "backupItems": [
       "optionsDesktop",
       "optionsMiniTablet",
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "name": "Carousel",
+    "name": "🎞️ Carousel",
     "backupItems": [
       "flag_carousel",
       "DevConsoleLine",
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "name": "Pbr maps",
+    "name": "🧽 Pbr maps",
     "backupItems": [
       "dirt_",
       "dust_",
@@ -272,7 +272,7 @@
     ]
   },
   {
-    "name": "Camouflages",
+    "name": "🎭 Camouflages",
     "backupItems": [
       "camouflages.yaml",
       "camouflagfes.xml"

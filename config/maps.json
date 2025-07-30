@@ -1,6 +1,6 @@
 [
   {
-    "name": "Dynasty Pearl",
+    "name": "🦪 Dynasty Pearl",
     "backupItems": [
       "30_grossberg_sh",
       "grossberg"
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "name": "Canal",
+    "name": "🏞️ Canal",
     "backupItems": [
       "18_canal_cn",
       "canal"
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "name": "Lost Temple",
+    "name": "🏯 Lost Temple",
     "backupItems": [
       "10_asia_as",
       "asia"
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "name": "Winter Malinovka",
+    "name": "🏔️ Winter Malinovka",
     "backupItems": [
       "12_malinovka_ma"
     ],
@@ -55,20 +55,7 @@
     ]
   },
   {
-    "name": "Normandia",
-    "backupItems": [
-      "33_neptune_nt"
-    ],
-    "mods": [
-      {
-        "name": "Rainy",
-        "site": "https://forblitz.ru/en/modifications/map-restylings/pasmurnaya-pogoda/427",
-        "pc_wg": "https://forblitz.ru/wp-content/uploads/2020/06/rainy_neptun_steam.zip"
-      }
-    ]
-  },
-  {
-    "name": "Hellas",
+    "name": "🏛️ Hellas",
     "backupItems": [
       "35_rift_rt",
       "rift"
@@ -82,7 +69,7 @@
     ]
   },
   {
-    "name": "Vineyards",
+    "name": "🍇 Vineyards",
     "backupItems": [
       "22_italy_it",
       "italy"
@@ -96,7 +83,7 @@
     ]
   },
   {
-    "name": "Himmelsdorf",
+    "name": "🏚️ Himmelsdorf",
     "backupItems": [
       "19_himmelsdorf_hm",
       "himmelsdorf"
@@ -110,7 +97,7 @@
     ]
   },
   {
-    "name": "Fort",
+    "name": "🏰 Fort",
     "backupItems": [
       "07_fort_ft",
       "fort"

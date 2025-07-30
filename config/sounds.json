@@ -1,6 +1,6 @@
 [
   {
-    "name": "Gun sounds",
+    "name": "🔫 Gun sounds",
     "backupItems": [
       "weapon.bnk",
       "weapon_basic.bnk",
@@ -9,7 +9,7 @@
     ],
     "mods": [
       {
-        "name": "WOT gun sounds",
+        "name": "WoT gun sounds",
         "pc_wg": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301/download/pc-wg/file?_token=x=0",
         "android_wg": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301/download/android-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301"
@@ -33,25 +33,25 @@
     ]
   },
   {
-    "name": "Reload",
+    "name": "📎 Reload",
     "backupItems": [
       "reload.bnk"
     ],
     "mods": [
       {
-        "name": "WOT reload v.1",
+        "name": "WoT reload v.1",
         "site": "https://forblitz.ru/modifications/sounds/gun-reloading-in-blitz-style/22431",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/reloads2.0mod_pc.zip"
       },
       {
-        "name": "WOT reload v.2",
+        "name": "WoT reload v.2",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip",
         "site": "https://forblitz.ru/en/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
       }
     ]
   },
   {
-    "name": "Light bulb timer",
+    "name": "⏲️ Light bulb timer",
     "backupItems": [
       "ui_battle_basic.bnk"
     ],
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "name": "Crew Voices",
+    "name": "🗣️ Crew Voices",
     "backupItems": [
       "crew_voices.yaml",
       "cn",
@@ -81,7 +81,7 @@
     ],
     "mods": [
       {
-        "name": "Male crew voices from wot",
+        "name": "Wot male crew voices",
         "pc_wg": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302"
       }
