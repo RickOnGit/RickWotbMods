@@ -23,7 +23,7 @@ function androidCheck() {
 
 function waitForDevice() {
   while true; do
-    i=5
+    i=3
     gum spin -s "pulse" --spinner.foreground="208" --title "No devices detected, scanning..." --title.foreground="44" -- sleep $i
     devices=$(adb devices | sed '1d' | grep -w "device")
     if [[ -n "$devices" ]]; then
