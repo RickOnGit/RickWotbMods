@@ -1,7 +1,6 @@
 [
   {
-    "name": "Sheridan",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 Sheridan",
     "type": "Light",
     "tier": "X",
     "backupItems": [
@@ -21,8 +20,7 @@
     ]
   },
   {
-    "name": "Sheridan Missle",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 Sheridan Missle",
     "type": "Light",
     "tier": "X",
     "backupItems": [
@@ -37,8 +35,7 @@
     ]
   },
   {
-    "name": "T49",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 T49",
     "type": "Light",
     "tier": "VIII",
     "backupItems": [
@@ -53,8 +50,7 @@
     ]
   },
   {
-    "name": "M48 Patton",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 M48 Patton",
     "class": "Medium",
     "tier": "X",
     "backupItems": [
@@ -80,8 +76,7 @@
     ]
   },
   {
-    "name": "M-VI-Yoh",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 M-VI-Yoh",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -96,8 +91,7 @@
     ]
   },
   {
-    "name": "T57 Heavy",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 T57 Heavy",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -117,8 +111,37 @@
     ]
   },
   {
-    "name": "T110E4",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 T34 (1776)",
+    "tier": "VIII",
+    "type": "Heavy",
+    "backupItems": [
+      "T34_hvy_Freedom"
+    ],
+    "mods": [
+      {
+        "name": "Hell on Wheels pack",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T34",
+    "tier": "VIII",
+    "type": "Heavy",
+    "backupItems": [
+      "T34_hvy"
+    ],
+    "mods": [
+      {
+        "name": "Hell on Wheels pack",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T110E4",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -143,8 +166,7 @@
     ]
   },
   {
-    "name": "T30",
-    "nation": "🇺🇸",
+    "name": "🇺🇸 T30",
     "tier": "IX",
     "class": "TD",
     "backupItems": [
@@ -159,8 +181,7 @@
     ]
   },
   {
-    "name": "E 50 M",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 E 50 M",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -186,8 +207,7 @@
     ]
   },
   {
-    "name": "Leopard 1",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Leopard 1",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -233,8 +253,7 @@
     ]
   },
   {
-    "name": "E 100",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 E 100",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -265,8 +284,7 @@
     ]
   },
   {
-    "name": "VK 72.01 K",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 VK 72.01 K",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -296,8 +314,18 @@
     ]
   },
   {
-    "name": "Tiger II",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Kpz70",
+    "tier": "IX",
+    "class": "Heavy",
+    "backupItems": [
+      "KpfPz_70"
+    ],
+    "mods": [
+      {}
+    ]
+  },
+  {
+    "name": "🇩🇪 Tiger II",
     "tier": "VII",
     "class": "Heavy",
     "backupItems": [
@@ -322,24 +350,7 @@
     ]
   },
   {
-    "name": "Tiger 131",
-    "nation": "🇩🇪",
-    "tier": "VI",
-    "class": "Heavy",
-    "backupItems": [
-      "Tiger_131"
-    ],
-    "mods": [
-      {
-        "name": "Goliath from Barska St.",
-        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-131-goliath-from-barska-st-183/download/pc-wg/file?_token=x=0",
-        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-131-goliath-from-barska-st-183"
-      }
-    ]
-  },
-  {
-    "name": "Grille 15",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Grille 15",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -364,8 +375,7 @@
     ]
   },
   {
-    "name": "Jg.Pz. E 100",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Jg.Pz. E 100",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -391,8 +401,7 @@
     ]
   },
   {
-    "name": "Jagdtiger",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Jagdtiger",
     "tier": "IX",
     "class": "TD",
     "backupItems": [
@@ -407,8 +416,7 @@
     ]
   },
   {
-    "name": "Rhm.-Borsing Waffenträger",
-    "nation": "🇩🇪",
+    "name": "🇩🇪 Rhm.-Borsing Waffenträger",
     "tier": "VIII",
     "class": "TD",
     "backupItems": [
@@ -433,8 +441,7 @@
     ]
   },
   {
-    "name": "T-100LT",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 T-100LT",
     "tier": "X",
     "class": "Light",
     "backupItems": [
@@ -454,8 +461,7 @@
     ]
   },
   {
-    "name": "T-54 ltwt.",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 T-54 ltwt.",
     "tier": "VIII",
     "class": "Light",
     "backupItems": [
@@ -471,8 +477,7 @@
     ]
   },
   {
-    "name": "T-62A",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 T-62A",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -498,8 +503,7 @@
     ]
   },
   {
-    "name": "IS-5",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 IS-5",
     "tier": "VIII",
     "class": "Heavy",
     "backupItems": [
@@ -514,8 +518,7 @@
     ]
   },
   {
-    "name": "IS-6",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 IS-6",
     "tier": "VIII",
     "class": "Heavy",
     "backupItems": [
@@ -530,8 +533,7 @@
     ]
   },
   {
-    "name": "KV-2",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 KV-2",
     "tier": "VI",
     "class": "Heavy",
     "backupItems": [
@@ -556,8 +558,7 @@
     ]
   },
   {
-    "name": "Obj. 268",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 Obj. 268",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -578,8 +579,7 @@
     ]
   },
   {
-    "name": "SU-122-44",
-    "nation": "🇷🇺",
+    "name": "🇷🇺 SU-122-44",
     "tier": "VII",
     "class": "TD",
     "backupItems": [
@@ -594,8 +594,7 @@
     ]
   },
   {
-    "name": "Vickers Light",
-    "nation": "🇬🇧",
+    "name": "🇬🇧 Vickers Light",
     "tier": "X",
     "class": "Light",
     "backupItems": [
@@ -610,8 +609,7 @@
     ]
   },
   {
-    "name": "Defender Mk.1",
-    "nation": "🇬🇧",
+    "name": "🇬🇧 Defender Mk.1",
     "tier": "VIII",
     "class": "Medium",
     "backupItems": [
@@ -626,8 +624,7 @@
     ]
   },
   {
-    "name": "FV215b 183",
-    "nation": "🇬🇧",
+    "name": "🇬🇧 FV215b 183",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -652,8 +649,7 @@
     ]
   },
   {
-    "name": "FV4005",
-    "nation": "🇬🇧",
+    "name": "🇬🇧 FV4005",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -679,8 +675,7 @@
     ]
   },
   {
-    "name": "BZ-75",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 BZ-75",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -705,8 +700,7 @@
     ]
   },
   {
-    "name": "WZ-113",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 WZ-113",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -722,8 +716,7 @@
     ]
   },
   {
-    "name": "WZ-111 5A",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 WZ-111 5A",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -738,8 +731,7 @@
     ]
   },
   {
-    "name": "WZ-121",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 WZ-121",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -765,8 +757,7 @@
     ]
   },
   {
-    "name": "WZ-114",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 WZ-114",
     "tier": "IX",
     "class": "Heavy",
     "backupItems": [
@@ -781,8 +772,7 @@
     ]
   },
   {
-    "name": "WZ-122 TM",
-    "nation": "🇨🇳",
+    "name": "🇨🇳 WZ-122 TM",
     "tier": "VIII",
     "class": "Medium",
     "backupItems": [
@@ -802,8 +792,7 @@
     ]
   },
   {
-    "name": "B-C 25 t",
-    "nation": "🇫🇷",
+    "name": "🇫🇷 B-C 25 t",
     "tier": "X",
     "class": "Light",
     "backupItems": [
@@ -833,8 +822,7 @@
     ]
   },
   {
-    "name": "AMX 50 B",
-    "nation": "🇫🇷",
+    "name": "🇫🇷 AMX 50 B",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -849,8 +837,7 @@
     ]
   },
   {
-    "name": "Foch 155",
-    "nation": "🇫🇷",
+    "name": "🇫🇷 Foch 155",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -865,8 +852,7 @@
     ]
   },
   {
-    "name": "TVP T 50/51",
-    "nation": "🇨🇿",
+    "name": "🇨🇿 TVP T 50/51",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -891,8 +877,7 @@
     ]
   },
   {
-    "name": "Škoda T 27",
-    "nation": "🇨🇿",
+    "name": "🇨🇿 Škoda T 27",
     "tier": "VIII",
     "class": "Medium",
     "backupItems": [
@@ -907,8 +892,7 @@
     ]
   },
   {
-    "name": "Škoda T 56",
-    "nation": "🇨🇿",
+    "name": "🇨🇿 Škoda T 56",
     "tier": "VIII",
     "class": "Heavy",
     "backupItems": [
@@ -928,8 +912,7 @@
     ]
   },
   {
-    "name": "Carro 45t",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Carro 45t",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -950,17 +933,11 @@
         "name": "HD",
         "site": "https://forblitz.ru/modifications/remodelings/remodeling-carro-45t-hd/19500",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/carro_45t_hd_forblitz_pc.zip"
-      },
-      {
-        "name": "Sabato",
-        "pc_wg": "https://drive.usercontent.google.com/download?id=1gk4WeSuniURH9AL0RUMrkDbMTwcklw1b&export=download&authuser=0&confirm=t&uuid=a428f1e8-2f8c-436d-b53c-2321c746c61e&at=AN8xHop5SIrVfl72h_a3pXdWXbQ-:1751365313364",
-        "site": "null"
       }
     ]
   },
   {
-    "name": "Progetto 65",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Progetto 65",
     "tier": "X",
     "class": "Medium",
     "backupItems": [
@@ -991,8 +968,7 @@
     ]
   },
   {
-    "name": "Prototipo Standard B",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Prototipo Standard B",
     "tier": "IX",
     "class": "Medium",
     "backupItems": [
@@ -1009,19 +985,7 @@
     ]
   },
   {
-    "name": "P.44 Pantera",
-    "nation": "🇮🇹",
-    "tier": "IX",
-    "class": "Medium",
-    "backupItems": [
-      "M45_44",
-      "P44_Pantera"
-    ],
-    "mods": []
-  },
-  {
-    "name": "Rinoceronte",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Rinoceronte",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -1036,8 +1000,7 @@
     ]
   },
   {
-    "name": "Bisonte C45",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Bisonte C45",
     "tier": "VIII",
     "class": "Heavy",
     "backupItems": [
@@ -1052,8 +1015,7 @@
     ]
   },
   {
-    "name": "Minotauro",
-    "nation": "🇮🇹",
+    "name": "🇮🇹 Minotauro",
     "tier": "X",
     "class": "TD",
     "backupItems": [
@@ -1078,8 +1040,7 @@
     ]
   },
   {
-    "name": "Kranvagn",
-    "nation": "🇸🇪",
+    "name": "🇸🇪 Kranvagn",
     "tier": "X",
     "class": "Heavy",
     "backupItems": [
@@ -1100,6 +1061,28 @@
         "name": "Hjälpkran",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip",
         "site": "https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257"
+      }
+    ]
+  },
+  {
+    "name": "🇵🇱 50 TP prototyp",
+    "tier": "IX",
+    "class": "Heavy",
+    "backupItems": [
+      "Pl08_50TP_prot",
+      "Pl08_50TP_Prototyp"
+    ],
+    "mods": [
+      {
+        "name": "HD",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/50tp-prototyp-remodeling-171/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/50tp-prototyp-remodeling-171"
+      },
+      {
+        "name": "Captured",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_pc_bl1ndinglights.zip",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_android_bl1ndinglights.zip",
+        "site": "https://forblitz.ru/en/modifications/skins/zakhvachennyi-50tp-prototyp/13116"
       }
     ]
   }
