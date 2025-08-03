@@ -1,7 +1,7 @@
 [
   {
     "name": "🔫 Gun sounds",
-    "backupItems": [
+    "backupFiles": [
       "weapon.bnk",
       "weapon_basic.bnk",
       "hits.bnk",
@@ -34,39 +34,44 @@
   },
   {
     "name": "📎 Reload",
-    "backupItems": [
+    "backupFiles": [
       "reload.bnk"
     ],
     "mods": [
       {
-        "name": "WoT reload v.1",
-        "site": "https://forblitz.ru/modifications/sounds/gun-reloading-in-blitz-style/22431",
-        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/reloads2.0mod_pc.zip"
+        "name": "WoT reload v.2",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/newreloadsoundmod_1.1_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/newreloadsoundmod_1.1_pc.zip",
+        "site": "https://forblitz.ru/modifications/sounds/gun-reloading-in-blitz-style/22431"
       },
       {
-        "name": "WoT reload v.2",
+        "name": "WoT reload v.1",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_android.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip",
         "site": "https://forblitz.ru/en/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
       }
     ]
   },
   {
-    "name": "⏲️ Light bulb timer",
-    "backupItems": [
+    "name": "⏲️ Light bulb sound",
+    "backupFiles": [
       "ui_battle_basic.bnk"
     ],
     "mods": [
       {
-        "name": "WOT light bulb timer",
-        "site": "://forblitz.ru/modifications/sounds/zvuki-vystrelov-iz-bb-world-of-tanks-lesta/18074",
-        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/sight_timer_pc_wg.zip"
+        "name": "WoT light bulb timer",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/03/sight_timer_fix_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/sight_timer_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/sounds/hide-timer-sound/22212"
       }
     ]
   },
   {
     "name": "🗣️ Crew Voices",
-    "backupItems": [
-      "crew_voices.yaml",
+    "backupFiles": [
+      "crew_voices.yaml"
+    ],
+    "backupDir": [
       "cn",
       "cs",
       "de",
@@ -82,6 +87,7 @@
     "mods": [
       {
         "name": "Wot male crew voices",
+        "android_wg": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302/download/android-wg/file?_token=x=0",
         "pc_wg": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302"
       }

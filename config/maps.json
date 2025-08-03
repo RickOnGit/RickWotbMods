@@ -1,21 +1,22 @@
 [
   {
     "name": "🦪 Dynasty Pearl",
-    "backupItems": [
+    "backupDir": [
       "30_grossberg_sh",
       "grossberg"
     ],
     "mods": [
       {
         "name": "Night",
-        "site": "https://forblitz.ru/modifications/map-restylings/pearl-city-at-night/22479",
-        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/night-grossberg_pc.zip"
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/night-grossberg2_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/night-grossberg_pc.zip",
+        "site": "https://forblitz.ru/modifications/map-restylings/pearl-city-at-night/22479"
       }
     ]
   },
   {
     "name": "🏞️ Canal",
-    "backupItems": [
+    "backupDir": [
       "18_canal_cn",
       "canal"
     ],
@@ -29,7 +30,7 @@
   },
   {
     "name": "🏯 Lost Temple",
-    "backupItems": [
+    "backupDir": [
       "10_asia_as",
       "asia"
     ],
@@ -43,7 +44,7 @@
   },
   {
     "name": "🏔️ Winter Malinovka",
-    "backupItems": [
+    "backupDir": [
       "12_malinovka_ma"
     ],
     "mods": [
@@ -56,7 +57,7 @@
   },
   {
     "name": "🏛️ Hellas",
-    "backupItems": [
+    "backupDir": [
       "35_rift_rt",
       "rift"
     ],
@@ -70,7 +71,7 @@
   },
   {
     "name": "🍇 Vineyards",
-    "backupItems": [
+    "backupDir": [
       "22_italy_it",
       "italy"
     ],
@@ -84,7 +85,7 @@
   },
   {
     "name": "🏚️ Himmelsdorf",
-    "backupItems": [
+    "backupDir": [
       "19_himmelsdorf_hm",
       "himmelsdorf"
     ],
@@ -98,7 +99,7 @@
   },
   {
     "name": "🏰 Fort",
-    "backupItems": [
+    "backupDir": [
       "07_fort_ft",
       "fort"
     ],
@@ -108,6 +109,38 @@
         "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_android.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/summer-fort_pc.zip",
         "site": "https://forblitz.ru/en/modifications/map-restylings/summer-fort/21561"
+      }
+    ]
+  },
+  {
+    "name": "🌄 Canyon",
+    "backupDir": [
+      "25_canyon_ca",
+      "canyon"
+    ],
+    "mods": [
+      {
+        "name": "Storm",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/07/storm-canyon_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/07/storm-canyon_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/storm-canyon/23268"
+      }
+    ]
+  },
+  {
+    "name": "📦 Themed map packs",
+    "mods": [
+      {
+        "name": "Cloudy",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps3_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps3_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/cloudy-map-mod-pack/21495"
+      },
+      {
+        "name": "Twilight",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps3_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps3_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/map-restylings/twilight-map-mod-pack/21637"
       }
     ]
   }

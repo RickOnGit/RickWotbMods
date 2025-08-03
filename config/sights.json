@@ -1,13 +1,6 @@
 [
   {
     "name": "🎨 Custom Sights",
-    "backupItems": [
-      "Aim1",
-      "aim_camera-marker",
-      "aim_gun-marker",
-      "texture0",
-      "GunSpread"
-    ],
     "mods": [
       {
         "name": "Modern Warfare",
@@ -22,6 +15,7 @@
       },
       {
         "name": "White solid circle of information",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/white-reload_android_wg.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/white-reload_pc_wg.zip",
         "site": "https://forblitz.ru/modifications/scopes/white-solid-circle/22516"
       },
@@ -49,6 +43,17 @@
         "android_wg": "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71/download/android-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71"
       }
+    ]
+  },
+  {
+    "name": "📁 Stock sight",
+    "backupDir": [
+      "custom1",
+      "Aim",
+      "aim"
+    ],
+    "backupFiles": [
+      "Aim1.yaml.dvpl"
     ]
   }
 ]

@@ -3,7 +3,7 @@
     "name": "🇺🇸 Sheridan",
     "type": "Light",
     "tier": "X",
-    "backupItems": [
+    "backupFiles": [
       "A116_XM551"
     ],
     "mods": [
@@ -23,7 +23,7 @@
     "name": "🇺🇸 Sheridan Missle",
     "type": "Light",
     "tier": "X",
-    "backupItems": [
+    "backupFiles": [
       "A116_XM551_Exp"
     ],
     "mods": [
@@ -38,7 +38,7 @@
     "name": "🇺🇸 T49",
     "type": "Light",
     "tier": "VIII",
-    "backupItems": [
+    "backupFiles": [
       "A100_T49"
     ],
     "mods": [
@@ -53,7 +53,7 @@
     "name": "🇺🇸 M48 Patton",
     "class": "Medium",
     "tier": "X",
-    "backupItems": [
+    "backupFiles": [
       "M48A1_Patton",
       "M48A1"
     ],
@@ -79,7 +79,7 @@
     "name": "🇺🇸 M-VI-Yoh",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "M-6-Y"
     ],
     "mods": [
@@ -94,7 +94,7 @@
     "name": "🇺🇸 T57 Heavy",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "T57_58"
     ],
     "mods": [
@@ -114,7 +114,7 @@
     "name": "🇺🇸 T34 (1776)",
     "tier": "VIII",
     "type": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "T34_hvy_Freedom"
     ],
     "mods": [
@@ -129,7 +129,7 @@
     "name": "🇺🇸 T34",
     "tier": "VIII",
     "type": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "T34_hvy"
     ],
     "mods": [
@@ -144,7 +144,7 @@
     "name": "🇺🇸 T110E4",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "T110E4"
     ],
     "mods": [
@@ -169,7 +169,7 @@
     "name": "🇺🇸 T30",
     "tier": "IX",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "T30"
     ],
     "mods": [
@@ -184,7 +184,7 @@
     "name": "🇩🇪 E 50 M",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "E-50M",
       "E50_Ausf_M"
     ],
@@ -210,7 +210,7 @@
     "name": "🇩🇪 Leopard 1",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "Leopard1"
     ],
     "mods": [
@@ -221,6 +221,7 @@
       },
       {
         "name": "EOS",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293/download/android-wg/file?_token=x=0",
         "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293"
       },
@@ -256,7 +257,7 @@
     "name": "🇩🇪 E 100",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "E_100",
       "E-100"
     ],
@@ -287,7 +288,7 @@
     "name": "🇩🇪 VK 72.01 K",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "VK7201"
     ],
     "mods": [
@@ -317,7 +318,7 @@
     "name": "🇩🇪 Kpz70",
     "tier": "IX",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "KpfPz_70"
     ],
     "mods": [
@@ -328,7 +329,7 @@
     "name": "🇩🇪 Tiger II",
     "tier": "VII",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "PzVIB_Tiger_II"
     ],
     "mods": [
@@ -353,7 +354,7 @@
     "name": "🇩🇪 Grille 15",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "Grille_15"
     ],
     "mods": [
@@ -378,7 +379,7 @@
     "name": "🇩🇪 Jg.Pz. E 100",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "JagdPzE100",
       "JagdPz_E100"
     ],
@@ -404,7 +405,7 @@
     "name": "🇩🇪 Jagdtiger",
     "tier": "IX",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "JagdTiger"
     ],
     "mods": [
@@ -419,7 +420,7 @@
     "name": "🇩🇪 Rhm.-Borsing Waffenträger",
     "tier": "VIII",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "RhB_Waffentrager"
     ],
     "mods": [
@@ -444,7 +445,7 @@
     "name": "🇷🇺 T-100LT",
     "tier": "X",
     "class": "Light",
-    "backupItems": [
+    "backupFiles": [
       "T100LT"
     ],
     "mods": [
@@ -464,7 +465,7 @@
     "name": "🇷🇺 T-54 ltwt.",
     "tier": "VIII",
     "class": "Light",
-    "backupItems": [
+    "backupFiles": [
       "T54S",
       "T-54S"
     ],
@@ -480,7 +481,7 @@
     "name": "🇷🇺 T-62A",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "T-62A",
       "R87_T62A"
     ],
@@ -506,7 +507,7 @@
     "name": "🇷🇺 IS-5",
     "tier": "VIII",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Object_730"
     ],
     "mods": [
@@ -521,7 +522,7 @@
     "name": "🇷🇺 IS-6",
     "tier": "VIII",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Object_252"
     ],
     "mods": [
@@ -536,7 +537,7 @@
     "name": "🇷🇺 KV-2",
     "tier": "VI",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "KV2"
     ],
     "mods": [
@@ -561,7 +562,7 @@
     "name": "🇷🇺 Obj. 268",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "Object268",
       "R88_Object_268"
     ],
@@ -579,10 +580,26 @@
     ]
   },
   {
+    "name": "🇷🇺 ISU-130",
+    "tier": "VIII",
+    "class": "TD",
+    "backupFiles": [
+      "R111_ISU130",
+      "isu-130"
+    ],
+    "mods": [
+      {
+        "name": "Stalin pride",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-isu-130-stalins-pride-195/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-isu-130-stalins-pride-195"
+      }
+    ]
+  },
+  {
     "name": "🇷🇺 SU-122-44",
     "tier": "VII",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "SU122_44"
     ],
     "mods": [
@@ -597,7 +614,7 @@
     "name": "🇬🇧 Vickers Light",
     "tier": "X",
     "class": "Light",
-    "backupItems": [
+    "backupFiles": [
       "Vickers_Light_105"
     ],
     "mods": [
@@ -612,7 +629,7 @@
     "name": "🇬🇧 Defender Mk.1",
     "tier": "VIII",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "GB_Centurion_MkDF"
     ],
     "mods": [
@@ -627,7 +644,7 @@
     "name": "🇬🇧 FV215b 183",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "FV215b_183"
     ],
     "mods": [
@@ -652,7 +669,7 @@
     "name": "🇬🇧 FV4005",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "GB83_4005",
       "GB83_FV4005"
     ],
@@ -678,7 +695,7 @@
     "name": "🇨🇳 BZ-75",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Ch48_BZ_75"
     ],
     "mods": [
@@ -703,7 +720,7 @@
     "name": "🇨🇳 WZ-113",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "wz_113"
     ],
     "mods": [
@@ -719,7 +736,7 @@
     "name": "🇨🇳 WZ-111 5A",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Ch41_WZ_111_5A"
     ],
     "mods": [
@@ -734,7 +751,7 @@
     "name": "🇨🇳 WZ-121",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "121",
       "Ch19_121"
     ],
@@ -760,7 +777,7 @@
     "name": "🇨🇳 WZ-114",
     "tier": "IX",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Ch45_WZ_114"
     ],
     "mods": [
@@ -775,7 +792,7 @@
     "name": "🇨🇳 WZ-122 TM",
     "tier": "VIII",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "Ch43_WZ-122_2"
     ],
     "mods": [
@@ -795,7 +812,7 @@
     "name": "🇫🇷 B-C 25 t",
     "tier": "X",
     "class": "Light",
-    "backupItems": [
+    "backupFiles": [
       "Bat_Chatillon25t"
     ],
     "mods": [
@@ -825,7 +842,7 @@
     "name": "🇫🇷 AMX 50 B",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "AMX_50B"
     ],
     "mods": [
@@ -840,7 +857,7 @@
     "name": "🇫🇷 Foch 155",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "AMX_50Fosh_155"
     ],
     "mods": [
@@ -855,7 +872,7 @@
     "name": "🇨🇿 TVP T 50/51",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "Cz04_T50_51"
     ],
     "mods": [
@@ -880,7 +897,7 @@
     "name": "🇨🇿 Škoda T 27",
     "tier": "VIII",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "Cz13_T_27"
     ],
     "mods": [
@@ -895,7 +912,7 @@
     "name": "🇨🇿 Škoda T 56",
     "tier": "VIII",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Cz14_Skoda_T-56"
     ],
     "mods": [
@@ -915,7 +932,7 @@
     "name": "🇮🇹 Carro 45t",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "It20_Car_Comb_45t"
     ],
     "mods": [
@@ -940,7 +957,7 @@
     "name": "🇮🇹 Progetto 65",
     "tier": "X",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "It08_Progetto_M40_mod_65",
       "MT10_track"
     ],
@@ -971,7 +988,7 @@
     "name": "🇮🇹 Prototipo Standard B",
     "tier": "IX",
     "class": "Medium",
-    "backupItems": [
+    "backupFiles": [
       "Carro_standart_B",
       "Prototipo_Standard_B",
       "It12_Prototipo_Standard_B"
@@ -988,7 +1005,7 @@
     "name": "🇮🇹 Rinoceronte",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "It115_Rinoceronte"
     ],
     "mods": [
@@ -1003,7 +1020,7 @@
     "name": "🇮🇹 Bisonte C45",
     "tier": "VIII",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "It22_Progetto_C45_mod_71"
     ],
     "mods": [
@@ -1018,7 +1035,7 @@
     "name": "🇮🇹 Minotauro",
     "tier": "X",
     "class": "TD",
-    "backupItems": [
+    "backupFiles": [
       "It21_Controcarro3_Minotauro"
     ],
     "mods": [
@@ -1043,7 +1060,7 @@
     "name": "🇸🇪 Kranvagn",
     "tier": "X",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "S16_Kranvagn"
     ],
     "mods": [
@@ -1068,7 +1085,7 @@
     "name": "🇵🇱 50 TP prototyp",
     "tier": "IX",
     "class": "Heavy",
-    "backupItems": [
+    "backupFiles": [
       "Pl08_50TP_prot",
       "Pl08_50TP_Prototyp"
     ],

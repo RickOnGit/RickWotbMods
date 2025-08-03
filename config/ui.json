@@ -1,7 +1,7 @@
 [
   {
     "name": "📜 Stats",
-    "backupItems": [
+    "backupFiles": [
       "HUDLayer.yaml",
       "SidebarHangarMenu.yaml",
       "ComunityList.yaml",
@@ -18,10 +18,28 @@
     ]
   },
   {
+    "name": "🗃️ Storage",
+    "backupDir": [
+      "Storage"
+    ],
+    "mods": [
+      {
+        "name": "Compact storage",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/interface/kompaktnoe-khranilishche/19185"
+      }
+    ]
+  },
+  {
     "name": "💡 Light Bulb",
     "backupItems": [
-      "SixSense",
-      "WarDuck"
+      "SixSense.txt",
+      "SixSense@2x.txt",
+      "british-Challenger.packed.webp",
+      "british-Challenger@2x.packed.webp",
+      "WarDuck@2x.packed.webp",
+      "WarDuck.packed.webp"
     ],
     "mods": [
       {
@@ -39,21 +57,21 @@
         "name": "Sixth Sense Totem of undying",
         "pc_wg": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181"
+      },
+      {
+        "name": "Skyrim-style lighting lamp",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/07/skyrim-lamp_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/07/skyrim-lamp_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/lamps/skyrim-lighting-lamp/23233"
       }
     ]
   },
   {
-    "name": "🎯 Tank decals",
-    "backupItems": [
-      "crash",
-      "atlas0.dx11"
+    "name": "💥 Hitmarks",
+    "backupDir": [
+      "Decals"
     ],
     "mods": [
-      {
-        "name": "White tanks destroyed",
-        "pc_wg": "https://drive.usercontent.google.com/download?id=1uXqvDzTicxh6C097oz_0GSAlDqEFyOta&export=download&authuser=1&confirm=t&uuid=ceea6e07-86b0-4ca9-ba2c-68890ca8b3b0&at=AN8xHoqtwxeveSFqmHD0DtELlwAz:1751525278127",
-        "site": "null"
-      },
       {
         "name": "Coloured hitmarks",
         "pc_wg": "https://drive.usercontent.google.com/download?id=1aPOc1U0RH716JHi6uPpSX1i3RFgXF64t&export=download&authuser=1&confirm=t&uuid=9098b5d1-0a2e-4d8a-8f14-b5d34e1c42f5&at=AN8xHoq4U2Ydde-uDKSf-Q24R1Zy:1752517980043",
@@ -67,18 +85,41 @@
     ]
   },
   {
-    "name": "💥 WoT style battle effects",
-    "backupItems": [
+    "name": "🪦 Destroyed tanks",
+    "backupDir": [
+      "crash"
+    ],
+    "mods": [
+      {
+        "name": "White tanks destroyed",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1uXqvDzTicxh6C097oz_0GSAlDqEFyOta&export=download&authuser=1&confirm=t&uuid=ceea6e07-86b0-4ca9-ba2c-68890ca8b3b0&at=AN8xHoqtwxeveSFqmHD0DtELlwAz:1751525278127",
+        "site": "null"
+      }
+    ]
+  },
+  {
+    "name": "✨ WoT style battle effects",
+    "backupDir": [
       "chassis_effects",
       "hit_tank",
       "hit_surface",
       "gun_effects",
       "tanksFx",
       "turret_explosion",
-      "SuperVisibility_Tracer",
-      "TracerTrail",
       "explosion_tank",
-      "Fire_and_Smoke"
+      "AGTM",
+      "Bullet",
+      "Smoke_fixed",
+      "TracerTrail",
+      "additive"
+    ],
+    "backupFiles": [
+      "TracerTrail",
+      "SuperVisibility_Tracer",
+      "Fire_and_Smoke",
+      "explosion_tank_1",
+      "explosion_tank_m",
+      "smoke_1.packed.webp"
     ],
     "mods": [
       {
@@ -90,9 +131,8 @@
   },
   {
     "name": "🎖️ Ribbons",
-    "backupItems": [
-      "texture0.packed.webp",
-      "texture0@2x.packed.webp"
+    "backupDir": [
+      "ribbons"
     ],
     "mods": [
       {
@@ -104,7 +144,7 @@
   },
   {
     "name": "🖍️ Shells",
-    "backupItems": [
+    "backupDir": [
       "ammunition"
     ],
     "mods": [
@@ -117,7 +157,7 @@
   },
   {
     "name": "🔩 Tank modules",
-    "backupItems": [
+    "backupDir": [
       "ModulesTechTree"
     ],
     "mods": [
@@ -130,7 +170,7 @@
   },
   {
     "name": "📦 Tank equipment",
-    "backupItems": [
+    "backupDir": [
       "OptionalDevices"
     ],
     "mods": [
@@ -143,7 +183,7 @@
   },
   {
     "name": "🎫 Boosters",
-    "backupItems": [
+    "backupDir": [
       "boosters"
     ],
     "mods": [
@@ -155,8 +195,8 @@
     ]
   },
   {
-    "name": "🪾 Tech tree",
-    "backupItems": [
+    "name": "🌲 Tech tree",
+    "backupFiles": [
       "china_tree",
       "european_tree",
       "france_tree",
@@ -181,20 +221,25 @@
   },
   {
     "name": "🗺️ Minimap",
-    "backupItems": [
-      "minimap",
+    "backupFiles": [
       "MinimapLookDirection",
-      "british-4005",
+      "british-4005.packed.webp",
+      "british-4005@2x.packed.webp",
       "Minimap.yaml"
+    ],
+    "backupDir": [
+      "minimap"
     ],
     "mods": [
       {
         "name": "WOT style minimaps",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/08/improved-minimaps_fix_android.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/improved-minimaps_fix_pc.zip",
         "site": "https://forblitz.ru/en/modifications/interface/improved_minimaps/20538"
       },
       {
         "name": "Radar",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_android.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_pc.zip",
         "site": "https://forblitz.ru/en/modifications/interface/vizualnye-krugi-zasveta-v-stile-wot/23033"
       },
@@ -207,7 +252,7 @@
   },
   {
     "name": "🎥 Camera",
-    "backupItems": [
+    "backupFiles": [
       "optionsDesktop",
       "optionsMiniTablet",
       "optionsPhone",
@@ -223,7 +268,7 @@
   },
   {
     "name": "🎞️ Carousel",
-    "backupItems": [
+    "backupFiles": [
       "flag_carousel",
       "DevConsoleLine",
       "Hangar.yaml",
@@ -236,29 +281,38 @@
     "mods": [
       {
         "name": "Two level carousel + statistics",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_android_wg.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel-with-statistics-on-tiles/21627"
       },
       {
-        "name": "Two level Carousel",
+        "name": "Two-level carousel",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big_android_wg.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel/21613"
       },
       {
         "name": "Single level carousel + statistics",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-android.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip",
         "site": "https://forblitz.ru/en/modifications/interface/statistics-in-the-carousel/20781"
       },
       {
         "name": "Random tank button",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_android_wg.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/interface/knopka-vybora-sluchainogo-tanka-tolk/19085"
+      },
+      {
+        "name": "B&W flags",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1GBE7UoduBGSQ7avrhRGr5XuJMbggS6Dn&export=download&authuser=0&confirm=t&uuid=cfbf9b88-342f-4a69-bc34-5f21849ef536&at=AN8xHoraB-OI3OX_fuxwXnPf2FBY:1754073361945",
+        "site": "null"
       }
     ]
   },
   {
     "name": "🧽 Pbr maps",
-    "backupItems": [
+    "backupFiles": [
       "dirt_",
       "dust_",
       "snow_"
@@ -273,9 +327,9 @@
   },
   {
     "name": "🎭 Camouflages",
-    "backupItems": [
+    "backupFiles": [
       "camouflages.yaml",
-      "camouflagfes.xml"
+      "camouflages.xml"
     ],
     "mods": [
       {

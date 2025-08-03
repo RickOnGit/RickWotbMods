@@ -1,12 +1,6 @@
 [
   {
     "name": "🎨 Custom hangars",
-    "backupItems": [
-      "hangar_main_2022",
-      "hangar_platoon22",
-      "hangar_normal",
-      "music_hangar"
-    ],
     "mods": [
       {
         "name": "Cave",
@@ -28,12 +22,6 @@
   },
   {
     "name": "🗿 Old hangars",
-    "backupItems": [
-      "hangar_main_2022",
-      "hangar_platoon22",
-      "00_shared_content",
-      "hangar_season6"
-    ],
     "mods": [
       {
         "name": "2018 Premium",
@@ -54,12 +42,6 @@
   },
   {
     "name": "🗺️ Map hangars",
-    "backupItems": [
-      "hangar_main_2022",
-      "hangar_platoon22",
-      "00_shared_content",
-      "hangar_season6"
-    ],
     "mods": [
       {
         "name": "Mines",
@@ -75,12 +57,6 @@
   },
   {
     "name": "🎄 Xmas hangars",
-    "backupItems": [
-      "hangar_main_2022",
-      "hangar_platoon22",
-      "00_shared_content",
-      "hangar_season6"
-    ],
     "mods": [
       {
         "name": "2015",
@@ -101,16 +77,6 @@
   },
   {
     "name": "🎃 Halloween hangars",
-    "backupItems": [
-      "hangar",
-      "hangar_main_2022",
-      "00_shared_content",
-      "26_homeisk_hk",
-      "hangar_platoon22",
-      "halloween2019",
-      "Oth42_ForestWitch_HW23",
-      "music_hangar"
-    ],
     "mods": [
       {
         "name": "2014-15",
@@ -147,6 +113,21 @@
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_22-1_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2022/18457"
       }
+    ]
+  },
+  {
+    "name": "Stock hangar",
+    "backupDir": [
+      "hangar_main_2022",
+      "hangar_platoon22",
+      "hangar_normal",
+      "music_hangar",
+      "00_shared_content",
+      "hangar_season6",
+      "hangar",
+      "26_homeisk_hk",
+      "halloween2019",
+      "Oth42_ForestWitch_HW23"
     ]
   }
 ]
