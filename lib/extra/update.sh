@@ -5,10 +5,9 @@ function update() {
 
   if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
     gum spin -s "pulse" --title "Updating..." --spinner.foreground="208" --title.foreground="245" -- git pull
-    echo -e "\n${BLUE}${BOL}Successfully updated ✅${NC}\n"
+    checkUpdate="✅ Updated on $(date +"%d/%m/%Y %H:%M")"
   else
-    echo -e "\n${BLUE}${BOL}Up to date ✅${NC}\n"
+    checkUpdate="❌ No updates on $(date +"%d/%m/%Y %H:%M")"
   fi
-
   cd "$HOME"
 }

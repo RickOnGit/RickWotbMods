@@ -1,12 +1,13 @@
 function mainMenu() {
   while :; do
+    printDashboard
     eval "ans=\$(echo -e \"$mainMenu\" | gum choose --header \"Select what to do 👇\" $gum_choose_prompt)"
 
     case "$ans" in
     "🧩 Install mods" | "🔍 Mods preview" | "♻️ Restore items") modMenu "$ans" ;;
     "💥 Restore all") restoreGame ;;
     "🔄 Change platform") userInfo ;;
-    "🧹 Clear screen") clear ;;
+    "🧹 Clear logs") >$tmpLogs ;;
     "❌ Quit") clear && break ;;
     esac
   done
@@ -19,7 +20,7 @@ function modMenu() {
   "🧩 Install mods") fun="selectorMods" ;;
   "🔍 Mods preview") fun="modPreview" ;;
   "♻️ Restore items")
-    if [[ "$os" != "Android" ]]; then
+    if [[ "$os" != "🤖 Android" ]]; then
       fun="restoreItems"
     else
       echo -e "This feature is not supported yet on Android\n"

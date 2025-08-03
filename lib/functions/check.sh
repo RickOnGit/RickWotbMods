@@ -1,6 +1,6 @@
 function backupDir() {
   case "$os" in
-  "Android")
+  "🤖 Android")
     androidCheck
     if adb shell "[ ! -d \"$wotbBackup\" ]"; then
       adb shell mkdir "$wotbBackup"
@@ -46,7 +46,10 @@ function modFix() {
 
 function userCheck() {
   if [ ! -s /opt/RickWotbMods/lib/env/user.env ]; then
-    echo "User profile is empty..."
     userInfo
+  elif [[ "$os" == "🤖 Android" ]]; then
+    if gum confirm "Your system is set to $os, Do you want to change?" --prompt.foreground='#3C6A80' --selected.background="208"; then
+      userInfo
+    fi
   fi
 }
