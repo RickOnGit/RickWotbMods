@@ -4,7 +4,6 @@ set -euo pipefail
 function baseSetup() {
   sudo mkdir -p /usr/local/bin /opt
 
-  # Move RickWotbMods if not already moved
   if [ -d "$HOME/RickWotbMods" ] && [ ! -d "/opt/RickWotbMods" ]; then
     sudo mv "$HOME/RickWotbMods" /opt
   fi
