@@ -53,3 +53,15 @@ function userCheck() {
     fi
   fi
 }
+
+function checkLogs() {
+  if grep -qF "$noLogs" "$tmpLogs"; then
+    >"$tmpLogs"
+  fi
+}
+
+function checkPreview() {
+  if grep -qF "$noPreview" "$tmpPreview"; then
+    >"$tmpPreview"
+  fi
+}

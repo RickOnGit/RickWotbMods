@@ -33,12 +33,12 @@ function download() {
   local modName="$2"
   local downloadLink="$3"
 
-  echo -e "${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$baseModelName${NC}..."
+  echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$baseModelName${NC}...\n"
 
   backupDir
-  gum spin --spinner.foreground="208" -s "pulse" --title "📁 Downloading..." --title.foreground="245" -- curl -L "$downloadLink" -o "$tmpDownloadDir"/"$modName".download
+  gum spin --spinner.foreground="208" -s "pulse" --title "Downloading..." --title.foreground="245" -- curl -L "$downloadLink" -o "$tmpDownloadDir"/"$modName".download
 
-  gum spin --spinner.foreground="208" -s "pulse" --title "📂 Extracting..." --title.foreground="245" -- 7z x "$tmpDownloadDir"/"$modName".download -o"$tmpDownloadDir"
+  gum spin --spinner.foreground="208" -s "pulse" --title "Extracting..." --title.foreground="245" -- 7z x "$tmpDownloadDir"/"$modName".download -o"$tmpDownloadDir"
 
   rm "$tmpDownloadDir"/*.download
   if [[ $os != "Android" ]]; then

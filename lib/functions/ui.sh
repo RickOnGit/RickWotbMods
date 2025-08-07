@@ -7,7 +7,8 @@ function mainMenu() {
     "🧩 Install mods" | "🔍 Mods preview" | "♻️ Restore items") modMenu "$ans" ;;
     "💥 Restore all") restoreGame ;;
     "🔄 Change platform") userInfo ;;
-    "🧹 Clear logs") >$tmpLogs ;;
+    "🧹 Clear logs") printNoLogs ;;
+    "🧹 Clear preview") printNoPreview ;;
     "❌ Quit") clear && break ;;
     esac
   done

@@ -18,11 +18,9 @@ function modPreview() {
     site=$(jq -r --arg baseName "$selected" --arg modName "$mod" ' .[] | select(.name == $baseName) | .mods[] | select(.name == $modName) | .site' "$file")
 
     #only for UI
-    modLinks+=(" $(printf '\e]8;;%s\a%s\e]8;;\a' "$site" "${BLUE}${mod}${NC}")")
+    modLinks+=("⚪ $(printf '\e]8;;%s\a%s\e]8;;\a' "$site" "${SOFT_BLUE}${mod}${NC}")\n")
   done <<<"$selectedMods"
 
-  formattedLinks=$(printf "%s\n" "${modLinks[@]}")
-  formattedTitle=$(echo -e "${BOL}${ORANGE}Mod(s) 🖼️ preview for $selected${NC}\n\n${ITAL}${GRAY}💡 (ctrl+clik for preview) 💡${NC}")
-
-  previewFrame=$(gum style --align center --border rounded "$(echo -e "$formattedTitle\n\n$formattedLinks")")
+  echo -e "⬇️ ${BOL}${GREEN}$selected${NC} ⬇️\n" >$tmpPreview
+  printf "%s\n" "${modLinks[@]}" >>$tmpPreview
 }

@@ -4,4 +4,6 @@ load
 update
 userCheck
 backupDir
+printNoLogs
+printNoPreview
 mainMenu

@@ -19,6 +19,7 @@ EOF
 
   sudo chmod +x "$SCRIPT_DIR/rickmodder"
   sudo cp "$SCRIPT_DIR/rickmodder" /usr/local/bin
+  echo -e "updateDate=\"Error 404\"" >$updateFile
   echo "Setup finished !! , run rickmodder and start modding the game :)"
 }
 

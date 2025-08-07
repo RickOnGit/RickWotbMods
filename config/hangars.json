@@ -121,13 +121,15 @@
       "hangar_main_2022",
       "hangar_platoon22",
       "hangar_normal",
-      "music_hangar",
       "00_shared_content",
       "hangar_season6",
       "hangar",
-      "26_homeisk_hk",
       "halloween2019",
       "Oth42_ForestWitch_HW23"
+    ],
+    "backupFile": [
+      "26_homeisk_hk",
+      "music_hangar"
     ]
   }
 ]

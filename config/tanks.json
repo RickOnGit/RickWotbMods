@@ -626,6 +626,22 @@
     ]
   },
   {
+    "name": "🇬🇧 Cobra",
+    "tier": "IX",
+    "type": "Medium",
+    "backupFiles": [
+      "GB106_Cobra"
+    ],
+    "mods": [
+      {
+        "name": "Kopra Korbena",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/cobra-korben_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/cobra-korben_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/skins/cobra-skin-kopra-korbena/22590"
+      }
+    ]
+  },
+  {
     "name": "🇬🇧 Defender Mk.1",
     "tier": "VIII",
     "class": "Medium",
@@ -688,6 +704,43 @@
         "name": "Thunderchild",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/4005_thunderchild_forblitz_pc.zip",
         "site": "https://forblitz.ru/modifications/remodelings/animirovannyi-remodeling-fv4005-ditya-gro/19416"
+      }
+    ]
+  },
+  {
+    "name": "🇯🇵 STB-1",
+    "tier": "X",
+    "type": "Medium",
+    "backupFiles": [
+      "ST_B1"
+    ],
+    "mods": [
+      {
+        "name": "Winter Lotus",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-stb-1-winter-lotus-169/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-stb-1-winter-lotus-169"
+      },
+      {
+        "name": "Teefbreaka",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/stb_1_warhammer_sadabsolution_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/updated_stb_1_warhammer_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-stb-1-teefbreaka/13031"
+      },
+      {
+        "name": "Enhanced + skirts",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1DSy0KRFHZyWUYw7ZgkbjLMWi1lkfiFro&export=download&authuser=0&confirm=t&uuid=5025ec1e-3a0d-4104-8097-1da54e7e0241&at=AN8xHoo3754C4XwcqZs6pEFtcItN:1754555693969",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1147561598010015825"
+      },
+      {
+        "name": "Enhanced no skirts",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1p__AnwCW8WGXzAM8GJFFL758ikDKuAaW&export=download&authuser=0&confirm=t&uuid=3188c396-118a-4950-9e4d-3590f8b38417&at=AN8xHooIPNHIwVDCp2-k7VLRvtrd:1754555681611",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1147561598010015825"
+      },
+      {
+        "name": "Koshigatana",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/koshigatana_qirashi_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/koshigatana_qirashi_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-stb-1-kosigatana/13056"
       }
     ]
   },
