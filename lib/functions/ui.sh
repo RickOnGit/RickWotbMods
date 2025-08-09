@@ -9,6 +9,7 @@ function mainMenu() {
     "🔄 Change platform") userInfo ;;
     "🧹 Clear logs") printNoLogs ;;
     "🧹 Clear preview") printNoPreview ;;
+    "🗑️ Clear backup folder") rm -rf "$wotbBackup" ;;
     "❌ Quit") clear && break ;;
     esac
   done
