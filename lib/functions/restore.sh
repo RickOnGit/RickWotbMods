@@ -14,9 +14,9 @@ function restoreItems() {
   if [ -n "$selected" ]; then
     >$tmpRestore
     for elem in "${selectedArray[@]}"; do
+      echo -e "${BLUE}${BOL}♻️ Restoring${NC} ${BOL}${ORANGE}$elem${NC}'s stock files..."
       for type in "Dir" "Files"; do
         jq -r --arg mainName "$elem" ".[] | select(.name == \$mainName) | .backup${type}[]" "$file" >>$tmpRestore 2>/dev/null
-        echo -e "${BLUE}${BOL}♻️ Restoring${NC} ${BOL}${ORANGE}$elem${NC}'s stock ${type}...\n"
         restore "$tmpRestore" "$type" "$elem"
       done
       echo -e "${BOL}${ORANGE}$elem${NC} restored\n" >>$tmpLogs
