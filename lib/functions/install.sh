@@ -18,6 +18,7 @@ function installer() {
     gum spin -s "pulse" --spinner.foreground="208" --title "Doing a file backup..." --title.foreground="245" -- rsync -au "$tmpBackupDir/" "$wotbBackup"
     rm -rf "$tmpBackupDir"
     echo -e "${ITAL}${GREEN}$model${NC} installed for ${BOL}${ORANGE}$mainName${NC}\n" >>$tmpLogs
+    echo "✅ Done"
     ;;
   esac
 

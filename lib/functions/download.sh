@@ -33,7 +33,7 @@ function download() {
   local modName="$2"
   local downloadLink="$3"
 
-  echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$baseModelName${NC}...\n"
+  echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$baseModelName${NC}..."
 
   backupDir
   gum spin --spinner.foreground="208" -s "pulse" --title "Downloading..." --title.foreground="245" -- curl -L "$downloadLink" -o "$tmpDownloadDir"/"$modName".download
