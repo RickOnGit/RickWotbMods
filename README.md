@@ -1,18 +1,22 @@
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/RickOnGit/RickWotbMods/main/assets/logo.png" alt="Rick WotB mod Loader" width="350" />
+  
+<img src="https://github.com/user-attachments/assets/41b181dd-c74a-4543-8db5-7db8a9dc0a9f" alt="logo" width="250">
+
+[![github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RickOnGit/RickWotbMods)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/thatmfrick)
+
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
 </h3>
 
 <p align="center">
   <strong>A powerful CLI for installing, previewing, backing up, and restoring mods for World of Tanks Blitz — with zero hassle.</strong>
 </p>
 
-<p align="center">
-  <a href="https://github.com/RickOnGit/RickWotbMods">
-    <img src="https://img.shields.io/badge/Rick%20Wotb%20Loader-a6e3a1?style=flat-square&logo=git&logoColor=D9E0EE&labelColor=302D41" alt="Rick Wotb Loader Status">
-  </a>
-</p>
-
-https://github.com/user-attachments/assets/f6aa0017-a85a-453f-9180-edf32a7cfdd5
+[demo.mov](https://github.com/user-attachments/assets/da92089d-cf34-4154-91aa-50606f53c6d5)
 
 ---
 
