@@ -16,7 +16,11 @@
   <strong>A powerful CLI for installing, previewing, backing up, and restoring mods for World of Tanks Blitz — with zero hassle.</strong>
 </p>
 
-[demo.mov](https://github.com/user-attachments/assets/da92089d-cf34-4154-91aa-50606f53c6d5)
+
+
+https://github.com/user-attachments/assets/380814ba-6951-4fa1-8cde-93f02ff6ae20
+
+
 
 ---
 
@@ -77,6 +81,12 @@ To install mods on Android, follow these steps:
    - A pop-up will appear on your Android device — press **Trust this device** (your device is now set up).
 5. Run `rickmodder` in the terminal and switch the platform to Android.
     - **Remember** to switch platform back to Linux when you have finished modding Android.
+  
+
+
+https://github.com/user-attachments/assets/f8d77724-1912-4de9-a5fd-a9340729179d
+
+
 
 ### ⚙️ CLI setup (All Platforms)
 
