@@ -5,7 +5,7 @@ function update() {
 
   if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
     gum spin -s "pulse" --title "Updating..." --spinner.foreground="208" --title.foreground="245" -- git pull
-    echo -e "updateDate=\"$(date +\"%d/%m/%Y\")" >$updateFile
+    echo "updateDate=\"$(date +%d/%m/%Y)\"" >"$updateFile"
     chekUpdate="Just now"
   else
     checkUpdate="Last update: $updateDate"
