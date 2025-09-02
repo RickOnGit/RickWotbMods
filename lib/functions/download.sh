@@ -41,7 +41,7 @@ function download() {
   gum spin --spinner.foreground="208" -s "pulse" --title "Extracting..." --title.foreground="245" -- 7z x "$tmpDownloadDir"/"$modName".download -o"$tmpDownloadDir"
 
   rm "$tmpDownloadDir"/*.download
-  if [[ $os != "Android" ]]; then
+  if [[ $os != "🤖 Android" ]]; then
     modFix "$tmpDownloadDir"
   fi
   installer "$tmpDownloadDir" "$modName" "$baseModelName"

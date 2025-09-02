@@ -2,18 +2,18 @@ function modPreview() {
   local file="$1"
   modLinks=()
 
-  jq -r --arg client "$client" '.[] | select(has("mods")) | .name as $mainName | select(.mods | any(has($client))) | $mainName' "$file" >"$tmpPreview" #or lesta in the jq query
-
+  jq -r --arg client "$client" '[.[] | select(.mods[]? | has($client)) | .name] | unique[]' "$file" >"$tmpPreview"
   eval "selected=\$(cat \$tmpPreview | gum filter --header \"Choose an item below 📋\" $gum_filter_prompt)"
-
+  
   if [[ -n "$selected" ]]; then
-    eval "selectedMods=\$(jq -r --arg element \"$selected\" '.[] | select(.name == \$element) | .mods[]? | .name' \"$file\" | gum filter --no-limit --header=\"Select mod(s) to preview 📋\" $gum_filter_prompt)"
+    eval "selectedMods=\$(jq -r --arg client "$client" --arg element \"$selected\" '.[] | select(.name == \$element) | .mods[]? | select(has(\$client)) | .name' \"$file\" | gum filter --no-limit --header=\"Select mod(s) to preview 📋\" $gum_filter_prompt)"
   fi
 
   if [[ -z $selectedMods ]]; then
     return 1
   fi
 
+    
   while IFS= read -r mod; do
     site=$(jq -r --arg baseName "$selected" --arg modName "$mod" ' .[] | select(.name == $baseName) | .mods[] | select(.name == $modName) | .site' "$file")
 
