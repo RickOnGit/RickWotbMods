@@ -34,9 +34,21 @@
         "site": "https://forblitz.ru/modifications/hangars/old-hangar/17279"
       },
       {
-        "name": "Downloading hangar",
-        "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
-        "source": "me"
+	      "name": "Downloading hangar",
+	      "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
+	      "site": "me"
+      },
+      {
+        "name": "Square (9 may 2015-2017)",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2015_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2015-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-9-maya-2015-2017/19928"
+      },
+      {
+        "name": "Hangar in forest (9 may 2020)",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2020_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/05/hangar_9may_2020-1_pc_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/hangars/angar-v-lesu-9-maya-2020/19939"
       }
     ]
   },
@@ -116,7 +128,7 @@
     ]
   },
   {
-    "name": "Stock hangar",
+    "name": "📁 Stock hangar",
     "backupDir": [
       "hangar_main_2022",
       "hangar_platoon22",
