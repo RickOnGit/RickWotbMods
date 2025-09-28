@@ -1,8 +1,18 @@
 function selectorMods() {
   local file="$1"
+  local filterType="$2"
   declare -A links
 
-  jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpDownload"
+  if [[ "$file" == "$tanksFile" || "$file" == "$hangarsFile" || "$file" == "$uiFile" ]]; then
+    if gum confirm --selected.background="208" --prompt.foreground="66" "Use a filter?"; then
+      filter "$filterType" "$file"
+    else
+      jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpDownload"
+    fi
+  else
+    jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpDownload"
+  fi
+
   eval "selected=\$(cat \$tmpDownload | gum filter --header \"Choose mod(s) to download 📋\" --no-limit $gum_filter_prompt)"
 
   if [ -n "$selected" ]; then

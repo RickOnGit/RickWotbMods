@@ -34,10 +34,10 @@ function modMenu() {
   eval "ans=\$(echo -e \"$modMenu\" | gum choose --header \"Select a category 📋\" $gum_choose_prompt)"
 
   case "$ans" in
-  "🛡️ Tanks") $fun "$tanksFile" ;;
+  "🛡️ Tanks") $fun "$tanksFile" "$tankFilters" ;;
   "🔊 Sounds") $fun "$soundsFile" ;;
-  "🏰 Hangars") $fun "$hangarsFile" ;;
-  "🎨 UI") $fun "$uiFile" ;;
+  "🏰 Hangars") $fun "$hangarsFile" "$hangarFilters" ;;
+  "🎨 UI") $fun "$uiFile" "$uiFilters" ;;
   "🗺️ Maps") $fun "$mapsFile" ;;
   "🎯 Sights") $fun "$sightsFile" ;;
   esac
