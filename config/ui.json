@@ -1,6 +1,7 @@
 [
   {
     "name": "📜 Stats",
+    "type": "Other",
     "backupFiles": [
       "HUDLayer.yaml",
       "SidebarHangarMenu.yaml",
@@ -19,9 +20,8 @@
   },
   {
     "name": "🗃️ Storage",
-    "backupDir": [
-      "Storage"
-    ],
+    "type": "Hangar UI",
+    "backupDir": ["Storage"],
     "mods": [
       {
         "name": "Compact storage",
@@ -32,7 +32,21 @@
     ]
   },
   {
+    "name": "🎛️ Info Panel",
+    "type": "Battle UI",
+    "backupDir": ["BattleScreenHUD"],
+    "mods": [
+      {
+        "name": "Expanding Warfare",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_pc.zip",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_android.zip",
+        "site": "https://forblitz.ru/en/modifications/interface/info-panel-expanding-warfare/10657"
+      }
+    ]
+  },
+  {
     "name": "💡 Light Bulb",
+    "type": "Battle UI",
     "backupFiles": [
       "SixSense.txt",
       "SixSense@2x.txt",
@@ -68,9 +82,8 @@
   },
   {
     "name": "💥 Hitmarks",
-    "backupDir": [
-      "Decals"
-    ],
+    "type": "Battle UI",
+    "backupDir": ["Decals"],
     "mods": [
       {
         "name": "Coloured hitmarks",
@@ -86,9 +99,8 @@
   },
   {
     "name": "🪦 Destroyed tanks",
-    "backupDir": [
-      "crash"
-    ],
+    "type": "Battle UI",
+    "backupDir": ["crash"],
     "mods": [
       {
         "name": "White tanks destroyed",
@@ -99,6 +111,7 @@
   },
   {
     "name": "✨ WoT style battle effects",
+    "type": "Battle UI",
     "backupDir": [
       "chassis_effects",
       "hit_tank",
@@ -131,9 +144,8 @@
   },
   {
     "name": "🎖️ Ribbons",
-    "backupDir": [
-      "ribbons"
-    ],
+    "type": "Battle UI",
+    "backupDir": ["ribbons"],
     "mods": [
       {
         "name": "Ribbons 2.0",
@@ -144,9 +156,8 @@
   },
   {
     "name": "🖍️ Shells",
-    "backupDir": [
-      "ammunition"
-    ],
+    "type": "Tank UI",
+    "backupDir": ["ammunition"],
     "mods": [
       {
         "name": "WoT style shell icons",
@@ -157,9 +168,8 @@
   },
   {
     "name": "🔩 Tank modules",
-    "backupDir": [
-      "ModulesTechTree"
-    ],
+    "type": "Tank UI",
+    "backupDir": ["ModulesTechTree"],
     "mods": [
       {
         "name": "WoT style tank modules",
@@ -170,9 +180,8 @@
   },
   {
     "name": "📦 Tank equipment",
-    "backupDir": [
-      "OptionalDevices"
-    ],
+    "type": "Tank UI",
+    "backupDir": ["OptionalDevices"],
     "mods": [
       {
         "name": "WoT style equipment",
@@ -183,9 +192,8 @@
   },
   {
     "name": "🎫 Boosters",
-    "backupDir": [
-      "boosters"
-    ],
+    "type": "Tank UI",
+    "backupDir": ["boosters"],
     "mods": [
       {
         "name": "WoT style boosters",
@@ -196,6 +204,7 @@
   },
   {
     "name": "🌲 Tech tree",
+    "type": "Hangar UI",
     "backupFiles": [
       "china_tree",
       "european_tree",
@@ -221,15 +230,14 @@
   },
   {
     "name": "🗺️ Minimap",
+    "type": "Battle UI",
     "backupFiles": [
       "MinimapLookDirection",
       "british-4005.packed.webp",
       "british-4005@2x.packed.webp",
       "Minimap.yaml"
     ],
-    "backupDir": [
-      "minimap"
-    ],
+    "backupDir": ["minimap"],
     "mods": [
       {
         "name": "WOT style minimaps",
@@ -252,6 +260,7 @@
   },
   {
     "name": "🎥 Camera",
+    "type": "Battle UI",
     "backupFiles": [
       "optionsDesktop",
       "optionsMiniTablet",
@@ -268,6 +277,7 @@
   },
   {
     "name": "🎞️ Carousel",
+    "type": "Hangar UI",
     "backupFiles": [
       "flag_carousel",
       "DevConsoleLine",
@@ -278,7 +288,14 @@
       "TanksPanel",
       "icon_game-mode_random"
     ],
+    "backupDir": ["InventoryPanel"],
     "mods": [
+      {
+        "name": "Replace rank with mastery",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_pc_wg.zip",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_android_wg.zip",
+        "site": "https://forblitz.ru/en/modifications/interface/zamena-rangov-na-masterstvo/18989"
+      },
       {
         "name": "Two level carousel + statistics",
         "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_android_wg.zip",
@@ -312,11 +329,8 @@
   },
   {
     "name": "🧽 Pbr maps",
-    "backupFiles": [
-      "dirt_",
-      "dust_",
-      "snow_"
-    ],
+    "type": "Battle UI",
+    "backupFiles": ["dirt_", "dust_", "snow_"],
     "mods": [
       {
         "name": "Improved dust and dirt by P1NNY",
@@ -327,10 +341,8 @@
   },
   {
     "name": "🎭 Camouflages",
-    "backupFiles": [
-      "camouflages.yaml",
-      "camouflages.xml"
-    ],
+    "type": "Tank UI",
+    "backupFiles": ["camouflages.yaml", "camouflages.xml"],
     "mods": [
       {
         "name": "Fake legendary camos",

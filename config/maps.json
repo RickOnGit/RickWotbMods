@@ -1,10 +1,7 @@
 [
   {
     "name": "🦪 Dynasty Pearl",
-    "backupDir": [
-      "30_grossberg_sh",
-      "grossberg"
-    ],
+    "backupDir": ["30_grossberg_sh", "grossberg"],
     "mods": [
       {
         "name": "Night",
@@ -16,10 +13,7 @@
   },
   {
     "name": "🏞️ Canal",
-    "backupDir": [
-      "18_canal_cn",
-      "canal"
-    ],
+    "backupDir": ["18_canal_cn", "canal"],
     "mods": [
       {
         "name": "Autumn",
@@ -30,10 +24,7 @@
   },
   {
     "name": "🏯 Lost Temple",
-    "backupDir": [
-      "10_asia_as",
-      "asia"
-    ],
+    "backupDir": ["10_asia_as", "asia"],
     "mods": [
       {
         "name": "Night",
@@ -44,9 +35,7 @@
   },
   {
     "name": "🏔️ Winter Malinovka",
-    "backupDir": [
-      "12_malinovka_ma"
-    ],
+    "backupDir": ["12_malinovka_ma"],
     "mods": [
       {
         "name": "Night",
@@ -57,10 +46,7 @@
   },
   {
     "name": "🏛️ Hellas",
-    "backupDir": [
-      "35_rift_rt",
-      "rift"
-    ],
+    "backupDir": ["35_rift_rt", "rift"],
     "mods": [
       {
         "name": "Evening",
@@ -71,10 +57,7 @@
   },
   {
     "name": "🍇 Vineyards",
-    "backupDir": [
-      "22_italy_it",
-      "italy"
-    ],
+    "backupDir": ["22_italy_it", "italy"],
     "mods": [
       {
         "name": "Evening",
@@ -85,10 +68,7 @@
   },
   {
     "name": "🏚️ Himmelsdorf",
-    "backupDir": [
-      "19_himmelsdorf_hm",
-      "himmelsdorf"
-    ],
+    "backupDir": ["19_himmelsdorf_hm", "himmelsdorf"],
     "mods": [
       {
         "name": "Realistic",
@@ -99,10 +79,7 @@
   },
   {
     "name": "🏰 Fort",
-    "backupDir": [
-      "07_fort_ft",
-      "fort"
-    ],
+    "backupDir": ["07_fort_ft", "fort"],
     "mods": [
       {
         "name": "Summer",
@@ -114,10 +91,7 @@
   },
   {
     "name": "🌄 Canyon",
-    "backupDir": [
-      "25_canyon_ca",
-      "canyon"
-    ],
+    "backupDir": ["25_canyon_ca", "canyon"],
     "mods": [
       {
         "name": "Storm",
@@ -129,17 +103,94 @@
   },
   {
     "name": "📦 Themed map packs",
+    "backupDir": [
+      "02_desert_train_dt",
+      "03_erlenberg_er",
+      "04_medvedkovo_md",
+      "05_amigosville_am",
+      "06_rudniki_rd",
+      "07_fort_ft",
+      "08_idle_id",
+      "09_savanna_sv",
+      "11_plant_pn",
+      "12_malinovka_ma",
+      "13_pliego_pl",
+      "14_port_pt",
+      "15_lagoon_ln",
+      "16_holland_hl",
+      "18_canal_cn",
+      "22_italy_it",
+      "23_karieri_kr",
+      "24_milibase_mlb",
+      "28_rock_rc",
+      "30_grossberg_sh",
+      "31_lumber_lm_night",
+      "33_neptune_nt",
+      "34_forgecity_fc",
+      "amigosville",
+      "amigosville_02",
+      "amigosville_03",
+      "canal",
+      "canal_01",
+      "canyon",
+      "desert_train",
+      "desert_train_02",
+      "desert_train_03",
+      "erlenberg",
+      "erlenberg_01",
+      "erlenberg_02",
+      "faust",
+      "forgecity",
+      "fort",
+      "grossberg",
+      "himmelsdorf",
+      "holland",
+      "holmeisk",
+      "iceworld",
+      "idle",
+      "italy",
+      "karelia",
+      "karieri",
+      "lagoon",
+      "lumber",
+      "lumber_01",
+      "malinovka",
+      "medvedkovo",
+      "medvedkovo_02",
+      "medvedkovo_03",
+      "milbase",
+      "milbase_02",
+      "milbase_03",
+      "milbase_04",
+      "milbase_05",
+      "moon",
+      "mountain",
+      "neptune",
+      "neptune_01",
+      "neptune_02",
+      "plant",
+      "pliego",
+      "port",
+      "rift",
+      "rock",
+      "rudniki",
+      "rudniki_01",
+      "rudniki_02",
+      "rudniki_03",
+      "savanna",
+      "skit"
+    ],
     "mods": [
       {
-        "name": "Cloudy",
+        "name": "☁️ Cloudy",
         "android_wg": "https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps3_android_wg.zip",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/cloudy-maps3_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/map-restylings/cloudy-map-mod-pack/21495"
       },
       {
-        "name": "Twilight",
-        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps3_android_wg.zip",
-        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/evening-maps3_pc_wg.zip",
+        "name": "🌇 Twilight",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/09/twilight-maps_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/09/twilight-maps_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/map-restylings/twilight-map-mod-pack/21637"
       }
     ]

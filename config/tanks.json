@@ -1,11 +1,10 @@
 [
   {
     "name": "🇺🇸 Sheridan",
-    "type": "Light",
+    "nation": "U.S.A.",
+    "class": "Light",
     "tier": "X",
-    "backupFiles": [
-      "A116_XM551"
-    ],
+    "backupFiles": ["A116_XM551"],
     "mods": [
       {
         "name": "Salamander",
@@ -21,11 +20,10 @@
   },
   {
     "name": "🇺🇸 Sheridan Missle",
-    "type": "Light",
+    "nation": "U.S.A.",
+    "class": "Light",
     "tier": "X",
-    "backupFiles": [
-      "A116_XM551_Exp"
-    ],
+    "backupFiles": ["A116_XM551_Exp"],
     "mods": [
       {
         "name": "Enhanced",
@@ -36,11 +34,10 @@
   },
   {
     "name": "🇺🇸 T49",
-    "type": "Light",
+    "nation": "U.S.A.",
+    "class": "Light",
     "tier": "VIII",
-    "backupFiles": [
-      "A100_T49"
-    ],
+    "backupFiles": ["A100_T49"],
     "mods": [
       {
         "name": "HD + Revenant",
@@ -51,12 +48,10 @@
   },
   {
     "name": "🇺🇸 M48 Patton",
+    "nation": "U.S.A.",
     "class": "Medium",
     "tier": "X",
-    "backupFiles": [
-      "M48A1_Patton",
-      "M48A1"
-    ],
+    "backupFiles": ["M48A1_Patton", "M48A1"],
     "mods": [
       {
         "name": "Yacin 1500",
@@ -65,8 +60,8 @@
       },
       {
         "name": "Pipeline",
-        "site": "https://blackwot.ru/2022/06/28/remodeling-m48-pipeline/",
-        "pc_wg": "https://drive.usercontent.google.com/download?id=1MeAz4ILiTAvn8HTCAUiazJ8dN3jlv6KI&export=download&authuser=0&confirm=t&uuid=3e2884a1-2b59-4a35-b91f-b1cd578e2556&at=AN8xHopwhgYBtUbOqmE_2ch2bhlA:1751560377555"
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/09/m48a1_patton_pipeline_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/m48-patton-pipeline/23657"
       },
       {
         "name": "Thunderbolt",
@@ -77,11 +72,10 @@
   },
   {
     "name": "🇺🇸 M-VI-Yoh",
+    "nation": "U.S.A.",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "M-6-Y"
-    ],
+    "backupFiles": ["M-6-Y"],
     "mods": [
       {
         "name": "Enhanced",
@@ -92,14 +86,13 @@
   },
   {
     "name": "🇺🇸 T57 Heavy",
+    "nation": "U.S.A.",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "T57_58"
-    ],
+    "backupFiles": ["T57_58"],
     "mods": [
       {
-        "name": "Hellhoud",
+        "name": "Hellhound",
         "site": "https://forblitz.ru/modifications/remodelings/remode/15773",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/t57_heavy3dst_steam.zip"
       },
@@ -107,16 +100,20 @@
         "name": "Sworn Brother",
         "site": "https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640",
         "pc_wg": "https://drive.usercontent.google.com/download?id=1CpXwx8lZMbsf23JfaZTGKrf0xhRiy21e&export=download&authuser=1&confirm=t&uuid=85802a8d-1d4e-4303-a327-bbee0c1b6a4b&at=AN8xHormxIT16bJvUhtdr3xMD__p:1752335751512"
+      },
+      {
+        "name": "Sharp Rose",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/11/t57_heavy_order_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-t57-heavy-sharp-rose/18588"
       }
     ]
   },
   {
     "name": "🇺🇸 T34 (1776)",
+    "nation": "U.S.A.",
     "tier": "VIII",
-    "type": "Heavy",
-    "backupFiles": [
-      "T34_hvy_Freedom"
-    ],
+    "class": "Heavy",
+    "backupFiles": ["T34_hvy_Freedom"],
     "mods": [
       {
         "name": "Hell on Wheels pack",
@@ -127,11 +124,10 @@
   },
   {
     "name": "🇺🇸 T34",
+    "nation": "U.S.A.",
     "tier": "VIII",
-    "type": "Heavy",
-    "backupFiles": [
-      "T34_hvy"
-    ],
+    "class": "Heavy",
+    "backupFiles": ["T34_hvy"],
     "mods": [
       {
         "name": "Hell on Wheels pack",
@@ -142,11 +138,10 @@
   },
   {
     "name": "🇺🇸 T110E4",
+    "nation": "U.S.A.",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "T110E4"
-    ],
+    "backupFiles": ["T110E4"],
     "mods": [
       {
         "name": "Freigh Train",
@@ -167,11 +162,10 @@
   },
   {
     "name": "🇺🇸 T30",
+    "nation": "U.S.A.",
     "tier": "IX",
     "class": "TD",
-    "backupFiles": [
-      "T30"
-    ],
+    "backupFiles": ["T30"],
     "mods": [
       {
         "name": "Assault kit",
@@ -182,12 +176,10 @@
   },
   {
     "name": "🇩🇪 E 50 M",
+    "nation": "Germany",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "E-50M",
-      "E50_Ausf_M"
-    ],
+    "backupFiles": ["E-50M", "E50_Ausf_M"],
     "mods": [
       {
         "name": "Dreadnaught",
@@ -203,16 +195,21 @@
         "name": "Panzerbarracuda",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/e50_m_panzerbarracuda_forblitz_05072024_pc.zip",
         "site": "https://forblitz.ru/modifications/remodelings/remodeling-e-50m-panzerbarracuda/20459"
+      },
+      {
+        "name": "Altbewährt",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311"
       }
     ]
   },
   {
     "name": "🇩🇪 Leopard 1",
+    "nation": "Germany",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "Leopard1"
-    ],
+    "backupFiles": ["Leopard1"],
     "mods": [
       {
         "name": "1a1 (by Adamantium)",
@@ -255,12 +252,10 @@
   },
   {
     "name": "🇩🇪 E 100",
+    "nation": "Germany",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "E_100",
-      "E-100"
-    ],
+    "backupFiles": ["E_100", "E-100"],
     "mods": [
       {
         "name": "Deus Ex",
@@ -286,11 +281,10 @@
   },
   {
     "name": "🇩🇪 VK 72.01 K",
+    "nation": "Germany",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "VK7201"
-    ],
+    "backupFiles": ["VK7201"],
     "mods": [
       {
         "name": "The Buthcher Joe",
@@ -316,22 +310,18 @@
   },
   {
     "name": "🇩🇪 Kpz70",
+    "nation": "Germany",
     "tier": "IX",
     "class": "Heavy",
-    "backupFiles": [
-      "KpfPz_70"
-    ],
-    "mods": [
-      {}
-    ]
+    "backupFiles": ["KpfPz_70"],
+    "mods": [{}]
   },
   {
     "name": "🇩🇪 Tiger II",
-    "tier": "VII",
+    "nation": "Germany",
+    "tier": "VIII",
     "class": "Heavy",
-    "backupFiles": [
-      "PzVIB_Tiger_II"
-    ],
+    "backupFiles": ["PzVIB_Tiger_II"],
     "mods": [
       {
         "name": "Nox Tenebris",
@@ -352,11 +342,10 @@
   },
   {
     "name": "🇩🇪 Grille 15",
+    "nation": "Germany",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "Grille_15"
-    ],
+    "backupFiles": ["Grille_15"],
     "mods": [
       {
         "name": "Igelschnäuzchen",
@@ -377,12 +366,10 @@
   },
   {
     "name": "🇩🇪 Jg.Pz. E 100",
+    "nation": "Germany",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "JagdPzE100",
-      "JagdPz_E100"
-    ],
+    "backupFiles": ["JagdPzE100", "JagdPz_E100"],
     "mods": [
       {
         "name": "Gold",
@@ -398,16 +385,20 @@
         "name": "Panzershiff",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/jag_e100_3dst_steam.zip",
         "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e100/14344"
+      },
+      {
+        "name": "Voltron",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=17cDGLKFaUPrIxUYcs0kn7iO9x8zFxe8A&export=download&authuser=0&confirm=t&uuid=a3c6a2da-936d-4804-953d-5a243d9664c9&at=AN8xHoocgLO6fWBLRfUZemd1S6pK:1758208345294",
+        "site": "me"
       }
     ]
   },
   {
     "name": "🇩🇪 Jagdtiger",
+    "nation": "Germany",
     "tier": "IX",
     "class": "TD",
-    "backupFiles": [
-      "JagdTiger"
-    ],
+    "backupFiles": ["JagdTiger"],
     "mods": [
       {
         "name": "Enhanced",
@@ -418,11 +409,10 @@
   },
   {
     "name": "🇩🇪 Rhm.-Borsing Waffenträger",
+    "nation": "Germany",
     "tier": "VIII",
     "class": "TD",
-    "backupFiles": [
-      "RhB_Waffentrager"
-    ],
+    "backupFiles": ["RhB_Waffentrager"],
     "mods": [
       {
         "name": "Jägermeister",
@@ -443,11 +433,10 @@
   },
   {
     "name": "🇷🇺 T-100LT",
+    "nation": "U.S.S.R",
     "tier": "X",
     "class": "Light",
-    "backupFiles": [
-      "T100LT"
-    ],
+    "backupFiles": ["T100LT"],
     "mods": [
       {
         "name": "Gyurza",
@@ -463,12 +452,10 @@
   },
   {
     "name": "🇷🇺 T-54 ltwt.",
+    "nation": "U.S.S.R",
     "tier": "VIII",
     "class": "Light",
-    "backupFiles": [
-      "T54S",
-      "T-54S"
-    ],
+    "backupFiles": ["T54S", "T-54S"],
     "mods": [
       {
         "name": "Desert Fox",
@@ -479,12 +466,10 @@
   },
   {
     "name": "🇷🇺 T-62A",
+    "nation": "U.S.S.R",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "T-62A",
-      "R87_T62A"
-    ],
+    "backupFiles": ["T-62A", "R87_T62A"],
     "mods": [
       {
         "name": "ZTZ-62",
@@ -505,11 +490,10 @@
   },
   {
     "name": "🇷🇺 IS-5",
+    "nation": "U.S.S.R",
     "tier": "VIII",
     "class": "Heavy",
-    "backupFiles": [
-      "Object_730"
-    ],
+    "backupFiles": ["Object_730"],
     "mods": [
       {
         "name": "Enhanced",
@@ -520,11 +504,10 @@
   },
   {
     "name": "🇷🇺 IS-6",
+    "nation": "U.S.S.R",
     "tier": "VIII",
     "class": "Heavy",
-    "backupFiles": [
-      "Object_252"
-    ],
+    "backupFiles": ["Object_252"],
     "mods": [
       {
         "name": "Enhanced",
@@ -535,11 +518,10 @@
   },
   {
     "name": "🇷🇺 KV-2",
+    "nation": "U.S.S.R",
     "tier": "VI",
     "class": "Heavy",
-    "backupFiles": [
-      "KV2"
-    ],
+    "backupFiles": ["KV2"],
     "mods": [
       {
         "name": "Valhallan Ragnarok",
@@ -560,12 +542,10 @@
   },
   {
     "name": "🇷🇺 Obj. 268",
+    "nation": "U.S.S.R",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "Object268",
-      "R88_Object_268"
-    ],
+    "backupFiles": ["Object268", "R88_Object_268"],
     "mods": [
       {
         "name": "Svyatogor",
@@ -581,12 +561,10 @@
   },
   {
     "name": "🇷🇺 ISU-130",
+    "nation": "U.S.S.R",
     "tier": "VIII",
     "class": "TD",
-    "backupFiles": [
-      "R111_ISU130",
-      "isu-130"
-    ],
+    "backupFiles": ["R111_ISU130", "isu-130"],
     "mods": [
       {
         "name": "Stalin pride",
@@ -597,11 +575,10 @@
   },
   {
     "name": "🇷🇺 SU-122-44",
+    "nation": "U.S.S.R",
     "tier": "VII",
     "class": "TD",
-    "backupFiles": [
-      "SU122_44"
-    ],
+    "backupFiles": ["SU122_44"],
     "mods": [
       {
         "name": "The viper",
@@ -612,11 +589,10 @@
   },
   {
     "name": "🇬🇧 Vickers Light",
+    "nation": "U.K.",
     "tier": "X",
     "class": "Light",
-    "backupFiles": [
-      "Vickers_Light_105"
-    ],
+    "backupFiles": ["Vickers_Light_105"],
     "mods": [
       {
         "name": "Concept 5 The Unknown",
@@ -627,11 +603,10 @@
   },
   {
     "name": "🇬🇧 Cobra",
+    "nation": "U.K.",
     "tier": "IX",
-    "type": "Medium",
-    "backupFiles": [
-      "GB106_Cobra"
-    ],
+    "class": "Medium",
+    "backupFiles": ["GB106_Cobra"],
     "mods": [
       {
         "name": "Kopra Korbena",
@@ -643,11 +618,10 @@
   },
   {
     "name": "🇬🇧 Defender Mk.1",
+    "nation": "U.K.",
     "tier": "VIII",
     "class": "Medium",
-    "backupFiles": [
-      "GB_Centurion_MkDF"
-    ],
+    "backupFiles": ["GB_Centurion_MkDF"],
     "mods": [
       {
         "name": "Crusader 002",
@@ -658,11 +632,10 @@
   },
   {
     "name": "🇬🇧 FV215b 183",
+    "nation": "U.K.",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "FV215b_183"
-    ],
+    "backupFiles": ["FV215b_183"],
     "mods": [
       {
         "name": "Eastern Express",
@@ -683,12 +656,10 @@
   },
   {
     "name": "🇬🇧 FV4005",
+    "nation": "U.K.",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "GB83_4005",
-      "GB83_FV4005"
-    ],
+    "backupFiles": ["GB83_4005", "GB83_FV4005"],
     "mods": [
       {
         "name": "Galahad",
@@ -709,11 +680,10 @@
   },
   {
     "name": "🇯🇵 STB-1",
+    "nation": "Japan",
     "tier": "X",
-    "type": "Medium",
-    "backupFiles": [
-      "ST_B1"
-    ],
+    "class": "Medium",
+    "backupFiles": ["ST_B1"],
     "mods": [
       {
         "name": "Winter Lotus",
@@ -746,11 +716,10 @@
   },
   {
     "name": "🇨🇳 BZ-75",
+    "nation": "China",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "Ch48_BZ_75"
-    ],
+    "backupFiles": ["Ch48_BZ_75"],
     "mods": [
       {
         "name": "Divine Valor",
@@ -771,11 +740,10 @@
   },
   {
     "name": "🇨🇳 WZ-113",
+    "nation": "China",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "wz_113"
-    ],
+    "backupFiles": ["wz_113"],
     "mods": [
       {
         "name": "Realistic",
@@ -787,11 +755,10 @@
   },
   {
     "name": "🇨🇳 WZ-111 5A",
+    "nation": "China",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "Ch41_WZ_111_5A"
-    ],
+    "backupFiles": ["Ch41_WZ_111_5A"],
     "mods": [
       {
         "name": "QI LING (by Adamantium)",
@@ -802,12 +769,10 @@
   },
   {
     "name": "🇨🇳 WZ-121",
+    "nation": "China",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "121",
-      "Ch19_121"
-    ],
+    "backupFiles": ["121", "Ch19_121"],
     "mods": [
       {
         "name": "King of Monkeys",
@@ -828,11 +793,10 @@
   },
   {
     "name": "🇨🇳 WZ-114",
+    "nation": "China",
     "tier": "IX",
     "class": "Heavy",
-    "backupFiles": [
-      "Ch45_WZ_114"
-    ],
+    "backupFiles": ["Ch45_WZ_114"],
     "mods": [
       {
         "name": "Tiger Claw",
@@ -843,11 +807,10 @@
   },
   {
     "name": "🇨🇳 WZ-122 TM",
+    "nation": "China",
     "tier": "VIII",
     "class": "Medium",
-    "backupFiles": [
-      "Ch43_WZ-122_2"
-    ],
+    "backupFiles": ["Ch43_WZ-122_2"],
     "mods": [
       {
         "name": "Special Guest",
@@ -863,11 +826,10 @@
   },
   {
     "name": "🇫🇷 B-C 25 t",
+    "nation": "France",
     "tier": "X",
     "class": "Light",
-    "backupFiles": [
-      "Bat_Chatillon25t"
-    ],
+    "backupFiles": ["Bat_Chatillon25t"],
     "mods": [
       {
         "name": "Arlequin Ter",
@@ -893,26 +855,29 @@
   },
   {
     "name": "🇫🇷 AMX 50 B",
+    "nation": "France",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "AMX_50B"
-    ],
+    "backupFiles": ["AMX_50B"],
     "mods": [
       {
         "name": "Charlesmartel",
         "pc_wg": "https://drive.usercontent.google.com/download?id=1qvFgOwA03TsGkBMji9tnv5cqef4CDeHD&export=download&authuser=1&confirm=t&uuid=841b4817-0453-4432-a983-51cbe16f73b4&at=AN8xHoo6FAHA6sDcazyLsoRBBJ70:1752334958388",
         "site": "https://discord.com/channels/174448788436549632/254137952215498762/1069655296995242004"
+      },
+      {
+        "name": "Veilside Rx7 Livery",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1M1nTQMSGUHMJJWGFZTaB1FgKMQWMl4se&export=download&authuser=0&confirm=t&uuid=7006eed2-40fa-432c-b43c-14bbc5708005&at=AN8xHopBk8gPmWwXatc-DksvVJed:1758209171080",
+        "site": "https://blitzfoxhub.com/2022/12/23/shkurka-na-amx-50b-veilside-rx7-livery/"
       }
     ]
   },
   {
     "name": "🇫🇷 Foch 155",
+    "nation": "France",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "AMX_50Fosh_155"
-    ],
+    "backupFiles": ["AMX_50Fosh_155"],
     "mods": [
       {
         "name": "Eglantier",
@@ -923,11 +888,10 @@
   },
   {
     "name": "🇨🇿 TVP T 50/51",
+    "nation": "Czechia",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "Cz04_T50_51"
-    ],
+    "backupFiles": ["Cz04_T50_51"],
     "mods": [
       {
         "name": "HD",
@@ -948,29 +912,34 @@
   },
   {
     "name": "🇨🇿 Škoda T 27",
+    "nation": "Czechia",
     "tier": "VIII",
     "class": "Medium",
-    "backupFiles": [
-      "Cz13_T_27"
-    ],
+    "backupFiles": ["Cz13_T_27"],
     "mods": [
       {
         "name": "Enhanced",
         "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258"
+      },
+      {
+        "name": "HD",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2023/04/skodat27_hd_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/04/skodat27_hd_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-skoda-t27-hd/16780"
       }
     ]
   },
   {
     "name": "🇨🇿 Škoda T 56",
+    "nation": "Czechia",
     "tier": "VIII",
     "class": "Heavy",
-    "backupFiles": [
-      "Cz14_Skoda_T-56"
-    ],
+    "backupFiles": ["Cz14_Skoda_T-56"],
     "mods": [
       {
         "name": "Hurikán",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222/download/android-wg/file?_token=x=0",
         "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222"
       },
@@ -978,25 +947,26 @@
         "name": "Projekt ION",
         "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247"
+      },
+      {
+        "name": "HD",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/08/skoda_t56_sadabsolution_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_skoda_t56_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-skoda-t56/13479"
       }
     ]
   },
   {
     "name": "🇮🇹 Carro 45t",
+    "nation": "Italy",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "It20_Car_Comb_45t"
-    ],
+    "backupFiles": ["It20_Car_Comb_45t"],
     "mods": [
-      {
-        "name": "Proserpina by bigmeaty",
-        "site": "https://discordapp.com/channels/174448788436549632/254137952215498762/1140385731219566642",
-        "pc_wg": "https://drive.usercontent.google.com/download?id=1ngBpjVp3Ky9OqJegIpBqAKMdibl1BLmp&export=download&authuser=1&confirm=t&uuid=be83b967-d191-42b8-9c53-0aa9b926b5a9&at=AN8xHoruObG_4MIa8ftVhz8U_CtR:1752257941400"
-      },
       {
         "name": "Proserpina by MuzMods",
         "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306/download/pc-wg/file?_token=x=0",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306/download/android-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306"
       },
       {
@@ -1008,12 +978,10 @@
   },
   {
     "name": "🇮🇹 Progetto 65",
+    "nation": "Italy",
     "tier": "X",
     "class": "Medium",
-    "backupFiles": [
-      "It08_Progetto_M40_mod_65",
-      "MT10_track"
-    ],
+    "backupFiles": ["It08_Progetto_M40_mod_65", "MT10_track"],
     "mods": [
       {
         "name": "HD",
@@ -1039,6 +1007,7 @@
   },
   {
     "name": "🇮🇹 Prototipo Standard B",
+    "nation": "Italy",
     "tier": "IX",
     "class": "Medium",
     "backupFiles": [
@@ -1056,11 +1025,10 @@
   },
   {
     "name": "🇮🇹 Rinoceronte",
+    "nation": "Italy",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "It115_Rinoceronte"
-    ],
+    "backupFiles": ["It115_Rinoceronte"],
     "mods": [
       {
         "name": "Nyx",
@@ -1071,11 +1039,10 @@
   },
   {
     "name": "🇮🇹 Bisonte C45",
+    "nation": "Italy",
     "tier": "VIII",
     "class": "Heavy",
-    "backupFiles": [
-      "It22_Progetto_C45_mod_71"
-    ],
+    "backupFiles": ["It22_Progetto_C45_mod_71"],
     "mods": [
       {
         "name": "HD + Aurora",
@@ -1086,11 +1053,10 @@
   },
   {
     "name": "🇮🇹 Minotauro",
+    "nation": "Italy",
     "tier": "X",
     "class": "TD",
-    "backupFiles": [
-      "It21_Controcarro3_Minotauro"
-    ],
+    "backupFiles": ["It21_Controcarro3_Minotauro"],
     "mods": [
       {
         "name": "HD",
@@ -1111,11 +1077,10 @@
   },
   {
     "name": "🇸🇪 Kranvagn",
+    "nation": "Sweden",
     "tier": "X",
     "class": "Heavy",
-    "backupFiles": [
-      "S16_Kranvagn"
-    ],
+    "backupFiles": ["S16_Kranvagn"],
     "mods": [
       {
         "name": "Trettonde",
@@ -1136,12 +1101,10 @@
   },
   {
     "name": "🇵🇱 50 TP prototyp",
+    "nation": "Poland",
     "tier": "IX",
     "class": "Heavy",
-    "backupFiles": [
-      "Pl08_50TP_prot",
-      "Pl08_50TP_Prototyp"
-    ],
+    "backupFiles": ["Pl08_50TP_prot", "Pl08_50TP_Prototyp"],
     "mods": [
       {
         "name": "HD",
@@ -1153,6 +1116,20 @@
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_pc_bl1ndinglights.zip",
         "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_android_bl1ndinglights.zip",
         "site": "https://forblitz.ru/en/modifications/skins/zakhvachennyi-50tp-prototyp/13116"
+      }
+    ]
+  },
+  {
+    "name": "🏴‍☠️ Dracula",
+    "nation": "Blitz Nation",
+    "tier": "VII",
+    "class": "Medium",
+    "backupFiles": ["AMX_Dracula"],
+    "mods": [
+      {
+        "name": "Pre pbr (darker)",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=181-XxQz63uun4a6iURfUWPETlhaoIWvv&export=download&authuser=0&confirm=t&uuid=d7c1b8ce-46c4-4643-adea-60041b12d463&at=AN8xHop4qS8zW6-ZyDozIIsyljEE:1758208961937",
+        "site": "https://blitzfoxhub.com/2024/12/17/vozvrashhenie-chjornogo-cveta-dlja-tanka-drakula-posle-patcha-9-4/"
       }
     ]
   }

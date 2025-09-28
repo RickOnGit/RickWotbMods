@@ -1,6 +1,7 @@
 [
   {
     "name": "🎨 Custom hangars",
+    "type": "Custom",
     "mods": [
       {
         "name": "Cave",
@@ -22,6 +23,7 @@
   },
   {
     "name": "🗿 Old hangars",
+    "type": "Old",
     "mods": [
       {
         "name": "2018 Premium",
@@ -34,9 +36,9 @@
         "site": "https://forblitz.ru/modifications/hangars/old-hangar/17279"
       },
       {
-	      "name": "Downloading hangar",
-	      "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
-	      "site": "me"
+        "name": "Downloading hangar",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=12S1H9WUUk9fvSf9MKOk79J9htTQs5prT&export=download&authuser=1&confirm=t&uuid=e3de7cb6-ecfd-429a-b819-981b1858edd6&at=AN8xHopjypGuWkjTF8xh7FUKWcQX:1752257120291",
+        "site": "me"
       },
       {
         "name": "Square (9 may 2015-2017)",
@@ -54,6 +56,7 @@
   },
   {
     "name": "🗺️ Map hangars",
+    "type": "Map",
     "mods": [
       {
         "name": "Mines",
@@ -69,6 +72,7 @@
   },
   {
     "name": "🎄 Xmas hangars",
+    "type": "Xmas",
     "mods": [
       {
         "name": "2015",
@@ -89,6 +93,7 @@
   },
   {
     "name": "🎃 Halloween hangars",
+    "type": "Halloween",
     "mods": [
       {
         "name": "2014-15",
@@ -124,6 +129,11 @@
         "name": "2022",
         "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/hangar_hell_22-1_pc_wg.zip",
         "site": "https://forblitz.ru/en/modifications/hangars/angar-khellouin-2022/18457"
+      },
+      {
+        "name": "Horrorstandt (2025) by MuzMods",
+        "pc_wg": "https://blitz-mods.com/mod/hangars/hangar-on-the-new-version-of-the-horrorstadt-312/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/hangars/hangar-on-the-new-version-of-the-horrorstadt-312"
       }
     ]
   },
@@ -139,9 +149,6 @@
       "halloween2019",
       "Oth42_ForestWitch_HW23"
     ],
-    "backupFile": [
-      "26_homeisk_hk",
-      "music_hangar"
-    ]
+    "backupFile": ["26_homeisk_hk", "music_hangar"]
   }
 ]
