@@ -7,12 +7,14 @@ function modPreview() {
   
   if [[ -n "$selected" ]]; then
     eval "selectedMods=\$(jq -r --arg client "$client" --arg element \"$selected\" '.[] | select(.name == \$element) | .mods[]? | select(has(\$client)) | .name' \"$file\" | gum filter --no-limit --header=\"Select mod(s) to preview 📋\" $gum_filter_prompt)"
+  else
+    printNoPreview
   fi
 
-  if [[ -z $selectedMods ]]; then
+  if [[ -z "$selectedMods" ]]; then
+    printNoPreview
     return 1
   fi
-
     
   while IFS= read -r mod; do
     site=$(jq -r --arg baseName "$selected" --arg modName "$mod" ' .[] | select(.name == $baseName) | .mods[] | select(.name == $modName) | .site' "$file")

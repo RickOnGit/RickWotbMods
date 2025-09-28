@@ -48,7 +48,7 @@ function userCheck() {
   if [ ! -s /opt/RickWotbMods/lib/env/user.env ]; then
     userInfo
   elif [[ "$os" == "🤖 Android" ]]; then
-    if gum confirm "Your system is set to $os, Do you want to change?" --prompt.foreground='#3C6A80' --selected.background="208"; then
+    if gum confirm "Your system is set to $os, Do you want to change?" --selected.background="208" --prompt.foreground="66"; then
       userInfo
     fi
   fi
