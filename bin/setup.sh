@@ -12,10 +12,10 @@ function baseSetup() {
   sudo mkdir -p "$SCRIPT_DIR"
 
   cat <<'EOF' | sudo tee "$SCRIPT_DIR/rickmodder" >/dev/null
-#!/usr/bin/env bash
-SCRIPT_DIR="/opt/RickWotbMods/bin"
-bash "$SCRIPT_DIR/main.sh"
-EOF
+  #!/usr/bin/env bash
+  SCRIPT_DIR="/opt/RickWotbMods/bin"
+  bash "$SCRIPT_DIR/main.sh"
+  EOF
 
   sudo chmod +x "$SCRIPT_DIR/rickmodder"
   sudo cp "$SCRIPT_DIR/rickmodder" /usr/local/bin
@@ -33,6 +33,7 @@ function macosSetup() {
   eval "$(/opt/homebrew/bin/brew shellenv)"
 
   brew install bash rsync jq gum
+  brew install --cask ghostty
 
   if [ ! -f "$HOME/.zshrc" ]; then
     touch "$HOME/.zshrc"
