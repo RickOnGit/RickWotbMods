@@ -9,14 +9,6 @@ function baseSetup() {
   fi
 
   local SCRIPT_DIR="/opt/RickWotbMods/bin"
-  sudo mkdir -p "$SCRIPT_DIR"
-
-  cat <<'EOF' | sudo tee "$SCRIPT_DIR/rickmodder" >/dev/null
-  #!/usr/bin/env bash
-  SCRIPT_DIR="/opt/RickWotbMods/bin"
-  bash "$SCRIPT_DIR/main.sh"
-  EOF
-
   sudo chmod +x "$SCRIPT_DIR/rickmodder"
   sudo cp "$SCRIPT_DIR/rickmodder" /usr/local/bin
   echo -e "updateDate=\"Error 404\"" > /opt/RickWotbMods/lib/env/update.env
