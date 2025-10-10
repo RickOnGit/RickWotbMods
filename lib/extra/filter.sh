@@ -2,6 +2,9 @@ function filter() {
   local filterMenu="$1"
   local file="$2"
   eval "ans=\$(echo -e \"$filterMenu\"| gum choose --header \"Choose a filter criteria\" $gum_choose_prompt)"
+  if [[ -z "$ans" ]]; then
+    return
+  fi
   case $ans in
     "Nation") tankFilter "${ans,,}" "$nations" ;;
     "Tier") tankFilter "${ans,,}" "$tiers" ;;
@@ -17,4 +20,7 @@ function tankFilter() {
   local filterBy="$1"
   local type="$2"
   eval "selected=\$(echo -e \"$type\" | gum choose --header \"Choose a \$filterBy\" $gum_choose_prompt)"
+  if [[ -z "$selected" ]]; then
+    filter "$filterMenu" "$file"
+  fi
 }

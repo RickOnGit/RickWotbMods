@@ -1,16 +1,16 @@
 function backupDir() {
   case "$os" in
-  "🤖 Android")
-    androidCheck
-    if adb shell "[ ! -d \"$wotbBackup\" ]"; then
-      adb shell mkdir "$wotbBackup"
-    fi
-    ;;
-  *)
-    if [ ! -d "$wotbBackup" ]; then
-      mkdir -p "$wotbBackup"
-    fi
-    ;;
+    "🤖 Android")
+      androidCheck
+      if adb shell "[ ! -d \"$wotbBackup\" ]"; then
+        adb shell mkdir "$wotbBackup"
+      fi
+      ;;
+    *)
+      if [ ! -d "$wotbBackup" ]; then
+        mkdir -p "$wotbBackup"
+      fi
+      ;;
   esac
 }
 
