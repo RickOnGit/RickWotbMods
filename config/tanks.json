@@ -433,7 +433,7 @@
   },
   {
     "name": "🇷🇺 T-100LT",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "X",
     "class": "Light",
     "backupFiles": ["T100LT"],
@@ -452,7 +452,7 @@
   },
   {
     "name": "🇷🇺 T-54 ltwt.",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VIII",
     "class": "Light",
     "backupFiles": ["T54S", "T-54S"],
@@ -466,7 +466,7 @@
   },
   {
     "name": "🇷🇺 T-62A",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "X",
     "class": "Medium",
     "backupFiles": ["T-62A", "R87_T62A"],
@@ -490,7 +490,7 @@
   },
   {
     "name": "🇷🇺 IS-5",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VIII",
     "class": "Heavy",
     "backupFiles": ["Object_730"],
@@ -504,7 +504,7 @@
   },
   {
     "name": "🇷🇺 IS-6",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VIII",
     "class": "Heavy",
     "backupFiles": ["Object_252"],
@@ -518,7 +518,7 @@
   },
   {
     "name": "🇷🇺 KV-2",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VI",
     "class": "Heavy",
     "backupFiles": ["KV2"],
@@ -542,7 +542,7 @@
   },
   {
     "name": "🇷🇺 Obj. 268",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "X",
     "class": "TD",
     "backupFiles": ["Object268", "R88_Object_268"],
@@ -561,7 +561,7 @@
   },
   {
     "name": "🇷🇺 ISU-130",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VIII",
     "class": "TD",
     "backupFiles": ["R111_ISU130", "isu-130"],
@@ -575,7 +575,7 @@
   },
   {
     "name": "🇷🇺 SU-122-44",
-    "nation": "U.S.S.R",
+    "nation": "U.S.S.R.",
     "tier": "VII",
     "class": "TD",
     "backupFiles": ["SU122_44"],

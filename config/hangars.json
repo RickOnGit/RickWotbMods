@@ -18,6 +18,11 @@
         "android_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/android-wg/file?_token=x=0",
         "pc_wg": "https://blitz-mods.com/mod/hangars/28-days-later-32/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/hangars/28-days-later-32"
+      },
+      {
+        "name": "The Walking Death Collab",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1pKcYlYYNPau6XzEfvQDV7a4IA0BBKp1Y&export=download&authuser=0&confirm=t&uuid=10f65716-0a03-4992-b4c0-019fdea59948&at=AKSUxGMMav8uYDxNEp7wVxRxLkQl:1760009011837",
+        "site": "me"
       }
     ]
   },
@@ -134,6 +139,11 @@
         "name": "Horrorstandt (2025) by MuzMods",
         "pc_wg": "https://blitz-mods.com/mod/hangars/hangar-on-the-new-version-of-the-horrorstadt-312/download/pc-wg/file?_token=x=0",
         "site": "https://blitz-mods.com/mod/hangars/hangar-on-the-new-version-of-the-horrorstadt-312"
+      },
+      {
+        "name": "2025",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1xzYObBdgMOvOsiPOShwP-7DlLXsZdgxf&export=download&authuser=0&confirm=t&uuid=9b0c046d-4698-4c14-8820-65d0d5f59d2d&at=AKSUxGNCAcxx52h5lD-mYA2oak4t:1760008894285",
+        "site": "me"
       }
     ]
   },
@@ -149,6 +159,9 @@
       "halloween2019",
       "Oth42_ForestWitch_HW23"
     ],
-    "backupFile": ["26_homeisk_hk", "music_hangar"]
+    "backupFile": [
+      "26_homeisk_hk",
+      "music_hangar"
+    ]
   }
 ]
