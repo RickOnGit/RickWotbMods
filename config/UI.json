@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Blitz Insider",
+    "pc_wg": "https://get.blitzinsider.com/blitz-insider-session-mod-pc-11.13.0_2025-09-28-21-10.zip",
+    "site": "https://beastwot.com/mods"
+  },
+  {
+    "name": "Compact storage",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/compactstorage_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/kompaktnoe-khranilishche/19185"
+  },
+  {
+    "name": "Info panel Expanding Warfare",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_pc.zip",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2022/02/panel_exp_rebuld_android.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/info-panel-expanding-warfare/10657"
+  },
+  {
+    "name": "Orange 6thSense (v2)",
+    "site": "https://www.blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41",
+    "pc_wg": "https://www.blitz-mods.com/mod/sixth-senses/orange-bulb-v2-41/download/pc-wg/file?_token=x=0"
+  },
+  {
+    "name": "Sixth sense bulb from WoT PC",
+    "android_wg": "https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82/download/android-wg/file?_token=x=0",
+    "pc_wg": "https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sixth-senses/bulb-sixth-sense-from-wot-pc-82"
+  },
+  {
+    "name": "Sixth Sense Totem of undying",
+    "pc_wg": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sixth-senses/sixth-sense-totem-of-undying-181"
+  },
+  {
+    "name": "Skyrim-style lighting lamp",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/07/skyrim-lamp_android.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/07/skyrim-lamp_pc.zip",
+    "site": "https://forblitz.ru/en/modifications/lamps/skyrim-lighting-lamp/23233"
+  },
+  {
+    "name": "Coloured hitmarks",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=1aPOc1U0RH716JHi6uPpSX1i3RFgXF64t&export=download&authuser=1&confirm=t&uuid=9098b5d1-0a2e-4d8a-8f14-b5d34e1c42f5&at=AN8xHoq4U2Ydde-uDKSf-Q24R1Zy:1752517980043",
+    "site": "null"
+  },
+  {
+    "name": "HD penetration decals from World of Tanks (PC)",
+    "pc_wg": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/user-interface/hd-penetration-decals-from-world-of-tanks-pc-297"
+  },
+  {
+    "name": "White tanks destroyed",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=1uXqvDzTicxh6C097oz_0GSAlDqEFyOta&export=download&authuser=1&confirm=t&uuid=ceea6e07-86b0-4ca9-ba2c-68890ca8b3b0&at=AN8xHoqtwxeveSFqmHD0DtELlwAz:1751525278127",
+    "site": "null"
+  },
+  {
+    "name": "Shoots hits destroyed effects",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=1ULG0ecVbvcV598yLVH-0qHSlGXshccyl&export=download&authuser=1&confirm=t&uuid=b5f44417-efbd-4731-91e2-d8d97578aefc&at=AN8xHoo4L0a2_ks9D2QvYaTD1GzO:1751525287557",
+    "source": "https://discord.com/channels/1322676518358356109/1327972728988368957/1383534729025945700"
+  },
+  {
+    "name": "Ribbons 2.0",
+    "pc_wg": "https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/user-interface/ribbons-20-by-zxcmashka-148/download/pc-wg"
+  },
+  {
+    "name": "WoT style shell icons",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/shells_bb_pc_10_7.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
+  },
+  {
+    "name": "WoT style tank modules",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/hd1_modules_bb_pc.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/hd-moduli-v-dereve-razvitii-iz-bb/14611"
+  },
+  {
+    "name": "WoT style equipment",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/optional_devices_bb_pc_10_7.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/ikonki-hd-oborudovanie-iz-world-of-tanks/14581"
+  },
+  {
+    "name": "WoT style boosters",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/bb_boosters_icons_pc_10_7.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/ikonki-busterov-iz-bb/14871"
+  },
+  {
+    "name": "Extended tech tree wg edition",
+    "pc_wg": "https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/user-interface/wg-extended-tech-tree-90"
+  },
+  {
+    "name": "WOT style minimaps",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2024/08/improved-minimaps_fix_android.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/08/improved-minimaps_fix_pc.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/improved_minimaps/20538"
+  },
+  {
+    "name": "Radar",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_android.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/06/bb-circles-of-light_pc.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/vizualnye-krugi-zasveta-v-stile-wot/23033"
+  },
+  {
+    "name": "X2 minimap",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/minimaps_x2_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/other/uvelichennye-minikarty-x2/21418"
+  },
+  {
+    "name": "Zoom-Out",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=12pUaUypSl7W3vLWNBrbpGy1vaosCA2J5&export=download&authuser=1&confirm=t&uuid=e18e1a92-ca5c-4246-9f2e-18a150a9b7ad&at=AN8xHopbYJ0GhJ1sjPcoMW3XUR_p:1752517751809",
+    "site": "null"
+  },
+  {
+    "name": "Replace rank with mastery",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_pc_wg.zip",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2024/01/ranktomastery_android_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/zamena-rangov-na-masterstvo/18989"
+  },
+  {
+    "name": "Two level carousel + statistics",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big-with-stats_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel-with-statistics-on-tiles/21627"
+  },
+  {
+    "name": "Two-level carousel",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/01/2rows-carousel-big_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/large-two-level-carousel/21613"
+  },
+  {
+    "name": "Single level carousel + statistics",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-android.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/10/carousel-stats-wg-pc.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/statistics-in-the-carousel/20781"
+  },
+  {
+    "name": "Random tank button",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/randomtankbutton_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/knopka-vybora-sluchainogo-tanka-tolk/19085"
+  },
+  {
+    "name": "B&W flags",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=1GBE7UoduBGSQ7avrhRGr5XuJMbggS6Dn&export=download&authuser=0&confirm=t&uuid=cfbf9b88-342f-4a69-bc34-5f21849ef536&at=AN8xHoraB-OI3OX_fuxwXnPf2FBY:1754073361945",
+    "site": "null"
+  },
+  {
+    "name": "WoT-style tank icons",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/05/tanks-icon-wot_android.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/05/tanks-icon-wot_pc.zip",
+    "site": "https://forblitz.ru/en/modifications/interface/wot-style-tank-icons/22720"
+  },
+  {
+    "name": "Improved dust and dirt by P1NNY",
+    "pc_wg": "https://drive.usercontent.google.com/download?id=1RIZQctye85tUUtp9v9m6q7elLrsx9dQh&export=download&authuser=1&confirm=t&uuid=5dd2ae2f-8859-4bd5-97ed-a20179cc24be&at=AN8xHooFHtN-LWjxlWZXddPWw7ts:1752569395014",
+    "site": "https://discord.com/channels/1122455294988001363/1122581505693208596/1124410812598079550"
+  },
+  {
+    "name": "Fake legendary camos",
+    "pc_wg": "https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/camouflages/fake-legendary-camouflages-for-wotb-1142-274"
+  }
+]

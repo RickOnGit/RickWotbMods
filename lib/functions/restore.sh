@@ -1,51 +1,54 @@
-function restoreItems() {
-  local file="$1"
-  selectedArray=()
+function modRestore() {
+  local modFile="$1"
+  local backupFile="$2"
+  checkBackupFile "$modFile" "$backupFile"
 
   checkLogs
+  backupDir
 
-  jq -r '.[] | select(has("backupDir") or has("backupFiles")) | .name' "$file" >"$tmpRestore"
-  eval "selected=\$(cat \$tmpRestore | gum filter --header \"Select item(s) to restore 📋\" --no-limit $gum_filter_prompt)"
+  mapfile -t restoreItems < <(jq -r '.[] | select(.backupFiles and (.backupFiles | length > 0)) | .name' "$backupFile" | gum filter --header "Select item(s) to restore 📋" --no-limit)
 
-  while IFS= read -r name; do
-    selectedArray+=("$name")
-  done <<<"$selected"
-
-  if [ -n "$selected" ]; then
-    >$tmpRestore
-    for elem in "${selectedArray[@]}"; do
-      echo -e "${BLUE}${BOL}♻️ Restoring${NC} ${BOL}${ORANGE}$elem${NC}'s stock files..."
-      for type in "Dir" "Files"; do
-        jq -r --arg mainName "$elem" ".[] | select(.name == \$mainName) | .backup${type}[]" "$file" >>$tmpRestore 2>/dev/null
-        restore "$tmpRestore" "$type" "$elem"
-      done
-      echo -e "${BOL}${ORANGE}$elem${NC} restored\n" >>$tmpLogs
-      >$tmpRestore
-    done
-  else
-    return
-  fi
+  for entry in "${restoreItems[@]}"; do
+    echo -e "${BLUE}${BOL}♻️ Restoring${NC} ${BOL}${ORANGE}$entry${NC}'s stock files..."
+    restore "$entry" "$backupFile"
+    echo -e "${BOL}${ORANGE}$entry${NC} restored\n" >>$tmpLogs
+  done
 }
 
 function restore() {
-  local file="$1"
-  local type="$2"
-  local elem="$3"
+  local entry="$1"
+  local backupFile="$2"
+  local tmpJson=$(mktemp --suffix=.json)
 
-  while IFS= read -r fileName; do
-    if [[ "$type" == "Files" ]]; then
-      includePattern="*${fileName}*"
+  if [[ -n "$entry" ]]; then
+    mapfile -t filesToRestore < <(jq -r --arg name "$entry" '.[] | select(.name == $name) | .backupFiles[]' "$backupFile")
+  else
+    mapfile -t filesToRestore < <(jq -r '.[] | select(.backupFiles | type == "array" and length > 0) | .backupFiles[]' "$backupFile")
+  fi
+
+  for relPath in "${filesToRestore[@]}"; do
+    src="$wotbBackup/$relPath"
+    dest="$wotbData/$relPath"
+    if [ -f "$dest" ] && [ -f "$src" ]; then
+      gum spin --title "Restoring files" -a right --spinner "line" -- cp "$src" "$dest"
     else
-      includePattern="${fileName}/**"
-    fi
+      gum spin --title "Clearing unused files" -a right --spinner "line" -- rm "$dest"
+    fi    
+  done
 
-    backupDir
-    gum spin -s "pulse" --spinner.foreground="208" --title "Restoring..." --title.foreground="245" -- rsync -a --include="*/" --include="$includePattern" --exclude="*" "$wotbBackup" "$wotbData"
-  done <"$file"
+  # clearing unused dir -> custom mod dir
+  find "$wotbData/Data" -type d -empty -delete
+
+  if [[ -n "$entry" ]]; then
+    jq --arg entry "$entry" 'map(if .name == $entry then .backupFiles = [] else . end)' "$backupFile" > "$tmpJson" && mv "$tmpJson" "$backupFile"
+  else
+    jq '(map(select(.backupFiles | type == "array" and length > 0)) | .[0].name) as $target | map(if .name == $target then .backupFiles = [] else . end)' "$backupFile" > "$tmpJson" && mv "$tmpJson" "$backupFile"  
+  fi
 }
 
 function restoreGame() {
   echo -e "${BOLD}${GREEN}Restoring stock game files...${NC}"
-  gum spin -s "pulse" --spinner.foreground="208" --title.foreground="245" --title "Restoring..." -- rsync -a "$wotbBackup" "$wotbData"
-  echo -e "♻️ ${BOLD}${GREEN}Stock game files applied${NC}" >>$tmpLogs
+  gum spin -s "line" --title "Restoring" -a right -- rsync -a "$wotbBackup/Data/" "$wotbData/Data/"
+  rm "$wotbBackup/backup-files"/*
+  echo -e "♻️ ${BOLD}${GREEN}Stock game files applied${NC}" >$tmpLogs
 }

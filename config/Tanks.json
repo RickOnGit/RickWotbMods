@@ -1,0 +1,1160 @@
+[
+  {
+    "name": "🇺🇸 Sheridan",
+    "nation": "U.S.A.",
+    "class": "Light",
+    "tier": "X",
+    "mods": [
+      {
+        "name": "Salamander",
+        "site": "https://forblitz.ru/modifications/remodelings/xm551-sheridan-salamander/15094",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/sheridan_salamander_steam.zip"
+      },
+      {
+        "name": "Condor",
+        "site": "https://discord.com/channels/174448788436549632/254137952215498762/1102834817961312266",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1v9ab1LiLq8Ks03A2Actd7kkZIczdBEQg&export=download&authuser=1&confirm=t&uuid=014023ce-d36a-4bac-8df8-c6bd37710158&at=AN8xHopH36fAH_K2zz7b6ZGRaDkh:1752335368111"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 Sheridan Missle",
+    "nation": "U.S.A.",
+    "class": "Light",
+    "tier": "X",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-xm551-sheridan-missile-m551-271/download/pc-wg/file?_token=x=0"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T49",
+    "nation": "U.S.A.",
+    "class": "Light",
+    "tier": "VIII",
+    "mods": [
+      {
+        "name": "HD + Revenant",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/t49_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-t49-hd/16924"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 M48 Patton",
+    "nation": "U.S.A.",
+    "class": "Medium",
+    "tier": "X",
+    "mods": [
+      {
+        "name": "Yacin 1500",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1218901161373859850",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1W72C-MdDzoybQ_UcGj57FCljJgsGPuLM&export=download&authuser=0&confirm=t&uuid=3a8691eb-e05b-4050-b8de-c57342545926&at=AN8xHopyZ6nKIsS-FFbmZYHnlpct:1751562144792"
+      },
+      {
+        "name": "Pipeline",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/09/m48a1_patton_pipeline_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/m48-patton-pipeline/23657"
+      },
+      {
+        "name": "Thunderbolt",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1095750388654805134",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1BtKr_mOv9BeGY5Qkn9ZTfRvRdu3JVff6&export=download&authuser=0&confirm=t&uuid=1eb29d1f-3e60-4994-b9cd-4af10e737591&at=AN8xHopVZWFo9IkWuI9_aG2LdVcT:1751562144392"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 M-VI-Yoh",
+    "nation": "U.S.A.",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1_vXi7aDNHELjnmHl5sp_774vL-IT0yFh&export=download&authuser=1&confirm=t&uuid=7401772a-e10a-4720-8f5f-fb17fe92377e&at=AN8xHopzBrNH5E5Vqxn8jfqGJmTH:1752335456316",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1000577709593854013"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T57 Heavy",
+    "nation": "U.S.A.",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Hellhound",
+        "site": "https://forblitz.ru/modifications/remodelings/remode/15773",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/t57_heavy3dst_steam.zip"
+      },
+      {
+        "name": "Sworn Brother",
+        "site": "https://discord.com/channels/1122455294988001363/1122580840736641106/1124396790758768640",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1CpXwx8lZMbsf23JfaZTGKrf0xhRiy21e&export=download&authuser=1&confirm=t&uuid=85802a8d-1d4e-4303-a327-bbee0c1b6a4b&at=AN8xHormxIT16bJvUhtdr3xMD__p:1752335751512"
+      },
+      {
+        "name": "Sharp Rose",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/11/t57_heavy_order_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-t57-heavy-sharp-rose/18588"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T34 (1776)",
+    "nation": "U.S.A.",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Hell on Wheels pack",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T34",
+    "nation": "U.S.A.",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Hell on Wheels pack",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodelings-pack-hell-on-wheels-t26e5-t34-t34-1776-308"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T110E4",
+    "nation": "U.S.A.",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Freigh Train",
+        "site": "https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/t110e4-freight-train-242/download/pc-wg/file?_token=x=0"
+      },
+      {
+        "name": "Freigh Train addon",
+        "site": "https://discord.com/channels/1122455294988001363/1122581505693208596/1280402574306185291",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=15mmblbgTr3Z56xUcRly6RTEwXU05JpY5&export=download&authuser=1&confirm=t&uuid=19590c3f-4571-40e6-8aa0-22ed495e726a&at=AN8xHoolaOF_uEh3a2P7dJkC4fhj:1752336078156"
+      },
+      {
+        "name": "Major Ram",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-major-ram-t110e4/13860",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/t110e4_major_ram_sadabsolution_steam.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇺🇸 T30",
+    "nation": "U.S.A.",
+    "tier": "IX",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Assault kit",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-countdown-t30/13870",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_t30_countdown_sadabsolution_steam.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 E 50 M",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Dreadnaught",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-dreadnaught-273"
+      },
+      {
+        "name": "Nimmermer",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/12/nimmermer_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-nimmermer-e-50m/14928"
+      },
+      {
+        "name": "Panzerbarracuda",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/e50_m_panzerbarracuda_forblitz_05072024_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-e-50m-panzerbarracuda/20459"
+      },
+      {
+        "name": "Altbewährt",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-e50m-altbewahrt-311"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Leopard 1",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "1a1 (by Adamantium)",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1gb4vbudKe4Xv7DSu71QLOPmfaEcECSCL&export=download&authuser=1&confirm=t&uuid=57578a36-2c04-4605-b722-0d0a50ca1ea7&at=AN8xHor-uu4z5IX-rz2u82mSWBrg:1752335051207",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1240773726711316520"
+      },
+      {
+        "name": "EOS",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-eos1-for-leopard-1-293"
+      },
+      {
+        "name": "Lion",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1bSEOBnmkp9h8dV3rWa6Qyam0NvRlsBUe&export=download&authuser=1&confirm=t&uuid=7fd45ba3-7624-4214-bdc6-dc97748a0f1e&at=AN8xHooK0S0hKysIS9sqgVbn0bdF:1752335060521",
+        "site": "null"
+      },
+      {
+        "name": "Mexas",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-leopard-1-c2-mexas-209"
+      },
+      {
+        "name": "Mirny 13",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-leopard1/10540",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/leopard1_qirashi_pc_dx11.zip"
+      },
+      {
+        "name": "Reiter",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/leopard1_reytar_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/rumodeling-leopard-1-reitar/15553"
+      },
+      {
+        "name": "Reiter by P1NNY",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/leopard-1-rieter-303/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/leopard-1-rieter-303"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 E 100",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Invincible",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/updated_e100_hellboss_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/invincible-remodeling-e100/13134"
+      },
+      {
+        "name": "Deus Ex",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/update_e100_deusex_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-deus-ex/13913"
+      },
+      {
+        "name": "Nemesis",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/07/e100_nemesis_forblitz_02072024_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-e-100-nemesis-2/20361"
+      },
+      {
+        "name": "Klarer Himmel",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/06/e100nem-9_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-e100-nemesis/12071"
+      },
+      {
+        "name": "Rote Grundierung",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-e-100-rote-grundierung-269"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 VK 72.01 K",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "The Buthcher Joe",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/vk7201_custom_forblitz_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-vk7/19145"
+      },
+      {
+        "name": "Panzer Claus",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-vk-7201-k-panzer-claus-278"
+      },
+      {
+        "name": "Namenloss",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1RwKXdB2zXM12FHhKsXQJmY2CGBtL2LVF&export=download&authuser=0&confirm=t&uuid=5a6f8c53-a285-4fae-9734-ead5040dea63&at=AN8xHoo8UG9MUiqgTk9YWX-DEM4X:1751720231283",
+        "site": "https://blackwot.ru/2022/11/14/remodeling-vk7201-k-namenlos/"
+      },
+      {
+        "name": "Vergeltun",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1Fx8nDNDhV38ifdN5paLf6SrMEeOXogPc&export=download&authuser=0&confirm=t&uuid=a25dc5a3-ee30-4445-80a6-2a213e8868fc&at=AN8xHorEFnVxp5jxaNnkdKKVCe_G:1751719735845",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1160504247335526400"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Tiger II",
+    "nation": "Germany",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Nox Tenebris",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/02/tiger_ii_noxtenebris_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/tiger-ii-nox-tenebris/21728"
+      },
+      {
+        "name": "Schneide (by Adamantium)",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1eeLNKvmNqYxfVTJ3xQnFrRAD2QgX9hWR&export=download&authuser=1&confirm=t&uuid=e12e0dae-6f08-45de-8f66-05bfdc7df1ff&at=AN8xHoqErxBtAVhX-Xfrh2b-ulAz:1752335677449",
+        "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1279154399360581673"
+      },
+      {
+        "name": "HD",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/04/kt_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-tiger-ii-hd/16876"
+      },
+      {
+        "name": "Defender",
+        "android_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-ii-ausf-defender-170/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-ii-ausf-defender-170/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-tiger-ii-ausf-defender-170"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Grille 15",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Blitzträger",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-blitztrager-auf-grille-15-182/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-blitztrager-auf-grille-15-182"
+      },
+      {
+        "name": "Igelschnäuzchen",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/grille_15_igelschneutzchen_forblitz_061124_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-grille-15-igelschneutzchenen/21197"
+      },
+      {
+        "name": "Erion",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1O0rCBnbWcVyHJXOpDWIQ1k987GFP2SM9&export=download&authuser=1&confirm=t&uuid=5a5e19d7-5c5b-49fe-8df2-dac365709350&at=AN8xHoqC6b-Gm_y6RAZr38gCbcnJ:1752316525590",
+        "site": "https://blackwot.ru/2022/08/13/grille-15-erion/"
+      },
+      {
+        "name": "Radpanzerhaubitze auf Sd.Kfz. 1337",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/radpanzerhaubitze_pc_lesta.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/radpanzerhaubitze-auf-sd-kfz-1337/22625"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Jg.Pz. E 100",
+    "nation": "Germany",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Gold",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/jagdpze100_gold_free_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/jagdpze100_gold_free/21409"
+      },
+      {
+        "name": "Jager",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/07/jagdpze100_jager_forblitz_p1nny_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e-100-jager/17319"
+      },
+      {
+        "name": "Panzershiff",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/jag_e100_3dst_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-jagdpanzer-e100/14344"
+      },
+      {
+        "name": "Voltron",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=17cDGLKFaUPrIxUYcs0kn7iO9x8zFxe8A&export=download&authuser=0&confirm=t&uuid=a3c6a2da-936d-4804-953d-5a243d9664c9&at=AN8xHoocgLO6fWBLRfUZemd1S6pK:1758208345294",
+        "site": "me"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Jagdtiger",
+    "nation": "Germany",
+    "tier": "IX",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1DrkrcPeUVKam-U_GYW661kEZ3yLn6duT&export=download&authuser=1&confirm=t&uuid=65b25ca1-ec12-4294-aecb-578d53ee9632&at=AN8xHorx5kHVt0dvz6-Hlt_CPe7R:1752335836177",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1306910990662897704"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 Rhm.-Borsing Waffenträger",
+    "nation": "Germany",
+    "tier": "VIII",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Jägermeister",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-rhm-borsig-waffentrager-jagermeister-228/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-rhm-borsig-waffentrager-jagermeister-228"
+      },
+      {
+        "name": "Igelschnäuzchen",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/rhb_borsh_igelschneutzchen_forblitz_260924_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-borshch-igelschneutzchen/21075"
+      },
+      {
+        "name": "Fretchen",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/updated_rhm_borsig_wt_frettchen_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-frettchen-borsig/13210"
+      }
+    ]
+  },
+  {
+    "name": "🇩🇪 St. Emil",
+    "nation": "Germany",
+    "tier": "VII",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Enhanced (by gamelsz)",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-panzerselbstfahrlafette-v-st-emil-276/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-panzerselbstfahrlafette-v-st-emil-276"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 T-100LT",
+    "nation": "U.S.S.R.",
+    "tier": "X",
+    "class": "Light",
+    "mods": [
+      {
+        "name": "Gyurza",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/t100lt_forblitz_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-t-100-lt-giurza/18808"
+      },
+      {
+        "name": "Interceptor Enhanced",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1RnDSbki2aIB6ueUHdYa3UiKP85T5osc3&export=download&authuser=1&confirm=t&uuid=a0518e54-7dc5-4497-99e9-31c096043ed4&at=AN8xHooy7WaL2ikyfjNHrG8jROek:1752335620425",
+        "site": "https://discord.com/channels/174448788436549632/254137952215498762/1076705953262620733"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 T-54 ltwt.",
+    "nation": "U.S.S.R.",
+    "tier": "VIII",
+    "class": "Light",
+    "mods": [
+      {
+        "name": "Desert Fox",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1Ax_D2bmaZcQhsIR3JbtLEXSsjqO9qZ0s&export=download&authuser=1&confirm=t&uuid=db63615c-3d84-4145-a2d8-ed63ec19dfc0&at=AN8xHoqJvQBJAZKyW0XWYlyi0uk7:1752335310602",
+        "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1129402449447366686"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 T-62A",
+    "nation": "U.S.S.R.",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "ZTZ-62",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-ztz-62-t-62a-188/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-ztz-62-t-62a-188"
+      },
+      {
+        "name": "T62A ERA 3D STYLE (CUSTOM)",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/t62a-001-3d-style-custom-248/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/t62a-001-3d-style-custom-248"
+      },
+      {
+        "name": "T-90A",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/t90_order_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-t-90a-t-62a/18955"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 IS-5",
+    "nation": "U.S.S.R.",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/ussr_object730_hd_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-obekt-730-is-5-hd/15044"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 IS-6",
+    "nation": "U.S.S.R.",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/ussr_r61_object252_is-6_hd_steam-1.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-is-6-black-hd/15970"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 KV-2",
+    "nation": "U.S.S.R.",
+    "tier": "VI",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Valhallan Ragnarok",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_kv_2_vh_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-valhallan-ragnarok-kv-2/13687"
+      },
+      {
+        "name": "Charge Legion",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/fix_kv2_bagrlegion_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-kv-2-bagrovyi-legion/16280"
+      },
+      {
+        "name": "HD + Charge Legion",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/kavo2_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-kv-2-hd/16908"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 Obj. 268",
+    "nation": "U.S.S.R.",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Svyatogor",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/obj268_svyatogor_forblitz_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-svyatogor/18980"
+      },
+      {
+        "name": "Alyosha Popovich",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/01/obj268_alesha_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-obekt-268-alesha-popovich/19012"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 ISU-130",
+    "nation": "U.S.S.R.",
+    "tier": "VIII",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Stalin pride",
+        "author": "YTSH",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-isu-130-stalins-pride-195/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-isu-130-stalins-pride-195"
+      }
+    ]
+  },
+  {
+    "name": "🇷🇺 SU-122-44",
+    "nation": "U.S.S.R.",
+    "tier": "VII",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "The viper",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-su-122-44-the-viper-268/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-su-122-44-the-viper-268"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 Vickers Light",
+    "nation": "U.K.",
+    "tier": "X",
+    "class": "Light",
+    "mods": [
+      {
+        "name": "Concept 5 The Unknown",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/11/vikclight_concept5_forblitz_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-concept-5-the-unknown/21206"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 Cobra",
+    "nation": "U.K.",
+    "tier": "IX",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Kopra Korbena",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/cobra-korben_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/cobra-korben_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/skins/cobra-skin-kopra-korbena/22590"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 Defender Mk.1",
+    "nation": "U.K.",
+    "tier": "VIII",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Crusader 002",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-defender-mark-1-crusader-002-290/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-defender-mark-1-crusader-002-290"
+      },
+      {
+        "name": "Realistic (by gamelsz)",
+        "android_wg": "https://www.blitz-mods.com/mod/skins/skin-centurion-mkiii-ep-defender-167/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://www.blitz-mods.com/mod/skins/skin-centurion-mkiii-ep-defender-167/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/skins/skin-centurion-mkiii-ep-defender-167"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 Churchill Mk. VI",
+    "nation": "U.K.",
+    "tier": "VI",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Crocodile",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-churchill-vi-crocodile-180/download/pc-wg/file?_token=x=0",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-eastern-express/22155"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 FV215b 183",
+    "nation": "U.K.",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Eastern Express",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/fv215b183_fix_princess_mersia_3dst_ps.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-eastern-express/22155"
+      },
+      {
+        "name": "Tesla",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/12/fv215b183_tesla_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-fv215b-183/18768"
+      },
+      {
+        "name": "HD",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/183_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-fv215b-183-hd/16916"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 FV4005",
+    "nation": "U.K.",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Galahad",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/02/fv4005_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-gb83-4005-hd/10768"
+      },
+      {
+        "name": "King Flavius",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/fv-4005-king-favius-259"
+      },
+      {
+        "name": "Thunderchild",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/4005_thunderchild_forblitz_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/animirovannyi-remodeling-fv4005-ditya-gro/19416"
+      }
+    ]
+  },
+  {
+    "name": "🇬🇧 FV4101 Charioteer",
+    "nation": "U.K.",
+    "tier": "VIII",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "author": "gamelsz",
+        "android_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-fv4101-charioteer-238/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-fv4101-charioteer-238/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-fv4101-charioteer-238"
+      },
+      {
+        "name": "HD",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2023/05/charioteer_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/charioteer_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-charioteer-mk-7-hd/16952"
+      }
+    ]
+  },
+  {
+    "name": "🇯🇵 STB-1",
+    "nation": "Japan",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Winter Lotus",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-stb-1-winter-lotus-169/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-stb-1-winter-lotus-169"
+      },
+      {
+        "name": "Teefbreaka",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/stb_1_warhammer_sadabsolution_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/updated_stb_1_warhammer_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-stb-1-teefbreaka/13031"
+      },
+      {
+        "name": "Enhanced + skirts",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1DSy0KRFHZyWUYw7ZgkbjLMWi1lkfiFro&export=download&authuser=0&confirm=t&uuid=5025ec1e-3a0d-4104-8097-1da54e7e0241&at=AN8xHoo3754C4XwcqZs6pEFtcItN:1754555693969",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1147561598010015825"
+      },
+      {
+        "name": "Enhanced no skirts",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1p__AnwCW8WGXzAM8GJFFL758ikDKuAaW&export=download&authuser=0&confirm=t&uuid=3188c396-118a-4950-9e4d-3590f8b38417&at=AN8xHooIPNHIwVDCp2-k7VLRvtrd:1754555681611",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1147561598010015825"
+      },
+      {
+        "name": "Koshigatana",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/koshigatana_qirashi_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/koshigatana_qirashi_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-stb-1-kosigatana/13056"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 BZ-75",
+    "nation": "China",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Divine Valor",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-divine-valor-239",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-divine-valor-239/download/pc-wg/file?_token=x=0"
+      },
+      {
+        "name": "MBT-75 Jù Lóng",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-mbt-75-ju-long-282",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bz-75-mbt-75-ju-long-282/download/pc-wg/file?_token=x=0"
+      },
+      {
+        "name": "Cho-Ko-Ko-Nu",
+        "site": "https://forblitz.ru/modifications/remodelings/bz-75-cho-ko-nu/21270",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/12/bz-75_pc_wg.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 WZ-113",
+    "nation": "China",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Realistic (by gamelsz)",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-113-265"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 WZ-111 5A",
+    "nation": "China",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "QI LING (by Adamantium)",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1TAME3oANVr1WrfZKVRZURgN9N9yuh4yo&export=download&authuser=1&confirm=t&uuid=b3e792dd-c03c-44b9-be97-3accd958940f&at=AN8xHorRXxXwDB3mb-DrCUoS2tNd:1752335920460",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1200528995192668171"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 WZ-121",
+    "nation": "China",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "King of Monkeys",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-wz121-korol-obezyan/16296",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/wz121_monkeyking_forblitz_steam.zip"
+      },
+      {
+        "name": "IceBreaker",
+        "site": "https://discord.com/channels/1122455294988001363/1124342475872546826/1125778851809726595",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1oeyL7r76enzrDRjuIVAUBZrncGKt3qnv&export=download&authuser=1&confirm=t&uuid=d799c147-3afa-45fc-8d03-8e9f05ab2d5b&at=AN8xHopeEr2wvJ93sOIIkTEyk3rn:1752335505938"
+      },
+      {
+        "name": "Milky",
+        "site": "https://discord.com/channels/998886261005750354/998962868806483988/1050494600814542889",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1xgNp0fZqjxpiQrSTHl4D1KiayA-mHLyM&export=download&authuser=1&confirm=t&uuid=8101b903-4f7d-422a-a1f8-598f5c9c833e&at=AN8xHorwxrYYlVYsz3_wWKB7lL_O:1752335521001"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 WZ-114",
+    "nation": "China",
+    "tier": "IX",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Tiger Claw",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-wz-114-tiger-claw/15668",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/01/wz114_ct_sadabsolution_windows.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇳 WZ-122 TM",
+    "nation": "China",
+    "tier": "VIII",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Special Guest",
+        "site": "https://discordapp.com/channels/174448788436549632/254137952215498762/973464837134901268",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1_17B4bJTmAYfLZqyqD--tsiQWHSIED9L&export=download&authuser=1&confirm=t&uuid=cc84d928-74c3-44d4-8567-afbcd6e6b627&at=APcmpoxdhtSYjx9vWHyCVb5oQNOr:1743760720793"
+      },
+      {
+        "name": "WZ-1224E",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-wz-1224e-wz-122tm-198/download/pc-wg/file?_token=x=0"
+      }
+    ]
+  },
+  {
+    "name": "🇫🇷 B-C 25 t",
+    "nation": "France",
+    "tier": "X",
+    "class": "Light",
+    "mods": [
+      {
+        "name": "Arlequin Ter",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-bat-chatillon-25t-arlequin-ter-217"
+      },
+      {
+        "name": "Ignis Purgatio",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/10/batchat_ignis_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-ignis-purgatio-bat-chatillon-25t/14121"
+      },
+      {
+        "name": "Foudre",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/04/bat_chatillon25t_fdr_pc.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-bat-chatillon-25-t-foudre/19788"
+      },
+      {
+        "name": "Marengo",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_batchat_25t_marengo_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-marengo-bat-chatillon-25-t/13375"
+      }
+    ]
+  },
+  {
+    "name": "🇫🇷 AMX 50 B",
+    "nation": "France",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Charlesmartel",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1qvFgOwA03TsGkBMji9tnv5cqef4CDeHD&export=download&authuser=1&confirm=t&uuid=841b4817-0453-4432-a983-51cbe16f73b4&at=AN8xHoo6FAHA6sDcazyLsoRBBJ70:1752334958388",
+        "site": "https://discord.com/channels/174448788436549632/254137952215498762/1069655296995242004"
+      },
+      {
+        "name": "Veilside Rx7 Livery",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1M1nTQMSGUHMJJWGFZTaB1FgKMQWMl4se&export=download&authuser=0&confirm=t&uuid=7006eed2-40fa-432c-b43c-14bbc5708005&at=AN8xHopBk8gPmWwXatc-DksvVJed:1758209171080",
+        "site": "https://blitzfoxhub.com/2022/12/23/shkurka-na-amx-50b-veilside-rx7-livery/"
+      }
+    ]
+  },
+  {
+    "name": "🇫🇷 Foch 155",
+    "nation": "France",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "Eglantier",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-foch-155-eglantier-253"
+      },
+      {
+        "name": "AMX S1",
+        "android_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-amx-s1-stridsvagn-s1-161/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-amx-s1-stridsvagn-s1-161/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-amx-s1-stridsvagn-s1-161"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇿 TVP T 50/51",
+    "nation": "Czechia",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "HD",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-hd/19357",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/02/tvp50_51_hd_forblitz_pc-1.zip"
+      },
+      {
+        "name": "RETEZX and RETEZ (by Adamantium)",
+        "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1243521244515667968",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1NFeR5TZ3jeRK1C7GkD1zmz5SS-CgRHqr&export=download&authuser=1&confirm=t&uuid=bf5a5097-c6fb-4419-a766-c827fb11228d&at=AN8xHortq25xLcu3hXrIqBGrOM0N:1752335574666"
+      },
+      {
+        "name": "Storm",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-tvp-t-50-51-shtorm/18738",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/11/tvp_50_51_steam.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇿 Škoda T 27",
+    "nation": "Czechia",
+    "tier": "VIII",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Enhanced",
+        "author": "gamelsz",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-27-258"
+      },
+      {
+        "name": "HD",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2023/04/skodat27_hd_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/04/skodat27_hd_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-skoda-t27-hd/16780"
+      }
+    ]
+  },
+  {
+    "name": "🇨🇿 Škoda T 56",
+    "nation": "Czechia",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Hurikán",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t-56-hurikan-222"
+      },
+      {
+        "name": "Projekt ION",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-skoda-t56-project-ion-247"
+      },
+      {
+        "name": "HD",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/08/skoda_t56_sadabsolution_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/08/updated_skoda_t56_sadabsolution_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-skoda-t56/13479"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Carro 45t",
+    "nation": "Italy",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Proserpina by MuzMods",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306/download/pc-wg/file?_token=x=0",
+        "android_wg": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306/download/android-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-carro-45t-proserpina-306"
+      },
+      {
+        "name": "HD",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-carro-45t-hd/19500",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/03/carro_45t_hd_forblitz_pc.zip"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Progetto 65",
+    "nation": "Italy",
+    "tier": "X",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "HD",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-progetto-65-hd/19986",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/05/progetto_65_hd_forblitz_01052024_pc.zip"
+      },
+      {
+        "name": "Aquilifer",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-progetto-m40-mod-65/11491",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/04/prog9_steam.zip"
+      },
+      {
+        "name": "Patriottismo",
+        "site": "https://www.blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139",
+        "pc_wg": "https://blitz-mods.com/mod/skins/skin-progetto-65-patriottismo-139/download/pc-wg/file?_token=x=0"
+      },
+      {
+        "name": "1911 (by Adamantium)",
+        "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1142208258514358295",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1nGAPArlE5tIdklu3sW59IJtlUB0fGeYJ&export=download&authuser=1&confirm=t&uuid=b5b396be-0042-4c33-8d3e-2ac56f8b2e56&at=AN8xHooouw1EESjl-YTMZqbVWJYb:1752335217453"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Prototipo Standard B",
+    "nation": "Italy",
+    "tier": "IX",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "HD",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1uWCZGWWKrCiGYcJayI58101Ub5DKWkm9&export=download&authuser=1&confirm=t&uuid=e7cfa638-e726-4042-ad1e-7409cb699103&at=AN8xHorO0ebsccWBffs9UIQZy7Rv:1752335264498",
+        "site": "null"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Rinoceronte",
+    "nation": "Italy",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Nyx",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-rinoceronte-nyx-263/download/pc-wg/file?_token=x=0"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Bisonte C45",
+    "nation": "Italy",
+    "tier": "VIII",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "HD + Aurora",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/05/c45_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/remodelings/remodeling-bisonte-c45-hd/16943"
+      }
+    ]
+  },
+  {
+    "name": "🇮🇹 Minotauro",
+    "nation": "Italy",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "HD",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-minotauro-hd/20217",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2024/06/minotauro_hd_forblitz_01052024_pc.zip"
+      },
+      {
+        "name": "Bufalo",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1H9meHCssWnxwzoAmZcvBhR0B78UznTSG&export=download&authuser=1&confirm=t&uuid=8e7286e7-51a8-47a3-8636-16333d316338&at=AN8xHop1aA4bblxMvhWwedlS_utQ:1752317443997",
+        "site": "https://discordapp.com/channels/998886261005750354/998962868806483988/1076269105964916889"
+      },
+      {
+        "name": "Centauro",
+        "site": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184",
+        "pc_wg": "https://blitz-mods.com/mod/remodelings/remodeling-cc-mod59-centauro-minotauro-184/download/pc-wg/file?_token=x=0"
+      }
+    ]
+  },
+  {
+    "name": "🇸🇪 Kranvagn",
+    "nation": "Sweden",
+    "tier": "X",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "Trettonde",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/kranvagn-trettonde-240/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/kranvagn-trettonde-240"
+      },
+      {
+        "name": "Trettonde addon",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=1H79_xTcHODmUbGJ-7iE2vLVNbg4Gxb6H&export=download&authuser=1&confirm=t&uuid=b5b6ace0-efd4-44b8-9763-253ce8c7e72e&at=AN8xHoqAjivORkcnzh8skA566fbV:1752336088269",
+        "site": "https://discordapp.com/channels/1122455294988001363/1122581505693208596/1291021627689013260"
+      },
+      {
+        "name": "Hjälpkran",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/02/kran4ik_forblitz_steam.zip",
+        "site": "https://forblitz.ru/modifications/remodelings/remodeling-kranvagn-kran4ik/16257"
+      }
+    ]
+  },
+  {
+    "name": "🇵🇱 50 TP prototyp",
+    "nation": "Poland",
+    "tier": "IX",
+    "class": "Heavy",
+    "mods": [
+      {
+        "name": "HD",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/50tp-prototyp-remodeling-171/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/remodelings/50tp-prototyp-remodeling-171"
+      },
+      {
+        "name": "Captured",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_pc_bl1ndinglights.zip",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/07/50tpcaptured_android_bl1ndinglights.zip",
+        "site": "https://forblitz.ru/en/modifications/skins/zakhvachennyi-50tp-prototyp/13116"
+      }
+    ]
+  },
+  {
+    "name": "🇵🇱 NC 70 Błyskawica",
+    "nation": "Poland",
+    "tier": "X",
+    "class": "TD",
+    "mods": [
+      {
+        "name": "HEAT",
+        "android_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-nc-70-blyskawica-heat-315/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://www.blitz-mods.com/mod/remodelings/remodeling-nc-70-blyskawica-heat-315/download/pc-wg/file?_token=x=0",
+        "site": "https://www.blitz-mods.com/mod/remodelings/remodeling-nc-70-blyskawica-heat-315"
+      }
+    ]
+  },
+  {
+    "name": "🏴‍☠️ Dracula",
+    "nation": "Blitz Nation",
+    "tier": "VII",
+    "class": "Medium",
+    "mods": [
+      {
+        "name": "Pre pbr (darker)",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=181-XxQz63uun4a6iURfUWPETlhaoIWvv&export=download&authuser=0&confirm=t&uuid=d7c1b8ce-46c4-4643-adea-60041b12d463&at=AN8xHop4qS8zW6-ZyDozIIsyljEE:1758208961937",
+        "site": "https://blitzfoxhub.com/2024/12/17/vozvrashhenie-chjornogo-cveta-dlja-tanka-drakula-posle-patcha-9-4/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Modern Warfare",
+    "pc_wg": "https://blitz-mods.com/mod/sights/modern-warfare-12/download/pc-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/modern-warfare-12"
+  },
+  {
+    "name": "Green Ready",
+    "pc_wg": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16/download/pc-wg/file?_token=x=0",
+    "android_wg": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16/download/android-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/ready-by-andre-v-16"
+  },
+  {
+    "name": "White ready",
+    "android_wg": "https://www.blitz-mods.com/mod/sights/white-ready-34/download/pc-wg/file?_token=x=0",
+    "pc_wg": "https://www.blitz-mods.com/mod/sights/white-ready-34/download/pc-wg/file?_token=x=0",
+    "site": "https://www.blitz-mods.com/mod/sights/white-ready-34"
+  },
+  {
+    "name": "White solid circle of information",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/white-reload_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/white-reload_pc_wg.zip",
+    "site": "https://forblitz.ru/modifications/scopes/white-solid-circle/22516"
+  },
+  {
+    "name": "Recolored default",
+    "pc_wg": "https://blitz-mods.com/mod/sights/recolored-default-sight-by-muzmods-147/download/pc-wg/file?_token=x=0",
+    "android_wg": "https://blitz-mods.com/mod/sights/recolored-default-sight-by-muzmods-147/download/android-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/recolored-default-sight-by-muzmods-147"
+  },
+  {
+    "name": "Taipan 2",
+    "pc_wg": "https://blitz-mods.com/mod/sights/sight-taipan-2-93/download/pc-wg/file?_token=x=0",
+    "android_wg": "https://blitz-mods.com/mod/sights/sight-taipan-2-93/download/android-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/sight-taipan-2-93"
+  },
+  {
+    "name": "Turquosie v3",
+    "pc_wg": "https://blitz-mods.com/mod/sights/turquosie-v3-14/download/pc-wg/file?_token=x=0",
+    "android_wg": "https://blitz-mods.com/mod/sights/turquosie-v3-14/download/android-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/turquosie-v3-14"
+  },
+  {
+    "name": "Sight from World of Tanks for WoTBlitz",
+    "pc_wg": "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71/download/pc-wg/file?_token=x=0",
+    "android_wg": "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71/download/android-wg/file?_token=x=0",
+    "site": "https://blitz-mods.com/mod/sights/sight-from-world-of-tanks-for-wotblitz-71"
+  },
+  {
+    "name": "Sight like Sh0tnik’а",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-shotnik_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-shotnik_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/pritsel-v-vide-tochki-iz-bb-kak-u-sh0tnika/14657"
+  },
+  {
+    "name": "Minimalistic from DaiZrei",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2025/02/daizrei-crosshair-upd_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/02/daizrei-crosshair-upd_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/minimalistic-sight-from-daizrei/21763"
+  },
+  {
+    "name": "Sight like Amway921",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-anway921_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-anway921_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/pritsel-v-vide-perekrestiya-iz-bb-kak-u-amway921/15024"
+  },
+  {
+    "name": "Sight like LeBwa",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-lebwa_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-lebwa_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/a-obraznyi-pritsel-iz-bb-kak-u-levshi/16194"
+  },
+  {
+    "name": "Sight like the_barbarian’а",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-barbarian_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-barbarian_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/pritsel-v-vide-kruga-iz-bb-kak-u-the_barbariana/14940"
+  },
+  {
+    "name": "Sight like Korben Dallas’a",
+    "android_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-korben_android_wg.zip",
+    "pc_wg": "https://forblitz.ru/wp-content/uploads/2023/10/aim-point-bb-korben_pc_wg.zip",
+    "site": "https://forblitz.ru/en/modifications/scopes/pritsel-v-vide-tochki-iz-bb-kak-u-korben-dallasa/14860"
+  }
+]

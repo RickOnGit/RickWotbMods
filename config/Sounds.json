@@ -1,0 +1,68 @@
+[
+  {
+    "name": "🔫 Gun sounds",
+    "mods": [
+      {
+        "name": "WoT gun sounds",
+        "pc_wg": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301/download/pc-wg/file?_token=x=0",
+        "android_wg": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301/download/android-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/gun-sounds/gun-sounds-from-world-of-tanks-301"
+      },
+      {
+        "name": "Thunder guns",
+        "android_wg": "https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/gun-sounds/thunder-guns-25/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/gun-sounds/thunder-guns-25"
+      },
+      {
+        "name": "Historical Gun Sounds V2.0",
+        "pc_wg": "https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/gun-sounds/historical-gun-sounds-v20-252"
+      },
+      {
+        "name": "War Thunder guns",
+        "pc_wg": "https://drive.usercontent.google.com/download?id=16Q5Nj1kd4cBL3hYYf2--FHEe1-wT3Zl8&export=download&authuser=0&confirm=t&uuid=31d33307-08e4-45b6-97cc-8d57357d571d&at=AN8xHooucI16cAia9FCyPE2tC7XI:1751714618476",
+        "source": "null"
+      }
+    ]
+  },
+  {
+    "name": "📎 Reload",
+    "mods": [
+      {
+        "name": "WoT reload v.2",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/04/mtreloadsounds_1.2_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/04/mtreloadsounds_1.2_pc.zip",
+        "site": "https://forblitz.ru/en/modifications/sounds/gun-reloading-in-blitz-style/22431"
+      },
+      {
+        "name": "WoT reload v.1",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_android.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2022/01/gunreload_steam.zip",
+        "site": "https://forblitz.ru/en/modifications/sounds/zvuki-perezaryadki-orudiya/10207"
+      }
+    ]
+  },
+  {
+    "name": "⏲️ Light bulb sound",
+    "mods": [
+      {
+        "name": "WoT light bulb timer",
+        "android_wg": "https://forblitz.ru/wp-content/uploads/2025/03/sight_timer_fix_android_wg.zip",
+        "pc_wg": "https://forblitz.ru/wp-content/uploads/2025/03/sight_timer_pc_wg.zip",
+        "site": "https://forblitz.ru/modifications/sounds/hide-timer-sound/22212"
+      }
+    ]
+  },
+  {
+    "name": "🗣️ Crew Voices",
+    "mods": [
+      {
+        "name": "Wot male crew voices",
+        "android_wg": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302/download/android-wg/file?_token=x=0",
+        "pc_wg": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302/download/pc-wg/file?_token=x=0",
+        "site": "https://blitz-mods.com/mod/crew-voices/crew-voices-from-world-of-tanks-male-302"
+      }
+    ]
+  }
+]
