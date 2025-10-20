@@ -11,21 +11,21 @@ function userInfo() {
   fi
 
   case "$ans1" in
-  "🤖 Android")
-    if [[ "$ans2" == "WG" ]]; then
-      echo -e "$Android_WG" >>$userFile
-    fi
-    ;;
-  "🐧 Linux")
-    if [[ "$ans2" == "WG" ]]; then
-      echo -e "$Linux_WG" >>$userFile
-    fi
-    ;;
-  "🍎 MacOs")
-    if [[ "$ans2" == "WG" ]]; then
-      echo -e "$MacOs_WG" >>$userFile
-    fi
-    ;;
+    "Android")
+      if [[ "$ans2" == "WG" ]]; then
+        echo -e "$Android_WG" >>$userFile
+      fi
+      ;;
+    "Linux")
+      if [[ "$ans2" == "WG" ]]; then
+        echo -e "$Linux_WG" >>$userFile
+      fi
+      ;;
+    "MacOs")
+      if [[ "$ans2" == "WG" ]]; then
+        echo -e "$MacOs_WG" >>$userFile
+      fi
+      ;;
   esac
 
   source $userFile

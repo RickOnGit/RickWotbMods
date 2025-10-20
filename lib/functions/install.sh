@@ -1,25 +1,30 @@
-function installer() {
+function installMod() {
   local sourceDir="$1"
-  local model="$2"
-  local mainName="$3"
+  local mainName="$2"
+  local modName="$3"
+  local tmpBackupDir=$(mktemp -d)
 
   checkLogs
 
   case "$os" in
-  "🤖 Android")
-    # gum spin -s "pulse" --spinner.foreground="208" --title "Doing a file backup..." --title.foreground="245" -- bash -c "adb pull \"$wotbData\" \"$tmpBackupDir\""
-    gum spin -s "pulse" --spinner.foreground="208" --title "Installing..." --title.foreground="245" -- bash -c "adb push \"$sourceDir/net.wargaming.wot.blitz/files/\" \"$wotbData/\""
-    # gum spin -s "pulse" --spinner.foreground="208" --title "Copying backup to device..." --title.foreground="245" -- bash -c "adb push \"$tmpBackupDir/\" \"$wotbBackup\""
-    # rm -rf "$tmpBackupDir"
-    echo -e "📥 ${BOL}${GREEN}$model${NC} installed for ${BOL}${ORANGE}$mainName${NC}\n" >>$tmpLogs
-    ;;
-  *)
-    gum spin -s "pulse" --spinner.foreground="208" --title "Installing..." --title.foreground="245" -- rsync -a --backup --backup-dir="$tmpBackupDir" "$sourceDir/Data/" "$wotbData"
-    gum spin -s "pulse" --spinner.foreground="208" --title "Doing a file backup..." --title.foreground="245" -- rsync -au "$tmpBackupDir/" "$wotbBackup"
-    rm -rf "$tmpBackupDir"
-    echo -e "${ITAL}${GREEN}$model${NC} installed for ${BOL}${ORANGE}$mainName${NC}\n" >>$tmpLogs
-    echo "✅ Done"
-    ;;
+    "Android")
+      gum spin -s "line" --title "Installing" -- bash -c "adb push \"$sourceDir/net.wargaming.wot.blitz/files/\" \"$wotbData/\""
+      if [[ "$modName" != "$mainName" ]]; then
+        echo -e "${ITAL}${GREEN}$modName${NC} installed for ${BOL}${ORANGE}$mainName${NC}\n" >>$tmpLogs
+      else
+        echo -e "${ITAL}${GREEN}$modName${NC} installed\n" >>$tmpLogs
+      fi
+      ;;
+    *)
+      gum spin -s "line" -a "right" --title "Installing" -- rsync -a --backup --backup-dir="$tmpBackupDir" "$sourceDir/Data" "$wotbData"
+      gum spin -s "line" -a "right" --title "Doing a file backup" -- rsync -au "$tmpBackupDir/Data" "$wotbBackup"
+      rm -rf "$tmpBackupDir"
+      if [[ "$modName" != "$mainName" ]]; then
+        echo -e "${ITAL}${GREEN}$modName${NC} installed for ${BOL}${ORANGE}$mainName${NC}\n" >>$tmpLogs
+      else
+        echo -e "${ITAL}${GREEN}$modName${NC} installed\n" >>$tmpLogs
+      fi
+      echo "✅ Done"
+      ;;
   esac
-
 }
