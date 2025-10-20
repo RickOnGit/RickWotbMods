@@ -1,59 +1,79 @@
-function selectorMods() {
-  local file="$1"
-  local filterType="$2"
-  declare -A links
+function modDownload() {
+  local modFile="$1"
+  local backupFile="$2"
+  local complexJson=false
+  checkBackupFile "$modFile" "$backupFile"
 
-  if [[ "$file" == "$tanksFile" || "$file" == "$hangarsFile" || "$file" == "$uiFile" ]]; then
-    if gum confirm --selected.background="208" --prompt.foreground="66" "Use a filter?"; then
-      filter "$filterType" "$file"
-    else
-      jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpDownload"
-    fi
-  else
-    jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$file" >"$tmpDownload"
+  if jq -e '.[0] | has("mods")' "$modFile" > /dev/null 2>&1; then
+    complexJson=true
   fi
 
-  eval "selected=\$(cat \$tmpDownload | gum filter --header \"Choose mod(s) to download 📋\" --no-limit $gum_filter_prompt)"
+  if $complexJson; then 
+    mapfile -t Mods < <(jq -r --arg client "$client" '.[] | .name as $mainName | .mods[]? | select(has($client)) | "\($mainName): \(.name)"' "$modFile" | gum filter --header "Choose mod(s) to download 📋" --no-limit)
 
-  if [ -n "$selected" ]; then
-    while IFS=':' read -r element modName; do
-      element=$(echo "$element" | xargs)
+    for entry in "${Mods[@]}"; do
+      IFS=":" read -r mainName modName <<< "$entry"
+      mainName=$(echo "$mainName" | xargs)
       modName=$(echo "$modName" | xargs)
-      link=$(jq -r --arg element "$element" --arg modName "$modName" --arg downloadLink "$client" '.[] | select(.name == $element) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$file")
-      links["$element,$modName"]="$link"
-    done <<<"$selected"
-    downloader
+      downloadLink=$(jq -r --arg mainName "$mainName" --arg modName "$modName" --arg downloadLink "$client" '.[] | select(.name == $mainName) | .mods[] | select(.name == $modName) | .[$downloadLink]' "$modFile")
+      downloader "$mainName" "$modName" "$downloadLink" "$backupFile"
+    done
   else
-    return
+    mapfile -t Mods < <(jq -r --arg client "$client" '.[] | select(has($client)) | .name' "$modFile" | gum filter --header "Choose mod(s) to download 📋" --no-limit)
+
+    for entry in "${Mods[@]}"; do
+      downloadLink=$(jq -r --arg mainName "$entry" --arg downloadLink "$client" '.[] | select(.name == $mainName) | .[$downloadLink]' "$modFile")
+      downloader "" "$entry" "$downloadLink" "$backupFile"
+    done
   fi
 }
 
 function downloader() {
-  for key in "${!links[@]}"; do
-    downloadLink="${links[$key]}"
-    baseModelName=$(echo "$key" | cut -d',' -f1)
-    modName=$(echo "$key" | cut -d',' -f2)
-    download "$baseModelName" "$modName" "$downloadLink"
-    unset "links[$key]"
-  done
-}
-
-function download() {
-  local baseModelName="$1"
+  local mainName="$1"
   local modName="$2"
   local downloadLink="$3"
+  local backupFile="$4"
+  local tmpDownloadDir=$(mktemp -d)
 
-  echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$baseModelName${NC}..."
-
-  backupDir
-  gum spin --spinner.foreground="208" -s "pulse" --title "Downloading..." --title.foreground="245" -- curl -L "$downloadLink" -o "$tmpDownloadDir"/"$modName".download
-
-  gum spin --spinner.foreground="208" -s "pulse" --title "Extracting..." --title.foreground="245" -- 7z x "$tmpDownloadDir"/"$modName".download -o"$tmpDownloadDir"
-
-  rm "$tmpDownloadDir"/*.download
-  if [[ $os != "🤖 Android" ]]; then
-    modFix "$tmpDownloadDir"
+  if [[ -n "$mainName" ]]; then
+    echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC} for ${BOL}${ORANGE}$mainName${NC}..."
+  else
+    echo -e "\n${BLUE}${BOL}📥 Installing${NC} ${BOL}${GREEN}$modName${NC}..."
+    mainName="$modName"
   fi
-  installer "$tmpDownloadDir" "$modName" "$baseModelName"
-  rm -r "$tmpDownloadDir"/*
+
+  gum spin --title "Downloading" -a right --spinner "line" -- curl -L "$downloadLink" -o "$tmpDownloadDir"/"$modName".download
+
+  gum spin --title "Extracting" -a right --spinner "line" -- 7z x "$tmpDownloadDir"/"$modName".download -o"$tmpDownloadDir"
+  rm "$tmpDownloadDir"/*.download
+
+  if [[ $os != "🤖 Android" ]]; then
+    modFix "$tmpDownloadDir" "$mainName" "$modName" "$backupFile"
+  fi
+  backupDir
+  installMod "$tmpDownloadDir" "$mainName" "$modName"
+}
+
+function modFix() {
+  local downloadPath="$1"
+  local mainName="$2"
+  local modName="$3"
+  local backupFile="$4"
+  local tmpJson=$(mktemp --suffix=.json)
+
+  if [[ "$modName" != *"addon"* ]]; then
+    checkRestore "$backupFile" "$mainName"
+  fi
+
+  if [ -d "$downloadPath/data" ]; then
+    mv "$downloadPath/data" "$downloadPath/Data"
+  elif [ ! -d "$downloadPath/Data" ]; then
+    mkdir -p "$downloadPath/Data"
+    mv "$downloadPath"/* "$downloadPath"/Data 2>/dev/null
+  fi
+  rm "$downloadPath"/Data/*.command "$downloadPath"/Data/*.exe "$downloadPath"/Data/*.bat "$downloadPath"/Data/*.txt 2>/dev/null
+
+  if [[ "$modName" != *"addon"* ]]; then
+    find "$downloadPath"/Data/ -type f | sed 's|.*\(Data/.*\)|\1|' | jq -R . | jq -s --arg mainName "$mainName" --slurpfile backup "$backupFile" '. as $files | ($backup[0] | map(if .name == $mainName then .backupFiles = $files else . end))' > "$tmpJson" && mv "$tmpJson" "$backupFile"
+  fi
 }
