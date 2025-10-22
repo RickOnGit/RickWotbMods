@@ -8,7 +8,7 @@ function backupDir() {
       ;;
     *)
       if [ ! -d "$wotbBackup" ]; then
-        mkdir -p "$wotbBackup/backup-files" 
+        mkdir -p "$wotbBackup"/backup-files
       fi
       ;;
   esac
@@ -34,7 +34,7 @@ function waitForDevice() {
 }
 
 function userCheck() {
-  if [ ! -s /opt/RickWotbMods/lib/env/user.env ]; then
+  if [ ! -s "$userFile" ]; then
     userInfo
   elif [[ "$os" == "Android" ]]; then
     if gum confirm "Your system is set to $os, Do you want to change?"; then
